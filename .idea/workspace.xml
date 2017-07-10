@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb11968e-6e05-404f-a660-4a324ec4e593" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/php.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/static/img/zan.png" afterPath="$PROJECT_DIR$/mvc/static/img/zan.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/compile/31ddaeae1279fc5cbc4eda2d87b44a17855c8004_0.file.shanp.html.php" afterPath="$PROJECT_DIR$/mvc/compile/31ddaeae1279fc5cbc4eda2d87b44a17855c8004_0.file.shanp.html.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/static/css/swiper.min.css" afterPath="$PROJECT_DIR$/mvc/static/css/swiper.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/template/index/shanp.html" afterPath="$PROJECT_DIR$/mvc/template/index/shanp.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/template/index/index.html" afterPath="$PROJECT_DIR$/mvc/template/index/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,23 +14,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="mess.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mvc/template/index/mess.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="222" column="37" lean-forward="false" selection-start-line="222" selection-start-column="37" selection-end-line="222" selection-end-column="37" />
-              <folding>
-                <element signature="e#2859#2865#0" expanded="true" />
-                <element signature="e#2975#2981#0" expanded="true" />
-                <element signature="e#4770#4776#0" expanded="true" />
-                <element signature="e#4886#4892#0" expanded="true" />
-                <element signature="e#6681#6687#0" expanded="true" />
-                <element signature="e#6797#6803#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="sousuo.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mvc/template/index/sousuo.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -44,6 +22,16 @@
               <folding>
                 <marker date="1499672302256" expanded="false" signature="617:630" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mvc/template/index/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -78,10 +66,10 @@
         <option value="$PROJECT_DIR$/mvc/module/index/index.class.php" />
         <option value="$PROJECT_DIR$/mvc/template/index/shanp.html" />
         <option value="$PROJECT_DIR$/mvc/template/index/detils.html" />
-        <option value="$PROJECT_DIR$/mvc/template/index/index.html" />
         <option value="$PROJECT_DIR$/mvc/template/index/luntan.html" />
         <option value="$PROJECT_DIR$/mvc/template/index/mess.html" />
         <option value="$PROJECT_DIR$/mvc/template/index/sousuo.html" />
+        <option value="$PROJECT_DIR$/mvc/template/index/index.html" />
       </list>
     </option>
   </component>
@@ -345,15 +333,15 @@
       <option name="presentableId" value="Default" />
       <updated>1499653559219</updated>
       <workItem from="1499653564808" duration="3079000" />
-      <workItem from="1499658984119" duration="1467000" />
+      <workItem from="1499658984119" duration="1814000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4546000" />
+    <option name="totallyTimeSpent" value="4893000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25340393" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -434,14 +422,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mvc/template/index/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11751">
-          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mvc/template/index/detils.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="604">
@@ -471,6 +451,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/template/index/mess.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6554">
+          <caret line="222" column="37" lean-forward="false" selection-start-line="222" selection-start-column="37" selection-end-line="222" selection-end-column="37" />
+          <folding>
+            <element signature="e#2859#2865#0" expanded="true" />
+            <element signature="e#2975#2981#0" expanded="true" />
+            <element signature="e#4770#4776#0" expanded="true" />
+            <element signature="e#4886#4892#0" expanded="true" />
+            <element signature="e#6681#6687#0" expanded="true" />
+            <element signature="e#6797#6803#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mvc/template/index/sousuo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -481,18 +476,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mvc/template/index/mess.html">
+    <entry file="file://$PROJECT_DIR$/mvc/template/index/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="222" column="37" lean-forward="false" selection-start-line="222" selection-start-column="37" selection-end-line="222" selection-end-column="37" />
-          <folding>
-            <element signature="e#2859#2865#0" expanded="true" />
-            <element signature="e#2975#2981#0" expanded="true" />
-            <element signature="e#4770#4776#0" expanded="true" />
-            <element signature="e#4886#4892#0" expanded="true" />
-            <element signature="e#6681#6687#0" expanded="true" />
-            <element signature="e#6797#6803#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="174">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>

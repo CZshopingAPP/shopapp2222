@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{CSS_PATH}/base.css">
+    <link rel="stylesheet" href="{CSS_PATH}/swiper.min.css">
+    <script src="{JS_PATH}/rem.js"></script>
+    <script src="{JS_PATH}/jquery.min.js"></script>
+    <script src="{JS_PATH}/swiper.min.js"></script>
+    <title>闪屏</title>
+    <style>
+        .swiper-container{
+            width: 100%;
+            height: 100%;
+        }
+        .swiper-slide{
+            width: 100%;
+            height: 100%;
+        }
+        .swiper-slide img{
+            width: 100%;
+            height: 100%;
+        }
+        .swiper-pagination-bullet-active{
+            opacity: 1;
+            background: #fe158e;
+        }
+    </style>
+    <script>
+        $(function () {
+            var mySwiper = new Swiper('.swiper-container', {
+                loop:false,
+                pagination : '.swiper-pagination',
+            })
+        })
+    </script>
+</head>
+<body>
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <img src="{IMG_PATH}/sp111 (1).png" alt="">
+        </div>
+        <div class="swiper-slide">
+            <img src="{IMG_PATH}/sp111 (2).png" alt="">
+        </div>
+        <div class="swiper-slide">
+            <a href="index.php?m=index&f=index&a=login1"><img src="{IMG_PATH}/sp111 (3).png" alt=""></a>
+
+        </div>
+    </div>
+    <div class="swiper-pagination"></div>
+</div>
+</body>
+</html>

@@ -4,15 +4,15 @@
 	<meta charset="UTF-8">
 	<title>登录</title>
 	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
-	<link rel="stylesheet" href="css/base.css">
-	<link rel="stylesheet" href="css/yj-login.css">
-	<script src="js/rem.js"></script>
-	<script src="js/jQuery.js"></script>
-	<script src="js/jquery.validate.js"></script>
-		<script src="js/messages_zh.js"></script>
+	<link rel="stylesheet" href="{CSS_PATH}/base.css">
+	<link rel="stylesheet" href="{CSS_PATH}/yj-login.css">
+	<script src="{JS_PATH}/rem.js"></script>
+	<script src="{JS_PATH}/jQuery.js"></script>
+	<script src="{JS_PATH}/jquery.validate.js"></script>
+		<script src="{JS_PATH}/messages_zh.js"></script>
 	<style>
 		.loginn{
-			background-image: url("img/yj-login-login.png");
+			background-image: url("{IMG_PATH}/yj-login-login.png");
 			background-size: 100%;
 			background-position: center;
 			border: none;
@@ -91,15 +91,15 @@
 		}
 	})
 	$(".pass").click(function(){
-		$(".usertitle").css("background-image","url('img/yj-login-userpass.png')");
+		$(".usertitle").css("background-image","url('{IMG_PATH}/yj-login-userpass.png')");
 		$(".input").hide();
 		$(".password").show();
-		$(this).css("background-image","url('img/yj-login-pass1.png')");
+		$(this).css("background-image","url('{IMG_PATH}/yj-login-pass1.png')");
 		$(".xuan1").css("width","0.08rem");
 		$(".xuan2").css("width","0.19rem");
 	})
 	$(".user1").click(function(){
-		$(".usertitle").css("background-image","url('img/yj-login-username.png')");
+		$(".usertitle").css("background-image","url('{IMG_PATH}/yj-login-username.png')");
 		$(".input").show();
 		$(".password").hide();
 		$(".xuan2").css("width","0.08rem");
@@ -112,7 +112,7 @@
 	}*/
 	$(".password").blur(function () {
 		if($(".password").val()!=""){
-			$(".loginn").css("background-image","url('img/yj-login-login1.png')");
+			$(".loginn").css("background-image","url('{IMG_PATH}/yj-login-login1.png')");
 				$(".zhezhao").css("display","none");
 		}
 	})

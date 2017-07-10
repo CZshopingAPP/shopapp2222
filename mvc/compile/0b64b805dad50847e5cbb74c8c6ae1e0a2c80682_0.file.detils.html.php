@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-10 10:07:20
+/* Smarty version 3.1.30, created on 2017-07-10 10:44:03
   from "E:\wampserve\wamp\www\shopapp2222\mvc\template\index\detils.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_596335b8e7ee48_26806304',
+  'unifunc' => 'content_59633e532b7d68_99661036',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '0b64b805dad50847e5cbb74c8c6ae1e0a2c80682' => 
     array (
       0 => 'E:\\wampserve\\wamp\\www\\shopapp2222\\mvc\\template\\index\\detils.html',
-      1 => 1499674030,
+      1 => 1499676238,
       2 => 'file',
     ),
   ),
@@ -20,14 +20,14 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_596335b8e7ee48_26806304 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59633e532b7d68_99661036 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html lang="en">
 <head>
     <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
     <meta charset="UTF-8">
-    <title>详情</title>
+    <title>商品详情</title>
     <link rel="stylesheet" href="<?php echo CSS_PATH;?>
 /detils.css">
     <link rel="stylesheet" href="<?php echo CSS_PATH;?>
@@ -373,14 +373,17 @@ function content_596335b8e7ee48_26806304 (Smarty_Internal_Template $_smarty_tpl)
         <div class="foot1">
             <ul>
                 <li>
+                  <span>客服</span>
                     <img src="<?php echo IMG_PATH;?>
 /kefu.png" alt="">
                 </li>
                 <li>
+                    <span>厂家</span>
                     <img src="<?php echo IMG_PATH;?>
 /dianpu.png" alt="">
                 </li>
                 <li>
+                    <span>收藏</span>
                     <img src="<?php echo IMG_PATH;?>
 /heat.png" alt="">
                 </li>

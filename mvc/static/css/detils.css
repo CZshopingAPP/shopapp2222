@@ -521,7 +521,7 @@ main{
     width:0.5rem;
     height:0.5rem;
     position: absolute;
-    top:0;
+    top:0.3rem;
     bottom:0;
     left:0;
     right:0;
@@ -567,4 +567,11 @@ main{
     color: #fff;
     text-align: center;
     line-height:0.8rem;
+}
+.foot1 ul li span{
+    margin-top: 0.15rem;
+    width: 100%;
+    text-align: center;
+    display: block;
+    color: #898989;
 }

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-10 10:02:31
+/* Smarty version 3.1.30, created on 2017-07-10 10:23:21
   from "E:\wampserve\wamp\www\shopapp2222\mvc\template\index\luntan.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_59633497ef5077_71017986',
+  'unifunc' => 'content_59633979626a81_97901815',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'ababfb10eb7651e8a3aa882594a2fdc934de44f3' => 
     array (
       0 => 'E:\\wampserve\\wamp\\www\\shopapp2222\\mvc\\template\\index\\luntan.html',
-      1 => 1499672302,
+      1 => 1499673869,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_59633497ef5077_71017986 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59633979626a81_97901815 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html lang="en">
@@ -237,6 +237,13 @@ function content_59633497ef5077_71017986 (Smarty_Internal_Template $_smarty_tpl)
     lis.click(function () {
         var index=lis.index(this);
         spans.eq(index).css("color","red").css("background","#fff").siblings().css("color","#fff").css("background","none");
+    })
+<?php echo '</script'; ?>
+>
+<?php echo '<script'; ?>
+>
+    $(".back").click(function () {
+        history.back(-1);
     })
 <?php echo '</script'; ?>
 >

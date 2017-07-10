@@ -1,0 +1,861 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="eb11968e-6e05-404f-a660-4a324ec4e593" name="默认的" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/demo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/demo.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/demo1.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/attachment/fileTypeImages/icon_chm.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/attachment/fileTypeImages/icon_default.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/attachment/fileTypeImages/icon_doc.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/attachment/fileTypeImages/icon_exe.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/attachment/fileTypeImages/icon_jpg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/attachment/fileTypeImages/icon_mp3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/attachment/fileTypeImages/icon_mv.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/attachment/fileTypeImages/icon_pdf.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/attachment/fileTypeImages/icon_ppt.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/attachment/fileTypeImages/icon_psd.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/attachment/fileTypeImages/icon_rar.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/attachment/fileTypeImages/icon_txt.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/attachment/fileTypeImages/icon_xls.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/attachment/images/alignicon.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/attachment/images/alignicon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/attachment/images/bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/attachment/images/file-icons.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/attachment/images/file-icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/attachment/images/icons.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/attachment/images/icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/attachment/images/image.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/attachment/images/progress.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/attachment/images/success.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/attachment/images/success.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/background/images/bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/background/images/success.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/charts/images/charts0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/charts/images/charts1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/charts/images/charts2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/charts/images/charts3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/charts/images/charts4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/charts/images/charts5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/emotion/images/0.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/emotion/images/bface.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/emotion/images/cface.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/emotion/images/fface.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/emotion/images/jxface2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/emotion/images/neweditor-tab-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/emotion/images/tface.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/emotion/images/wface.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/emotion/images/yface.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/image/images/alignicon.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/image/images/bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/image/images/icons.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/image/images/icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/image/images/image.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/image/images/progress.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/image/images/success.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/image/images/success.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/scrawl/images/addimg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/scrawl/images/brush.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/scrawl/images/delimg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/scrawl/images/delimgH.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/scrawl/images/empty.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/scrawl/images/emptyH.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/scrawl/images/eraser.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/scrawl/images/redo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/scrawl/images/redoH.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/scrawl/images/scale.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/scrawl/images/scaleH.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/scrawl/images/size.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/scrawl/images/undo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/scrawl/images/undoH.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/table/dragicon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/template/images/bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/template/images/pre0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/template/images/pre1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/template/images/pre2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/template/images/pre3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/template/images/pre4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/video/images/bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/video/images/center_focus.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/video/images/file-icons.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/video/images/file-icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/video/images/icons.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/video/images/icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/video/images/image.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/video/images/left_focus.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/video/images/none_focus.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/video/images/progress.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/video/images/right_focus.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/video/images/success.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/video/images/success.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/wordimage/fClipboard_ueditor.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/wordimage/imageUploader.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/lang/en/images/addimage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/lang/en/images/alldeletebtnhoverskin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/lang/en/images/alldeletebtnupskin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/lang/en/images/background.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/lang/en/images/button.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/lang/en/images/copy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/lang/en/images/deletedisable.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/lang/en/images/deleteenable.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/lang/en/images/listbackground.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/lang/en/images/localimage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/lang/en/images/music.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/lang/en/images/rotateleftdisable.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/lang/en/images/rotateleftenable.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/lang/en/images/rotaterightdisable.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/lang/en/images/rotaterightenable.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/lang/en/images/upload.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/lang/zh-cn/images/copy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/lang/zh-cn/images/localimage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/lang/zh-cn/images/music.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/lang/zh-cn/images/upload.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/themes/default/images/anchor.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/themes/default/images/arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/themes/default/images/arrow_down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/themes/default/images/arrow_up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/themes/default/images/button-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/themes/default/images/cancelbutton.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/themes/default/images/charts.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/themes/default/images/cursor_h.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/themes/default/images/cursor_h.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/themes/default/images/cursor_v.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/themes/default/images/cursor_v.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/themes/default/images/dialog-title-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/themes/default/images/filescan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/themes/default/images/highlighted.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/themes/default/images/icons-all.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/themes/default/images/icons.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/themes/default/images/icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/themes/default/images/loaderror.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/themes/default/images/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/themes/default/images/lock.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/themes/default/images/neweditor-tab-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/themes/default/images/pagebreak.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/themes/default/images/scale.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/themes/default/images/sortable.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/themes/default/images/spacer.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/themes/default/images/sparator_v.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/themes/default/images/table-cell-align.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/themes/default/images/tangram-colorpicker.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/themes/default/images/toolbar_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/themes/default/images/unhighlighted.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/themes/default/images/upload.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/themes/default/images/videologo.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/themes/default/images/word.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/themes/default/images/wordpaste.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/third-party/snapscreen/UEditorSnapscreen.exe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/third-party/video-js/font/vjs.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/third-party/video-js/font/vjs.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/third-party/video-js/font/vjs.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/third-party/video-js/video-js.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/third-party/webuploader/Uploader.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/third-party/zeroclipboard/ZeroClipboard.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/fonts/mui.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/03.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/06.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/09.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/15.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/19.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/22.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/ZI.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/banner.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/beijing.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/bj.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/bj1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/c.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/code.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/di.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/dian.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/fl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/geduan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/geren.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/ho.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/hot.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/huatong.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/images/yj-login-1_03.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/images/yj-login-1_03_01_03.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/images/yj-login-1_03_04_02.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/jiake .png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/l.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/l1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/love.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/luntan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/map.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/me.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/me1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/me2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/me3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/me4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/me5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/mei.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/mei1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/mei2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/mess.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/niuzai.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/photo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/po.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/qianbao.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/ren.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/shang.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/shopping.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/sousuo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/sousuo2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/sp.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/sp1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/sp11.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/sp2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/sp22.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/sp3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/sp33.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/sp44.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/st2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/st3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/st4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/st5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/suosou1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/t.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/xing.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/xing1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/xing2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/xx.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/yj-login-1_03_03.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/yj-login-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/yj-login-3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/yj-login-4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/yj-login-5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/yj-login-6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/yj-login-7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/yj-login-error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/yj-login-login.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/yj-login-login1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/yj-login-pass.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/yj-login-pass1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/yj-login-qq.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/yj-login-user.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/yj-login-username.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/yj-login-userpass.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/yj-login-weibo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/yj-login-weixin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/yj-login-zhaohui.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/yj-login-zhuce.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/yj-member-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/yj-member-back.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/yj-member-bi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/yj-member-hei.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/yj-member-more.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/yj-member-peng.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/yj-member-set.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/yj-member-shan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/yj-member-tou.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/yj-member-tui.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/yj-member-write.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/yj-member-xin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/yj-member-zi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/yj-member-zuan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/yj-reg-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/yj-reg-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/yj-reg-3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/yj-reg-p1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/yj-reg-p2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/yj-reg-reg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/yj-reg-reg1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/zan (1).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/zan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/zhibo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/zhuti.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/img/星.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/.idea/mvc.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/admin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/compile/3219229b0cfc47d661d06156d29c86d5075dccbe_0.file.member.html.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/compile/43560c5f550be5d20f1e8447ac766017dd539b82_0.file.welcome.html.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/compile/53d0f01afee94952faba9e52df4115fd040a5eb3_0.file.yj-reg.html.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/compile/56d37c552cce2b2e45b7f33a7662cfe9805c72dd_0.file.editLists.html.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/compile/570483451ef739904b9536b12f8588d2990da836_0.file.header.html.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/compile/5da54936d23bfc7681c2a2d6f2fda1a480d8da6a_0.file.addCategory.html.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/compile/69e4ec326bd046aa829ec70da0176c4ab2ac54d2_0.file.yj-index.html.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/compile/6d94fbdd521feab4d723c855566f76d4139c32bd_0.file.info.html.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/compile/826fbedb236c4c3f45a253d9ba201769ff347cf7_0.file.addPosition.html.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/compile/8b5b0a8973ad48f1baaf0c362b3c4de02a009ee7_0.file.addRole.html.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/compile/8d0a93509fe0f43035c7b9378d6257603b5cfebc_0.file.yj-login.html.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/compile/91da6216ab010985d5ac5e19777bc00cebf3996d_0.file.listsAdd.html.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/compile/a79a069e690e70fc44b294a9be0f9f0a275b820a_0.file.index.html.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/compile/b91de060dd958103177cc83913870796537bb2fc_0.file.index.html.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/compile/c53b271ff09b25a79a1c97bb00a1ec56e598811c_0.file.addUser.html.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/compile/cfbaf135854635471176a6a23cbcd1be0ff39412_0.file.index.html.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/compile/d271ac3c34d08f7e1d64db2abdc194f0714b167f_0.file.header.html.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/compile/d38737f484fad51d0b187bedc9a64447a2176454_0.file.index.html.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/compile/e6bf6ba033c7367bb65fb59dbcc5341e090072e2_0.file.main.html.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/compile/e958454a8e6f1983c699e481679d30a99723897e_0.file.addPos.html.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/curl.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/img.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/info.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/code.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/db.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/functions.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/indexMain.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/main.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/page.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/route.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/session.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/Autoloader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/Smarty.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/SmartyBC.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/debug.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/plugins/block.textformat.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/plugins/function.counter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/plugins/function.cycle.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/plugins/function.fetch.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/plugins/function.html_checkboxes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/plugins/function.html_image.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/plugins/function.html_options.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/plugins/function.html_radios.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/plugins/function.html_select_date.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/plugins/function.html_select_time.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/plugins/function.html_table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/plugins/function.mailto.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/plugins/function.math.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/plugins/modifier.capitalize.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/plugins/modifier.date_format.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/plugins/modifier.debug_print_var.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/plugins/modifier.escape.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/plugins/modifier.regex_replace.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/plugins/modifier.replace.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/plugins/modifier.spacify.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/plugins/modifier.truncate.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/plugins/modifiercompiler.cat.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/plugins/modifiercompiler.count_characters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/plugins/modifiercompiler.count_paragraphs.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/plugins/modifiercompiler.count_sentences.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/plugins/modifiercompiler.count_words.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/plugins/modifiercompiler.default.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/plugins/modifiercompiler.escape.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/plugins/modifiercompiler.from_charset.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/plugins/modifiercompiler.indent.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/plugins/modifiercompiler.lower.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/plugins/modifiercompiler.noprint.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/plugins/modifiercompiler.string_format.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/plugins/modifiercompiler.strip.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/plugins/modifiercompiler.strip_tags.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/plugins/modifiercompiler.to_charset.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/plugins/modifiercompiler.unescape.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/plugins/modifiercompiler.upper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/plugins/modifiercompiler.wordwrap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/plugins/outputfilter.trimwhitespace.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/plugins/shared.escape_special_chars.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/plugins/shared.literal_compiler_param.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/plugins/shared.make_timestamp.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/plugins/shared.mb_str_replace.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/plugins/shared.mb_unicode.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/plugins/shared.mb_wordwrap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/plugins/variablefilter.htmlspecialchars.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_cacheresource.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_cacheresource_custom.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_cacheresource_keyvaluestore.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_data.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_block.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_cacheresource_file.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_compile_append.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_compile_assign.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_compile_block.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_compile_break.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_compile_call.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_compile_capture.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_compile_config_load.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_compile_continue.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_compile_debug.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_compile_eval.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_compile_extends.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_compile_for.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_compile_foreach.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_compile_function.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_compile_if.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_compile_include.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_compile_include_php.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_compile_insert.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_compile_ldelim.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_compile_make_nocache.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_compile_nocache.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_compile_private_block_plugin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_compile_private_foreachsection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_compile_private_function_plugin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_compile_private_modifier.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_compile_private_object_block_function.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_compile_private_object_function.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_compile_private_php.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_compile_private_print_expression.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_compile_private_registered_block.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_compile_private_registered_function.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_compile_private_special_variable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_compile_rdelim.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_compile_section.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_compile_setfilter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_compile_shared_inheritance.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_compile_while.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_compilebase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_config_file_compiler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_configfilelexer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_configfileparser.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_data.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_debug.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_extension_clear.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_extension_handler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_method_addautoloadfilters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_method_adddefaultmodifiers.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_method_append.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_method_appendbyref.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_method_assignbyref.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_method_assignglobal.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_method_clearallassign.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_method_clearallcache.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_method_clearassign.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_method_clearcache.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_method_clearcompiledtemplate.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_method_clearconfig.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_method_compileallconfig.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_method_compilealltemplates.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_method_configload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_method_createdata.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_method_getautoloadfilters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_method_getconfigvars.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_method_getdebugtemplate.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_method_getdefaultmodifiers.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_method_getglobal.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_method_getregisteredobject.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_method_getstreamvariable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_method_gettags.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_method_gettemplatevars.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_method_loadfilter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_method_loadplugin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_method_mustcompile.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_method_registercacheresource.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_method_registerclass.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_method_registerdefaultconfighandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_method_registerdefaultpluginhandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_method_registerdefaulttemplatehandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_method_registerfilter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_method_registerobject.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_method_registerplugin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_method_registerresource.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_method_setautoloadfilters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_method_setdebugtemplate.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_method_setdefaultmodifiers.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_method_unloadfilter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_method_unregistercacheresource.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_method_unregisterfilter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_method_unregisterobject.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_method_unregisterplugin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_method_unregisterresource.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_nocache_insert.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_parsetree.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_parsetree_code.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_parsetree_dq.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_parsetree_dqcontent.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_parsetree_tag.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_parsetree_template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_parsetree_text.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_resource_eval.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_resource_extends.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_resource_file.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_resource_php.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_resource_registered.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_resource_stream.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_resource_string.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_runtime_cachemodify.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_runtime_capture.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_runtime_codeframe.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_runtime_filterhandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_runtime_foreach.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_runtime_getincludepath.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_runtime_inheritance.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_runtime_make_nocache.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_runtime_tplfunction.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_runtime_updatecache.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_runtime_updatescope.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_runtime_writefile.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_smartytemplatecompiler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_templatebase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_templatecompilerbase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_templatelexer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_templateparser.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_testinstall.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_internal_undefined.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_resource.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_resource_custom.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_resource_recompiled.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_resource_uncompiled.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_security.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_template_cached.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_template_compiled.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_template_config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_template_resource_base.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_template_source.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_undefined_variable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smarty_variable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smartycompilerexception.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/smarty/sysplugins/smartyexception.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/tree.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/libs/upload.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/module/admin/category.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/module/admin/lists.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/module/admin/login.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/module/admin/position.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/module/admin/role.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/module/admin/user.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/module/admin/welcome.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/module/index/index.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/module/index/info.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/module/index/login.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/module/index/member.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/css/base.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/css/bootstrap-3.1.1.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/css/mui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/css/mui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/css/swiper.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/css/yj-index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/anchor/anchor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/attachment/attachment.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/attachment/attachment.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/attachment/attachment.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/background/background.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/background/background.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/background/background.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/charts/chart.config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/charts/charts.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/charts/charts.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/charts/charts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/emotion/emotion.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/emotion/emotion.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/emotion/emotion.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/gmap/gmap.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/help/help.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/help/help.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/help/help.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/image/image.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/image/image.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/image/image.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/insertframe/insertframe.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/internal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/link/link.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/map/map.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/map/show.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/music/music.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/music/music.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/music/music.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/preview/preview.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/scrawl/scrawl.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/scrawl/scrawl.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/scrawl/scrawl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/searchreplace/searchreplace.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/searchreplace/searchreplace.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/snapscreen/snapscreen.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/spechars/spechars.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/spechars/spechars.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/table/edittable.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/table/edittable.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/table/edittable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/table/edittd.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/table/edittip.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/template/config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/template/template.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/template/template.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/template/template.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/video/video.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/video/video.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/video/video.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/webapp/webapp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/wordimage/tangram.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/wordimage/wordimage.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/dialogs/wordimage/wordimage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/lang/en/en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/lang/zh-cn/zh-cn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/php/Uploader.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/php/action_crawler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/php/action_list.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/php/action_upload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/php/config.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/php/controller.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/themes/default/css/ueditor.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/themes/default/css/ueditor.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/themes/default/dialogbase.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/themes/iframe.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/third-party/SyntaxHighlighter/shCore.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/third-party/SyntaxHighlighter/shCoreDefault.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/third-party/codemirror/codemirror.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/third-party/codemirror/codemirror.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/third-party/highcharts/adapters/mootools-adapter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/third-party/highcharts/adapters/mootools-adapter.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/third-party/highcharts/adapters/prototype-adapter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/third-party/highcharts/adapters/prototype-adapter.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/third-party/highcharts/adapters/standalone-framework.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/third-party/highcharts/adapters/standalone-framework.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/third-party/highcharts/highcharts-more.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/third-party/highcharts/highcharts-more.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/third-party/highcharts/highcharts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/third-party/highcharts/highcharts.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/third-party/highcharts/modules/annotations.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/third-party/highcharts/modules/annotations.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/third-party/highcharts/modules/canvas-tools.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/third-party/highcharts/modules/canvas-tools.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/third-party/highcharts/modules/data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/third-party/highcharts/modules/data.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/third-party/highcharts/modules/drilldown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/third-party/highcharts/modules/drilldown.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/third-party/highcharts/modules/exporting.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/third-party/highcharts/modules/exporting.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/third-party/highcharts/modules/funnel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/third-party/highcharts/modules/funnel.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/third-party/highcharts/modules/heatmap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/third-party/highcharts/modules/heatmap.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/third-party/highcharts/modules/map.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/third-party/highcharts/modules/map.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/third-party/highcharts/modules/no-data-to-display.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/third-party/highcharts/modules/no-data-to-display.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/third-party/highcharts/themes/dark-blue.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/third-party/highcharts/themes/dark-green.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/third-party/highcharts/themes/gray.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/third-party/highcharts/themes/grid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/third-party/highcharts/themes/skies.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/third-party/jquery-1.10.2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/third-party/jquery-1.10.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/third-party/jquery-1.10.2.min.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/third-party/video-js/font/vjs.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/third-party/video-js/video-js.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/third-party/video-js/video-js.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/third-party/video-js/video.dev.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/third-party/video-js/video.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/third-party/webuploader/webuploader.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/third-party/webuploader/webuploader.custom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/third-party/webuploader/webuploader.custom.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/third-party/webuploader/webuploader.flashonly.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/third-party/webuploader/webuploader.flashonly.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/third-party/webuploader/webuploader.html5only.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/third-party/webuploader/webuploader.html5only.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/third-party/webuploader/webuploader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/third-party/webuploader/webuploader.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/third-party/webuploader/webuploader.withoutimage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/third-party/webuploader/webuploader.withoutimage.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/third-party/xss.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/third-party/zeroclipboard/ZeroClipboard.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/third-party/zeroclipboard/ZeroClipboard.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/ueditor.all.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/ueditor.all.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/ueditor.config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/ueditor.parse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/editor/ueditor.parse.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/js/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/js/bootstrap-3.1.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/js/header.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/js/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/js/iscroll.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/js/jQuery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/js/jquery-1.11.3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/js/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/js/jquery.validate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/js/messages_zh.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/js/mui.enterfocus.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/js/mui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/js/mui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/js/rem.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/js/swiper.jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/js/swiper.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/js/upload.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/template/admin/addCategory.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/template/admin/addPos.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/template/admin/addRole.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/template/admin/addUser.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/template/admin/editLists.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/template/admin/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/template/admin/listsAdd.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/template/admin/main.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/template/admin/welcome.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/template/index/yj-index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/upload.php" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mvc/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="23" column="45" lean-forward="true" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/mvc/index.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopapp2222" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopapp2222" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eb11968e-6e05-404f-a660-4a324ec4e593" name="默认的" comment="" />
+      <created>1499653559219</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1499653559219</updated>
+      <workItem from="1499653564808" duration="325000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="325000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/mvc/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="23" column="45" lean-forward="true" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

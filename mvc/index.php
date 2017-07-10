@@ -22,7 +22,7 @@ define("COMING","yes");
 $server=$_SERVER;
 
 define("ROOT_PATH",$server["DOCUMENT_ROOT"]);
-define("APP_PATH",ROOT_PATH."/mvc");
+define("APP_PATH",ROOT_PATH."/shopapp2222/mvc");
 define("LIBS_PATH",APP_PATH."/libs");
 define("MODULE_PATH",APP_PATH."/module");
 define("TEMPLATE_PATH",APP_PATH."/template");

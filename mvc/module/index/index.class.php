@@ -28,4 +28,10 @@ class index extends indexMain {
     function index1(){
         $this->smarty->display("index.html");
     }
+    function member(){
+        $this->smarty->display("yj-member.html");
+    }
+    function reg1(){
+        $this->smarty->display("yj-reg.html");
+    }
 }

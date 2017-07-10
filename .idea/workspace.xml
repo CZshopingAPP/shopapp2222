@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb11968e-6e05-404f-a660-4a324ec4e593" name="默认的" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/compile/0b64b805dad50847e5cbb74c8c6ae1e0a2c80682_0.file.detils.html.php" afterPath="$PROJECT_DIR$/mvc/compile/0b64b805dad50847e5cbb74c8c6ae1e0a2c80682_0.file.detils.html.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/compile/c0294a8a079550ae12f65a1c3a42011ef926bb00_0.file.index.html.php" afterPath="$PROJECT_DIR$/mvc/compile/c0294a8a079550ae12f65a1c3a42011ef926bb00_0.file.index.html.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/module/index/index.class.php" afterPath="$PROJECT_DIR$/mvc/module/index/index.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/static/css/detils.css" afterPath="$PROJECT_DIR$/mvc/static/css/detils.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/template/index/detils.html" afterPath="$PROJECT_DIR$/mvc/template/index/detils.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/static/css/yj-reg.css" afterPath="$PROJECT_DIR$/mvc/static/css/yj-reg.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/template/index/yj-member.html" afterPath="$PROJECT_DIR$/mvc/template/index/yj-member.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/template/index/yj-reg.html" afterPath="$PROJECT_DIR$/mvc/template/index/yj-reg.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,48 +17,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="detils.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mvc/template/index/detils.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="302" column="29" lean-forward="false" selection-start-line="302" selection-start-column="29" selection-end-line="302" selection-end-column="29" />
-              <folding>
-                <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#main#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#main#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#main#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#main#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#main#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#8572#8578#0" expanded="true" />
-                <element signature="e#8712#8718#0" expanded="true" />
-                <element signature="n#main#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#main#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#main#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#main#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#main#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#10963#10969#0" expanded="true" />
-                <element signature="e#11103#11109#0" expanded="true" />
-                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="detils.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mvc/static/css/detils.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="588" column="68" lean-forward="false" selection-start-line="588" selection-start-column="68" selection-end-line="588" selection-end-column="68" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.class.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.class.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mvc/module/index/index.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+            <state relative-caret-position="372">
+              <caret line="34" column="38" lean-forward="false" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -76,12 +38,12 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>js/</find>
       <find>img/</find>
+      <find>js/</find>
     </findStrings>
     <replaceStrings>
-      <replace>{JS_PATH}/</replace>
       <replace>{IMG_PATH}/</replace>
+      <replace>{JS_PATH}/</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -99,9 +61,12 @@
         <option value="$PROJECT_DIR$/mvc/template/index/yj-login.html" />
         <option value="$PROJECT_DIR$/mvc/template/index/shanping.html" />
         <option value="$PROJECT_DIR$/mvc/template/index/index.html" />
-        <option value="$PROJECT_DIR$/mvc/module/index/index.class.php" />
         <option value="$PROJECT_DIR$/mvc/template/index/detils.html" />
         <option value="$PROJECT_DIR$/mvc/static/css/detils.css" />
+        <option value="$PROJECT_DIR$/mvc/module/index/index.class.php" />
+        <option value="$PROJECT_DIR$/mvc/template/index/yj-member.html" />
+        <option value="$PROJECT_DIR$/mvc/template/index/yj-reg.html" />
+        <option value="$PROJECT_DIR$/mvc/static/css/yj-reg.css" />
       </list>
     </option>
   </component>
@@ -387,12 +352,12 @@
       <option name="presentableId" value="Default" />
       <updated>1499653559219</updated>
       <workItem from="1499653564808" duration="3079000" />
-      <workItem from="1499658984119" duration="7638000" />
+      <workItem from="1499658984119" duration="7852000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10717000" />
+    <option name="totallyTimeSpent" value="10931000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -450,13 +415,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvc/template/index/yj-index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -540,10 +498,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mvc/module/index/index.class.php">
+    <entry file="file://$PROJECT_DIR$/mvc/static/css/detils.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+        <state relative-caret-position="111">
+          <caret line="581" column="17" lean-forward="true" selection-start-line="581" selection-start-column="17" selection-end-line="581" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -573,10 +531,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mvc/static/css/detils.css">
+    <entry file="file://$PROJECT_DIR$/mvc/template/index/yj-reg.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="588" column="68" lean-forward="false" selection-start-line="588" selection-start-column="68" selection-end-line="588" selection-end-column="68" />
+        <state relative-caret-position="2251">
+          <caret line="79" column="77" lean-forward="false" selection-start-line="79" selection-start-column="77" selection-end-line="79" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/static/css/yj-reg.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="99" column="31" lean-forward="true" selection-start-line="99" selection-start-column="31" selection-end-line="99" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/template/index/yj-index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/template/index/yj-member.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="11" column="29" lean-forward="false" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#div#0;n#aside#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#4;n#ul#0;n#div#1;n#div#0;n#div#0;n#aside#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/module/index/index.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="34" column="38" lean-forward="false" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
           <folding />
         </state>
       </provider>

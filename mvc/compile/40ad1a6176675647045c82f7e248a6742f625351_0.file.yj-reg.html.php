@@ -1,19 +1,58 @@
+<?php
+/* Smarty version 3.1.30, created on 2017-07-10 11:31:11
+  from "E:\wampserve\wamp\www\shopapp2222\mvc\template\index\yj-reg.html" */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.30',
+  'unifunc' => 'content_5963495f770fc5_27788239',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    '40ad1a6176675647045c82f7e248a6742f625351' => 
+    array (
+      0 => 'E:\\wampserve\\wamp\\www\\shopapp2222\\mvc\\template\\index\\yj-reg.html',
+      1 => 1499679071,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_5963495f770fc5_27788239 (Smarty_Internal_Template $_smarty_tpl) {
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
-	<link rel="stylesheet" href="{CSS_PATH}/base.css">
-	<link rel="stylesheet" href="{CSS_PATH}/yj-reg.css">
-	<script src="{JS_PATH}/rem.js"></script>
-	<script src="{JS_PATH}/jQuery.js"></script>
-	<script src="{JS_PATH}/jquery.validate.js"></script>
-	<script src="{JS_PATH}/messages_zh.js"></script>
+	<link rel="stylesheet" href="<?php echo CSS_PATH;?>
+/base.css">
+	<link rel="stylesheet" href="<?php echo CSS_PATH;?>
+/yj-reg.css">
+	<?php echo '<script'; ?>
+ src="<?php echo JS_PATH;?>
+/rem.js"><?php echo '</script'; ?>
+>
+	<?php echo '<script'; ?>
+ src="<?php echo JS_PATH;?>
+/jQuery.js"><?php echo '</script'; ?>
+>
+	<?php echo '<script'; ?>
+ src="<?php echo JS_PATH;?>
+/jquery.validate.js"><?php echo '</script'; ?>
+>
+	<?php echo '<script'; ?>
+ src="<?php echo JS_PATH;?>
+/messages_zh.js"><?php echo '</script'; ?>
+>
 
 	<style>
 		.loginn{
-			background-image: url("{IMG_PATH}/yj-reg-reg1.png");
+			background-image: url("<?php echo IMG_PATH;?>
+/yj-reg-reg1.png");
 			background-size: 100%;
 			background-position: center;
 			border: none;
@@ -64,20 +103,23 @@
 		</form>
 	</div>
 </body>
-<script>
+<?php echo '<script'; ?>
+>
 	$("input").blur(function () {
 		if($(".user").val()!=""){
 			if($(".code").val()!=""){
 				if($(".pass").val()!=""){
 					if($(".pass1").val()!=""){
-						$(".loginn").css("background-image","url('{IMG_PATH}/yj-reg-reg.png')")
+						$(".loginn").css("background-image","url('<?php echo IMG_PATH;?>
+/yj-reg-reg.png')")
 					}
 				}
 
 			}
 		}else{
 						$(".loginn").disable();
-						$(".loginn").css("background-image","url('{IMG_PATH}/yj-reg-reg1.png')")
+						$(".loginn").css("background-image","url('<?php echo IMG_PATH;?>
+/yj-reg-reg1.png')")
 					}
 	})
 	/*$(".loginn").click(function () {
@@ -85,7 +127,12 @@
 	})*/
 		jQuery.validator.addMethod("isMobile", function(value, element) {
 		var length = value.length;
-		var mobile = /^(13[0-9]{9})|(18[0-9]{9})|(14[0-9]{9})|(17[0-9]{9})|(15[0-9]{9})$/;
+		var mobile = /^(13[0-9]<?php echo 9;?>
+)|(18[0-9]<?php echo 9;?>
+)|(14[0-9]<?php echo 9;?>
+)|(17[0-9]<?php echo 9;?>
+)|(15[0-9]<?php echo 9;?>
+)$/;
 		return this.optional(element) || (length == 11 && mobile.test(value));
 	}, "请正确填写您的手机号码");
 
@@ -132,5 +179,7 @@
 	   $(".message").css("display","block")
    }
 
-</script>
-</html>
+<?php echo '</script'; ?>
+>
+</html><?php }
+}

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-10 06:02:41
+/* Smarty version 3.1.30, created on 2017-07-10 09:53:12
   from "E:\wampserve\wamp\www\shopapp2222\mvc\template\index\shanp.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5962fc61ac0421_52035432',
+  'unifunc' => 'content_596332682c50c2_75006651',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '31ddaeae1279fc5cbc4eda2d87b44a17855c8004' => 
     array (
       0 => 'E:\\wampserve\\wamp\\www\\shopapp2222\\mvc\\template\\index\\shanp.html',
-      1 => 1499659360,
+      1 => 1499659399,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5962fc61ac0421_52035432 (Smarty_Internal_Template $_smarty_tpl) {
+function content_596332682c50c2_75006651 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -45,7 +45,6 @@ function content_5962fc61ac0421_52035432 (Smarty_Internal_Template $_smarty_tpl)
     <style>
         .box{
             width: 100%;height: 13.34rem;
-            overflow: hidden;
         }
         .box li{ width: 100%;height: 100%;
         }

@@ -3,15 +3,15 @@
 <head>
     <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
     <meta charset="UTF-8">
-    <title>详情</title>
+    <title>评论详情</title>
     <link rel="stylesheet" href="{CSS_PATH}/base.css">
     <link rel="stylesheet" href="{CSS_PATH}/mess.css">
-
+    <script src="{JS_PATH}/jQuery.js"></script>
     <script src="{JS_PATH}/rem.js"></script>
 </head>
 <body>
 <header>
-    <a href="index.html">
+    <a href="#">
         <div class="back"></div>
     </a>
     <div class="stitle"></div>
@@ -228,4 +228,9 @@
 </div>
 
 </body>
+<script>
+    $(".back").click(function () {
+        history.back(-1);
+    })
+</script>
 </html>

@@ -1,12 +1,41 @@
+<?php
+/* Smarty version 3.1.30, created on 2017-07-10 10:02:31
+  from "E:\wampserve\wamp\www\shopapp2222\mvc\template\index\luntan.html" */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.30',
+  'unifunc' => 'content_59633497ef5077_71017986',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    'ababfb10eb7651e8a3aa882594a2fdc934de44f3' => 
+    array (
+      0 => 'E:\\wampserve\\wamp\\www\\shopapp2222\\mvc\\template\\index\\luntan.html',
+      1 => 1499672302,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_59633497ef5077_71017986 (Smarty_Internal_Template $_smarty_tpl) {
+?>
 <!doctype html>
 <html lang="en">
 <head>
     <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
     <meta charset="UTF-8">
     <title>论坛</title>
-    <link rel="stylesheet" href="{CSS_PATH}/luntan.css">
-    <link rel="stylesheet" href="{CSS_PATH}/base.css">
-    <script src="{JS_PATH}/rem.js"></script>
+    <link rel="stylesheet" href="<?php echo CSS_PATH;?>
+/luntan.css">
+    <link rel="stylesheet" href="<?php echo CSS_PATH;?>
+/base.css">
+    <?php echo '<script'; ?>
+ src="<?php echo JS_PATH;?>
+/rem.js"><?php echo '</script'; ?>
+>
 
 </head>
 <body>
@@ -15,14 +44,18 @@
             <div class="hjy-sao"></div>
         </a>
         <div class="hjy-head">
-            <img src="{IMG_PATH}/1.png" alt="">
+            <img src="<?php echo IMG_PATH;?>
+/1.png" alt="">
         </div>
         <div class="hjy-ms"></div>
         <div class="hjy-i">
             <input type="text" class="hjy-in" placeholder="Search ur Cloth....">
-            <img src="{IMG_PATH}/dian.png" alt="" class="t2">
-            <img src="{IMG_PATH}/po.png" alt="" class="t">
-            <img src="{IMG_PATH}/huatong.png" alt="" class="t1">
+            <img src="<?php echo IMG_PATH;?>
+/dian.png" alt="" class="t2">
+            <img src="<?php echo IMG_PATH;?>
+/po.png" alt="" class="t">
+            <img src="<?php echo IMG_PATH;?>
+/huatong.png" alt="" class="t1">
         </div>
         <div class="ht"></div>
         <div class="di">
@@ -49,7 +82,8 @@
             <div class="con">
                 <div class="ctitle">
                     <div class="tl">
-                        <img src="{IMG_PATH}/photo.png" alt="">
+                        <img src="<?php echo IMG_PATH;?>
+/photo.png" alt="">
                     </div>
                     <div class="tr">
                         <span class="zi">
@@ -72,17 +106,23 @@
 气息，深受大学生喜欢。</span>
                     </div>
                     <div class="ms2">
-                        <img src="{IMG_PATH}/mei.png" alt="">
-                        <img src="{IMG_PATH}/mei1.png" alt="">
-                        <img src="{IMG_PATH}/mei2.png" alt="">
+                        <img src="<?php echo IMG_PATH;?>
+/mei.png" alt="">
+                        <img src="<?php echo IMG_PATH;?>
+/mei1.png" alt="">
+                        <img src="<?php echo IMG_PATH;?>
+/mei2.png" alt="">
                     </div>
                     <div class="ms3">
                         <span>浏览量1235人</span>
-                        <img src="{IMG_PATH}/zan.png" alt="" class="tu">
-                        <img src="{IMG_PATH}/mess.png" alt="" class="tu1">
+                        <img src="<?php echo IMG_PATH;?>
+/zan.png" alt="" class="tu">
+                        <img src="<?php echo IMG_PATH;?>
+/mess.png" alt="" class="tu1">
                     </div>
                     <div class="ms4">
-                        <img src="{IMG_PATH}/zan%20(1).png" alt="">
+                        <img src="<?php echo IMG_PATH;?>
+/zan%20(1).png" alt="">
                         <span>89人 觉得很赞</span>
                     </div>
                 </div>
@@ -90,7 +130,8 @@
             <div class="con">
                 <div class="ctitle">
                     <div class="tl">
-                        <img src="{IMG_PATH}/photo.png" alt="">
+                        <img src="<?php echo IMG_PATH;?>
+/photo.png" alt="">
                     </div>
                     <div class="tr">
                         <span class="zi">
@@ -113,17 +154,23 @@
 气息，深受大学生喜欢。</span>
                     </div>
                     <div class="ms2">
-                        <img src="{IMG_PATH}/mei.png" alt="">
-                        <img src="{IMG_PATH}/mei1.png" alt="">
-                        <img src="{IMG_PATH}/mei2.png" alt="">
+                        <img src="<?php echo IMG_PATH;?>
+/mei.png" alt="">
+                        <img src="<?php echo IMG_PATH;?>
+/mei1.png" alt="">
+                        <img src="<?php echo IMG_PATH;?>
+/mei2.png" alt="">
                     </div>
                     <div class="ms3">
                         <span>浏览量1235人</span>
-                        <img src="{IMG_PATH}/zan.png" alt="" class="tu">
-                        <img src="{IMG_PATH}/mess.png" alt="" class="tu1">
+                        <img src="<?php echo IMG_PATH;?>
+/zan.png" alt="" class="tu">
+                        <img src="<?php echo IMG_PATH;?>
+/mess.png" alt="" class="tu1">
                     </div>
                     <div class="ms4">
-                        <img src="{IMG_PATH}/zan%20(1).png" alt="">
+                        <img src="<?php echo IMG_PATH;?>
+/zan%20(1).png" alt="">
                         <span>89人 觉得很赞</span>
                     </div>
                 </div>
@@ -131,7 +178,8 @@
             <div class="con">
                 <div class="ctitle">
                     <div class="tl">
-                        <img src="{IMG_PATH}/photo.png" alt="">
+                        <img src="<?php echo IMG_PATH;?>
+/photo.png" alt="">
                     </div>
                     <div class="tr">
                         <span class="zi">
@@ -154,17 +202,23 @@
 气息，深受大学生喜欢。</span>
                     </div>
                     <div class="ms2">
-                        <img src="{IMG_PATH}/mei.png" alt="">
-                        <img src="{IMG_PATH}/mei1.png" alt="">
-                        <img src="{IMG_PATH}/mei2.png" alt="">
+                        <img src="<?php echo IMG_PATH;?>
+/mei.png" alt="">
+                        <img src="<?php echo IMG_PATH;?>
+/mei1.png" alt="">
+                        <img src="<?php echo IMG_PATH;?>
+/mei2.png" alt="">
                     </div>
                     <div class="ms3">
                         <span>浏览量1235人</span>
-                        <img src="{IMG_PATH}/zan.png" alt="" class="tu">
-                        <img src="{IMG_PATH}/mess.png" alt="" class="tu1">
+                        <img src="<?php echo IMG_PATH;?>
+/zan.png" alt="" class="tu">
+                        <img src="<?php echo IMG_PATH;?>
+/mess.png" alt="" class="tu1">
                     </div>
                     <div class="ms4">
-                        <img src="{IMG_PATH}/zan%20(1).png" alt="">
+                        <img src="<?php echo IMG_PATH;?>
+/zan%20(1).png" alt="">
                         <span>89人 觉得很赞</span>
                     </div>
                 </div>
@@ -172,18 +226,20 @@
         </div>
     </div>
 </body>
-<script src="{JS_PATH}/jquery-1.11.3.js"></script>
-<script>
+<?php echo '<script'; ?>
+ src="<?php echo JS_PATH;?>
+/jquery-1.11.3.js"><?php echo '</script'; ?>
+>
+<?php echo '<script'; ?>
+>
     var lis=$(".di .sou ul li");
     var spans=$(".di .sou ul li span");
     lis.click(function () {
         var index=lis.index(this);
         spans.eq(index).css("color","red").css("background","#fff").siblings().css("color","#fff").css("background","none");
     })
-</script>
-<script>
-    $(".back").click(function () {
-        history.back(-1);
-    })
-</script>
+<?php echo '</script'; ?>
+>
 </html>
+<?php }
+}

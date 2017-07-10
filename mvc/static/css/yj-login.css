@@ -1,7 +1,7 @@
 body{
 			background: #ee2856;
 			width: 100%;
-			height: 13.34rem;
+			height: 12.95rem;
 			overflow: hidden;
 		}
 		.box{
@@ -32,7 +32,7 @@ body{
 			background-position: center center;
 			background-repeat: no-repeat;
 			margin: 0 auto;
-			margin-top: 1.36rem;
+			margin-top: 1.1rem;
 		}
 		.tiao{
 			width: 110%;
@@ -265,7 +265,7 @@ body{
 			background-repeat: no-repeat;
 		}
 		.message{
-			width: 3.72rem;
+			width: 4.7rem;
 			height: 0.54rem;
 			background: #272e39;
 			margin: 0 auto;
@@ -277,7 +277,6 @@ body{
 			opacity: 0;
 		}
 		.message1{
-
 			width: 0.39rem;
 			height: 0.39rem;
 			background: url('../img/yj-login-error.png');
@@ -295,7 +294,7 @@ body{
 			color: #fd213a;
 			font-weight: bold;
 			float: left;
-			/*margin-top: -0.8rem;*/
+			margin-top: 0rem;
 			margin-left: 0.1rem;
 		}
 		.zhezhao{
@@ -305,3 +304,7 @@ body{
 			position: absolute;bottom: 1.6rem;
 			left: 2rem;
 		}
+.login .error{
+	color: red;
+	font-size: 0.24rem;
+}

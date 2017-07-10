@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-10 10:06:21
+/* Smarty version 3.1.30, created on 2017-07-10 11:06:07
   from "E:\wampserve\wamp\www\shopapp2222\mvc\template\index\index.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5963357d82bb38_25438538',
+  'unifunc' => 'content_5963437f8a84b8_49139841',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'c0294a8a079550ae12f65a1c3a42011ef926bb00' => 
     array (
       0 => 'E:\\wampserve\\wamp\\www\\shopapp2222\\mvc\\template\\index\\index.html',
-      1 => 1499673980,
+      1 => 1499676718,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5963357d82bb38_25438538 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5963437f8a84b8_49139841 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html lang="en">
@@ -87,6 +87,7 @@ function content_5963357d82bb38_25438538 (Smarty_Internal_Template $_smarty_tpl)
 /banner.png" alt="">
                 </div>
             </div>
+            <div class="swiper-pagination"></div>
         </div>
         <div class="hjy-title">
             <div class="top">

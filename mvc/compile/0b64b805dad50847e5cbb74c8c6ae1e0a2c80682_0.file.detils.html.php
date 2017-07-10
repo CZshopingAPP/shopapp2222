@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-10 10:44:03
+/* Smarty version 3.1.30, created on 2017-07-10 11:25:59
   from "E:\wampserve\wamp\www\shopapp2222\mvc\template\index\detils.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_59633e532b7d68_99661036',
+  'unifunc' => 'content_59634827c95b24_85098395',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '0b64b805dad50847e5cbb74c8c6ae1e0a2c80682' => 
     array (
       0 => 'E:\\wampserve\\wamp\\www\\shopapp2222\\mvc\\template\\index\\detils.html',
-      1 => 1499676238,
+      1 => 1499678758,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_59633e532b7d68_99661036 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59634827c95b24_85098395 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html lang="en">
@@ -365,6 +365,10 @@ function content_59633e532b7d68_99661036 (Smarty_Internal_Template $_smarty_tpl)
 
                 </div>
             </main>
+            <div class="xzzbutton">
+                <input type="button" placeholder="">
+                <a class="aaa">查看所有评论(455+)</a>
+            </div>
         </div>
     </div>
 </div>

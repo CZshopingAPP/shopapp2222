@@ -25,4 +25,7 @@ class index extends indexMain {
     function detils(){
         $this->smarty->display("detils.html");
     }
+    function index1(){
+        $this->smarty->display("index.html");
+    }
 }

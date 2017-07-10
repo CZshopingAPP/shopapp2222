@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb11968e-6e05-404f-a660-4a324ec4e593" name="默认的" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/template/index/index.html" afterPath="$PROJECT_DIR$/mvc/template/index/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/template/index/detils.html" afterPath="$PROJECT_DIR$/mvc/template/index/detils.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,6 +32,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="174">
               <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="detils.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mvc/static/css/detils.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -65,11 +76,11 @@
         <option value="$PROJECT_DIR$/mvc/index.php" />
         <option value="$PROJECT_DIR$/mvc/module/index/index.class.php" />
         <option value="$PROJECT_DIR$/mvc/template/index/shanp.html" />
-        <option value="$PROJECT_DIR$/mvc/template/index/detils.html" />
         <option value="$PROJECT_DIR$/mvc/template/index/luntan.html" />
         <option value="$PROJECT_DIR$/mvc/template/index/mess.html" />
         <option value="$PROJECT_DIR$/mvc/template/index/sousuo.html" />
         <option value="$PROJECT_DIR$/mvc/template/index/index.html" />
+        <option value="$PROJECT_DIR$/mvc/template/index/detils.html" />
       </list>
     </option>
   </component>
@@ -180,6 +191,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopapp2222" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopapp2222" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -333,15 +366,15 @@
       <option name="presentableId" value="Default" />
       <updated>1499653559219</updated>
       <workItem from="1499653564808" duration="3079000" />
-      <workItem from="1499658984119" duration="1814000" />
+      <workItem from="1499658984119" duration="2229000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4893000" />
+    <option name="totallyTimeSpent" value="5308000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25340393" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -422,19 +455,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mvc/template/index/detils.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="604">
-          <caret line="330" column="21" lean-forward="false" selection-start-line="330" selection-start-column="21" selection-end-line="330" selection-end-column="21" />
-          <folding>
-            <element signature="e#8570#8576#0" expanded="true" />
-            <element signature="e#8710#8716#0" expanded="true" />
-            <element signature="e#10961#10967#0" expanded="true" />
-            <element signature="e#11101#11107#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mvc/template/index/shanp.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-63">
@@ -472,6 +492,27 @@
           <caret line="185" column="12" lean-forward="false" selection-start-line="185" selection-start-column="12" selection-end-line="185" selection-end-column="12" />
           <folding>
             <marker date="1499672302256" expanded="false" signature="617:630" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/static/css/detils.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/template/index/detils.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="27" column="25" lean-forward="false" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+          <folding>
+            <element signature="e#8570#8576#0" expanded="true" />
+            <element signature="e#8710#8716#0" expanded="true" />
+            <element signature="e#10961#10967#0" expanded="true" />
+            <element signature="e#11101#11107#0" expanded="true" />
           </folding>
         </state>
       </provider>

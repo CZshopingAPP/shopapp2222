@@ -140,7 +140,7 @@ body,html{
 	background-position: 100%;
 	background-size: cover;
 	border-radius: 0.4rem;
-	margin-top: 1.1rem;
+	margin-top: 1.3rem;
 	margin-left: 1.09rem;
 	font-size: 0.18rem;
 	color: #ff1c67;
@@ -150,7 +150,7 @@ body,html{
 .dengji{
 	height: 0.24rem;width: 1.5rem;
 	
-	margin-left: 1.48rem;margin-top: 0.13rem;
+	margin-left: 1.48rem;margin-top: 0.16rem;
 }
 .dengji span{
 	display: inline-block;
@@ -268,7 +268,7 @@ body,html{
 	justify-content: space-between;
 }
 .dingdan ul li{
-	width: 0.94rem;
+	width: 0.96rem;
 	height: 100%;
 
 }

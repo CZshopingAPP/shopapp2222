@@ -1,0 +1,570 @@
+html,body{
+    width:100%;
+    height:auto;
+    background: #FAFAFA;
+    font-family: "苹方 常规";
+}
+header{
+    width:100%;
+    height:2.08rem;
+    background: url("../img/bj1.png") no-repeat center;
+    background-size: cover;
+    padding-top: 1rem;
+    position: relative;
+}
+.back{
+    width:0.44rem;
+    height:0.44rem;
+    background: url("../img/2.png") no-repeat center;
+    background-size: cover;
+    position: absolute;
+    top:0.83rem;
+    left:0.22rem;
+}
+.stitle{
+    width:3.99rem;
+    height:0.76rem;
+    background: url("../img/dingdan.png") no-repeat center;
+    background-size: cover;
+    position: absolute;
+    top:0.7rem;
+    left:0;
+    right:0;
+    margin:auto;
+}
+.content{
+    width:100%;
+    overflow: hidden;
+    background: #F9FCFC;
+}
+.content1{
+    width:90%;
+    overflow: hidden;
+    margin:0 auto;
+}
+.hjy-banner{
+    width:3.3rem;
+    height:3.55rem;
+    margin:0.3rem auto;
+    padding-left: 0.1rem;
+}
+.hjy-banner img{
+    width:95%;
+    height:100%;
+}
+.banner{
+    width:100%;
+    height:1.2rem;
+    border-bottom: 0.02rem solid #ccc;
+}
+.bann{
+    width:85%;
+    height:85%;
+    float: left;
+    border-right: 0.01rem dashed #ccc;
+    position: relative;
+}
+.bann .bzi{
+    font-size:0.4rem ;
+    color: #ABABAB;
+    font-weight:bold;
+    line-height:0.5rem;
+    position: absolute;
+    top:0.05rem;
+    left:0.05rem;
+}
+.bann .bzi1{
+    font-size:0.28rem ;
+    color: #F9355E;
+    line-height:0.5rem;
+    position: absolute;
+    bottom:0.05rem;
+    left:0.05rem;
+}
+.bann .bzi2{
+    font-size:0.2rem ;
+    color: #B1B1B1;
+    line-height:0.5rem;
+    position: absolute;
+    bottom:0.02rem;
+    right:0.15rem;
+}
+.bann1{
+    width:15%;
+    height:85%;
+    float: left;
+    position: relative;
+}
+.bann1 img{
+    width:0.48rem;
+    height:0.53rem;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+}
+.jage{
+    width:100%;
+    height:0.75rem;
+}
+.jage .rmb{
+    width:25%;
+    height:100%;
+    font-size: 0.5rem;
+    font-weight:bold;
+    color: #FE27A0;
+    line-height:0.6rem;
+    float: left;
+}
+.jage .rmb1{
+    width:20%;
+    height:100%;
+    font-size: 0.3rem;
+    font-weight:bold;
+    color: #FE27A0;
+    line-height:0.8rem;
+    float: left;
+}
+.jage .rmb2{
+    width:40%;
+    height:100%;
+    float: right;
+    position: relative;
+}
+.jage .rmb2 .sc{
+    width:100%;
+    height:0.5rem;
+    font-size: 0.25rem;
+    text-align: center;
+    line-height:0.38rem;
+    border-radius: 0.4rem;
+    border:0.03rem solid #fff;
+    color: #fff;
+    background: url("../img/bj.png") no-repeat center;
+    background-size: cover;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+}
+.xin{
+    width:100%;
+    height:0.7rem;
+    background: #fff;
+    border-radius: 0.2rem;
+    padding-left: 0.1rem;
+    padding-top: 0.2rem;
+}
+.xin .xinbao{
+    width:35%;
+    height:0.42rem;
+    float: left;
+    position: relative;
+}
+.xin .xinbao1{
+    width: 1.3rem;
+    height:0.42rem;
+    float: left;
+    position: relative;
+    margin-left: 0.1rem;
+}
+.xin .xinbao img{
+    width:0.28rem;
+    height:0.28rem;
+    position: absolute;
+    left:0;
+}
+.xin .xinbao1 img{
+    width:0.28rem;
+    height:0.28rem;
+    position: absolute;
+    left:0;
+}
+.xin .xinbao .xzi{
+    font-size: 0.25rem;
+    color: #676767;
+    line-height:0.3rem;
+    float: left;
+    position: absolute;
+    right:0;
+}
+.xin .xinbao1 .xzi{
+    font-size: 0.25rem;
+    color: #676767;
+    line-height:0.3rem;
+    float: left;
+    position: absolute;
+    right:0;
+}
+.xin1{
+    width:100%;
+    height:0.7rem;
+    background: #fff;
+    border-radius: 0.2rem;
+    margin-top: 0.2rem;
+    padding-right: 0.15rem;
+}
+.xin1 .xzi1{
+    font-size: 0.3rem;
+    color: #898989;
+    line-height:0.6rem;
+    margin-left: 0.15rem;
+    float: left;
+}
+.xin1 .jt{
+    font-size: 0.35rem;
+    color: #898989;
+    line-height:0.6rem;
+    margin-left: 0.15rem;
+    float: right;
+    cursor: pointer;
+}
+
+
+
+.choose{
+    width:4.5rem;
+    height:0.85rem;
+    border-radius: 0.45rem;
+    border:0.02rem solid #fff;
+    background: #393939;
+    margin:0.3rem auto;
+    padding:0.15rem 0.2rem 0.15rem 0.25rem;
+}
+.choose2{
+    width:1.9rem;
+    height:0.57rem;
+    float: right;
+    position: relative;
+    font-size: 0.35rem;
+    color: #fff;
+    line-height:0.6rem;
+    text-align: center;
+    z-index:2;
+}
+.choose1{
+    left:0.1rem;
+    font-size: 0.35rem;
+    color: #fff;
+    line-height:0.6rem;
+    text-align: center;
+    float: left;
+}
+.tts{
+    width:1.9rem;
+    height:0.57rem;
+    border-radius: 0.45rem;
+    background: #fff;
+    color: #000;
+    margin:auto;
+    float: left;
+}
+.tts1{
+    border-radius: 0.45rem;
+    background: #fff;
+    margin:auto;
+    float: right;
+    color: #000;
+    /*margin-top: -0.6rem;*/
+}
+
+.con{
+    width:100%;
+    height:12.8rem;
+    background: #fff;
+    margin-bottom: 0.5rem;
+    display: none;
+}
+.con1{
+    width:100%;
+    height:0.86rem;
+    position: relative;
+}
+.con1 .xian{
+    width:30%;
+    height:0.02rem;
+    background: #000;
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0.1rem;
+    margin:auto;
+}
+.con1 .xian1{
+    width:30%;
+    height:0.02rem;
+    background: #000;
+    position: absolute;
+    top:0;
+    bottom:0;
+    right:0.1rem;
+    margin:auto;
+}
+.con1 .cont{
+    width:25%;
+    height:0.3rem;
+    font-size: 0.18rem;
+    line-height:0.3rem;
+    text-align: center;
+    color: #333;
+    border:0.01rem solid #333;
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto;
+}
+.table1 .ss td{
+   font-size: 0.12rem;
+}
+.show{
+    width:100%;
+    height:7rem;
+}
+.show ul{
+    width:100%;
+    height:2.34rem;
+    display: flex;
+    justify-content:space-around;
+}
+.show ul li{
+    width:33.33%;
+    height:100%;
+}
+.show ul li img{
+    width:100%;
+    height:100%;
+}
+
+
+
+
+main{
+    width:100%;
+    height: 4.5rem;
+    background: #fff;
+    margin:0 auto;
+    margin-top: 0.4rem;
+    border-radius: 0.2rem;
+    overflow: hidden;
+}
+.hang{
+    width:100%;
+    height:1rem;
+    margin-top:0.14rem;
+}
+.hang1{
+    width:100%;
+    height:0.5rem;
+    font-size: 0.3rem;
+    color: #8e8e8e;
+    padding: 0 0.2rem;
+}
+.photo{
+    width:0.84rem;
+    height:0.84rem;
+    border-radius: 50%;
+    box-shadow: 0 0.05rem 0.26rem #888888;
+    margin:0 0.32rem;
+    overflow: hidden;
+    float: left;
+}
+.photo img{
+    width:100%;
+    height:100%;
+    float: left;
+}
+.namebox{
+    width: 5rem;
+    height:0.35rem;
+    margin-top: 0.07rem;
+    float: left;
+}
+.name{
+    padding: 0 0.1rem;
+    font-size: 0.3rem;
+    float: left;
+}
+.xing{
+    padding:0.08rem 0.1rem;
+    float: left;
+}
+.xing img{
+    width: 0.3rem;
+    height:0.3rem;
+    float: left;
+}
+.timebox{
+    width: 5rem;
+    height:0.35rem;
+    margin-top: 0.1rem;
+    float: left;
+}
+.time,.color{
+    padding:0 0.16rem 0 0;
+    font-size: 0.3rem;
+    color: #ccc;
+    float: left;
+}
+.size{
+    font-size: 0.3rem;
+    color: #ccc;
+    float: left;
+}
+.tubox{
+    height: 1.88rem;
+    padding: 0 0.3rem;
+    margin-top: 0.14rem;
+    display: flex;
+    justify-content: space-between;
+}
+.tu{
+    width: 27%;
+    height:100%;
+    float: left;
+}
+.tu img{
+    width:100%;
+    height:100%;
+}
+.hang2{
+    width:100%;
+    height:0.5rem;
+    padding: 0 0.2rem;
+    margin-top: 0.14rem;
+}
+.liulan{
+    font-size: 0.3rem;
+    color: #ccc;
+    float: left;
+}
+.zan{
+    width: 1.4rem;
+    height:0.36rem;
+    border-radius: 0.4rem;
+    border: 0.02rem solid #fb47a0;
+    float: right;
+    font-size: 0.2rem;
+    color: #ccc;
+    line-height:0.3rem;
+}
+.zan img{
+    width: 0.2rem;
+    height:0.2rem;
+    margin-left: 0.1rem;
+    margin-top: 0.06rem;
+    float: left;
+}
+.zan1{
+    width: 1.4rem;
+    height:0.36rem;
+    border-radius: 0.4rem;
+    border: 0.02rem solid #fb47a0;
+    float: right;
+    font-size: 0.2rem;
+    color: #ccc;
+    line-height:0.3rem;
+    margin-right: 0.2rem;
+}
+.zan1 img{
+    width: 0.2rem;
+    height:0.2rem;
+    margin-left: 0.1rem;
+    margin-top: 0.06rem;
+    float: left;
+}
+
+.fill{
+    width:100%;
+    height:10rem;
+    background: #fff;
+    display: none;
+}
+.display{
+    display: block;
+}
+.footer{
+    width:100%;
+    height:1.3rem;
+    background: #fff;
+}
+.foot{
+    width:95%;
+    height:100%;
+    margin:0 auto;
+}
+.foot1{
+    width:45%;
+    height:100%;
+    float: left;
+}
+.foot1 ul{
+    width:100%;
+    height:100%;
+}
+.foot1 ul li{
+    width:33.33%;
+    height:100%;
+    border-left: 0.01rem dashed #ccc;
+    float: left;
+    position: relative;
+}
+.foot1 ul li:nth-child(3){
+    border-right: 0.01rem dashed #ccc;
+}
+.foot1 ul li img{
+    width:0.5rem;
+    height:0.5rem;
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto;
+}
+.foot2{
+    width:55%;
+    height:100%;
+    float: left;
+    position: relative;
+    padding-left: 0.05rem;
+}
+.foot2 .fbtn{
+    width:1.8rem;
+    height:0.8rem;
+    background: url("../img/bj1.png") no-repeat center;
+    background-size: cover;
+    border-radius: 0.4rem;
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    margin:auto;
+    font-size: 0.3rem;
+    font-weight:bold;
+    color: #fff;
+    text-align: center;
+    line-height:0.8rem;
+}
+.foot2 .fbtn1{
+    width:1.8rem;
+    height:0.8rem;
+    background: url("../img/bj1.png") no-repeat center;
+    background-size: cover;
+    border-radius: 0.4rem;
+    position: absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    margin:auto;
+    font-size: 0.3rem;
+    font-weight:bold;
+    color: #fff;
+    text-align: center;
+    line-height:0.8rem;
+}

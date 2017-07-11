@@ -16,6 +16,9 @@ class index extends indexMain {
     function login1(){
         $this->smarty->display("yj-index.html");
     }
+    function login2(){
+        $this->smarty->display("yj-login.html");
+    }
     function luntan(){
         $this->smarty->display("luntan.html");
     }

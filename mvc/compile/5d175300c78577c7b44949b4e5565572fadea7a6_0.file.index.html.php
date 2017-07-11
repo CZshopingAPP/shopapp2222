@@ -1,3 +1,27 @@
+<?php
+/* Smarty version 3.1.30, created on 2017-07-11 02:58:06
+  from "E:\wampserve\wamp\www\shopapp2222\mvc\template\admin\index.html" */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.30',
+  'unifunc' => 'content_5964229e35c160_73162777',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    '5d175300c78577c7b44949b4e5565572fadea7a6' => 
+    array (
+      0 => 'E:\\wampserve\\wamp\\www\\shopapp2222\\mvc\\template\\admin\\index.html',
+      1 => 1499734685,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_5964229e35c160_73162777 (Smarty_Internal_Template $_smarty_tpl) {
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -6,11 +30,13 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="{CSS_PATH}/bootstrap-3.1.1.min.css">
+    <link rel="stylesheet" href="<?php echo CSS_PATH;?>
+/bootstrap-3.1.1.min.css">
     <style>
         body,html{
             width: 100%;height: 100%;
-            background: url("{CSS_PATH}/xzz1.png");
+            background: url("<?php echo CSS_PATH;?>
+/xzz1.png");
             background-repeat: no-repeat;
             background-size: 100%;
             background-position: center;
@@ -42,7 +68,8 @@
             color: lime;
         }
     </style>
-    <script>
+    <?php echo '<script'; ?>
+>
         window.onload=function(){
             var canvas=document.getElementsByTagName("canvas")[0];
             var cobj=canvas.getContext("2d");
@@ -118,7 +145,8 @@
                 }
             }
         }
-    </script>
+    <?php echo '</script'; ?>
+>
 </head>
 <body>
 <form action="index.php?m=admin&f=login&a=check" method="post">
@@ -135,17 +163,21 @@
     <div class="form-group">
         <label for="exampleInputPassword1">请拖拽</label>
 
-        <img src="{IMG_PATH}/c.jpg" alt="" hidden class="c">
-        <img src="{IMG_PATH}/zhuti.png" alt="" hidden class="zhuti">
+        <img src="<?php echo IMG_PATH;?>
+/c.jpg" alt="" hidden class="c">
+        <img src="<?php echo IMG_PATH;?>
+/zhuti.png" alt="" hidden class="zhuti">
 
 
         <div class="box" style="position: relative;width:224px;height:70px;">
-            <canvas position="{$position}">
+            <canvas position="<?php echo $_smarty_tpl->tpl_vars['position']->value;?>
+">
 
             </canvas>
         </div>
         <div class="message"></div>
-        <!--<img src="{SELF_PATH}?m=admin&f=login&a=code" alt="" onclick="this.src=this.src+'&code='+Math.random()" style="cursor: pointer">-->
+        <!--<img src="<?php echo SELF_PATH;?>
+?m=admin&f=login&a=code" alt="" onclick="this.src=this.src+'&code='+Math.random()" style="cursor: pointer">-->
 
         <button type="submit" class="btn btn-default">登陆</button>
     </div>
@@ -155,4 +187,5 @@
 </form>
 
 </body>
-</html>
+</html><?php }
+}

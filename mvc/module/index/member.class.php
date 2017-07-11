@@ -6,7 +6,7 @@ class member extends indexMain{
         $this->smarty->assign("mid",$this->session->get("mid"));
         $this->smarty->assign("nicheng",$this->session->get("nicheng"));
 
-        $this->smarty->display("member.html");
+        $this->smarty->display("yj-member.html");
     }
     function edit(){
         $mid=P("mid");

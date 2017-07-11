@@ -1,3 +1,27 @@
+<?php
+/* Smarty version 3.1.30, created on 2017-07-11 06:01:00
+  from "E:\wampserve\wamp\www\shopapp2222\mvc\template\admin\main.html" */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.30',
+  'unifunc' => 'content_59644d7c9ac3c0_07781827',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    'b743047c70df5f0cea1c5d047c7a1b490caad698' => 
+    array (
+      0 => 'E:\\wampserve\\wamp\\www\\shopapp2222\\mvc\\template\\admin\\main.html',
+      1 => 1499745615,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_59644d7c9ac3c0_07781827 (Smarty_Internal_Template $_smarty_tpl) {
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -6,8 +30,12 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <script src="{JS_PATH}/jquery.min.js"></script>
-    <link rel="stylesheet" href="{CSS_PATH}/base.css">
+    <?php echo '<script'; ?>
+ src="<?php echo JS_PATH;?>
+/jquery.min.js"><?php echo '</script'; ?>
+>
+    <link rel="stylesheet" href="<?php echo CSS_PATH;?>
+/base.css">
     <style>
         html, body {
             width: 100%;
@@ -191,7 +219,8 @@
             background: red;
         }
     </style>
-    <script>
+    <?php echo '<script'; ?>
+>
         $(function () {
             $("li a").click(function () {
                 $(this).nextAll("ul").toggle();
@@ -221,7 +250,8 @@
                 $(this).filter().removeClass()
             })
         })
-    </script>
+    <?php echo '</script'; ?>
+>
 </head>
 <body>
 
@@ -229,7 +259,7 @@
     <div class="left">
 
         <ul>
-            {if $rid==1}
+            <?php if ($_smarty_tpl->tpl_vars['rid']->value == 1) {?>
             <li>
                 <a href="javascript:;">用户管理</a>
                 <ul>
@@ -241,7 +271,7 @@
                     </li>
                 </ul>
             </li>
-            {/if}
+            <?php }?>
             <li>
                 <a href="javascript:;">会员管理</a>
                 <ul>
@@ -334,7 +364,7 @@
                 </div>
             </div>
             <ul>
-                {if $rid==1}
+                <?php if ($_smarty_tpl->tpl_vars['rid']->value == 1) {?>
                 <li class="yiji">
                     <a href="javascript:">
                         <span class="jiazu">用户</span>管理
@@ -350,7 +380,7 @@
                         </li>
                     </ul>
                 </li>
-                {/if}
+                <?php }?>
 
                 <li class="yiji">
                     <a href="javascript:">
@@ -434,4 +464,5 @@
     </div>
 </div>
 </body>
-</html>
+</html><?php }
+}

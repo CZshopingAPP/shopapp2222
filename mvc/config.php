@@ -7,7 +7,7 @@ return array(
       "host"=>"localhost",
       "user"=>"root",
       "pass"=>"",
-      "database"=>"shopapp",
+      "database"=>"shangpin",
       "port"=>"3306",
   )
 );

@@ -51,6 +51,8 @@ class lists extends main{
     function editStatus(){
         $sid=$_POST["sid"];
         $status=$_POST["status"];
+
+
         $db=new db("lists");
         if($db->where("sid={$sid}")->update("status={$status}")>0){
             $this->jump("修改成功","index.php?m=admin&f=lists&a=add");

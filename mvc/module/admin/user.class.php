@@ -32,4 +32,41 @@ class user extends main{
             $this->jump("添加成功","index.php?m=admin&f=user&a=add");
         }
     }
+    function show(){
+        $this->db=new db("member");
+        $result=$this->db->select();
+        $this->smarty->assign("result",$result);
+        $this->smarty->display("showUser.html");
+    }
+    function del(){
+        $mid=$_GET["mid"];
+        $this->db=new db("member");
+        $result=$this->db->where($mid)->del();
+        if($result>0){
+            $this->jump("删除成功","index.php?m=admin&f=user&a=show");
+        }
+    }
+    function edit(){
+        $mid=$_GET["mid"];
+        $db=new db("member");
+        $result=$db->where("mid={$mid}")->select();
+        $this->smarty->assign("mname",$result[0]["mname"]);
+        $this->smarty->assign("nicheng",$result[0]["nicheng"]);
+        $this->smarty->assign("mrole",$result[0]["mrole"]);
+
+        $this->smarty->display("editUser.html");
+
+
+    }
+    function editCon(){
+        $mid=$_GET["mid"];
+        $nicheng=$_POST["nicheng"];
+        $mrole=$_POST["mrole"];
+        $db=new db("member");
+
+        $info=$db->where("mid={$mid}")->update("nicheng={$nicheng},mrole={$mrole}");
+        if($info>0){
+            echo "ok";
+        }
+    }
 }

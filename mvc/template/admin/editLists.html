@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="{CSS_PATH}/bootstrap-3.1.1.min.css">
 </head>
 <body>
-<form>
+<form action="index.php?m=admin&f=lists&a=editStatus" method="post" class="">
 
     <div class="form-group">
         <label for="exampleInputEmail1">所属话题</label>
@@ -26,24 +26,25 @@
 
     </div>
     <div class="form-group">
-        <textarea name="" id="" cols="30" rows="10">{$scon}</textarea>
+        <textarea name="scon" id="" cols="30" rows="10">{$scon}</textarea>
     </div>
     <div class="form-group uploadbox">
 
         <label for="exampleInputFile">图片</label>
 
         <div class="uploadBox">
-            <img src="{$simage}" alt="">
+            <img class="simage" src="{$simage}" alt="">
         </div>
 
     </div>
-</form>
-<form action="index.php?m=admin&f=lists&a=editStatus" method="post" class="">
+    <!--<input type="submit" value="修改内容">-->
+
+
     <input type="hidden" name="sid" value="{$sid}">
     未审核：<input type="radio" name="status" value="0" {if $status==0}checked{/if}><br>
     审核中：<input type="radio" name="status" value="1"  {if $status==1}checked{/if}><br>
     通过：<input type="radio" name="status" value="2"  {if $status==2}checked{/if}><br>
-    <input type="submit" value="修改">
+    <input type="submit" class="gai" value="修改">
     <a href="index.php?m=admin&f=lists&a=add">返回</a>
 </form>
 </body>

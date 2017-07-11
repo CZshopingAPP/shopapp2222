@@ -1,5 +1,8 @@
 <?php
 class login extends indexMain{
+    function login0(){
+        $this->smarty->display("yj-login.html");
+    }
     function reg(){
         if($_POST["code"]!==$this->session->get("code")){
             echo "验证码错误";
@@ -72,7 +75,6 @@ class login extends indexMain{
                     $this->session->set("mid",$v["mid"]);
                     $this->session->set("nicheng",$v["nicheng"]);
                     echo "ok,即将跳转....";
-                    $this->smarty->display("yj-login.html");
                     exit();
                 }
             }

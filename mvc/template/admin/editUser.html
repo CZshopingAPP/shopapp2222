@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="{CSS_PATH}/bootstrap-3.1.1.min.css">
+</head>
+<body>
+<form action="index.php?m=admin&f=user&a=edit" method="post">
+    <div class="form-group">
+        <label class="yh" for="exampleInputEmail1
+">用户名</label>
+        <input type="text" class="form-control" name="mid" value="{$mname}">
+    </div>
+
+    <div class="form-group">
+        <label for="exampleInputEmail1">昵称</label>
+        <input type="text" class="form-control" id="exampleInputEmail1" name="nicheng" value="{$nicheng}">
+    </div>
+    <div class="form-group">
+        <label for="exampleInputEmail1">角色</label>
+        <input type="text" class="form-control" id="exampleInputEmail1" name="mrole" value="{$mrole}">
+
+    </div>
+    <div class="form-group uploadbox">
+
+        <label for="exampleInputFile">相片</label>
+
+        <div class="uploadBox">
+            <!--<img src="{$photo}" alt="">-->
+        </div>
+    </div>
+    <input type="submit" class="gai" value="修改">
+    <a href="index.php?m=admin&f=lists&a=add">返回</a>
+</form>
+<script src="{JS_PATH}/jquery.min.js"></script>
+<script>
+
+        $(".gai").click(function () {
+        $nicheng=$("input[name=nicheng]").val();
+        $mrole=$("input[name=mrole]").val();
+        $.ajax({
+            url:"index.php?m=admin&f=user&a=editCon",
+            type:"post",
+            dataType:"json",
+            data:{
+                nicheng:$nicheng,mrole:$mrole
+            },
+            success:function (e) {
+                if(e=="ok"){
+                    alert("修改成功");location.href="index.php?m=admin&f=user&a=add";
+                }
+            }
+        })
+    })
+</script>
+</body>
+</html>

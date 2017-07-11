@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb11968e-6e05-404f-a660-4a324ec4e593" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/static/css/xzz1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/module/index/detils.class.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/module/index/luntan.class.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/module/index/mess.class.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/module/index/reg.class.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/module/index/sousuo.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/compile/55d056c4d9dcdf0b2e8fba2df22d8857fbb894ab_0.file.yj-index.html.php" afterPath="$PROJECT_DIR$/mvc/compile/55d056c4d9dcdf0b2e8fba2df22d8857fbb894ab_0.file.yj-index.html.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/config.php" afterPath="$PROJECT_DIR$/mvc/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/module/index/index.class.php" afterPath="$PROJECT_DIR$/mvc/module/index/index.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/module/index/member.class.php" afterPath="$PROJECT_DIR$/mvc/module/index/member.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/template/admin/index.html" afterPath="$PROJECT_DIR$/mvc/template/admin/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/template/admin/main.html" afterPath="$PROJECT_DIR$/mvc/template/admin/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/template/admin/welcome.html" afterPath="$PROJECT_DIR$/mvc/template/admin/welcome.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/template/index/yj-index.html" afterPath="$PROJECT_DIR$/mvc/template/index/yj-index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/template/index/yj-member.html" afterPath="$PROJECT_DIR$/mvc/template/index/yj-member.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/module/index/login.class.php" afterPath="$PROJECT_DIR$/mvc/module/index/login.class.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,17 +14,29 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.class.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.class.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mvc/module/index/index.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="986">
-              <caret line="34" column="45" lean-forward="false" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="45" />
+            <state relative-caret-position="227">
+              <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="member.class.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mvc/module/index/login.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="74" column="57" lean-forward="false" selection-start-line="74" selection-start-column="57" selection-end-line="74" selection-end-column="57" />
+              <folding>
+                <element signature="n#reg#0;n#login#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="member.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mvc/module/index/member.class.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="29">
@@ -128,7 +125,6 @@
         <option value="$PROJECT_DIR$/mvc/static/css/yj-reg.css" />
         <option value="$PROJECT_DIR$/mvc/template/index/index.html" />
         <option value="$PROJECT_DIR$/mvc/template/index/yj-member.html" />
-        <option value="$PROJECT_DIR$/mvc/module/index/index.class.php" />
         <option value="$PROJECT_DIR$/mvc/template/index/yj-index.html" />
         <option value="$PROJECT_DIR$/mvc/config.php" />
         <option value="$PROJECT_DIR$/mvc/template/admin/index.html" />
@@ -141,6 +137,8 @@
         <option value="$PROJECT_DIR$/mvc/module/index/reg.class.php" />
         <option value="$PROJECT_DIR$/mvc/template/admin/main.html" />
         <option value="$PROJECT_DIR$/mvc/module/index/detils.class.php" />
+        <option value="$PROJECT_DIR$/mvc/module/index/login.class.php" />
+        <option value="$PROJECT_DIR$/mvc/module/index/index.class.php" />
       </list>
     </option>
   </component>
@@ -432,15 +430,15 @@
       <workItem from="1499653564808" duration="3079000" />
       <workItem from="1499658984119" duration="12046000" />
       <workItem from="1499733458945" duration="11271000" />
-      <workItem from="1499753376077" duration="1796000" />
+      <workItem from="1499753376077" duration="1994000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28192000" />
+    <option name="totallyTimeSpent" value="28390000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26096824" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -766,29 +764,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mvc/module/index/index.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="34" column="45" lean-forward="false" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mvc/module/index/reg.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
           <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvc/module/index/login.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-          <folding>
-            <element signature="n#willLogin#0;n#login#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -856,6 +836,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="29">
           <caret line="1" column="31" lean-forward="false" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/module/index/login.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="74" column="57" lean-forward="false" selection-start-line="74" selection-start-column="57" selection-end-line="74" selection-end-column="57" />
+          <folding>
+            <element signature="n#reg#0;n#login#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/module/index/index.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
           <folding />
         </state>
       </provider>

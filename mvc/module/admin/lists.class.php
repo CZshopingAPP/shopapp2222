@@ -1,5 +1,8 @@
 <?php
 class lists extends main{
+    function add0(){
+        $this->smarty->display("addcon.html");
+    }
     function add(){
         $db=new db("lists");
 

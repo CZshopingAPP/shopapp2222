@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-10 11:06:07
+/* Smarty version 3.1.30, created on 2017-07-11 09:55:07
   from "E:\wampserve\wamp\www\shopapp2222\mvc\template\index\index.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5963437f8a84b8_49139841',
+  'unifunc' => 'content_5964845bee3849_61621869',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'c0294a8a079550ae12f65a1c3a42011ef926bb00' => 
     array (
       0 => 'E:\\wampserve\\wamp\\www\\shopapp2222\\mvc\\template\\index\\index.html',
-      1 => 1499676718,
+      1 => 1499759705,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5963437f8a84b8_49139841 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5964845bee3849_61621869 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html lang="en">
@@ -483,21 +483,36 @@ function content_5963437f8a84b8_49139841 (Smarty_Internal_Template $_smarty_tpl)
     </div>
     <footer>
         <div class="foot">
-            <div class="btn">
+            <a href="index.php?m=index&f=index&a=index1"><div class="btn">
                 <img src="<?php echo IMG_PATH;?>
-/ho.png" alt="">
+/zx2.png" alt="">
                 <div class="choose tts"></div>
             </div>
-            <div class="btn">
+            </a>
+            <a href="#"><div class="btn">
                 <img src="<?php echo IMG_PATH;?>
-/fl.png" alt="">
+/zx3.png" alt="">
                 <div class="choose"></div>
             </div>
-            <div class="btn">
+            </a>
+            <a href="#"><div class="btn">
                 <img src="<?php echo IMG_PATH;?>
-/shopping.png" alt="">
+/zx1.png" alt="">
                 <div class="choose"></div>
             </div>
+            </a>
+             <a href="#"><div class="btn">
+                <img src="<?php echo IMG_PATH;?>
+/zx4.png" alt="">
+                <div class="choose"></div>
+            </div>
+            </a>
+             <a href="index.php?m=index&f=index&a=member"><div class="btn">
+                <img src="<?php echo IMG_PATH;?>
+/zx5.png" alt="">
+                <div class="choose"></div>
+            </div>
+            </a>
         </div>
     </footer>
 </body>

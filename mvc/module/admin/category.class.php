@@ -15,4 +15,14 @@ class category extends main{
             $this->jump("添加成功","index.php?m=admin&f=category&a=add");
         }
     }
+    function show(){
+        $this->db=new db("category");
+        $result=$this->db->select();
+        $this->smarty->assign("result",$result);
+        $this->smarty->display("showcategory.html");
+    }
+    function upload(){
+        $obj=new upload();
+        $obj->move();
+    }
 }

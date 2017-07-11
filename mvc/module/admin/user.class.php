@@ -53,20 +53,18 @@ class user extends main{
         $this->smarty->assign("mname",$result[0]["mname"]);
         $this->smarty->assign("nicheng",$result[0]["nicheng"]);
         $this->smarty->assign("mrole",$result[0]["mrole"]);
-
         $this->smarty->display("editUser.html");
-
-
     }
     function editCon(){
-        $mid=$_GET["mid"];
+        $mid=$_POST["mid"];
         $nicheng=$_POST["nicheng"];
         $mrole=$_POST["mrole"];
         $db=new db("member");
-
-        $info=$db->where("mid={$mid}")->update("nicheng={$nicheng},mrole={$mrole}");
-        if($info>0){
-            echo "ok";
+        if($info=$db->where("mid={$mid}")->update("nicheng='{$nicheng}',mrole='{$mrole}'")>0){
+            $this->jump("修改成功","index.php?m=admin&f=user&a=show");
         }
+       /* if($info>0){
+            echo "ok";
+        }*/
     }
 }

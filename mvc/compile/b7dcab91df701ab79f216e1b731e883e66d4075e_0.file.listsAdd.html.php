@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-11 04:52:43
+/* Smarty version 3.1.30, created on 2017-07-11 10:07:54
   from "E:\wampserve\wamp\www\shopapp2222\mvc\template\admin\listsAdd.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_59643d7b370656_90622973',
+  'unifunc' => 'content_5964875ae12404_46184768',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'b7dcab91df701ab79f216e1b731e883e66d4075e' => 
     array (
       0 => 'E:\\wampserve\\wamp\\www\\shopapp2222\\mvc\\template\\admin\\listsAdd.html',
-      1 => 1498813688,
+      1 => 1499757724,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_59643d7b370656_90622973 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5964875ae12404_46184768 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html lang="en">
@@ -50,6 +50,9 @@ function content_59643d7b370656_90622973 (Smarty_Internal_Template $_smarty_tpl)
         </th>
         <th>
             状态
+        </th>
+        <th>
+            关键词
         </th>
         <th>
             发表时间
@@ -92,6 +95,10 @@ foreach ($_from as $_smarty_tpl->tpl_vars['v']->value) {
             <?php } else { ?>
             通过
             <?php }?>
+        </td>
+        <td>
+            <?php echo $_smarty_tpl->tpl_vars['v']->value["keywords"];?>
+
         </td>
         <td>
             <?php echo $_smarty_tpl->tpl_vars['v']->value["stime"];?>

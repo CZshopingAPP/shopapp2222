@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-11 06:01:00
+/* Smarty version 3.1.30, created on 2017-07-11 12:16:03
   from "E:\wampserve\wamp\www\shopapp2222\mvc\template\admin\main.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_59644d7c9ac3c0_07781827',
+  'unifunc' => 'content_5964a563d42d04_12853314',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'b743047c70df5f0cea1c5d047c7a1b490caad698' => 
     array (
       0 => 'E:\\wampserve\\wamp\\www\\shopapp2222\\mvc\\template\\admin\\main.html',
-      1 => 1499745615,
+      1 => 1499768006,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_59644d7c9ac3c0_07781827 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5964a563d42d04_12853314 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html lang="en">
@@ -37,6 +37,12 @@ function content_59644d7c9ac3c0_07781827 (Smarty_Internal_Template $_smarty_tpl)
     <link rel="stylesheet" href="<?php echo CSS_PATH;?>
 /base.css">
     <style>
+        .tts{
+            background: #FF243A;
+            box-shadow: 0 10px 20px 6px rgba(0, 0, 0, 0.1);
+            transform: translateY(-5px);
+        }
+
         html, body {
             width: 100%;
             height: 100%;
@@ -194,6 +200,7 @@ function content_59644d7c9ac3c0_07781827 (Smarty_Internal_Template $_smarty_tpl)
 
         .yiji ul {
             background: #fff;
+            padding:10px 0;
         }
 
         .yiji a {
@@ -201,10 +208,14 @@ function content_59644d7c9ac3c0_07781827 (Smarty_Internal_Template $_smarty_tpl)
             color: #fff;
         }
         .yiji ul li a {
-            width: 100%;
+            width: 90%;
+            height:30px;
             color: #929292;
-            padding: 10px 0;
+            padding:0 10px;
             font-size: 14px;
+            margin:0 auto;
+            margin-top: 5px;
+            line-height:30px;
         }
 
         .yiji ul li .xian {
@@ -267,7 +278,7 @@ function content_59644d7c9ac3c0_07781827 (Smarty_Internal_Template $_smarty_tpl)
                         <a href="index.php?m=admin&f=user&a=add" target="baidu">添加用户</a>
                     </li>
                     <li>
-                        <a href="showCategory.php" target="baidu">查看用户</a>
+                        <a href="index.php?m=admin&f=user&a=show" target="baidu">查看用户</a>
                     </li>
                 </ul>
             </li>
@@ -363,66 +374,37 @@ function content_59644d7c9ac3c0_07781827 (Smarty_Internal_Template $_smarty_tpl)
                     <span>...</span>
                 </div>
             </div>
-            <ul>
+            <ul >
                 <?php if ($_smarty_tpl->tpl_vars['rid']->value == 1) {?>
                 <li class="yiji">
                     <a href="javascript:">
                         <span class="jiazu">用户</span>管理
                         <span class="jiazu">Useruser</span>&nbsp;management
                     </a>
-                    <ul>
+                    <ul class="choose">
                         <li>
                             <a href="index.php?m=admin&f=user&a=add" target="baidu">添加用户 Add user</a>
                         </li>
                         <div class="xian"></div>
                         <li>
-                            <a href="showCategory.php" target="baidu">查看用户 View user</a>
+                            <a href="index.php?m=admin&f=user&a=show" target="baidu">查看用户 View user</a>
                         </li>
                     </ul>
                 </li>
                 <?php }?>
 
-                <li class="yiji">
-                    <a href="javascript:">
-                        <span class="jiazu">会员</span>管理
-                        <span class="jiazu">Member</span>&nbsp;management
-                    </a>
-                    <ul>
-                        <li>
-                            <a href="addCon.php" target="baidu">添加会员 Add member</a>
-                        </li>
-                        <li>
-                            <a href="showCon.php" target="baidu">查看会员 View member</a>
-                        </li>
-                    </ul>
-                </li>
-
-                <li class="yiji">
-                    <a href="javascript:">
-                        <span class="jiazu">角色</span>管理
-                        <span class="jiazu">Rolerole</span>&nbsp;management
-                    </a>
-                    <ul>
-                        <li>
-                            <a href="index.php?m=admin&f=role&a=add" target="baidu">添加角色 Add role</a>
-                        </li>
-                        <li>
-                            <a href="index.php?m=admin&f=role&a=show" target="baidu">查看角色 View role</a>
-                        </li>
-                    </ul>
-                </li>
 
                 <li class="yiji">
                     <a href="javascript:">
                         <span class="jiazu">分类</span>管理
                         <span class="jiazu">Classified</span>&nbsp;management
                     </a>
-                    <ul>
+                    <ul class="choose">
                         <li>
                             <a href="index.php?m=admin&f=category&a=add" target="baidu">添加分类 Add classified</a>
                         </li>
                         <li>
-                            <a href="index.php?m=admin&f=role&a=show" target="baidu">查看分类 View classified</a>
+                            <a href="index.php?m=admin&f=category&a=show" target="baidu">查看分类 View classified</a>
                         </li>
                     </ul>
                 </li>
@@ -432,9 +414,9 @@ function content_59644d7c9ac3c0_07781827 (Smarty_Internal_Template $_smarty_tpl)
                         <span class="jiazu">内容</span>管理
                         <span class="jiazu">Content</span>&nbsp;management
                     </a>
-                    <ul>
+                    <ul class="choose">
                         <li>
-                            <a href="index.php?m=admin&f=lists&a=add" target="baidu">添加内容 Add content</a>
+                            <a href="index.php?m=admin&f=lists&a=add0" target="baidu">添加内容 Add content</a>
                         </li>
                         <li>
                             <a href="index.php?m=admin&f=lists&a=add" target="baidu">查看内容 View content</a>
@@ -447,12 +429,12 @@ function content_59644d7c9ac3c0_07781827 (Smarty_Internal_Template $_smarty_tpl)
                         <span class="jiazu">推荐位</span>管理
                         <span class="jiazu">Position</span>&nbsp;management
                     </a>
-                    <ul>
+                    <ul class="choose">
                         <li>
                             <a href="index.php?m=admin&f=position&a=add" target="baidu">添加位置 Add position</a>
                         </li>
                         <li>
-                            <a href="index.php?m=admin&f=role&a=show" target="baidu">查看位置 View position</a>
+                            <a href="index.php?m=admin&f=position&a=show" target="baidu">查看位置 View position</a>
                         </li>
                     </ul>
                 </li>
@@ -464,5 +446,18 @@ function content_59644d7c9ac3c0_07781827 (Smarty_Internal_Template $_smarty_tpl)
     </div>
 </div>
 </body>
+<?php echo '<script'; ?>
+>
+
+    var lis=$(".choose li a");
+    lis.hover(function () {
+        var index=lis.index(this);
+        lis.eq(index).addClass("tts");
+    }, function () {
+        var index=lis.index(this);
+        lis.eq(index).removeClass("tts");
+    });
+<?php echo '</script'; ?>
+>
 </html><?php }
 }

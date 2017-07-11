@@ -1,0 +1,115 @@
+html,body{
+    width:100%;
+    height:100%;
+    background: #FAFAFA;
+    font-family: "苹方 常规";
+}
+header{
+    width:100%;
+    height:2.08rem;
+    background: url("../img/bj1.png") no-repeat center;
+    background-size: cover;
+    padding-top: 1rem;
+    position: relative;
+}
+.back{
+    width:0.44rem;
+    height:0.44rem;
+    background: url("../img/2.png") no-repeat center;
+    background-size: cover;
+    position: absolute;
+    top:0.83rem;
+    left:0.22rem;
+}
+.stitle{
+    width:3.99rem;
+    height:0.76rem;
+    position: absolute;
+    top:0.7rem;
+    left:0;
+    right:0;
+    margin:auto;
+    font-size: 0.4rem;
+    font-family: 幼圆;
+    /* font-weight: bold; */
+    color: #fff;
+    text-align: center;
+    line-height: 0.76rem;
+}
+.con{
+	width: 100%;
+	height: auto;
+	background: #fafafa;
+}
+.con1,.con2{
+	width: 90%;
+	height: auto;
+	margin: 0 auto;
+}
+#messin{
+	width: 100%;
+	margin-top: 0.2rem;
+}
+.submit{
+	width: 20%;
+	height: 0.5rem;
+	background: url("../img/bj1.png") no-repeat center;
+    background-size: cover;
+    font-size: 0.3rem;
+    text-align: center;
+    line-height: 0.5rem;
+    color:#fff;
+    border-radius: 0.3rem;
+	float: right;
+	margin-top: 0.2rem;
+}
+.con2{
+	margin-top: 1rem;
+}
+.title{
+	width: 100%;
+	overflow: hidden;
+	border-bottom: 0.01rem dashed #ccc;
+	background: #fff;
+	padding: 0.15rem;
+}
+.title .head{
+	width: 0.6rem;
+	height: 0.6rem;
+	border-radius: 50%;
+	float: left;
+	overflow: hidden;
+}
+.title .head img{
+	width: 100%;
+	height: 100%;
+	float: left;
+
+}
+.title .name{
+	font-size: 0.3rem;
+	color: #FF0C76;
+	line-height: 0.6rem;
+	margin-left: 0.2rem;
+	float: left;
+}
+.title .time,.time1{
+	font-size: 0.3rem;
+	color: #FF0C76;
+	line-height: 0.6rem;
+	margin-left: 0.2rem;
+	float: right;
+}
+.mcon{
+	width: 100%;
+	height: auto;
+	background: #fff;
+	padding: 0.15rem 0.2rem 0.15rem 0.2rem;
+}
+.mcon p{
+	width: 100%;
+	height: 0.8rem;
+	font-size: 0.3rem;
+	line-height: 0.8rem;
+	color: #888;
+}

@@ -765,27 +765,28 @@ footer{
     z-index:2;
 }
 .foot{
-    width:80%;
+    width:100%;
     height:100%;
-    margin:0 auto;
+    
     display: flex;
     justify-content: space-around;
 }
 .foot .btn{
-    width:0.94rem;
-    height:100%;
-    /*border-radius: 0.2rem;*/
-    position: relative;
+    width: 0.49rem;
+	height: 0.49rem;
+	margin-top: 0.3rem;
+	cursor: pointer;
+}
+.foot a:nth-child(3) .btn{
+	width: 0.93rem;
+	height: 0.93rem;
+	margin-top: 0.08rem;
 }
 .foot .btn img{
-    width:50%;
-    height:48%;
+    width: 100%;
+    height: 100%;
     position: absolute;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
-    margin:auto;
+   
 }
 .choose{
     width:0.5rem;

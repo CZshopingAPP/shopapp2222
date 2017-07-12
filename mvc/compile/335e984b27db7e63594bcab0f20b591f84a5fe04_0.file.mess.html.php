@@ -1,17 +1,49 @@
+<?php
+/* Smarty version 3.1.30, created on 2017-07-11 05:32:25
+  from "E:\wamp\www\shopapp2222\mvc\template\index\mess.html" */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.30',
+  'unifunc' => 'content_596446c9086777_94006486',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    '335e984b27db7e63594bcab0f20b591f84a5fe04' => 
+    array (
+      0 => 'E:\\wamp\\www\\shopapp2222\\mvc\\template\\index\\mess.html',
+      1 => 1499674234,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_596446c9086777_94006486 (Smarty_Internal_Template $_smarty_tpl) {
+?>
 <!doctype html>
 <html lang="en">
 <head>
     <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
     <meta charset="UTF-8">
     <title>评论详情</title>
-    <link rel="stylesheet" href="{CSS_PATH}/base.css">
-    <link rel="stylesheet" href="{CSS_PATH}/mess.css">
-    <script src="{JS_PATH}/jQuery.js"></script>
-    <script src="{JS_PATH}/rem.js"></script>
+    <link rel="stylesheet" href="<?php echo CSS_PATH;?>
+/base.css">
+    <link rel="stylesheet" href="<?php echo CSS_PATH;?>
+/mess.css">
+    <?php echo '<script'; ?>
+ src="<?php echo JS_PATH;?>
+/jQuery.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ src="<?php echo JS_PATH;?>
+/rem.js"><?php echo '</script'; ?>
+>
 </head>
 <body>
 <header>
-    <a href="index.php?m=index&f=index&a=index1">
+    <a href="#">
         <div class="back"></div>
     </a>
     <div class="stitle"></div>
@@ -45,23 +77,28 @@
     <main>
         <div class="hang">
             <div class="photo">
-                <img src="{IMG_PATH}/touxiang.png" alt="">
+                <img src="<?php echo IMG_PATH;?>
+/touxiang.png" alt="">
             </div>
             <div class="namebox">
                 <div class="name">
                     小酒窝莉莉
                 </div>
                 <div class="xing">
-                    <img src="{IMG_PATH}/wujiaoxing.png" alt="">
+                    <img src="<?php echo IMG_PATH;?>
+/wujiaoxing.png" alt="">
                 </div>
                 <div class="xing">
-                    <img src="{IMG_PATH}/wujiaoxing.png" alt="">
+                    <img src="<?php echo IMG_PATH;?>
+/wujiaoxing.png" alt="">
                 </div>
                 <div class="xing">
-                    <img src="{IMG_PATH}/wujiaoxing.png" alt="">
+                    <img src="<?php echo IMG_PATH;?>
+/wujiaoxing.png" alt="">
                 </div>
                 <div class="xing">
-                    <img src="{IMG_PATH}/wujiaoxing.png" alt="">
+                    <img src="<?php echo IMG_PATH;?>
+/wujiaoxing.png" alt="">
                 </div>
             </div>
             <div class="timebox">
@@ -81,13 +118,16 @@
         </div>
         <div class="tubox">
             <div class="tu">
-                <img src="{IMG_PATH}/tu.png" alt="">
+                <img src="<?php echo IMG_PATH;?>
+/tu.png" alt="">
             </div>
             <div class="tu">
-                <img src="{IMG_PATH}/tu1.png" alt="">
+                <img src="<?php echo IMG_PATH;?>
+/tu1.png" alt="">
             </div>
             <div class="tu">
-                <img src="{IMG_PATH}/tu2.png" alt="">
+                <img src="<?php echo IMG_PATH;?>
+/tu2.png" alt="">
             </div>
         </div>
         <div class="hang2">
@@ -95,10 +135,12 @@
                 浏览107人
             </div>
             <div class="zan">
-                <img src="{IMG_PATH}/pinglun.png" alt="">&nbsp;(1257)
+                <img src="<?php echo IMG_PATH;?>
+/pinglun.png" alt="">&nbsp;(1257)
             </div>
             <div class="zan1">
-                <img src="{IMG_PATH}/zan.png" alt="">&nbsp;(1257)
+                <img src="<?php echo IMG_PATH;?>
+/zan.png" alt="">&nbsp;(1257)
             </div>
 
         </div>
@@ -106,23 +148,28 @@
     <main>
         <div class="hang">
             <div class="photo">
-                <img src="{IMG_PATH}/touxiang.png" alt="">
+                <img src="<?php echo IMG_PATH;?>
+/touxiang.png" alt="">
             </div>
             <div class="namebox">
                 <div class="name">
                     小酒窝莉莉
                 </div>
                 <div class="xing">
-                    <img src="{IMG_PATH}/wujiaoxing.png" alt="">
+                    <img src="<?php echo IMG_PATH;?>
+/wujiaoxing.png" alt="">
                 </div>
                 <div class="xing">
-                    <img src="{IMG_PATH}/wujiaoxing.png" alt="">
+                    <img src="<?php echo IMG_PATH;?>
+/wujiaoxing.png" alt="">
                 </div>
                 <div class="xing">
-                    <img src="{IMG_PATH}/wujiaoxing.png" alt="">
+                    <img src="<?php echo IMG_PATH;?>
+/wujiaoxing.png" alt="">
                 </div>
                 <div class="xing">
-                    <img src="{IMG_PATH}/wujiaoxing.png" alt="">
+                    <img src="<?php echo IMG_PATH;?>
+/wujiaoxing.png" alt="">
                 </div>
             </div>
             <div class="timebox">
@@ -142,13 +189,16 @@
         </div>
         <div class="tubox">
             <div class="tu">
-                <img src="{IMG_PATH}/tu.png" alt="">
+                <img src="<?php echo IMG_PATH;?>
+/tu.png" alt="">
             </div>
             <div class="tu">
-                <img src="{IMG_PATH}/tu1.png" alt="">
+                <img src="<?php echo IMG_PATH;?>
+/tu1.png" alt="">
             </div>
             <div class="tu">
-                <img src="{IMG_PATH}/tu2.png" alt="">
+                <img src="<?php echo IMG_PATH;?>
+/tu2.png" alt="">
             </div>
         </div>
         <div class="hang2">
@@ -156,10 +206,12 @@
                 浏览107人
             </div>
             <div class="zan">
-                <img src="{IMG_PATH}/pinglun.png" alt="">&nbsp;(1257)
+                <img src="<?php echo IMG_PATH;?>
+/pinglun.png" alt="">&nbsp;(1257)
             </div>
             <div class="zan1">
-                <img src="{IMG_PATH}/zan.png" alt="">&nbsp;(1257)
+                <img src="<?php echo IMG_PATH;?>
+/zan.png" alt="">&nbsp;(1257)
             </div>
 
         </div>
@@ -167,23 +219,28 @@
     <main>
         <div class="hang">
             <div class="photo">
-                <img src="{IMG_PATH}/touxiang.png" alt="">
+                <img src="<?php echo IMG_PATH;?>
+/touxiang.png" alt="">
             </div>
             <div class="namebox">
                 <div class="name">
                     小酒窝莉莉
                 </div>
                 <div class="xing">
-                    <img src="{IMG_PATH}/wujiaoxing.png" alt="">
+                    <img src="<?php echo IMG_PATH;?>
+/wujiaoxing.png" alt="">
                 </div>
                 <div class="xing">
-                    <img src="{IMG_PATH}/wujiaoxing.png" alt="">
+                    <img src="<?php echo IMG_PATH;?>
+/wujiaoxing.png" alt="">
                 </div>
                 <div class="xing">
-                    <img src="{IMG_PATH}/wujiaoxing.png" alt="">
+                    <img src="<?php echo IMG_PATH;?>
+/wujiaoxing.png" alt="">
                 </div>
                 <div class="xing">
-                    <img src="{IMG_PATH}/wujiaoxing.png" alt="">
+                    <img src="<?php echo IMG_PATH;?>
+/wujiaoxing.png" alt="">
                 </div>
             </div>
             <div class="timebox">
@@ -203,13 +260,16 @@
         </div>
         <div class="tubox">
             <div class="tu">
-                <img src="{IMG_PATH}/tu.png" alt="">
+                <img src="<?php echo IMG_PATH;?>
+/tu.png" alt="">
             </div>
             <div class="tu">
-                <img src="{IMG_PATH}/tu1.png" alt="">
+                <img src="<?php echo IMG_PATH;?>
+/tu1.png" alt="">
             </div>
             <div class="tu">
-                <img src="{IMG_PATH}/tu2.png" alt="">
+                <img src="<?php echo IMG_PATH;?>
+/tu2.png" alt="">
             </div>
         </div>
         <div class="hang2">
@@ -217,10 +277,12 @@
                 浏览107人
             </div>
             <div class="zan">
-                <img src="{IMG_PATH}/pinglun.png" alt="">&nbsp;(1257)
+                <img src="<?php echo IMG_PATH;?>
+/pinglun.png" alt="">&nbsp;(1257)
             </div>
             <div class="zan1">
-                <img src="{IMG_PATH}/zan.png" alt="">&nbsp;(1257)
+                <img src="<?php echo IMG_PATH;?>
+/zan.png" alt="">&nbsp;(1257)
             </div>
 
         </div>
@@ -228,9 +290,12 @@
 </div>
 
 </body>
-<script>
+<?php echo '<script'; ?>
+>
     $(".back").click(function () {
         history.back(-1);
     })
-</script>
-</html>
+<?php echo '</script'; ?>
+>
+</html><?php }
+}

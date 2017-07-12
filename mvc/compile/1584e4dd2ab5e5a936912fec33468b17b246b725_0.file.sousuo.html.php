@@ -1,13 +1,45 @@
+<?php
+/* Smarty version 3.1.30, created on 2017-07-12 03:31:45
+  from "E:\wamp\www\shopapp2222\mvc\template\index\sousuo.html" */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.30',
+  'unifunc' => 'content_59657c0109ea57_48282752',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    '1584e4dd2ab5e5a936912fec33468b17b246b725' => 
+    array (
+      0 => 'E:\\wamp\\www\\shopapp2222\\mvc\\template\\index\\sousuo.html',
+      1 => 1499823100,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_59657c0109ea57_48282752 (Smarty_Internal_Template $_smarty_tpl) {
+?>
 <!doctype html>
 <html lang="en">
 <head>
     <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
     <meta charset="UTF-8">
     <title>搜索</title>
-    <link rel="stylesheet" href="{CSS_PATH}/suosou.css">
-    <link rel="stylesheet" href="{CSS_PATH}/base.css">
-    <script src="{JS_PATH}/jQuery.js"></script>
-    <script src="{JS_PATH}/rem.js"></script>
+    <link rel="stylesheet" href="<?php echo CSS_PATH;?>
+/suosou.css">
+    <link rel="stylesheet" href="<?php echo CSS_PATH;?>
+/base.css">
+    <?php echo '<script'; ?>
+ src="<?php echo JS_PATH;?>
+/jQuery.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ src="<?php echo JS_PATH;?>
+/rem.js"><?php echo '</script'; ?>
+>
 </head>
 <body>
     <header>
@@ -30,17 +62,20 @@
             <div class="con">
                 <ul>
                     <li>
-                        <img src="{IMG_PATH}/shang.png" alt="">
+                        <img src="<?php echo IMG_PATH;?>
+/shang.png" alt="">
                         <span>CHENSHAN</span>
                         <strong>雪纺衬衫</strong>
                     </li>
                     <li>
-                        <img src="{IMG_PATH}/shang.png" alt="">
+                        <img src="<?php echo IMG_PATH;?>
+/shang.png" alt="">
                         <span>CHENSHAN</span>
                         <strong>雪纺衬衫</strong>
                     </li>
                     <li>
-                        <img src="{IMG_PATH}/shang.png" alt="">
+                        <img src="<?php echo IMG_PATH;?>
+/shang.png" alt="">
                         <span>CHENSHAN</span>
                         <strong>雪纺衬衫</strong>
                     </li>
@@ -87,12 +122,17 @@
             <div class="con2">
                 <div class="con2-left">
                     <div class="ct">
-                        <img src="{IMG_PATH}/st2.png" alt="" class="tu">
+                        <img src="<?php echo IMG_PATH;?>
+/st2.png" alt="" class="tu">
                         <span>
-                            <img src="{IMG_PATH}/xx.png" alt="">
-                            <img src="{IMG_PATH}/xx.png" alt="">
-                            <img src="{IMG_PATH}/xx.png" alt="">
-                            <img src="{IMG_PATH}/xx.png" alt="">
+                            <img src="<?php echo IMG_PATH;?>
+/xx.png" alt="">
+                            <img src="<?php echo IMG_PATH;?>
+/xx.png" alt="">
+                            <img src="<?php echo IMG_PATH;?>
+/xx.png" alt="">
+                            <img src="<?php echo IMG_PATH;?>
+/xx.png" alt="">
                             <em>7.9分</em>
                         </span>
                     </div>
@@ -103,20 +143,27 @@
                         <div class="cb2">
                             <span class="cb2zi">SGUCASHALADFS</span>
                             <span class="cb2zi1">210.00RMB</span>
-                            <img src="{IMG_PATH}/xing2.png" alt="">
+                            <img src="<?php echo IMG_PATH;?>
+/xing2.png" alt="">
                         </div>
                     </div>
                 </div>
                 <div class="cfu"></div>
-                <img src="{IMG_PATH}/suosou1.png" alt="" class="t">
+                <img src="<?php echo IMG_PATH;?>
+/suosou1.png" alt="" class="t">
                 <div class="con2-right">
                     <div class="ct">
-                        <img src="{IMG_PATH}/st3.png" alt="" class="tu">
+                        <img src="<?php echo IMG_PATH;?>
+/st3.png" alt="" class="tu">
                         <span>
-                            <img src="{IMG_PATH}/xx.png" alt="">
-                            <img src="{IMG_PATH}/xx.png" alt="">
-                            <img src="{IMG_PATH}/xx.png" alt="">
-                            <img src="{IMG_PATH}/xx.png" alt="">
+                            <img src="<?php echo IMG_PATH;?>
+/xx.png" alt="">
+                            <img src="<?php echo IMG_PATH;?>
+/xx.png" alt="">
+                            <img src="<?php echo IMG_PATH;?>
+/xx.png" alt="">
+                            <img src="<?php echo IMG_PATH;?>
+/xx.png" alt="">
                             <em>7.9分</em>
                         </span>
                     </div>
@@ -127,12 +174,14 @@
                         <div class="cb2">
                             <span class="cb2zi">SGUCASHALADFS</span>
                             <span class="cb2zi1">210.00RMB</span>
-                            <img src="{IMG_PATH}/xing2.png" alt="">
+                            <img src="<?php echo IMG_PATH;?>
+/xing2.png" alt="">
                         </div>
                     </div>
                 </div>
                 <div class="cfu1"></div>
-                <img src="{IMG_PATH}/suosou1.png" alt="" class="t1">
+                <img src="<?php echo IMG_PATH;?>
+/suosou1.png" alt="" class="t1">
             </div>
             <div class="st">
                 <span class="szi1">SELECT SPECLAL</span>
@@ -141,12 +190,17 @@
             <div class="con2">
                 <div class="con2-left">
                     <div class="ct">
-                        <img src="{IMG_PATH}/st2.png" alt="" class="tu">
+                        <img src="<?php echo IMG_PATH;?>
+/st2.png" alt="" class="tu">
                         <span>
-                            <img src="{IMG_PATH}/xx.png" alt="">
-                            <img src="{IMG_PATH}/xx.png" alt="">
-                            <img src="{IMG_PATH}/xx.png" alt="">
-                            <img src="{IMG_PATH}/xx.png" alt="">
+                            <img src="<?php echo IMG_PATH;?>
+/xx.png" alt="">
+                            <img src="<?php echo IMG_PATH;?>
+/xx.png" alt="">
+                            <img src="<?php echo IMG_PATH;?>
+/xx.png" alt="">
+                            <img src="<?php echo IMG_PATH;?>
+/xx.png" alt="">
                             <em>7.9分</em>
                         </span>
                     </div>
@@ -157,20 +211,27 @@
                         <div class="cb2">
                             <span class="cb2zi">SGUCASHALADFS</span>
                             <span class="cb2zi1">210.00RMB</span>
-                            <img src="{IMG_PATH}/xing2.png" alt="">
+                            <img src="<?php echo IMG_PATH;?>
+/xing2.png" alt="">
                         </div>
                     </div>
                 </div>
                 <div class="cfu"></div>
-                <img src="{IMG_PATH}/suosou1.png" alt="" class="t">
+                <img src="<?php echo IMG_PATH;?>
+/suosou1.png" alt="" class="t">
                 <div class="con2-right">
                     <div class="ct">
-                        <img src="{IMG_PATH}/st3.png" alt="" class="tu">
+                        <img src="<?php echo IMG_PATH;?>
+/st3.png" alt="" class="tu">
                         <span>
-                            <img src="{IMG_PATH}/xx.png" alt="">
-                            <img src="{IMG_PATH}/xx.png" alt="">
-                            <img src="{IMG_PATH}/xx.png" alt="">
-                            <img src="{IMG_PATH}/xx.png" alt="">
+                            <img src="<?php echo IMG_PATH;?>
+/xx.png" alt="">
+                            <img src="<?php echo IMG_PATH;?>
+/xx.png" alt="">
+                            <img src="<?php echo IMG_PATH;?>
+/xx.png" alt="">
+                            <img src="<?php echo IMG_PATH;?>
+/xx.png" alt="">
                             <em>7.9分</em>
                         </span>
                     </div>
@@ -181,19 +242,24 @@
                         <div class="cb2">
                             <span class="cb2zi">SGUCASHALADFS</span>
                             <span class="cb2zi1">210.00RMB</span>
-                            <img src="{IMG_PATH}/xing2.png" alt="">
+                            <img src="<?php echo IMG_PATH;?>
+/xing2.png" alt="">
                         </div>
                     </div>
                 </div>
                 <div class="cfu1"></div>
-                <img src="{IMG_PATH}/suosou1.png" alt="" class="t1">
+                <img src="<?php echo IMG_PATH;?>
+/suosou1.png" alt="" class="t1">
             </div>
         </div>
     </div>
 </body>
-<script>
+<?php echo '<script'; ?>
+>
     $(".back").click(function () {
         history.back(-1);
     })
-</script>
-</html>
+<?php echo '</script'; ?>
+>
+</html><?php }
+}

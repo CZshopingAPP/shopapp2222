@@ -21,9 +21,6 @@ class lists extends main{
     }
 
 
-
-
-
     function add(){
         $db=new db("lists");
 

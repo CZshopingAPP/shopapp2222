@@ -1,18 +1,30 @@
 <?php
+<<<<<<< HEAD
+/* Smarty version 3.1.30, created on 2017-07-12 03:53:31
+=======
 /* Smarty version 3.1.30, created on 2017-07-12 03:37:25
+>>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
   from "E:\wamp\www\shopapp2222\mvc\template\index\index.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
+<<<<<<< HEAD
+  'unifunc' => 'content_5965811b6981a6_93999446',
+=======
   'unifunc' => 'content_59657d5559f631_68122571',
+>>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'c1219fab9d1e15097ae6f7bc9917ec9db450ba20' => 
     array (
       0 => 'E:\\wamp\\www\\shopapp2222\\mvc\\template\\index\\index.html',
+<<<<<<< HEAD
+      1 => 1499824410,
+=======
       1 => 1499823445,
+>>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
       2 => 'file',
     ),
   ),
@@ -20,7 +32,11 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
+<<<<<<< HEAD
+function content_5965811b6981a6_93999446 (Smarty_Internal_Template $_smarty_tpl) {
+=======
 function content_59657d5559f631_68122571 (Smarty_Internal_Template $_smarty_tpl) {
+>>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
 ?>
 <!doctype html>
 <html lang="en">
@@ -39,6 +55,16 @@ function content_59657d5559f631_68122571 (Smarty_Internal_Template $_smarty_tpl)
 /rem.js"><?php echo '</script'; ?>
 >
     <style>
+<<<<<<< HEAD
+        #111{
+            position: fixed;
+            left:0;
+            bottom:-0.02rem !important;
+        }
+        .swiper-pagination-bullet-active{
+            opacity: 1;
+            background: #fe158e;
+=======
         .foot .btn{
             width:0.94rem;
             height:100%;
@@ -59,6 +85,7 @@ function content_59657d5559f631_68122571 (Smarty_Internal_Template $_smarty_tpl)
             left:0;
             right:0;
             margin:auto;
+>>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
         }
     </style>
 </head>
@@ -79,6 +106,10 @@ function content_59657d5559f631_68122571 (Smarty_Internal_Template $_smarty_tpl)
             <img src="<?php echo IMG_PATH;?>
 /huatong.png" alt="" class="t1">
         </div>
+<<<<<<< HEAD
+        <div class="hjy-banner swiper-container">
+            <div class="swiper-pagination" id="111"></div>
+=======
         <ul class="hjy-dian">
             <li></li>
             <li></li>
@@ -87,6 +118,7 @@ function content_59657d5559f631_68122571 (Smarty_Internal_Template $_smarty_tpl)
             <li></li>
         </ul>
         <div class="hjy-banner swiper-container">
+>>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <img src="<?php echo IMG_PATH;?>
@@ -152,13 +184,21 @@ function content_59657d5559f631_68122571 (Smarty_Internal_Template $_smarty_tpl)
             <div class="hjy-con">
                 <ul>
                     <li>
+<<<<<<< HEAD
+                        <a href="index.php?m=index&index&a=luntan">
+=======
                         <a href="index.php?m=index&f=luntan">
+>>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
                             <img src="<?php echo IMG_PATH;?>
 /luntan.png" alt="">
                         </a>
                     </li>
                     <li>
+<<<<<<< HEAD
+                        <a href="index.php?m=index&index&a=sousuo">
+=======
                         <a href="index.php?m=index&f=sousuo">
+>>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
                         <img src="<?php echo IMG_PATH;?>
 /zhibo.png" alt="">
                         </a>
@@ -168,10 +208,15 @@ function content_59657d5559f631_68122571 (Smarty_Internal_Template $_smarty_tpl)
 /qianbao.png" alt="">
                     </li>
                     <li>
+<<<<<<< HEAD
+                        <img src="<?php echo IMG_PATH;?>
+/geren.png" alt="">
+=======
                         <a href="index.php?m=index&f=member">
                         <img src="<?php echo IMG_PATH;?>
 /geren.png" alt="">
                         </a>
+>>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
                     </li>
                 </ul>
             </div>
@@ -422,7 +467,11 @@ function content_59657d5559f631_68122571 (Smarty_Internal_Template $_smarty_tpl)
             </div>
             <div class="lo">
                 <div class="lo-l">
+<<<<<<< HEAD
+                    <a href="index.php?m=index&index&a=detils">
+=======
                     <a href="index.php?m=index&f=detils">
+>>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
                         <img src="<?php echo IMG_PATH;?>
 /l.png" alt="">
                     </a>
@@ -463,7 +512,11 @@ function content_59657d5559f631_68122571 (Smarty_Internal_Template $_smarty_tpl)
             </div>
             <div class="lo">
                 <div class="lo-l">
+<<<<<<< HEAD
+                    <a href="index.php?m=index&index&a=detils">
+=======
                     <a href="index.php?m=index&f=detils">
+>>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
                     <img src="<?php echo IMG_PATH;?>
 /l.png" alt="">
                     </a>
@@ -507,6 +560,38 @@ function content_59657d5559f631_68122571 (Smarty_Internal_Template $_smarty_tpl)
     </div>
     <footer>
         <div class="foot">
+<<<<<<< HEAD
+            <a href="index.php?m=index&f=index&a=index1"><div class="btn">
+                <img src="<?php echo IMG_PATH;?>
+/zx2.png" alt="">
+                <div class="choose tts"></div>
+            </div>
+            </a>
+            <a href="#"><div class="btn">
+                <img src="<?php echo IMG_PATH;?>
+/zx3.png" alt="">
+                <div class="choose"></div>
+            </div>
+            </a>
+            <a href="#"><div class="btn">
+                <img src="<?php echo IMG_PATH;?>
+/zx1.png" alt="">
+                <div class="choose"></div>
+            </div>
+            </a>
+             <a href="#"><div class="btn">
+                <img src="<?php echo IMG_PATH;?>
+/zx4.png" alt="">
+                <div class="choose"></div>
+            </div>
+            </a>
+             <a href="index.php?m=index&f=index&a=member"><div class="btn">
+                <img src="<?php echo IMG_PATH;?>
+/zx5.png" alt="">
+                <div class="choose"></div>
+            </div>
+            </a>
+=======
             <a href="index.php?m=index&f=index&a=index1">
                 <div class="btn">
                     <img src="<?php echo IMG_PATH;?>
@@ -542,6 +627,7 @@ function content_59657d5559f631_68122571 (Smarty_Internal_Template $_smarty_tpl)
                     <div class="choose"></div>
                  </a>
             </div>
+>>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
         </div>
     </footer>
 </body>
@@ -559,6 +645,13 @@ function content_59657d5559f631_68122571 (Smarty_Internal_Template $_smarty_tpl)
         var mySwiper = new Swiper('.swiper-container',{
             autoplay : 2000,//可选选项，自动滑动
             loop : true,//可选选项，开启循环
+<<<<<<< HEAD
+            pagination : '.swiper-pagination',
+            paginationClickable :true,
+            autoplayDisableOnInteraction: false,
+            mousewheelControl: true
+        });
+=======
             pagination : '.pagination',
             paginationClickable :true,
             autoplayDisableOnInteraction: false,
@@ -573,6 +666,7 @@ function content_59657d5559f631_68122571 (Smarty_Internal_Template $_smarty_tpl)
             e.preventDefault();
             mySwiper.swipeNext()
         })
+>>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
     })
 
 <?php echo '</script'; ?>

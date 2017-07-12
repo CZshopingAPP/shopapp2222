@@ -9,6 +9,16 @@
     <link rel="stylesheet" href="{CSS_PATH}/swiper.min.css">
     <script src="{JS_PATH}/rem.js"></script>
     <style>
+<<<<<<< HEAD
+        #111{
+            position: fixed;
+            left:0;
+            bottom:-0.02rem !important;
+        }
+        .swiper-pagination-bullet-active{
+            opacity: 1;
+            background: #fe158e;
+=======
         .foot .btn{
             width:0.94rem;
             height:100%;
@@ -29,6 +39,7 @@
             left:0;
             right:0;
             margin:auto;
+>>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
         }
     </style>
 </head>
@@ -45,14 +56,8 @@
             <img src="{IMG_PATH}/po.png" alt="" class="t">
             <img src="{IMG_PATH}/huatong.png" alt="" class="t1">
         </div>
-        <ul class="hjy-dian">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
         <div class="hjy-banner swiper-container">
+            <div class="swiper-pagination" id="111"></div>
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <img src="{IMG_PATH}/banner.png" alt="">
@@ -460,20 +465,11 @@
         var mySwiper = new Swiper('.swiper-container',{
             autoplay : 2000,//可选选项，自动滑动
             loop : true,//可选选项，开启循环
-            pagination : '.pagination',
+            pagination : '.swiper-pagination',
             paginationClickable :true,
             autoplayDisableOnInteraction: false,
             mousewheelControl: true
-
         });
-        $('.arrow-left').on('click', function(e){
-            e.preventDefault();
-            mySwiper.swipePrev()
-        });
-        $('.arrow-right').on('click', function(e) {
-            e.preventDefault();
-            mySwiper.swipeNext()
-        })
     })
 
 </script>

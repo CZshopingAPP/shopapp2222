@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-11 12:40:33
+/* Smarty version 3.1.30, created on 2017-07-12 03:56:49
   from "E:\wampserve\wamp\www\shopapp2222\mvc\template\admin\addcon.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5964ab21392bc8_56024027',
+  'unifunc' => 'content_596581e15df014_99091997',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '616ec2fb4c559d47ca0f582f7602bb51d2c5d25e' => 
     array (
       0 => 'E:\\wampserve\\wamp\\www\\shopapp2222\\mvc\\template\\admin\\addcon.html',
-      1 => 1499769630,
+      1 => 1499824594,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5964ab21392bc8_56024027 (Smarty_Internal_Template $_smarty_tpl) {
+function content_596581e15df014_99091997 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html lang="en">
@@ -40,30 +40,37 @@ function content_5964ab21392bc8_56024027 (Smarty_Internal_Template $_smarty_tpl)
         .form-control{
             width: 50%;
         }
+        textarea{
+            border-radius: 0.6rem;
+        }
     </style>
 </head>
 <body>
-<form action="" method="post" class="">
+<form action="index.php?m=admin&f=lists&a=add1" method="post" class="">
 
     <div class="form-group">
-        <label >所属话题</label>
-        <input type="text" name="cid" value=""  class="form-control">
+        <select name="cid"  class="form-control">
+            <option value="0">
+                --一级分类--
+            </option>
+            <?php echo $_smarty_tpl->tpl_vars['str']->value;?>
+
+        </select>
     </div>
+
 
     <div class="form-group">
         <label >标题</label>
-        <input type="text" class="form-control"  name="stitle" value="">
+        <input type="text" class="form-control"  name="stitle" >
     </div>
     <div class="form-group">
         <label >关键词</label>
-        <input type="text"  class="form-control" name="keywords" value="">
+        <input type="text"  class="form-control" name="keywords" >
     </div>
+
     <div class="form-group">
-        <label >作者</label>
-        <input type="text"   class="form-control" name="mname" value="">
-    </div>
-    <div class="form-group">
-        <textarea name="scon" id="" cols="50" rows="10"></textarea>
+        <label style="display: block;">内容详情</label>
+        <textarea name="scon" id="" cols="72" rows="10"></textarea>
     </div>
     <div class="form-group uploadbox">
 

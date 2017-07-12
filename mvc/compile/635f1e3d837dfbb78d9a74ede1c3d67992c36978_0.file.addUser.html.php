@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-11 04:31:21
+/* Smarty version 3.1.30, created on 2017-07-12 05:48:30
   from "E:\wampserve\wamp\www\shopapp2222\mvc\template\admin\addUser.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_596438791b1637_37096527',
+  'unifunc' => 'content_59659c0e5e5368_12153964',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '635f1e3d837dfbb78d9a74ede1c3d67992c36978' => 
     array (
       0 => 'E:\\wampserve\\wamp\\www\\shopapp2222\\mvc\\template\\admin\\addUser.html',
-      1 => 1498704262,
+      1 => 1499831305,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_596438791b1637_37096527 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59659c0e5e5368_12153964 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html lang="en">
@@ -48,7 +48,7 @@ function content_596438791b1637_37096527 (Smarty_Internal_Template $_smarty_tpl)
     <div class="form-group">
         <label for="inputEmail3" class="col-sm-2 control-label" name="rid">选择角色</label>
         <div class="col-sm-10">
-            <select name="rid" id="" class="form-control">
+            <select name="mrole" id="" class="form-control">
                 <option value="">
                     --选择角色--
                 </option>
@@ -75,20 +75,20 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl);
     <div class="form-group">
         <label for="inputEmail3" class="col-sm-2 control-label">用户名</label>
         <div class="col-sm-10">
-            <input type="text" class="form-control" id="inputEmail3" placeholder="username" name="uname">
+            <input type="text" class="form-control" id="inputEmail3" placeholder="username" name="mname">
         </div>
     </div>
     <div class="form-group">
         <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
         <div class="col-sm-10">
-            <input type="password" class="form-control" id="inputPassword3" placeholder="Password" name="upass">
+            <input type="password" class="form-control" id="inputPassword3" placeholder="Password" name="mpass">
         </div>
     </div>
 
     <div class="form-group">
         <label for="inputPassword3" class="col-sm-2 control-label">昵称</label>
         <div class="col-sm-10">
-            <input type="text" class="form-control" id="inputPassword3" placeholder="昵称" name="nichen">
+            <input type="text" class="form-control" id="inputPassword3" placeholder="昵称" name="nicheng">
         </div>
     </div>
     <div class="form-group">

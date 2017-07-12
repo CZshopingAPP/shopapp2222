@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-12 03:56:49
+/* Smarty version 3.1.30, created on 2017-07-12 04:45:49
   from "E:\wampserve\wamp\www\shopapp2222\mvc\template\admin\addcon.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_596581e15df014_99091997',
+  'unifunc' => 'content_59658d5d1c1427_01520377',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '616ec2fb4c559d47ca0f582f7602bb51d2c5d25e' => 
     array (
       0 => 'E:\\wampserve\\wamp\\www\\shopapp2222\\mvc\\template\\admin\\addcon.html',
-      1 => 1499824594,
+      1 => 1499827546,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_596581e15df014_99091997 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59658d5d1c1427_01520377 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html lang="en">
@@ -77,8 +77,10 @@ function content_596581e15df014_99091997 (Smarty_Internal_Template $_smarty_tpl)
         <label for="">图片</label>
 
         <div class="uploadBox">
-            <img class="simage" src="" alt="">
+            <img class="" src="" alt="">
+            <input type="hidden" name="simage" class="simage">
         </div>
+
 
     </div>
 
@@ -96,7 +98,7 @@ function content_596581e15df014_99091997 (Smarty_Internal_Template $_smarty_tpl)
     obj.createView({
         parent:document.querySelector(".uploadBox")
     })
-    obj.up("index.php?m=admin&f=category&a=upload",function (data) {
+    obj.up("index.php?m=admin&f=lists&a=upload",function (data) {
         document.querySelector(".simage").value=data;
     });
 <?php echo '</script'; ?>

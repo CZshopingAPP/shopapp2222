@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-10 10:23:21
+/* Smarty version 3.1.30, created on 2017-07-12 05:03:42
   from "E:\wampserve\wamp\www\shopapp2222\mvc\template\index\luntan.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_59633979626a81_97901815',
+  'unifunc' => 'content_5965918e035d50_73222126',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'ababfb10eb7651e8a3aa882594a2fdc934de44f3' => 
     array (
       0 => 'E:\\wampserve\\wamp\\www\\shopapp2222\\mvc\\template\\index\\luntan.html',
-      1 => 1499673869,
+      1 => 1499825210,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_59633979626a81_97901815 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5965918e035d50_73222126 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html lang="en">
@@ -40,7 +40,7 @@ function content_59633979626a81_97901815 (Smarty_Internal_Template $_smarty_tpl)
 </head>
 <body>
     <header>
-        <a href="index.html">
+        <a href="index.php?m=index&f=index&a=index1">
             <div class="hjy-sao"></div>
         </a>
         <div class="hjy-head">
@@ -117,8 +117,10 @@ function content_59633979626a81_97901815 (Smarty_Internal_Template $_smarty_tpl)
                         <span>浏览量1235人</span>
                         <img src="<?php echo IMG_PATH;?>
 /zan.png" alt="" class="tu">
+                        <a href="index.php?m=index&f=message&a=liuyan">
                         <img src="<?php echo IMG_PATH;?>
 /mess.png" alt="" class="tu1">
+                        </a>
                     </div>
                     <div class="ms4">
                         <img src="<?php echo IMG_PATH;?>
@@ -165,8 +167,10 @@ function content_59633979626a81_97901815 (Smarty_Internal_Template $_smarty_tpl)
                         <span>浏览量1235人</span>
                         <img src="<?php echo IMG_PATH;?>
 /zan.png" alt="" class="tu">
+                        <a href="index.php?m=index&f=message&a=liuyan">
                         <img src="<?php echo IMG_PATH;?>
 /mess.png" alt="" class="tu1">
+                        </a>
                     </div>
                     <div class="ms4">
                         <img src="<?php echo IMG_PATH;?>
@@ -213,8 +217,10 @@ function content_59633979626a81_97901815 (Smarty_Internal_Template $_smarty_tpl)
                         <span>浏览量1235人</span>
                         <img src="<?php echo IMG_PATH;?>
 /zan.png" alt="" class="tu">
+                        <a href="index.php?m=index&f=message&a=liuyan">
                         <img src="<?php echo IMG_PATH;?>
 /mess.png" alt="" class="tu1">
+                        </a>
                     </div>
                     <div class="ms4">
                         <img src="<?php echo IMG_PATH;?>

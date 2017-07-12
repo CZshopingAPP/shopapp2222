@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-11 10:24:54
+/* Smarty version 3.1.30, created on 2017-07-12 09:29:32
   from "E:\wampserve\wamp\www\shopapp2222\mvc\template\admin\showUser.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_59648b56b31c33_91833542',
+  'unifunc' => 'content_5965cfdcadc042_81341922',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '77ea1da3cd15310c5122e6f7157691a118d7051c' => 
     array (
       0 => 'E:\\wampserve\\wamp\\www\\shopapp2222\\mvc\\template\\admin\\showUser.html',
-      1 => 1499757724,
+      1 => 1499844569,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_59648b56b31c33_91833542 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5965cfdcadc042_81341922 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html lang="en">
@@ -36,7 +36,7 @@ function content_59648b56b31c33_91833542 (Smarty_Internal_Template $_smarty_tpl)
 <body>
 <table class="table table-striped">
     <tr>
-        <th>id</th>
+        <th>mid</th>
         <th>用户名</th>
         <th>昵称</th>
         <th>角色</th>

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-11 12:37:10
+/* Smarty version 3.1.30, created on 2017-07-12 15:15:45
   from "E:\wampserve\wamp\www\shopapp2222\mvc\template\admin\showcategory.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5964aa566ef1a3_56605589',
+  'unifunc' => 'content_59662101d9b3f0_05273166',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'd6d17a81a65d4258b2d21d4f60a1d01415d33562' => 
     array (
       0 => 'E:\\wampserve\\wamp\\www\\shopapp2222\\mvc\\template\\admin\\showcategory.html',
-      1 => 1499769429,
+      1 => 1499865342,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5964aa566ef1a3_56605589 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59662101d9b3f0_05273166 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html lang="en">
@@ -55,10 +55,10 @@ foreach ($_from as $_smarty_tpl->tpl_vars['v']->value) {
 
         </td>
         <td>
-            <a href="index.php?m=admin&f=category&a=position&mid=<?php echo $_smarty_tpl->tpl_vars['v']->value['cid'];?>
+            <a href="index.php?m=admin&f=category&a=del&cid=<?php echo $_smarty_tpl->tpl_vars['v']->value['cid'];?>
 ">删除</a>
 
-            <a href="index.php?m=admin&f=category&a=edit&mid=<?php echo $_smarty_tpl->tpl_vars['v']->value['cid'];?>
+            <a href="index.php?m=admin&f=category&a=edit&cid=<?php echo $_smarty_tpl->tpl_vars['v']->value['cid'];?>
 ">编辑</a>
         </td>
     </tr>

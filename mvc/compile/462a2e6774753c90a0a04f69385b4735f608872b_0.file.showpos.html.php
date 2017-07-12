@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-12 02:43:12
+/* Smarty version 3.1.30, created on 2017-07-12 15:26:04
   from "E:\wampserve\wamp\www\shopapp2222\mvc\template\admin\showpos.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_596570a0317f98_15443450',
+  'unifunc' => 'content_5966236c58cdd5_82815060',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '462a2e6774753c90a0a04f69385b4735f608872b' => 
     array (
       0 => 'E:\\wampserve\\wamp\\www\\shopapp2222\\mvc\\template\\admin\\showpos.html',
-      1 => 1499769350,
+      1 => 1499865960,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_596570a0317f98_15443450 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5966236c58cdd5_82815060 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html lang="en">
@@ -55,10 +55,10 @@ foreach ($_from as $_smarty_tpl->tpl_vars['v']->value) {
 
         </td>
         <td>
-            <a href="index.php?m=admin&f=position&a=position&mid=<?php echo $_smarty_tpl->tpl_vars['v']->value['posid'];?>
+            <a href="index.php?m=admin&f=position&a=del&posid=<?php echo $_smarty_tpl->tpl_vars['v']->value['posid'];?>
 ">删除</a>
 
-            <a href="index.php?m=admin&f=position&a=edit&mid=<?php echo $_smarty_tpl->tpl_vars['v']->value['posid'];?>
+            <a href="index.php?m=admin&f=position&a=edit&posid=<?php echo $_smarty_tpl->tpl_vars['v']->value['posid'];?>
 ">编辑</a>
         </td>
     </tr>

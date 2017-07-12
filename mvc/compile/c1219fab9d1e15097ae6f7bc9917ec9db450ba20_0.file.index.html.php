@@ -1,19 +1,27 @@
 <?php
 <<<<<<< HEAD
+/* Smarty version 3.1.30, created on 2017-07-12 04:21:05
+=======
+<<<<<<< HEAD
 /* Smarty version 3.1.30, created on 2017-07-12 03:53:31
 =======
 /* Smarty version 3.1.30, created on 2017-07-12 03:37:25
 >>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
+>>>>>>> f3415ad7a80b92a5fa1cc708fef4e7511adda8a7
   from "E:\wamp\www\shopapp2222\mvc\template\index\index.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
 <<<<<<< HEAD
+  'unifunc' => 'content_59658791504ad8_13163934',
+=======
+<<<<<<< HEAD
   'unifunc' => 'content_5965811b6981a6_93999446',
 =======
   'unifunc' => 'content_59657d5559f631_68122571',
 >>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
+>>>>>>> f3415ad7a80b92a5fa1cc708fef4e7511adda8a7
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,10 +29,14 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     array (
       0 => 'E:\\wamp\\www\\shopapp2222\\mvc\\template\\index\\index.html',
 <<<<<<< HEAD
+      1 => 1499826064,
+=======
+<<<<<<< HEAD
       1 => 1499824410,
 =======
       1 => 1499823445,
 >>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
+>>>>>>> f3415ad7a80b92a5fa1cc708fef4e7511adda8a7
       2 => 'file',
     ),
   ),
@@ -33,10 +45,14 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   ),
 ),false)) {
 <<<<<<< HEAD
+function content_59658791504ad8_13163934 (Smarty_Internal_Template $_smarty_tpl) {
+=======
+<<<<<<< HEAD
 function content_5965811b6981a6_93999446 (Smarty_Internal_Template $_smarty_tpl) {
 =======
 function content_59657d5559f631_68122571 (Smarty_Internal_Template $_smarty_tpl) {
 >>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
+>>>>>>> f3415ad7a80b92a5fa1cc708fef4e7511adda8a7
 ?>
 <!doctype html>
 <html lang="en">
@@ -56,6 +72,11 @@ function content_59657d5559f631_68122571 (Smarty_Internal_Template $_smarty_tpl)
 >
     <style>
 <<<<<<< HEAD
+        .foot .btn {
+            width: 1rem;
+            height: 100%;
+=======
+<<<<<<< HEAD
         #111{
             position: fixed;
             left:0;
@@ -68,43 +89,68 @@ function content_59657d5559f631_68122571 (Smarty_Internal_Template $_smarty_tpl)
         .foot .btn{
             width:0.94rem;
             height:100%;
+>>>>>>> f3415ad7a80b92a5fa1cc708fef4e7511adda8a7
             /*border-radius: 0.2rem;*/
             position: relative;
             margin-top: 0;
         }
-        .foot .btn .btu{
-            width:60%;
-            height:60%;
+
+        .foot .btn .btu {
+            width: 60%;
+            height: 60%;
         }
-        .foot .btn img{
-            width:50%;
-            height:48%;
+
+        .foot .btn img {
+            width: 48%;
+            height: 48%;
             position: absolute;
+<<<<<<< HEAD
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+=======
             top:0;
             bottom:0;
             left:0;
             right:0;
             margin:auto;
 >>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
+>>>>>>> f3415ad7a80b92a5fa1cc708fef4e7511adda8a7
         }
     </style>
 </head>
 <body>
-    <header>
-        <div class="hjy-sao"></div>
-        <div class="hjy-head">
-            <img src="<?php echo IMG_PATH;?>
+<header>
+    <div class="hjy-sao"></div>
+    <div class="hjy-head">
+        <img src="<?php echo IMG_PATH;?>
 /03.png" alt="">
-        </div>
-        <div class="hjy-ms"></div>
-        <div class="hjy-i">
-            <input type="text" class="hjy-in" placeholder="Search ur Cloth....">
-            <img src="<?php echo IMG_PATH;?>
+    </div>
+    <div class="hjy-ms"></div>
+    <div class="hjy-i">
+        <input type="text" class="hjy-in" placeholder="Search ur Cloth....">
+        <img src="<?php echo IMG_PATH;?>
 /dian.png" alt="" class="t2">
-            <img src="<?php echo IMG_PATH;?>
+        <img src="<?php echo IMG_PATH;?>
 /po.png" alt="" class="t">
-            <img src="<?php echo IMG_PATH;?>
+        <img src="<?php echo IMG_PATH;?>
 /huatong.png" alt="" class="t1">
+<<<<<<< HEAD
+    </div>
+    <ul class="hjy-dian">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    <div class="hjy-banner swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="<?php echo IMG_PATH;?>
+=======
         </div>
 <<<<<<< HEAD
         <div class="hjy-banner swiper-container">
@@ -122,60 +168,78 @@ function content_59657d5559f631_68122571 (Smarty_Internal_Template $_smarty_tpl)
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <img src="<?php echo IMG_PATH;?>
+>>>>>>> f3415ad7a80b92a5fa1cc708fef4e7511adda8a7
 /banner.png" alt="">
-                </div>
-                <div class="swiper-slide">
-                    <img src="<?php echo IMG_PATH;?>
-/banner.png" alt="">
-                </div>
-                <div class="swiper-slide">
-                    <img src="<?php echo IMG_PATH;?>
-/banner.png" alt="">
-                </div>
-                <div class="swiper-slide">
-                    <img src="<?php echo IMG_PATH;?>
-/banner.png" alt="">
-                </div>
-                <div class="swiper-slide">
-                    <img src="<?php echo IMG_PATH;?>
-/banner.png" alt="">
-                </div>
             </div>
-            <div class="swiper-pagination"></div>
+            <div class="swiper-slide">
+                <img src="<?php echo IMG_PATH;?>
+/banner.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="<?php echo IMG_PATH;?>
+/banner.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="<?php echo IMG_PATH;?>
+/banner.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="<?php echo IMG_PATH;?>
+/banner.png" alt="">
+            </div>
         </div>
-        <div class="hjy-title">
-            <div class="top">
-                <div class="tleft">
-                    <span>ATRIBUTE&nbsp&nbsp&nbspTOXXI</span>
-                    <i>拍照试衣选择最合适的...</i>
-                </div>
-                <div class="tright">
-                    <i>25335</i>
-                    <img src="<?php echo IMG_PATH;?>
+        <div class="swiper-pagination"></div>
+    </div>
+    <div class="hjy-title">
+        <div class="top">
+            <div class="tleft">
+                <span>ATRIBUTE&nbsp&nbsp&nbspTOXXI</span>
+                <i>拍照试衣选择最合适的...</i>
+            </div>
+            <div class="tright">
+                <i>25335</i>
+                <img src="<?php echo IMG_PATH;?>
 /15.png" alt="">
-                </div>
-            </div>
-            <div class="bottom">
-                <div class="bleft">
-                    <img src="<?php echo IMG_PATH;?>
-/banner.png" alt="">
-                    <span>JIM.GREEN</span>
-                    <em>纽约设计大师</em>
-                </div>
-                <div class="bright">
-                    <img src="<?php echo IMG_PATH;?>
-/19.png" alt="">
-                    <span>1:10</span>
-                </div>
-                <div class="b1">
-                    <img src="<?php echo IMG_PATH;?>
-/22.png" alt="">
-                    <span>11540</span>
-                </div>
             </div>
         </div>
-        <div class="hjy-title1">
+        <div class="bottom">
+            <div class="bleft">
+                <img src="<?php echo IMG_PATH;?>
+/banner.png" alt="">
+                <span>JIM.GREEN</span>
+                <em>纽约设计大师</em>
+            </div>
+            <div class="bright">
+                <img src="<?php echo IMG_PATH;?>
+/19.png" alt="">
+                <span>1:10</span>
+            </div>
+            <div class="b1">
+                <img src="<?php echo IMG_PATH;?>
+/22.png" alt="">
+                <span>11540</span>
+            </div>
+        </div>
+    </div>
+    <div class="hjy-title1">
 
+<<<<<<< HEAD
+    </div>
+</header>
+<div class="content">
+    <div class="content1">
+        <div class="kong"></div>
+        <div class="hjy-con">
+            <ul>
+                <li>
+                    <a href="index.php?m=index&f=luntan">
+                        <img src="<?php echo IMG_PATH;?>
+/luntan.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="index.php?m=index&f=sousuo">
+=======
         </div>
     </header>
     <div class="content">
@@ -199,13 +263,53 @@ function content_59657d5559f631_68122571 (Smarty_Internal_Template $_smarty_tpl)
 =======
                         <a href="index.php?m=index&f=sousuo">
 >>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
+>>>>>>> f3415ad7a80b92a5fa1cc708fef4e7511adda8a7
                         <img src="<?php echo IMG_PATH;?>
 /zhibo.png" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <img src="<?php echo IMG_PATH;?>
+                    </a>
+                </li>
+                <li>
+                    <img src="<?php echo IMG_PATH;?>
 /qianbao.png" alt="">
+<<<<<<< HEAD
+                </li>
+                <li>
+                    <a href="index.php?m=index&f=member">
+                        <img src="<?php echo IMG_PATH;?>
+/geren.png" alt="">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="con">
+            <ul>
+                <li>
+                    <span>论坛</span>
+                    <i>FOROM</i>
+                </li>
+                <li>
+                    <span>搜索</span>
+                    <i>SEARCH</i>
+                </li>
+                <li>
+                    <span>签到</span>
+                    <i>SIGNED</i>
+                </li>
+                <li>
+                    <span>中心</span>
+                    <i>CENTER</i>
+                </li>
+            </ul>
+        </div>
+        <div class="hjy-title2">
+            <div class="title2">
+                <span class="ti1">BESTELLRES</span>
+                <img src="<?php echo IMG_PATH;?>
+/t.png" alt="">
+                <span class="ti2">爱时尚</span>
+                <span class="di"></span>
+                <span class="ti3">爱尚品</span>
+=======
                     </li>
                     <li>
 <<<<<<< HEAD
@@ -219,345 +323,345 @@ function content_59657d5559f631_68122571 (Smarty_Internal_Template $_smarty_tpl)
 >>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
                     </li>
                 </ul>
+>>>>>>> f3415ad7a80b92a5fa1cc708fef4e7511adda8a7
             </div>
-            <div class="con">
-                <ul>
-                    <li>
-                        <span>论坛</span>
-                        <i>FOROM</i>
-                    </li>
-                    <li>
-                        <span>搜索</span>
-                        <i>SEARCH</i>
-                    </li>
-                    <li>
-                        <span>签到</span>
-                        <i>SIGNED</i>
-                    </li>
-                    <li>
-                        <span>中心</span>
-                        <i>CENTER</i>
-                    </li>
-                </ul>
+        </div>
+        <div class="sp">
+            <div class="s1"></div>
+            <div class="s2">
+                <span class="st">NEW ARRIVAL</span>
+                <span class="st1">专属</span>
+                <span class="st2">X</span>
+                <span class="st3">定制</span>
             </div>
-            <div class="hjy-title2">
-                <div class="title2">
-                    <span class="ti1">BESTELLRES</span>
+            <div class="s3">
+                <div class="shp">
                     <img src="<?php echo IMG_PATH;?>
-/t.png" alt="">
-                    <span class="ti2">爱时尚</span>
-                    <span class="di"></span>
-                    <span class="ti3">爱尚品</span>
-                </div>
-            </div>
-            <div class="sp">
-                <div class="s1"></div>
-                <div class="s2">
-                    <span class="st">NEW ARRIVAL</span>
-                    <span class="st1">专属</span>
-                    <span class="st2">X</span>
-                    <span class="st3">定制</span>
-                </div>
-                <div class="s3">
-                    <div class="shp">
-                        <img src="<?php echo IMG_PATH;?>
 /sp.png" alt="">
+                </div>
+                <div class="shp1">
+                    <div class="shp-1">
+                        <span>拍照要选择最合适的...</span>
                     </div>
-                    <div class="shp1">
-                        <div class="shp-1">
-                            <span>拍照要选择最合适的...</span>
+                    <div class="shp-2">
+                        <div class="dj">
+                            <img src="<?php echo IMG_PATH;?>
+/xx.png" alt="">
+                            <img src="<?php echo IMG_PATH;?>
+/xx.png" alt="">
+                            <img src="<?php echo IMG_PATH;?>
+/xx.png" alt="">
+                            <img src="<?php echo IMG_PATH;?>
+/xx.png" alt="">
                         </div>
-                        <div class="shp-2">
-                            <div class="dj">
-                                <img src="<?php echo IMG_PATH;?>
-/xx.png" alt="">
-                                <img src="<?php echo IMG_PATH;?>
-/xx.png" alt="">
-                                <img src="<?php echo IMG_PATH;?>
-/xx.png" alt="">
-                                <img src="<?php echo IMG_PATH;?>
-/xx.png" alt="">
-                            </div>
-                            <div class="gz">
+                        <div class="gz">
                                 <span>
                                     <img src="<?php echo IMG_PATH;?>
 /xing.png" alt="">
                                 </span>
-                            </div>
                         </div>
                     </div>
-                    <div class="shp2">
-                        <div class="shp2-1">
-                            <div class="tx">
-                                <img src="<?php echo IMG_PATH;?>
+                </div>
+                <div class="shp2">
+                    <div class="shp2-1">
+                        <div class="tx">
+                            <img src="<?php echo IMG_PATH;?>
 /sp11.png" alt="">
-                            </div>
                         </div>
-                        <div class="shp2-2">
-                            <span class="sp-2">JIM.GIMGREEN</span>
-                            <span class="sp-3">纽约</span>
-                            <span class="sp-4">设计大师</span>
-                        </div>
+                    </div>
+                    <div class="shp2-2">
+                        <span class="sp-2">JIM.GIMGREEN</span>
+                        <span class="sp-3">纽约</span>
+                        <span class="sp-4">设计大师</span>
                     </div>
                 </div>
             </div>
-            <div class="sp">
-                <div class="s1"></div>
-                <div class="s2">
-                    <span class="st">NEW ARRIVAL</span>
-                    <span class="st1">专属</span>
-                    <span class="st2">X</span>
-                    <span class="st3">定制</span>
-                </div>
-                <div class="s3">
-                    <div class="shp">
-                        <img src="<?php echo IMG_PATH;?>
+        </div>
+        <div class="sp">
+            <div class="s1"></div>
+            <div class="s2">
+                <span class="st">NEW ARRIVAL</span>
+                <span class="st1">专属</span>
+                <span class="st2">X</span>
+                <span class="st3">定制</span>
+            </div>
+            <div class="s3">
+                <div class="shp">
+                    <img src="<?php echo IMG_PATH;?>
 /sp.png" alt="">
+                </div>
+                <div class="shp1">
+                    <div class="shp-1">
+                        <span>拍照要选择最合适的...</span>
                     </div>
-                    <div class="shp1">
-                        <div class="shp-1">
-                            <span>拍照要选择最合适的...</span>
+                    <div class="shp-2">
+                        <div class="dj">
+                            <img src="<?php echo IMG_PATH;?>
+/xx.png" alt="">
+                            <img src="<?php echo IMG_PATH;?>
+/xx.png" alt="">
+                            <img src="<?php echo IMG_PATH;?>
+/xx.png" alt="">
+                            <img src="<?php echo IMG_PATH;?>
+/xx.png" alt="">
                         </div>
-                        <div class="shp-2">
-                            <div class="dj">
-                                <img src="<?php echo IMG_PATH;?>
-/xx.png" alt="">
-                                <img src="<?php echo IMG_PATH;?>
-/xx.png" alt="">
-                                <img src="<?php echo IMG_PATH;?>
-/xx.png" alt="">
-                                <img src="<?php echo IMG_PATH;?>
-/xx.png" alt="">
-                            </div>
-                            <div class="gz">
+                        <div class="gz">
                                 <span>
                                     <img src="<?php echo IMG_PATH;?>
 /xing.png" alt="">
                                 </span>
-                            </div>
                         </div>
                     </div>
-                    <div class="shp2">
-                        <div class="shp2-1">
-                            <div class="tx">
-                                <img src="<?php echo IMG_PATH;?>
+                </div>
+                <div class="shp2">
+                    <div class="shp2-1">
+                        <div class="tx">
+                            <img src="<?php echo IMG_PATH;?>
 /sp11.png" alt="">
-                            </div>
                         </div>
-                        <div class="shp2-2">
-                            <span class="sp-2">JIM.GIMGREEN</span>
-                            <span class="sp-3">纽约</span>
-                            <span class="sp-4">设计大师</span>
-                        </div>
+                    </div>
+                    <div class="shp2-2">
+                        <span class="sp-2">JIM.GIMGREEN</span>
+                        <span class="sp-3">纽约</span>
+                        <span class="sp-4">设计大师</span>
                     </div>
                 </div>
             </div>
-            <div class="sp">
-                <div class="s1"></div>
-                <div class="s2">
-                    <span class="st">NEW ARRIVAL</span>
-                    <span class="st1">专属</span>
-                    <span class="st2">X</span>
-                    <span class="st3">定制</span>
-                </div>
-                <div class="s3">
-                    <div class="shp">
-                        <img src="<?php echo IMG_PATH;?>
+        </div>
+        <div class="sp">
+            <div class="s1"></div>
+            <div class="s2">
+                <span class="st">NEW ARRIVAL</span>
+                <span class="st1">专属</span>
+                <span class="st2">X</span>
+                <span class="st3">定制</span>
+            </div>
+            <div class="s3">
+                <div class="shp">
+                    <img src="<?php echo IMG_PATH;?>
 /sp.png" alt="">
+                </div>
+                <div class="shp1">
+                    <div class="shp-1">
+                        <span>拍照要选择最合适的...</span>
                     </div>
-                    <div class="shp1">
-                        <div class="shp-1">
-                            <span>拍照要选择最合适的...</span>
+                    <div class="shp-2">
+                        <div class="dj">
+                            <img src="<?php echo IMG_PATH;?>
+/xx.png" alt="">
+                            <img src="<?php echo IMG_PATH;?>
+/xx.png" alt="">
+                            <img src="<?php echo IMG_PATH;?>
+/xx.png" alt="">
+                            <img src="<?php echo IMG_PATH;?>
+/xx.png" alt="">
                         </div>
-                        <div class="shp-2">
-                            <div class="dj">
-                                <img src="<?php echo IMG_PATH;?>
-/xx.png" alt="">
-                                <img src="<?php echo IMG_PATH;?>
-/xx.png" alt="">
-                                <img src="<?php echo IMG_PATH;?>
-/xx.png" alt="">
-                                <img src="<?php echo IMG_PATH;?>
-/xx.png" alt="">
-                            </div>
-                            <div class="gz">
+                        <div class="gz">
                                 <span>
                                     <img src="<?php echo IMG_PATH;?>
 /xing.png" alt="">
                                 </span>
-                            </div>
                         </div>
                     </div>
-                    <div class="shp2">
-                        <div class="shp2-1">
-                            <div class="tx">
-                                <img src="<?php echo IMG_PATH;?>
+                </div>
+                <div class="shp2">
+                    <div class="shp2-1">
+                        <div class="tx">
+                            <img src="<?php echo IMG_PATH;?>
 /sp11.png" alt="">
-                            </div>
                         </div>
-                        <div class="shp2-2">
-                            <span class="sp-2">JIM.GIMGREEN</span>
-                            <span class="sp-3">纽约</span>
-                            <span class="sp-4">设计大师</span>
-                        </div>
+                    </div>
+                    <div class="shp2-2">
+                        <span class="sp-2">JIM.GIMGREEN</span>
+                        <span class="sp-3">纽约</span>
+                        <span class="sp-4">设计大师</span>
                     </div>
                 </div>
             </div>
-            <div class="sp">
-                <div class="s1"></div>
-                <div class="s2">
-                    <span class="st">NEW ARRIVAL</span>
-                    <span class="st1">专属</span>
-                    <span class="st2">X</span>
-                    <span class="st3">定制</span>
-                </div>
-                <div class="s3">
-                    <div class="shp">
-                        <img src="<?php echo IMG_PATH;?>
+        </div>
+        <div class="sp">
+            <div class="s1"></div>
+            <div class="s2">
+                <span class="st">NEW ARRIVAL</span>
+                <span class="st1">专属</span>
+                <span class="st2">X</span>
+                <span class="st3">定制</span>
+            </div>
+            <div class="s3">
+                <div class="shp">
+                    <img src="<?php echo IMG_PATH;?>
 /sp.png" alt="">
+                </div>
+                <div class="shp1">
+                    <div class="shp-1">
+                        <span>拍照要选择最合适的...</span>
                     </div>
-                    <div class="shp1">
-                        <div class="shp-1">
-                            <span>拍照要选择最合适的...</span>
+                    <div class="shp-2">
+                        <div class="dj">
+                            <img src="<?php echo IMG_PATH;?>
+/xx.png" alt="">
+                            <img src="<?php echo IMG_PATH;?>
+/xx.png" alt="">
+                            <img src="<?php echo IMG_PATH;?>
+/xx.png" alt="">
+                            <img src="<?php echo IMG_PATH;?>
+/xx.png" alt="">
                         </div>
-                        <div class="shp-2">
-                            <div class="dj">
-                                <img src="<?php echo IMG_PATH;?>
-/xx.png" alt="">
-                                <img src="<?php echo IMG_PATH;?>
-/xx.png" alt="">
-                                <img src="<?php echo IMG_PATH;?>
-/xx.png" alt="">
-                                <img src="<?php echo IMG_PATH;?>
-/xx.png" alt="">
-                            </div>
-                            <div class="gz">
+                        <div class="gz">
                                 <span>
                                     <img src="<?php echo IMG_PATH;?>
 /xing.png" alt="">
                                 </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="shp2">
-                        <div class="shp2-1">
-                            <div class="tx">
-                                <img src="<?php echo IMG_PATH;?>
-/sp11.png" alt="">
-                            </div>
-                        </div>
-                        <div class="shp2-2">
-                            <span class="sp-2">JIM.GIMGREEN</span>
-                            <span class="sp-3">纽约</span>
-                            <span class="sp-4">设计大师</span>
                         </div>
                     </div>
                 </div>
+                <div class="shp2">
+                    <div class="shp2-1">
+                        <div class="tx">
+                            <img src="<?php echo IMG_PATH;?>
+/sp11.png" alt="">
+                        </div>
+                    </div>
+                    <div class="shp2-2">
+                        <span class="sp-2">JIM.GIMGREEN</span>
+                        <span class="sp-3">纽约</span>
+                        <span class="sp-4">设计大师</span>
+                    </div>
+                </div>
             </div>
+        </div>
 
-        </div>
-        <div class="gd">
-            <img src="<?php echo IMG_PATH;?>
-/ZI.png" alt="">
-        </div>
-        <div class="love">
-            <div class="ltitle">
-                <img src="<?php echo IMG_PATH;?>
-/love.png" alt="">
-            </div>
-            <div class="lo">
-                <div class="lo-l">
-<<<<<<< HEAD
-                    <a href="index.php?m=index&index&a=detils">
-=======
-                    <a href="index.php?m=index&f=detils">
->>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
-                        <img src="<?php echo IMG_PATH;?>
-/l.png" alt="">
-                    </a>
-                </div>
-                <div class="lo-r">
-                    <img src="<?php echo IMG_PATH;?>
-/hot.png" alt="" class="hot">
-                    <div class="love1">
-                        <span>服装设计追求的创造思想</span>
-                    </div>
-                    <div class="love2">
-                        <span class="lt">CHARACTERIS OF THE TIMES</span>
-                        <div class="sc">
-                            <img src="<?php echo IMG_PATH;?>
-/xing1.png" alt="">
-                            <span>已收藏</span>
-                        </div>
-                        <div class="man">
-                            <img src="<?php echo IMG_PATH;?>
-/ren.png" alt="">
-                            <span>12546</span>
-                        </div>
-                        <div class="zt">已购买</div>
-                    </div>
-                    <div class="love3">
-                        <img src="<?php echo IMG_PATH;?>
-/xx.png" alt="">
-                        <img src="<?php echo IMG_PATH;?>
-/xx.png" alt="">
-                        <img src="<?php echo IMG_PATH;?>
-/xx.png" alt="">
-                        <img src="<?php echo IMG_PATH;?>
-/xx.png" alt="">
-                        <span>8.5分</span>
-                        <em>49200 REM</em>
-                    </div>
-                </div>
-            </div>
-            <div class="lo">
-                <div class="lo-l">
-<<<<<<< HEAD
-                    <a href="index.php?m=index&index&a=detils">
-=======
-                    <a href="index.php?m=index&f=detils">
->>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
-                    <img src="<?php echo IMG_PATH;?>
-/l.png" alt="">
-                    </a>
-                </div>
-                <div class="lo-r">
-                    <img src="<?php echo IMG_PATH;?>
-/hot.png" alt="" class="hot">
-                    <div class="love1">
-                        <span>服装设计追求的创造思想</span>
-                    </div>
-                    <div class="love2">
-                        <span class="lt">CHARACTERIS OF THE TIMES</span>
-                        <div class="sc">
-                            <img src="<?php echo IMG_PATH;?>
-/xing1.png" alt="">
-                            <span>已收藏</span>
-                        </div>
-                        <div class="man">
-                            <img src="<?php echo IMG_PATH;?>
-/ren.png" alt="">
-                            <span>12546</span>
-                        </div>
-                        <div class="zt">已购买</div>
-                    </div>
-                    <div class="love3">
-                        <img src="<?php echo IMG_PATH;?>
-/xx.png" alt="">
-                        <img src="<?php echo IMG_PATH;?>
-/xx.png" alt="">
-                        <img src="<?php echo IMG_PATH;?>
-/xx.png" alt="">
-                        <img src="<?php echo IMG_PATH;?>
-/xx.png" alt="">
-                        <span>8.5分</span>
-                        <em>49200 REM</em>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="k"></div>
     </div>
+    <div class="gd">
+        <img src="<?php echo IMG_PATH;?>
+/ZI.png" alt="">
+    </div>
+    <div class="love">
+        <div class="ltitle">
+            <img src="<?php echo IMG_PATH;?>
+/love.png" alt="">
+<<<<<<< HEAD
+        </div>
+        <div class="lo">
+            <div class="lo-l">
+                <a href="index.php?m=index&f=detils">
+=======
+            </div>
+            <div class="lo">
+                <div class="lo-l">
+<<<<<<< HEAD
+                    <a href="index.php?m=index&index&a=detils">
+=======
+                    <a href="index.php?m=index&f=detils">
+>>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
+                        <img src="<?php echo IMG_PATH;?>
+/l.png" alt="">
+                    </a>
+                </div>
+                <div class="lo-r">
+>>>>>>> f3415ad7a80b92a5fa1cc708fef4e7511adda8a7
+                    <img src="<?php echo IMG_PATH;?>
+/l.png" alt="">
+                </a>
+            </div>
+            <div class="lo-r">
+                <img src="<?php echo IMG_PATH;?>
+/hot.png" alt="" class="hot">
+
+                <div class="love1">
+                    <span>服装设计追求的创造思想</span>
+                </div>
+                <div class="love2">
+                    <span class="lt">CHARACTERIS OF THE TIMES</span>
+
+                    <div class="sc">
+                        <img src="<?php echo IMG_PATH;?>
+/xing1.png" alt="">
+                        <span>已收藏</span>
+                    </div>
+                    <div class="man">
+                        <img src="<?php echo IMG_PATH;?>
+/ren.png" alt="">
+                        <span>12546</span>
+                    </div>
+                    <div class="zt">已购买</div>
+                </div>
+                <div class="love3">
+                    <img src="<?php echo IMG_PATH;?>
+/xx.png" alt="">
+                    <img src="<?php echo IMG_PATH;?>
+/xx.png" alt="">
+                    <img src="<?php echo IMG_PATH;?>
+/xx.png" alt="">
+                    <img src="<?php echo IMG_PATH;?>
+/xx.png" alt="">
+                    <span>8.5分</span>
+                    <em>49200 REM</em>
+                </div>
+            </div>
+<<<<<<< HEAD
+        </div>
+        <div class="lo">
+            <div class="lo-l">
+                <a href="index.php?m=index&f=detils">
+=======
+            <div class="lo">
+                <div class="lo-l">
+<<<<<<< HEAD
+                    <a href="index.php?m=index&index&a=detils">
+=======
+                    <a href="index.php?m=index&f=detils">
+>>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
+>>>>>>> f3415ad7a80b92a5fa1cc708fef4e7511adda8a7
+                    <img src="<?php echo IMG_PATH;?>
+/l.png" alt="">
+                </a>
+            </div>
+            <div class="lo-r">
+                <img src="<?php echo IMG_PATH;?>
+/hot.png" alt="" class="hot">
+
+                <div class="love1">
+                    <span>服装设计追求的创造思想</span>
+                </div>
+                <div class="love2">
+                    <span class="lt">CHARACTERIS OF THE TIMES</span>
+
+                    <div class="sc">
+                        <img src="<?php echo IMG_PATH;?>
+/xing1.png" alt="">
+                        <span>已收藏</span>
+                    </div>
+                    <div class="man">
+                        <img src="<?php echo IMG_PATH;?>
+/ren.png" alt="">
+                        <span>12546</span>
+                    </div>
+                    <div class="zt">已购买</div>
+                </div>
+                <div class="love3">
+                    <img src="<?php echo IMG_PATH;?>
+/xx.png" alt="">
+                    <img src="<?php echo IMG_PATH;?>
+/xx.png" alt="">
+                    <img src="<?php echo IMG_PATH;?>
+/xx.png" alt="">
+                    <img src="<?php echo IMG_PATH;?>
+/xx.png" alt="">
+                    <span>8.5分</span>
+                    <em>49200 REM</em>
+                </div>
+            </div>
+        </div>
+    </div>
+<<<<<<< HEAD
+    <div class="k"></div>
+</div>
+<footer>
+    <div class="foot">
+
+        <div class="btn">
+=======
     <footer>
         <div class="foot">
 <<<<<<< HEAD
@@ -592,44 +696,58 @@ function content_59657d5559f631_68122571 (Smarty_Internal_Template $_smarty_tpl)
             </div>
             </a>
 =======
+>>>>>>> f3415ad7a80b92a5fa1cc708fef4e7511adda8a7
             <a href="index.php?m=index&f=index&a=index1">
-                <div class="btn">
-                    <img src="<?php echo IMG_PATH;?>
+                <img src="<?php echo IMG_PATH;?>
 /zx2.png" alt="">
-                    <div class="choose tts"></div>
-                </div>
+                <div class="choose tts"></div>
             </a>
+        </div>
+
+
+        <div class="btn">
             <a href="index.php?m=index&f=sousuo">
-                <div class="btn">
-                    <img src="<?php echo IMG_PATH;?>
+                <img src="<?php echo IMG_PATH;?>
 /zx3.png" alt="">
-                    <div class="choose"></div>
-                </div>
+
+                <div class="choose"></div>
             </a>
-            <div class="btn">
-                 <a href="#">
-                    <img src="<?php echo IMG_PATH;?>
+        </div>
+
+
+        <div class="btn">
+            <a href="#">
+                <img src="<?php echo IMG_PATH;?>
 /zx1.png" alt="" class="btu">
-                    <div class="choose"></div>
-                 </a>
-            </div>
-            <div class="btn">
-                 <a href="#">
-                    <img src="<?php echo IMG_PATH;?>
+
+                <div class="choose"></div>
+            </a>
+        </div>
+        <div class="btn">
+            <a href="#">
+                <img src="<?php echo IMG_PATH;?>
 /zx4.png" alt="">
-                    <div class="choose"></div>
-                 </a>
-            </div>
-            <div class="btn">
-                 <a href="index.php?m=index&f=member">
-                    <img src="<?php echo IMG_PATH;?>
+
+                <div class="choose"></div>
+            </a>
+        </div>
+        <div class="btn">
+            <a href="index.php?m=index&f=member">
+                <img src="<?php echo IMG_PATH;?>
 /zx5.png" alt="">
+<<<<<<< HEAD
+
+                <div class="choose"></div>
+            </a>
+=======
                     <div class="choose"></div>
                  </a>
             </div>
 >>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
+>>>>>>> f3415ad7a80b92a5fa1cc708fef4e7511adda8a7
         </div>
-    </footer>
+    </div>
+</footer>
 </body>
 <?php echo '<script'; ?>
  src="<?php echo JS_PATH;?>
@@ -641,6 +759,14 @@ function content_59657d5559f631_68122571 (Smarty_Internal_Template $_smarty_tpl)
 >
 <?php echo '<script'; ?>
 >
+<<<<<<< HEAD
+    $(function () {
+        var mySwiper = new Swiper('.swiper-container', {
+            autoplay: 2000,//可选选项，自动滑动
+            loop: true,//可选选项，开启循环
+            pagination: '.pagination',
+            paginationClickable: true,
+=======
     $(function(){
         var mySwiper = new Swiper('.swiper-container',{
             autoplay : 2000,//可选选项，自动滑动
@@ -654,15 +780,16 @@ function content_59657d5559f631_68122571 (Smarty_Internal_Template $_smarty_tpl)
 =======
             pagination : '.pagination',
             paginationClickable :true,
+>>>>>>> f3415ad7a80b92a5fa1cc708fef4e7511adda8a7
             autoplayDisableOnInteraction: false,
             mousewheelControl: true
 
         });
-        $('.arrow-left').on('click', function(e){
+        $('.arrow-left').on('click', function (e) {
             e.preventDefault();
             mySwiper.swipePrev()
         });
-        $('.arrow-right').on('click', function(e) {
+        $('.arrow-right').on('click', function (e) {
             e.preventDefault();
             mySwiper.swipeNext()
         })
@@ -673,10 +800,10 @@ function content_59657d5559f631_68122571 (Smarty_Internal_Template $_smarty_tpl)
 >
 <?php echo '<script'; ?>
 >
-    var btn=$(".btn");
-    var choose=$(".choose");
+    var btn = $(".btn");
+    var choose = $(".choose");
     btn.click(function () {
-        var index=btn.index(this);
+        var index = btn.index(this);
         choose.filter(".tts").removeClass("tts").end().eq(index).addClass("tts");
     })
 <?php echo '</script'; ?>

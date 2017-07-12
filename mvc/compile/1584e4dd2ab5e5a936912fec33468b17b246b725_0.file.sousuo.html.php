@@ -1,11 +1,19 @@
 <?php
+<<<<<<< HEAD
 /* Smarty version 3.1.30, created on 2017-07-12 04:54:08
+=======
+/* Smarty version 3.1.30, created on 2017-07-12 04:18:33
+>>>>>>> origin/master
   from "E:\wamp\www\shopapp2222\mvc\template\index\sousuo.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
+<<<<<<< HEAD
   'unifunc' => 'content_59658f5087c520_32532374',
+=======
+  'unifunc' => 'content_596586f9a7ba82_25337207',
+>>>>>>> origin/master
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +28,11 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
+<<<<<<< HEAD
 function content_59658f5087c520_32532374 (Smarty_Internal_Template $_smarty_tpl) {
+=======
+function content_596586f9a7ba82_25337207 (Smarty_Internal_Template $_smarty_tpl) {
+>>>>>>> origin/master
 ?>
 <!doctype html>
 <html lang="en">

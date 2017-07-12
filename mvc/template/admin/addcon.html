@@ -12,30 +12,36 @@
         .form-control{
             width: 50%;
         }
+        textarea{
+            border-radius: 0.6rem;
+        }
     </style>
 </head>
 <body>
-<form action="" method="post" class="">
+<form action="index.php?m=admin&f=lists&a=add1" method="post" class="">
 
     <div class="form-group">
-        <label >所属话题</label>
-        <input type="text" name="cid" value=""  class="form-control">
+        <select name="cid"  class="form-control">
+            <option value="0">
+                --一级分类--
+            </option>
+            {$str}
+        </select>
     </div>
+
 
     <div class="form-group">
         <label >标题</label>
-        <input type="text" class="form-control"  name="stitle" value="">
+        <input type="text" class="form-control"  name="stitle" >
     </div>
     <div class="form-group">
         <label >关键词</label>
-        <input type="text"  class="form-control" name="keywords" value="">
+        <input type="text"  class="form-control" name="keywords" >
     </div>
+
     <div class="form-group">
-        <label >作者</label>
-        <input type="text"   class="form-control" name="mname" value="">
-    </div>
-    <div class="form-group">
-        <textarea name="scon" id="" cols="50" rows="10"></textarea>
+        <label style="display: block;">内容详情</label>
+        <textarea name="scon" id="" cols="72" rows="10"></textarea>
     </div>
     <div class="form-group uploadbox">
 

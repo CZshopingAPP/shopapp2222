@@ -41,7 +41,7 @@ class user extends main{
     function del(){
         $mid=$_GET["mid"];
         $this->db=new db("member");
-        $result=$this->db->where($mid)->del();
+        $result=$this->db->where("mid='{$mid}'")->del();
         if($result>0){
             $this->jump("删除成功","index.php?m=admin&f=user&a=show");
         }
@@ -49,7 +49,7 @@ class user extends main{
     function edit(){
         $mid=$_GET["mid"];
         $db=new db("member");
-        $result=$db->where("mid={$mid}")->select();
+        $result=$db->where("mid='{$mid}'")->select();
         $this->smarty->assign("mname",$result[0]["mname"]);
         $this->smarty->assign("nicheng",$result[0]["nicheng"]);
         $this->smarty->assign("mrole",$result[0]["mrole"]);
@@ -60,7 +60,7 @@ class user extends main{
         $nicheng=$_POST["nicheng"];
         $mrole=$_POST["mrole"];
         $db=new db("member");
-        if($info=$db->where("mid={$mid}")->update("nicheng='{$nicheng}',mrole='{$mrole}'")>0){
+        if($info=$db->where("mid='{$mid}'")->update("nicheng='{$nicheng}',mrole='{$mrole}'")>0){
             $this->jump("修改成功","index.php?m=admin&f=user&a=show");
         }
        /* if($info>0){

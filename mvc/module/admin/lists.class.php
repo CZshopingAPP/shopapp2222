@@ -1,8 +1,26 @@
 <?php
 class lists extends main{
     function add0(){
+        $db=new db("category");
+        $tree=new tree();
+        $tree->getTree(0,0,"-",$db->db,"category");
+        $this->smarty->assign("str",$tree->str);
         $this->smarty->display("addcon.html");
     }
+    function add1(){
+        $cid=$_POST["cid"];
+        $stitle=$_POST["stitle"];
+        $keywords=$_POST["keywords"];
+        $scon=$_POST["scon"];
+        $simage=$_POST["simage"];
+        $db=new db("lists");
+        $result=$db->insert("cid='{$cid}'","stitle='{$stitle}'","keywords='{$keywords}'","scon='{$scon}'","simage='{$simage}'");
+        if($result>0){
+            $this->jump("添加成功","index.php?m=admin&f=lists&a=add0");
+        }
+    }
+
+
     function add(){
         $db=new db("lists");
 

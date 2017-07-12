@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-11 09:55:07
+/* Smarty version 3.1.30, created on 2017-07-12 04:08:37
   from "E:\wampserve\wamp\www\shopapp2222\mvc\template\index\index.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5964845bee3849_61621869',
+  'unifunc' => 'content_596584a5391685_69046199',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'c0294a8a079550ae12f65a1c3a42011ef926bb00' => 
     array (
       0 => 'E:\\wampserve\\wamp\\www\\shopapp2222\\mvc\\template\\index\\index.html',
-      1 => 1499759705,
+      1 => 1499825210,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5964845bee3849_61621869 (Smarty_Internal_Template $_smarty_tpl) {
+function content_596584a5391685_69046199 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html lang="en">
@@ -38,7 +38,29 @@ function content_5964845bee3849_61621869 (Smarty_Internal_Template $_smarty_tpl)
  src="<?php echo JS_PATH;?>
 /rem.js"><?php echo '</script'; ?>
 >
-
+    <style>
+        .foot .btn{
+            width:0.94rem;
+            height:100%;
+            /*border-radius: 0.2rem;*/
+            position: relative;
+            margin-top: 0;
+        }
+        .foot .btn .btu{
+            width:60%;
+            height:60%;
+        }
+        .foot .btn img{
+            width:50%;
+            height:48%;
+            position: absolute;
+            top:0;
+            bottom:0;
+            left:0;
+            right:0;
+            margin:auto;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -130,13 +152,13 @@ function content_5964845bee3849_61621869 (Smarty_Internal_Template $_smarty_tpl)
             <div class="hjy-con">
                 <ul>
                     <li>
-                        <a href="index.php?m=index&index&a=luntan">
+                        <a href="index.php?m=index&f=luntan">
                             <img src="<?php echo IMG_PATH;?>
 /luntan.png" alt="">
                         </a>
                     </li>
                     <li>
-                        <a href="index.php?m=index&index&a=sousuo">
+                        <a href="index.php?m=index&f=sousuo">
                         <img src="<?php echo IMG_PATH;?>
 /zhibo.png" alt="">
                         </a>
@@ -146,8 +168,10 @@ function content_5964845bee3849_61621869 (Smarty_Internal_Template $_smarty_tpl)
 /qianbao.png" alt="">
                     </li>
                     <li>
+                        <a href="index.php?m=index&f=member">
                         <img src="<?php echo IMG_PATH;?>
 /geren.png" alt="">
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -398,7 +422,7 @@ function content_5964845bee3849_61621869 (Smarty_Internal_Template $_smarty_tpl)
             </div>
             <div class="lo">
                 <div class="lo-l">
-                    <a href="index.php?m=index&index&a=detils">
+                    <a href="index.php?m=index&f=detils">
                         <img src="<?php echo IMG_PATH;?>
 /l.png" alt="">
                     </a>
@@ -439,7 +463,7 @@ function content_5964845bee3849_61621869 (Smarty_Internal_Template $_smarty_tpl)
             </div>
             <div class="lo">
                 <div class="lo-l">
-                    <a href="index.php?m=index&index&a=detils">
+                    <a href="index.php?m=index&f=detils">
                     <img src="<?php echo IMG_PATH;?>
 /l.png" alt="">
                     </a>
@@ -483,36 +507,49 @@ function content_5964845bee3849_61621869 (Smarty_Internal_Template $_smarty_tpl)
     </div>
     <footer>
         <div class="foot">
-            <a href="index.php?m=index&f=index&a=index1"><div class="btn">
-                <img src="<?php echo IMG_PATH;?>
+            <a href="index.php?m=index&f=index&a=index1">
+                <div class="btn">
+                    <img src="<?php echo IMG_PATH;?>
 /zx2.png" alt="">
-                <div class="choose tts"></div>
-            </div>
+                    <div class="choose tts"></div>
+                </div>
             </a>
+<<<<<<< HEAD
+            <a href="index.php?m=index&f=sousuo">
+                <div class="btn">
+                    <img src="<?php echo IMG_PATH;?>
+/zx3.png" alt="">
+                    <div class="choose"></div>
+                </div>
+=======
             <a href="#"><div class="btn">
                 <img src="<?php echo IMG_PATH;?>
 /zx3.png" alt="">
                 <div class="choose"></div>
             </div>
+>>>>>>> origin/master
             </a>
-            <a href="#"><div class="btn">
-                <img src="<?php echo IMG_PATH;?>
-/zx1.png" alt="">
-                <div class="choose"></div>
+            <div class="btn">
+                 <a href="#">
+                    <img src="<?php echo IMG_PATH;?>
+/zx1.png" alt="" class="btu">
+                    <div class="choose"></div>
+                 </a>
             </div>
-            </a>
-             <a href="#"><div class="btn">
-                <img src="<?php echo IMG_PATH;?>
+            <div class="btn">
+                 <a href="#">
+                    <img src="<?php echo IMG_PATH;?>
 /zx4.png" alt="">
-                <div class="choose"></div>
+                    <div class="choose"></div>
+                 </a>
             </div>
-            </a>
-             <a href="index.php?m=index&f=index&a=member"><div class="btn">
-                <img src="<?php echo IMG_PATH;?>
+            <div class="btn">
+                 <a href="index.php?m=index&f=member">
+                    <img src="<?php echo IMG_PATH;?>
 /zx5.png" alt="">
-                <div class="choose"></div>
+                    <div class="choose"></div>
+                 </a>
             </div>
-            </a>
         </div>
     </footer>
 </body>

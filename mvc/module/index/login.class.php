@@ -1,6 +1,6 @@
 <?php
 class login extends indexMain{
-    function login0(){
+    function init(){
         $this->smarty->display("yj-login.html");
     }
     function reg(){

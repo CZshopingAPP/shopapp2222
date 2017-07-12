@@ -3,6 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="eb11968e-6e05-404f-a660-4a324ec4e593" name="默认的" comment="">
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/module/index/login.class.php" afterPath="$PROJECT_DIR$/mvc/module/index/login.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/module/index/luntan.class.php" afterPath="$PROJECT_DIR$/mvc/module/index/luntan.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/static/css/index.css" afterPath="$PROJECT_DIR$/mvc/static/css/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/static/css/swiper.min.css" afterPath="$PROJECT_DIR$/mvc/static/css/swiper.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/static/css/yj-index.css" afterPath="$PROJECT_DIR$/mvc/static/css/yj-index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/template/index/index.html" afterPath="$PROJECT_DIR$/mvc/template/index/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/template/index/yj-index.html" afterPath="$PROJECT_DIR$/mvc/template/index/yj-index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/template/index/yj-login.html" afterPath="$PROJECT_DIR$/mvc/template/index/yj-login.html" />
+>>>>>>> origin/master
+=======
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/module/index/luntan.class.php" afterPath="$PROJECT_DIR$/mvc/module/index/luntan.class.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/static/css/index.css" afterPath="$PROJECT_DIR$/mvc/static/css/index.css" />
@@ -17,24 +30,23 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/template/admin/showcategory.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/template/admin/showpos.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/template/admin/showrole.html" />
+>>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/compile/19333175e5085ea4d001d5e03a910cb940e7437c_0.file.addPos.html.php" afterPath="$PROJECT_DIR$/mvc/compile/19333175e5085ea4d001d5e03a910cb940e7437c_0.file.addPos.html.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/compile/5d175300c78577c7b44949b4e5565572fadea7a6_0.file.index.html.php" afterPath="$PROJECT_DIR$/mvc/compile/5d175300c78577c7b44949b4e5565572fadea7a6_0.file.index.html.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/compile/b44166c9fcf293ed0aef1ad1893d727d4f6afad6_0.file.welcome.html.php" afterPath="$PROJECT_DIR$/mvc/compile/b44166c9fcf293ed0aef1ad1893d727d4f6afad6_0.file.welcome.html.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/compile/b743047c70df5f0cea1c5d047c7a1b490caad698_0.file.main.html.php" afterPath="$PROJECT_DIR$/mvc/compile/b743047c70df5f0cea1c5d047c7a1b490caad698_0.file.main.html.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/compile/b7dcab91df701ab79f216e1b731e883e66d4075e_0.file.listsAdd.html.php" afterPath="$PROJECT_DIR$/mvc/compile/b7dcab91df701ab79f216e1b731e883e66d4075e_0.file.listsAdd.html.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/compile/c0294a8a079550ae12f65a1c3a42011ef926bb00_0.file.index.html.php" afterPath="$PROJECT_DIR$/mvc/compile/c0294a8a079550ae12f65a1c3a42011ef926bb00_0.file.index.html.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/module/admin/category.class.php" afterPath="$PROJECT_DIR$/mvc/module/admin/category.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/compile/462a2e6774753c90a0a04f69385b4735f608872b_0.file.showpos.html.php" afterPath="$PROJECT_DIR$/mvc/compile/462a2e6774753c90a0a04f69385b4735f608872b_0.file.showpos.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/compile/55d056c4d9dcdf0b2e8fba2df22d8857fbb894ab_0.file.yj-index.html.php" afterPath="$PROJECT_DIR$/mvc/compile/55d056c4d9dcdf0b2e8fba2df22d8857fbb894ab_0.file.yj-index.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/compile/616ec2fb4c559d47ca0f582f7602bb51d2c5d25e_0.file.addcon.html.php" afterPath="$PROJECT_DIR$/mvc/compile/616ec2fb4c559d47ca0f582f7602bb51d2c5d25e_0.file.addcon.html.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/module/admin/lists.class.php" afterPath="$PROJECT_DIR$/mvc/module/admin/lists.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/module/admin/position.class.php" afterPath="$PROJECT_DIR$/mvc/module/admin/position.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/module/admin/role.class.php" afterPath="$PROJECT_DIR$/mvc/module/admin/role.class.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/module/admin/user.class.php" afterPath="$PROJECT_DIR$/mvc/module/admin/user.class.php" />
+<<<<<<< HEAD
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/template/admin/addcon.html" afterPath="$PROJECT_DIR$/mvc/template/admin/addcon.html" />
+=======
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/template/admin/addPos.html" afterPath="$PROJECT_DIR$/mvc/template/admin/addPos.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/template/admin/editUser.html" afterPath="$PROJECT_DIR$/mvc/template/admin/editUser.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/template/admin/main.html" afterPath="$PROJECT_DIR$/mvc/template/admin/main.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/template/index/index.html" afterPath="$PROJECT_DIR$/mvc/template/index/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/template/index/yj-index.html" afterPath="$PROJECT_DIR$/mvc/template/index/yj-index.html" />
 >>>>>>> origin/master
+>>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
     </list>
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,51 +76,99 @@
       <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mvc/template/admin/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="364" column="0" lean-forward="false" selection-start-line="364" selection-start-column="0" selection-end-line="364" selection-end-column="0" />
+            <state relative-caret-position="232">
+              <caret line="388" column="69" lean-forward="false" selection-start-line="388" selection-start-column="69" selection-end-line="388" selection-end-column="69" />
               <folding>
                 <element signature="e#3906#4137#0" expanded="false" />
                 <element signature="n#script#1;n#head#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="e#5536#8237#0" expanded="false" />
                 <element signature="n#li#0;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#li#1;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#li#2;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#li#3;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mvc/module/admin/user.class.php">
+<<<<<<< HEAD
+      <file leaf-file-name="addcon.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mvc/template/admin/addcon.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="38" column="48" lean-forward="true" selection-start-line="35" selection-start-column="7" selection-end-line="38" selection-end-column="48" />
+            <state relative-caret-position="604">
+              <caret line="57" column="45" lean-forward="true" selection-start-line="57" selection-start-column="45" selection-end-line="57" selection-end-column="45" />
               <folding>
-                <element signature="n#__construct#0;n#user#0;n#!!top" expanded="false" />
-                <element signature="n#add#0;n#user#0;n#!!top" expanded="false" />
-                <element signature="n#addCon#0;n#user#0;n#!!top" expanded="false" />
-                <element signature="e#492#622#0#PHP" expanded="false" />
-                <element signature="e#826#942#0#PHP" expanded="false" />
-                <element signature="n#edit#0;n#user#0;n#!!top" expanded="false" />
-                <element signature="n#editCon#0;n#user#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="showUser.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mvc/template/admin/showUser.html">
+                <element signature="n#style#0;n#label#0;n#div#3;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+=======
+      <file leaf-file-name="index.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mvc/module/index/index.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-527">
-              <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
->>>>>>> origin/master
+            <state relative-caret-position="323">
+              <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mvc/template/index/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-167">
+              <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#5;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#6;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#7;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#7;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#7;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#2;n#div#7;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+>>>>>>> origin/master
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+      <file leaf-file-name="lists.class.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mvc/module/admin/lists.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="290">
+              <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+              <folding>
+                <element signature="n#edit#0;n#lists#0;n#!!top" expanded="false" />
+                <element signature="n#editStatus#0;n#lists#0;n#!!top" expanded="false" />
+                <marker date="1499824841868" expanded="true" signature="796:831" ph="select count... lists" />
+                <marker date="1499824841868" expanded="true" signature="1182:1344" ph="select lists... lists" />
+=======
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mvc/static/css/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="255">
+              <caret line="102" column="15" lean-forward="false" selection-start-line="102" selection-start-column="15" selection-end-line="102" selection-end-column="15" />
+>>>>>>> origin/master
+=======
+            <state relative-caret-position="-527">
+              <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+>>>>>>> origin/master
+>>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+      <file leaf-file-name="shanping.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mvc/template/index/shanping.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="29" column="9" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="29" selection-end-column="9" />
+              <folding />
+=======
 <<<<<<< HEAD
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mvc/template/index/index.html">
@@ -126,11 +186,42 @@
               <folding>
                 <element signature="e#1228#1787#0" expanded="false" />
 >>>>>>> origin/master
+>>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
               </folding>
+>>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mvc/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="149">
+              <caret line="34" column="49" lean-forward="false" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mvc/module/index/login.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="50" column="22" lean-forward="false" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="luntan.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mvc/module/index/luntan.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+=======
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
       <file leaf-file-name="detils.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mvc/module/index/detils.class.php">
@@ -144,11 +235,19 @@
             <state relative-caret-position="0">
               <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
 >>>>>>> origin/master
+>>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+      <file leaf-file-name="addcon.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mvc/template/admin/addcon.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="24" column="28" lean-forward="false" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+=======
 <<<<<<< HEAD
       <file leaf-file-name="yj-member.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mvc/template/index/yj-member.html">
@@ -162,11 +261,13 @@
             <state relative-caret-position="290">
               <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
 >>>>>>> origin/master
+>>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+>>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -180,6 +281,7 @@
     <findStrings>
       <find>img/</find>
       <find>js/</find>
+      <find>swiper-p</find>
     </findStrings>
     <replaceStrings>
       <replace>{IMG_PATH}/</replace>
@@ -194,7 +296,13 @@
       <list>
         <option value="$PROJECT_DIR$/mvc/template/index/sp.html" />
         <option value="$PROJECT_DIR$/mvc/template/index/shanp.html" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/mvc/template/index/sousuo.html" />
+        <option value="$PROJECT_DIR$/mvc/template/index/luntan.html" />
+        <option value="$PROJECT_DIR$/mvc/template/index/mess.html" />
+=======
         <option value="$PROJECT_DIR$/mvc/template/index/yj-login.html" />
+>>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
         <option value="$PROJECT_DIR$/mvc/template/index/shanping.html" />
         <option value="$PROJECT_DIR$/mvc/static/css/detils.css" />
         <option value="$PROJECT_DIR$/mvc/template/index/yj-reg.html" />
@@ -223,7 +331,6 @@
         <option value="$PROJECT_DIR$/mvc/config.php" />
         <option value="$PROJECT_DIR$/mvc/template/admin/index.html" />
         <option value="$PROJECT_DIR$/mvc/template/admin/welcome.html" />
-        <option value="$PROJECT_DIR$/mvc/module/index/luntan.class.php" />
         <option value="$PROJECT_DIR$/mvc/module/index/shangpin.class.php" />
         <option value="$PROJECT_DIR$/mvc/module/index/mess.class.php" />
         <option value="$PROJECT_DIR$/mvc/module/index/sousuo.class.php" />
@@ -231,22 +338,34 @@
         <option value="$PROJECT_DIR$/mvc/module/index/reg.class.php" />
         <option value="$PROJECT_DIR$/mvc/module/index/detils.class.php" />
         <option value="$PROJECT_DIR$/mvc/module/index/index.class.php" />
-        <option value="$PROJECT_DIR$/mvc/module/index/login.class.php" />
-        <option value="$PROJECT_DIR$/mvc/template/index/yj-index.html" />
-        <option value="$PROJECT_DIR$/mvc/template/index/index.html" />
         <option value="$PROJECT_DIR$/mvc/template/admin/editUser.html" />
-        <option value="$PROJECT_DIR$/mvc/module/admin/user.class.php" />
         <option value="$PROJECT_DIR$/mvc/template/admin/showrole.html" />
         <option value="$PROJECT_DIR$/mvc/module/admin/role.class.php" />
-        <option value="$PROJECT_DIR$/mvc/module/admin/lists.class.php" />
         <option value="$PROJECT_DIR$/mvc/template/admin/main.html" />
         <option value="$PROJECT_DIR$/mvc/template/admin/addPos.html" />
         <option value="$PROJECT_DIR$/mvc/module/admin/position.class.php" />
         <option value="$PROJECT_DIR$/mvc/template/admin/showpos.html" />
         <option value="$PROJECT_DIR$/mvc/template/admin/showcategory.html" />
+        <option value="$PROJECT_DIR$/mvc/module/admin/user.class.php" />
+        <option value="$PROJECT_DIR$/mvc/template/admin/addCategory.html" />
         <option value="$PROJECT_DIR$/mvc/module/admin/category.class.php" />
         <option value="$PROJECT_DIR$/mvc/template/admin/addcon.html" />
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/mvc/module/admin/lists.class.php" />
+=======
+        <option value="$PROJECT_DIR$/mvc/module/index/luntan.class.php" />
+        <option value="$PROJECT_DIR$/mvc/module/index/login.class.php" />
+        <option value="$PROJECT_DIR$/mvc/template/index/yj-login.html" />
+        <option value="$PROJECT_DIR$/mvc/template/index/yj-index.html" />
+        <option value="$PROJECT_DIR$/mvc/static/css/yj-index.css" />
+        <option value="$PROJECT_DIR$/mvc/template/index/index.html" />
+        <option value="$PROJECT_DIR$/mvc/static/css/swiper.min.css" />
+        <option value="$PROJECT_DIR$/mvc/static/css/index.css" />
 >>>>>>> origin/master
+=======
+>>>>>>> origin/master
+>>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
       </list>
     </option>
   </component>
@@ -262,6 +381,10 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
+<<<<<<< HEAD
+    <option name="width" value="1382" />
+    <option name="height" value="784" />
+=======
     <option name="width" value="1932" />
     <option name="height" value="1056" />
   </component>
@@ -280,6 +403,7 @@
     <OptionsSetting value="true" id="Edit" />
     <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
+>>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -296,8 +420,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
+=======
       <pane id="Scratches" />
       <pane id="Scope" />
+>>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -327,27 +454,9 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
 >>>>>>> origin/master
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shopapp2222" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shopapp2222" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mvc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="index" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -366,6 +475,51 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="template" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopapp2222" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+<<<<<<< HEAD
+              <option name="myItemId" value="shopapp2222" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+=======
+              <option name="myItemId" value="index" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+>>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopapp2222" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopapp2222" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -390,8 +544,15 @@
               <option name="myItemId" value="index" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+<<<<<<< HEAD
+            <PATH_ELEMENT>
+              <option name="myItemId" value="index" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+=======
 =======
 >>>>>>> origin/master
+>>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -413,6 +574,13 @@
 =======
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
+<<<<<<< HEAD
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+=======
             <PATH_ELEMENT>
               <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
@@ -421,6 +589,7 @@
           </PATH>
         </subPane>
       </pane>
+>>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -496,12 +665,28 @@
       <workItem from="1499736984156" duration="217000" />
 =======
       <workItem from="1499733458945" duration="11271000" />
+<<<<<<< HEAD
+      <workItem from="1499753376077" duration="14363000" />
+      <workItem from="1499770307013" duration="204000" />
+      <workItem from="1499819543520" duration="5483000" />
+=======
       <workItem from="1499753376077" duration="13994000" />
+<<<<<<< HEAD
+      <workItem from="1499821652092" duration="3152000" />
+=======
 >>>>>>> origin/master
+>>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="46446000" />
+=======
+    <option name="totallyTimeSpent" value="43542000" />
+>>>>>>> origin/master
+=======
 <<<<<<< HEAD
     <option name="totallyTimeSpent" value="17982000" />
   </component>
@@ -512,32 +697,45 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18589744" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
 =======
     <option name="totallyTimeSpent" value="40390000" />
+>>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
     <editor active="true" />
     <layout>
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2693475" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2655068" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> origin/master
+=======
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26176023" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
 >>>>>>> origin/master
+>>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
+=======
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+>>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
       <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -559,6 +757,12 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/mvc/template/index/detils.html">
+=======
+>>>>>>> origin/master
+=======
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/mvc/template/admin/main.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -634,6 +838,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mvc/static/css/base.css">
+>>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
@@ -647,6 +852,7 @@
         </state>
       </provider>
     </entry>
+>>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
     <entry file="file://$PROJECT_DIR$/mvc/static/css/yj-reg.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -662,23 +868,35 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/../222/new/app/index.php" />
+    <entry file="file://$PROJECT_DIR$/mvc/template/index/yj-member.html">
+=======
     <entry file="file://$PROJECT_DIR$/mvc/module/admin/lists.class.php">
 =======
     <entry file="file://$PROJECT_DIR$/../222/new/app/index.php">
 >>>>>>> origin/master
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="6960">
+          <caret line="220" column="21" lean-forward="true" selection-start-line="220" selection-start-column="21" selection-end-line="220" selection-end-column="21" />
+=======
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mvc/module/admin/role.class.php">
+>>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
     <entry file="file://$PROJECT_DIR$/mvc/libs/db.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -717,9 +935,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mvc/module/admin/welcome.class.php">
 =======
+>>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
     <entry file="file://$PROJECT_DIR$/mvc/libs/db.class.php">
 >>>>>>> origin/master
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="-435">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+=======
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
         </state>
@@ -747,6 +971,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
         </state>
       </provider>
     </entry>
@@ -758,6 +983,13 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$USER_HOME$/Desktop/薛壮壮项目/后台/index/welcome.html" />
+    <entry file="file://$USER_HOME$/Desktop/薛壮壮项目/后台/index/index.html" />
+    <entry file="file://$USER_HOME$/Desktop/薛壮壮项目/后台/css/index.css" />
+    <entry file="file://$PROJECT_DIR$/../222/new/admin/index.php" />
+    <entry file="file://$PROJECT_DIR$/mvc/module/index/info.class.php">
+=======
     <entry file="file://$PROJECT_DIR$/mvc/module/admin/category.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.03329506">
@@ -791,19 +1023,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="29">
           <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-          <folding />
         </state>
 >>>>>>> origin/master
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mvc/module/index/login.class.php">
+>>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="145">
+          <caret line="4" column="68" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="4" selection-end-column="68" />
+=======
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+>>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/mvc/module/index/reg.class.php">
+=======
     <entry file="file://$PROJECT_DIR$/mvc/static/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2173913">
@@ -813,26 +1053,42 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mvc/index.php">
+>>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="261">
+          <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+=======
         <state vertical-scroll-proportion="-8.75">
           <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
           <folding />
+>>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mvc/module/index/sousuo.class.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="203">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+=======
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+>>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mvc/module/index/luntan.class.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="145">
+          <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+=======
         <state vertical-scroll-proportion="0.20327103">
           <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
           <folding />
+>>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
         </state>
       </provider>
     </entry>
@@ -844,6 +1100,9 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/mvc/template/admin/addUser.html">
+=======
     <entry file="file://$PROJECT_DIR$/mvc/module/index/index.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-15.0">
@@ -853,6 +1112,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mvc/template/index/luntan.html">
+>>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.75">
           <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="51" />
@@ -869,22 +1129,36 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/mvc/module/index/detils.class.php">
+=======
     <entry file="file://$PROJECT_DIR$/mvc/template/index/detils.html">
 =======
     <entry file="file://$PROJECT_DIR$/mvc/module/index/luntan.class.php">
 >>>>>>> origin/master
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="203">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+=======
         <state vertical-scroll-proportion="0.25263157">
           <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
           <folding />
+>>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mvc/module/index/info.class.php">
+>>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="261">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+=======
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+>>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
         </state>
       </provider>
     </entry>
@@ -899,100 +1173,175 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/module/index/sousuo.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/module/index/detils.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/module/admin/lists.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-266">
-          <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-          <folding>
-            <marker date="1499757729262" expanded="true" signature="108:143" ph="select count... lists" />
-            <marker date="1499757729262" expanded="true" signature="494:656" ph="select lists... lists" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/module/admin/welcome.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvc/template/index/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1358">
-          <caret line="397" column="24" lean-forward="false" selection-start-line="397" selection-start-column="24" selection-end-line="397" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvc/template/index/yj-index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="34" column="21" lean-forward="false" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/module/index/sousuo.class.php" />
+    <entry file="file://$USER_HOME$/Desktop/module/index/detils.class.php" />
+    <entry file="file://$USER_HOME$/Desktop/module/admin/lists.class.php" />
+    <entry file="file://$USER_HOME$/Desktop/module/admin/welcome.class.php" />
     <entry file="file://$PROJECT_DIR$/mvc/template/admin/index.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
         <state relative-caret-position="185">
           <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-          <folding>
-            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#script#0;n#head#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+>>>>>>> origin/master
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mvc/module/admin/login.class.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="348">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+=======
         <state relative-caret-position="-1827">
           <caret line="5" column="67" lean-forward="true" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvc/module/index/login.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-522">
-          <caret line="50" column="25" lean-forward="true" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvc/module/index/index.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-          <folding />
+>>>>>>> origin/master
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mvc/template/admin/editLists.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="-266">
+          <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+=======
         <state relative-caret-position="232">
           <caret line="11" column="77" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="50" selection-end-column="7" />
-          <folding />
+>>>>>>> origin/master
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/module/index/member.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="145">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+=======
+        <state relative-caret-position="29">
+          <caret line="1" column="31" lean-forward="false" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+          <folding />
+>>>>>>> origin/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/module/admin/role.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="1358">
+          <caret line="397" column="24" lean-forward="false" selection-start-line="397" selection-start-column="24" selection-end-line="397" selection-end-column="24" />
+=======
+        <state relative-caret-position="145">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+>>>>>>> origin/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/template/admin/listsAdd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="72" column="19" lean-forward="true" selection-start-line="72" selection-start-column="19" selection-end-line="72" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/module/admin/lists.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="111">
+          <caret line="34" column="21" lean-forward="false" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+=======
+        <state relative-caret-position="87">
+          <caret line="3" column="43" lean-forward="false" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
+          <folding />
+>>>>>>> origin/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/template/admin/addPos.html">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="185">
+          <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+=======
+        <state relative-caret-position="319">
+          <caret line="10" column="49" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/module/admin/position.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="16" column="44" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="44" />
+          <folding />
+>>>>>>> origin/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/module/admin/user.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="-522">
+          <caret line="50" column="25" lean-forward="true" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
+=======
+        <state relative-caret-position="153">
+          <caret line="38" column="48" lean-forward="false" selection-start-line="35" selection-start-column="7" selection-end-line="38" selection-end-column="48" />
+          <folding>
+            <element signature="n#__construct#0;n#user#0;n#!!top" expanded="false" />
+            <element signature="n#add#0;n#user#0;n#!!top" expanded="false" />
+            <element signature="n#addCon#0;n#user#0;n#!!top" expanded="false" />
+            <element signature="e#492#622#0#PHP" expanded="false" />
+            <element signature="e#826#942#0#PHP" expanded="false" />
+            <element signature="n#edit#0;n#user#0;n#!!top" expanded="false" />
+            <element signature="n#editCon#0;n#user#0;n#!!top" expanded="false" />
+          </folding>
+>>>>>>> origin/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/template/admin/showrole.html">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="493">
+          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/module/index/member.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="1" column="31" lean-forward="false" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/mvc/template/admin/addPos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="10" column="49" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/module/admin/position.class.php">
+=======
+        <state relative-caret-position="372">
+          <caret line="28" column="51" lean-forward="false" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/mvc/template/admin/showpos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="26" column="49" lean-forward="false" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/template/admin/showUser.html">
+>>>>>>> origin/master
+=======
     <entry file="file://$PROJECT_DIR$/mvc/module/index/member.class.php">
 >>>>>>> origin/master
       <provider selected="true" editor-type-id="text-editor">
@@ -1017,41 +1366,92 @@
           <caret line="34" column="55" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="55" />
 =======
     <entry file="file://$PROJECT_DIR$/mvc/module/admin/role.class.php">
+>>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvc/template/admin/listsAdd.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="72" column="19" lean-forward="true" selection-start-line="72" selection-start-column="19" selection-end-line="72" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvc/module/admin/lists.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="3" column="43" lean-forward="false" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
-          <folding>
-            <marker date="1499765216477" expanded="true" signature="182:217" ph="select count... lists" />
-            <marker date="1499765216477" expanded="true" signature="568:730" ph="select lists... lists" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvc/template/admin/addPos.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="10" column="49" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="7" />
+<<<<<<< HEAD
+        <state relative-caret-position="406">
+          <caret line="16" column="44" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="44" />
+=======
+        <state relative-caret-position="187">
+          <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
 >>>>>>> origin/master
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/mvc/template/admin/showrole.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="28" column="51" lean-forward="false" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/template/admin/showpos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="26" column="49" lean-forward="false" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/template/admin/showcategory.html">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="116">
+          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/mvc/template/admin/editUser.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="37" lean-forward="false" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+          <folding>
+            <element signature="e#1228#1787#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/template/admin/showcategory.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/module/admin/category.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="153">
+          <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+>>>>>>> origin/master
+=======
+        <state relative-caret-position="319">
+          <caret line="10" column="49" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="7" />
+>>>>>>> origin/master
+>>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/mvc/template/admin/showUser.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="38" column="60" lean-forward="false" selection-start-line="38" selection-start-column="60" selection-end-line="38" selection-end-column="60" />
+=======
+    <entry file="file://$PROJECT_DIR$/mvc/template/admin/addcon.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="24" column="28" lean-forward="false" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+>>>>>>> origin/master
+=======
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/mvc/template/index/sousuo.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -1063,10 +1463,14 @@
         <state relative-caret-position="406">
           <caret line="16" column="44" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="44" />
 >>>>>>> origin/master
+>>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/mvc/template/admin/editUser.html">
+=======
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/mvc/template/index/shanping.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -1074,47 +1478,66 @@
           <caret line="54" column="3" selection-start-line="54" selection-start-column="3" selection-end-line="54" selection-end-column="41" />
 =======
     <entry file="file://$PROJECT_DIR$/mvc/template/admin/main.html">
+>>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="364" column="0" lean-forward="false" selection-start-line="364" selection-start-column="0" selection-end-line="364" selection-end-column="0" />
+        <state relative-caret-position="116">
+          <caret line="13" column="37" lean-forward="false" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
           <folding>
-            <element signature="e#3906#4137#0" expanded="false" />
-            <element signature="n#script#1;n#head#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#5536#8237#0" expanded="false" />
-            <element signature="n#li#0;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#1;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#2;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#3;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#1228#1787#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mvc/module/admin/user.class.php">
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/mvc/template/admin/editLists.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="38" column="48" lean-forward="true" selection-start-line="35" selection-start-column="7" selection-end-line="38" selection-end-column="48" />
-          <folding>
-            <element signature="n#__construct#0;n#user#0;n#!!top" expanded="false" />
-            <element signature="n#add#0;n#user#0;n#!!top" expanded="false" />
-            <element signature="n#addCon#0;n#user#0;n#!!top" expanded="false" />
-            <element signature="e#492#622#0#PHP" expanded="false" />
-            <element signature="e#826#942#0#PHP" expanded="false" />
-            <element signature="n#edit#0;n#user#0;n#!!top" expanded="false" />
-            <element signature="n#editCon#0;n#user#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvc/template/admin/showrole.html">
+        <state relative-caret-position="-266">
+          <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+=======
+    <entry file="file://$PROJECT_DIR$/mvc/module/index/luntan.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="28" column="51" lean-forward="false" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
+        <state relative-caret-position="136">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
 >>>>>>> origin/master
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/mvc/module/admin/category.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="87">
+          <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="6" selection-end-column="48" />
+=======
+    <entry file="file://$PROJECT_DIR$/mvc/module/index/login.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="238">
+          <caret line="50" column="22" lean-forward="false" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="22" />
+>>>>>>> origin/master
+=======
+        <state relative-caret-position="372">
+          <caret line="28" column="51" lean-forward="false" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
+>>>>>>> origin/master
+>>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/mvc/template/admin/addCategory.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+=======
+    <entry file="file://$PROJECT_DIR$/mvc/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="34" column="49" lean-forward="false" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
+>>>>>>> origin/master
+=======
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/mvc/template/index/mess.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -1135,42 +1558,102 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.230769">
           <caret line="226" column="23" selection-start-line="226" selection-start-column="23" selection-end-line="226" selection-end-column="23" />
+>>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/mvc/demo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/upload/17-07-12/ceea2100fa2677a83de9a1fd542b934d闂睆_08.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/template/admin/listsAdd.html">
+=======
+    <entry file="file://$PROJECT_DIR$/mvc/template/index/yj-index.html">
+>>>>>>> origin/master
+=======
     <entry file="file://$PROJECT_DIR$/mvc/module/index/detils.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.625">
           <caret line="1" column="12" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="12" />
 =======
     <entry file="file://$PROJECT_DIR$/mvc/template/admin/showUser.html">
+>>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-527">
-          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvc/template/admin/editUser.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="13" column="37" lean-forward="true" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
-          <folding>
-            <element signature="e#1228#1787#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvc/template/admin/showcategory.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+<<<<<<< HEAD
+        <state relative-caret-position="986">
+          <caret line="72" column="19" lean-forward="true" selection-start-line="72" selection-start-column="19" selection-end-line="72" selection-end-column="19" />
+=======
+        <state relative-caret-position="204">
+          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
 >>>>>>> origin/master
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/mvc/module/admin/login.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1276">
+          <caret line="41" column="38" lean-forward="false" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/template/admin/addcon.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="604">
+          <caret line="57" column="45" lean-forward="true" selection-start-line="57" selection-start-column="45" selection-end-line="57" selection-end-column="45" />
+          <folding>
+            <element signature="n#style#0;n#label#0;n#div#3;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/module/admin/role.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="145">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/mvc/static/css/yj-index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/template/index/yj-login.html">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="533">
+          <caret line="55" column="14" lean-forward="false" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
+>>>>>>> origin/master
+=======
+        <state relative-caret-position="116">
+          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+>>>>>>> origin/master
+>>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/mvc/module/admin/user.class.php">
+=======
+    <entry file="file://$PROJECT_DIR$/mvc/module/index/index.class.php">
+>>>>>>> origin/master
+=======
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/mvc/template/index/index.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -1181,19 +1664,98 @@
           </folding>
 =======
     <entry file="file://$PROJECT_DIR$/mvc/module/admin/category.class.php">
+>>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="551">
+          <caret line="31" column="65" lean-forward="true" selection-start-line="31" selection-start-column="65" selection-end-line="31" selection-end-column="65" />
+          <folding>
+            <element signature="n#add#0;n#user#0;n#!!top" expanded="false" />
+            <element signature="e#492#622#0#PHP" expanded="false" />
+            <element signature="e#826#942#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/template/admin/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="232">
+          <caret line="388" column="69" lean-forward="false" selection-start-line="388" selection-start-column="69" selection-end-line="388" selection-end-column="69" />
+          <folding>
+            <element signature="e#3906#4137#0" expanded="false" />
+            <element signature="n#script#1;n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#5536#8237#0" expanded="false" />
+            <element signature="n#li#0;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#1;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#3;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/module/admin/lists.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
-          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+          <folding>
+            <element signature="n#edit#0;n#lists#0;n#!!top" expanded="false" />
+            <element signature="n#editStatus#0;n#lists#0;n#!!top" expanded="false" />
+            <marker date="1499824841868" expanded="true" signature="796:831" ph="select count... lists" />
+            <marker date="1499824841868" expanded="true" signature="1182:1344" ph="select lists... lists" />
+          </folding>
+=======
+        <state relative-caret-position="0">
+          <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+=======
+        <state relative-caret-position="323">
+          <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mvc/template/admin/addcon.html">
+    <entry file="file://$PROJECT_DIR$/mvc/template/index/shanping.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        <state relative-caret-position="352">
+          <caret line="29" column="9" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="29" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/static/css/swiper.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="191" column="12" lean-forward="false" selection-start-line="191" selection-start-column="12" selection-end-line="191" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/template/index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-167">
+          <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#6;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#7;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#7;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#7;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#2;n#div#7;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/static/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="102" column="15" lean-forward="false" selection-start-line="102" selection-start-column="15" selection-end-line="102" selection-end-column="15" />
+>>>>>>> origin/master
           <folding />
 >>>>>>> origin/master
+>>>>>>> d255588feef48724e7310c1f3733aed7060eddfc
         </state>
       </provider>
     </entry>

@@ -10,4 +10,10 @@ class position extends main{
             $this->jump("添加成功","index.php?m=admin&f=position&a=add");
         }
     }
+    function show(){
+        $this->db=new db("position");
+        $result=$this->db->select();
+        $this->smarty->assign("result",$result);
+        $this->smarty->display("showpos.html");
+    }
 }

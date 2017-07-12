@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-11 04:52:30
+/* Smarty version 3.1.30, created on 2017-07-11 12:24:31
   from "E:\wampserve\wamp\www\shopapp2222\mvc\template\admin\addPos.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_59643d6e155e87_09579259',
+  'unifunc' => 'content_5964a75fabf4a7_81669019',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '19333175e5085ea4d001d5e03a910cb940e7437c' => 
     array (
       0 => 'E:\\wampserve\\wamp\\www\\shopapp2222\\mvc\\template\\admin\\addPos.html',
-      1 => 1498807435,
+      1 => 1499768450,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_59643d6e155e87_09579259 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5964a75fabf4a7_81669019 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html lang="en">
@@ -33,7 +33,7 @@ function content_59643d6e155e87_09579259 (Smarty_Internal_Template $_smarty_tpl)
 </head>
 <body>
 <form action="index.php?m=admin&f=position&a=addCon" method="post">
-    名称：<input type="text" name="posname"><br>
+    推荐位：<input type="text" name="posname"><br>
     <input type="submit" value="添加">
 </form>
 </body>

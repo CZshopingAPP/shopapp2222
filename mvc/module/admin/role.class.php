@@ -3,8 +3,7 @@ class role extends main {
     function add(){
         $this->smarty->display("addRole.html");
     }
-    function del(){
-    }
+
     function addCon(){
         $rname=$_POST["rname"];
         $db=new db("role");
@@ -12,4 +11,18 @@ class role extends main {
             $this->jump("添加成功","index.php?m=admin&f=role&a=add");
         }
     }
+
+    function show(){
+        $this->db=new db("role");
+        $result=$this->db->select();
+        $this->smarty->assign("result",$result);
+        $this->smarty->display("showrole.html");
+    }
+    function del(){
+
+    }
+    function edit(){
+
+    }
+
 }

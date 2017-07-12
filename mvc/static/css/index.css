@@ -115,7 +115,7 @@ header{
     position: absolute;
     left:0;
     right:0;
-    bottom:-2.6rem;
+    bottom:-2.3rem;
     margin:auto;
     z-index:3;
 }
@@ -127,7 +127,7 @@ header{
     background-size: cover;
     position: absolute;
     left:1.02rem;
-    bottom:-2.7rem;
+    bottom:-2.4rem;
     margin:auto;
     z-index:2;
 }

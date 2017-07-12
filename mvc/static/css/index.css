@@ -72,22 +72,6 @@ header{
     bottom:0;
     right:0.58rem;
 }
-.hjy-dian{
-    display: block;
-    width:0.9rem;
-    height:0.12rem;
-    margin: 0.3rem auto;
-    margin-bottom:0;
-    padding-left: 0.08rem;
-}
-.hjy-dian li{
-    width:0.09rem;
-    height:0.09rem;
-    background: #fff;
-    border-radius: 50%;
-    float: left;
-    margin-left: 0.05rem;
-}
 .hjy-banner{
     width:5.94rem;
     height:3.42rem;
@@ -99,6 +83,7 @@ header{
     right:0;
     margin:auto;
 }
+
 .hjy-banner .swiper-wrapper{
     width:8.7rem;
     height:100%;
@@ -115,7 +100,7 @@ header{
     position: absolute;
     left:0;
     right:0;
-    bottom:-2.6rem;
+    bottom:-2.3rem;
     margin:auto;
     z-index:3;
 }
@@ -127,7 +112,7 @@ header{
     background-size: cover;
     position: absolute;
     left:1.02rem;
-    bottom:-2.7rem;
+    bottom:-2.4rem;
     margin:auto;
     z-index:2;
 }

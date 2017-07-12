@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-12 04:08:37
-  from "E:\wampserve\wamp\www\shopapp2222\mvc\template\index\index.html" */
+/* Smarty version 3.1.30, created on 2017-07-12 03:37:25
+  from "E:\wamp\www\shopapp2222\mvc\template\index\index.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_596584a5391685_69046199',
+  'unifunc' => 'content_59657d5559f631_68122571',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
-    'c0294a8a079550ae12f65a1c3a42011ef926bb00' => 
+    'c1219fab9d1e15097ae6f7bc9917ec9db450ba20' => 
     array (
-      0 => 'E:\\wampserve\\wamp\\www\\shopapp2222\\mvc\\template\\index\\index.html',
-      1 => 1499825210,
+      0 => 'E:\\wamp\\www\\shopapp2222\\mvc\\template\\index\\index.html',
+      1 => 1499823445,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_596584a5391685_69046199 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59657d5559f631_68122571 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html lang="en">
@@ -514,20 +514,12 @@ function content_596584a5391685_69046199 (Smarty_Internal_Template $_smarty_tpl)
                     <div class="choose tts"></div>
                 </div>
             </a>
-<<<<<<< HEAD
             <a href="index.php?m=index&f=sousuo">
                 <div class="btn">
                     <img src="<?php echo IMG_PATH;?>
 /zx3.png" alt="">
                     <div class="choose"></div>
                 </div>
-=======
-            <a href="#"><div class="btn">
-                <img src="<?php echo IMG_PATH;?>
-/zx3.png" alt="">
-                <div class="choose"></div>
-            </div>
->>>>>>> origin/master
             </a>
             <div class="btn">
                  <a href="#">

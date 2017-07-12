@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-12 04:09:02
-  from "E:\wampserve\wamp\www\shopapp2222\mvc\template\index\sousuo.html" */
+/* Smarty version 3.1.30, created on 2017-07-12 03:31:45
+  from "E:\wamp\www\shopapp2222\mvc\template\index\sousuo.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_596584be0fff10_85850333',
+  'unifunc' => 'content_59657c0109ea57_48282752',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
-    '0aed40ec5ecf89e14dc36c8cda42ff0b7bd0358d' => 
+    '1584e4dd2ab5e5a936912fec33468b17b246b725' => 
     array (
-      0 => 'E:\\wampserve\\wamp\\www\\shopapp2222\\mvc\\template\\index\\sousuo.html',
-      1 => 1499825211,
+      0 => 'E:\\wamp\\www\\shopapp2222\\mvc\\template\\index\\sousuo.html',
+      1 => 1499823100,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_596584be0fff10_85850333 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59657c0109ea57_48282752 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html lang="en">

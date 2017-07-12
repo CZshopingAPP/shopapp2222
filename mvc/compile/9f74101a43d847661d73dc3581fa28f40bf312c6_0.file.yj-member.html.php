@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-10 12:35:53
+/* Smarty version 3.1.30, created on 2017-07-12 04:09:11
   from "E:\wampserve\wamp\www\shopapp2222\mvc\template\index\yj-member.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_59635889e7bdd0_39619775',
+  'unifunc' => 'content_596584c737ef08_40092577',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '9f74101a43d847661d73dc3581fa28f40bf312c6' => 
     array (
       0 => 'E:\\wampserve\\wamp\\www\\shopapp2222\\mvc\\template\\index\\yj-member.html',
-      1 => 1499682699,
+      1 => 1499825211,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_59635889e7bdd0_39619775 (Smarty_Internal_Template $_smarty_tpl) {
+function content_596584c737ef08_40092577 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html>
@@ -48,11 +48,7 @@ function content_59635889e7bdd0_39619775 (Smarty_Internal_Template $_smarty_tpl)
 >
     <?php echo '<script'; ?>
  type="text/javascript" charset="UTF-8">
-      	mui.init({
-			gestureConfig:{
-			    hold:false,tap:true
-			}
-		});
+      	mui.init();
       	mui('.mui-off-canvas-wrap').offCanvas('show');
     <?php echo '</script'; ?>
 >
@@ -79,9 +75,8 @@ function content_59635889e7bdd0_39619775 (Smarty_Internal_Template $_smarty_tpl)
          			<p>
          				<span><img src="<?php echo IMG_PATH;?>
 /yj-member-bi.png" alt="" class="tu"/></span>
-         				<span>设置备注与标签</span>
-         				<span><img src="<?php echo IMG_PATH;?>
-/yj-member-more.png" alt="" class="tu"/></span>
+         				<span> 设置备注与标签</span>
+         				<span><img src="img/yj-member-more.png" alt="" class="tu"/></span>
          			</p>
          			<p></p>
          		</li>
@@ -89,7 +84,7 @@ function content_59635889e7bdd0_39619775 (Smarty_Internal_Template $_smarty_tpl)
          			<p>
          				<span><img src="<?php echo IMG_PATH;?>
 /yj-member-xin.png" alt="" class="tu"/></span>
-         				<span>设为特殊关注</span>
+         				<span> 设为特殊关注</span>
          				<span>
          					
 						</span>
@@ -128,7 +123,7 @@ function content_59635889e7bdd0_39619775 (Smarty_Internal_Template $_smarty_tpl)
          				<span></span>
          			</p>
          			<p></p>
-         			<div class="mui-switch mui-switch-mini mui-active" style="position: absolute;right: 1.2rem;bottom: 1.7rem;">
+         			<div class="mui-switch mui-switch-mini mui-active" style="position: absolute;right: 1.2rem;bottom: 1.6rem;">
          					  <div class="mui-switch-handle"></div>
          			</div>
          		</li>
@@ -271,60 +266,76 @@ function content_59635889e7bdd0_39619775 (Smarty_Internal_Template $_smarty_tpl)
        </div>
       <div class="di">
       	<ul>
-      		<li>
+      		<a href="index.php?m=index&f=index&a=index1">
+			<li>
       			<img src="<?php echo IMG_PATH;?>
 /zx2.png" alt="" class="tu"/>
       			<p class="active"></p>
       		</li>
-      		<li>
+      		</a>
+      		<a href="#"><li>
       			<img src="<?php echo IMG_PATH;?>
 /zx3.png" alt="" class="tu"/>
       			<p></p>
       		</li>
-      		<li>
+      		</a>
+      		<a href="#"><li>
       			<img src="<?php echo IMG_PATH;?>
 /zx1.png" alt="" class="tu"/>
       			<p></p>
       		</li>
-      		<li>
+      		</a>
+      		<a href="#"><li>
       			<img src="<?php echo IMG_PATH;?>
 /zx4.png" alt="" class="tu"/>
       			<p></p>
       		</li>
-      		<li>
+      		</a>
+      		<a href="index.php?m=index&f=member"><li>
       			<img src="<?php echo IMG_PATH;?>
 /zx5.png" alt="" class="tu"/>
       			<p></p>
       		</li>
+      		</a>
       	</ul>
       </div>
        <div class="zhezhao">
    	  	<img src="<?php echo IMG_PATH;?>
 /yj-member-fenxiang1.png" alt="" class="tu"/>
+   	  	<div class="fen1">
+   	  	<span>
+   	  	<img src="<?php echo IMG_PATH;?>
+/yj-login-qq.png" alt="" class="tu"/></span>
+   	  	<span>
+   	  	<img src="<?php echo IMG_PATH;?>
+/yj-login-weixin.png" alt="" class="tu"/></span></span>
+   	  	<span>
+   	  	<img src="<?php echo IMG_PATH;?>
+/yj-login-weibo.png" alt="" class="tu"/></span></span>
+   	  	</div>
    	  </div> 
       </div>
-      
-   	  
+   
     </div>  
   </div>
 </div>
 </body>
 <?php echo '<script'; ?>
->
-
-            $(".di ul li").click(function(){
-                alert(1);
-               var index=$(".di ul li").index(this);
-                $(".di ul li p").filter(".active").removeClass("active").end().eq(index).addClass("active");
-            });
-           
-/*	$(".tiao3").click(function(){
+>	
+	mui(".di").on("tap",".di ul li",function(){
+		$(".di>ul li p").removeClass("active")
+		$(this).children("p").addClass("active");
+	});
+	mui(".touxiang1").on("tap",".tiao3",function(){
 		$(".zhezhao").show();
-	})
+	});
 	$(".zhezhao").click(function(){
 		$(this).hide();
-	})*/
-
+	});
+	
+	mui("body").on("tap","a",function(){
+		document.location.href=this.href;
+	})
 <?php echo '</script'; ?>
 >
 </html><?php }

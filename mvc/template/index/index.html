@@ -8,7 +8,29 @@
     <link rel="stylesheet" href="{CSS_PATH}/base.css">
     <link rel="stylesheet" href="{CSS_PATH}/swiper.min.css">
     <script src="{JS_PATH}/rem.js"></script>
-
+    <style>
+        .foot .btn{
+            width:0.94rem;
+            height:100%;
+            /*border-radius: 0.2rem;*/
+            position: relative;
+            margin-top: 0;
+        }
+        .foot .btn .btu{
+            width:60%;
+            height:60%;
+        }
+        .foot .btn img{
+            width:50%;
+            height:48%;
+            position: absolute;
+            top:0;
+            bottom:0;
+            left:0;
+            right:0;
+            margin:auto;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -87,12 +109,12 @@
             <div class="hjy-con">
                 <ul>
                     <li>
-                        <a href="index.php?m=index&index&a=luntan">
+                        <a href="index.php?m=index&f=luntan">
                             <img src="{IMG_PATH}/luntan.png" alt="">
                         </a>
                     </li>
                     <li>
-                        <a href="index.php?m=index&index&a=sousuo">
+                        <a href="index.php?m=index&f=sousuo">
                         <img src="{IMG_PATH}/zhibo.png" alt="">
                         </a>
                     </li>
@@ -100,7 +122,9 @@
                         <img src="{IMG_PATH}/qianbao.png" alt="">
                     </li>
                     <li>
+                        <a href="index.php?m=index&f=member">
                         <img src="{IMG_PATH}/geren.png" alt="">
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -320,7 +344,7 @@
             </div>
             <div class="lo">
                 <div class="lo-l">
-                    <a href="index.php?m=index&index&a=detils">
+                    <a href="index.php?m=index&f=detils">
                         <img src="{IMG_PATH}/l.png" alt="">
                     </a>
                 </div>
@@ -353,7 +377,7 @@
             </div>
             <div class="lo">
                 <div class="lo-l">
-                    <a href="index.php?m=index&index&a=detils">
+                    <a href="index.php?m=index&f=detils">
                     <img src="{IMG_PATH}/l.png" alt="">
                     </a>
                 </div>
@@ -389,31 +413,43 @@
     </div>
     <footer>
         <div class="foot">
-            <a href="index.php?m=index&f=index&a=index1"><div class="btn">
-                <img src="{IMG_PATH}/zx2.png" alt="">
-                <div class="choose tts"></div>
-            </div>
+            <a href="index.php?m=index&f=index&a=index1">
+                <div class="btn">
+                    <img src="{IMG_PATH}/zx2.png" alt="">
+                    <div class="choose tts"></div>
+                </div>
             </a>
+<<<<<<< HEAD
+            <a href="index.php?m=index&f=sousuo">
+                <div class="btn">
+                    <img src="{IMG_PATH}/zx3.png" alt="">
+                    <div class="choose"></div>
+                </div>
+=======
             <a href="#"><div class="btn">
                 <img src="{IMG_PATH}/zx3.png" alt="">
                 <div class="choose"></div>
             </div>
+>>>>>>> origin/master
             </a>
-            <a href="#"><div class="btn">
-                <img src="{IMG_PATH}/zx1.png" alt="">
-                <div class="choose"></div>
+            <div class="btn">
+                 <a href="#">
+                    <img src="{IMG_PATH}/zx1.png" alt="" class="btu">
+                    <div class="choose"></div>
+                 </a>
             </div>
-            </a>
-             <a href="#"><div class="btn">
-                <img src="{IMG_PATH}/zx4.png" alt="">
-                <div class="choose"></div>
+            <div class="btn">
+                 <a href="#">
+                    <img src="{IMG_PATH}/zx4.png" alt="">
+                    <div class="choose"></div>
+                 </a>
             </div>
-            </a>
-             <a href="index.php?m=index&f=index&a=member"><div class="btn">
-                <img src="{IMG_PATH}/zx5.png" alt="">
-                <div class="choose"></div>
+            <div class="btn">
+                 <a href="index.php?m=index&f=member">
+                    <img src="{IMG_PATH}/zx5.png" alt="">
+                    <div class="choose"></div>
+                 </a>
             </div>
-            </a>
         </div>
     </footer>
 </body>

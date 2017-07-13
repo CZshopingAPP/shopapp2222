@@ -1,26 +1,18 @@
 <?php
-<<<<<<< HEAD
-/* Smarty version 3.1.30, created on 2017-07-12 04:54:08
-=======
-/* Smarty version 3.1.30, created on 2017-07-12 04:18:33
->>>>>>> origin/master
+/* Smarty version 3.1.30, created on 2017-07-12 05:46:44
   from "E:\wamp\www\shopapp2222\mvc\template\index\sousuo.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-<<<<<<< HEAD
-  'unifunc' => 'content_59658f5087c520_32532374',
-=======
-  'unifunc' => 'content_596586f9a7ba82_25337207',
->>>>>>> origin/master
+  'unifunc' => 'content_59659ba4e719f6_17562573',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '1584e4dd2ab5e5a936912fec33468b17b246b725' => 
     array (
       0 => 'E:\\wamp\\www\\shopapp2222\\mvc\\template\\index\\sousuo.html',
-      1 => 1499823601,
+      1 => 1499830994,
       2 => 'file',
     ),
   ),
@@ -28,11 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-<<<<<<< HEAD
-function content_59658f5087c520_32532374 (Smarty_Internal_Template $_smarty_tpl) {
-=======
-function content_596586f9a7ba82_25337207 (Smarty_Internal_Template $_smarty_tpl) {
->>>>>>> origin/master
+function content_59659ba4e719f6_17562573 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html lang="en">

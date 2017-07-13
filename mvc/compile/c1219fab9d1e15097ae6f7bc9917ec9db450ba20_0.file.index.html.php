@@ -1,26 +1,27 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-12 05:30:28
+/* Smarty version 3.1.30, created on 2017-07-12 05:56:04
   from "E:\wamp\www\shopapp2222\mvc\template\index\index.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_596597d4decc81_34362479',
+  'unifunc' => 'content_59659dd46136e6_60898340',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'c1219fab9d1e15097ae6f7bc9917ec9db450ba20' => 
     array (
       0 => 'E:\\wamp\\www\\shopapp2222\\mvc\\template\\index\\index.html',
-      1 => 1499830227,
+      1 => 1499831749,
       2 => 'file',
     ),
   ),
   'includes' => 
   array (
+    'file:footer.html' => 1,
   ),
 ),false)) {
-function content_596597d4decc81_34362479 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59659dd46136e6_60898340 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html lang="en">
@@ -42,40 +43,6 @@ function content_596597d4decc81_34362479 (Smarty_Internal_Template $_smarty_tpl)
         .swiper-pagination-bullet-active {
             opacity: 1;
             background: #fe158e;
-        }
-
-        .foot .btn {
-            width: 0.94rem;
-            height: 100%;
-        }
-
-        .foot .btn {
-            width: 1rem;
-            height: 100%;
-        }
-
-        .foot .btn {
-            width: 0.94rem;
-            height: 100%;
-            /*border-radius: 0.2rem;*/
-            position: relative;
-            margin-top: 0;
-        }
-
-        .foot .btn .btu {
-            width: 60%;
-            height: 60%;
-        }
-
-        .foot .btn img {
-            width: 48%;
-            height: 48%;
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            margin: auto;
         }
     </style>
 </head>
@@ -513,46 +480,7 @@ function content_596597d4decc81_34362479 (Smarty_Internal_Template $_smarty_tpl)
     </div>
     <div class="k"></div>
 </div>
-<footer>
-    <div class="foot">
-        <div class="btn">
-            <a href="index.php?m=index&f=index&a=index1">
-                <img src="<?php echo IMG_PATH;?>
-/zx2.png" alt="">
-                <div class="choose tts"></div>
-            </a>
-        </div>
-        <div class="btn">
-            <a href="index.php?m=index&f=sousuo">
-                <img src="<?php echo IMG_PATH;?>
-/zx3.png" alt="">
-                <div class="choose"></div>
-            </a>
-        </div>
-        <div class="btn">
-            <a href="#">
-                <img src="<?php echo IMG_PATH;?>
-/zx1.png" alt="">
-                <div class="choose"></div>
-            </a>
-        </div>
-        <div class="btn">
-            <a href="#">
-                <img src="<?php echo IMG_PATH;?>
-/zx4.png" alt="">
-                <div class="choose"></div>
-            </a>
-        </div>
-        <div class="btn">
-            <a href="index.php?m=index&f=member">
-                <img src="<?php echo IMG_PATH;?>
-/zx5.png" alt="">
-                <div class="choose"></div>
-            </a>
-        </div>
-    </div>
-</footer>
-</body>
+
 <?php echo '<script'; ?>
  src="<?php echo JS_PATH;?>
 /jquery-1.11.3.js"><?php echo '</script'; ?>
@@ -585,5 +513,6 @@ function content_596597d4decc81_34362479 (Smarty_Internal_Template $_smarty_tpl)
     })
 <?php echo '</script'; ?>
 >
-</html><?php }
+<?php $_smarty_tpl->_subTemplateRender("file:footer.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
+}
 }

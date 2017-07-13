@@ -1,26 +1,27 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-12 04:51:50
+/* Smarty version 3.1.30, created on 2017-07-12 05:59:24
   from "E:\wamp\www\shopapp2222\mvc\template\index\yj-member.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_59658ec615d5b2_10391370',
+  'unifunc' => 'content_59659e9c2b8a47_69535762',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '15d3f4211ad155fdcc1ad6571dca6725dfd97e6e' => 
     array (
       0 => 'E:\\wamp\\www\\shopapp2222\\mvc\\template\\index\\yj-member.html',
-      1 => 1499823601,
+      1 => 1499831962,
       2 => 'file',
     ),
   ),
   'includes' => 
   array (
+    'file:footer.html' => 1,
   ),
 ),false)) {
-function content_59658ec615d5b2_10391370 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59659e9c2b8a47_69535762 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html>
@@ -264,41 +265,7 @@ function content_59658ec615d5b2_10391370 (Smarty_Internal_Template $_smarty_tpl)
        		</li>
        	</ul>
        </div>
-      <div class="di">
-      	<ul>
-      		<a href="index.php?m=index&f=index&a=index1">
-			<li>
-      			<img src="<?php echo IMG_PATH;?>
-/zx2.png" alt="" class="tu"/>
-      			<p class="active"></p>
-      		</li>
-      		</a>
-      		<a href="#"><li>
-      			<img src="<?php echo IMG_PATH;?>
-/zx3.png" alt="" class="tu"/>
-      			<p></p>
-      		</li>
-      		</a>
-      		<a href="#"><li>
-      			<img src="<?php echo IMG_PATH;?>
-/zx1.png" alt="" class="tu"/>
-      			<p></p>
-      		</li>
-      		</a>
-      		<a href="#"><li>
-      			<img src="<?php echo IMG_PATH;?>
-/zx4.png" alt="" class="tu"/>
-      			<p></p>
-      		</li>
-      		</a>
-      		<a href="index.php?m=index&f=member"><li>
-      			<img src="<?php echo IMG_PATH;?>
-/zx5.png" alt="" class="tu"/>
-      			<p></p>
-      		</li>
-      		</a>
-      	</ul>
-      </div>
+
        <div class="zhezhao">
    	  	<img src="<?php echo IMG_PATH;?>
 /yj-member-fenxiang1.png" alt="" class="tu"/>
@@ -319,7 +286,6 @@ function content_59658ec615d5b2_10391370 (Smarty_Internal_Template $_smarty_tpl)
     </div>  
   </div>
 </div>
-</body>
 <?php echo '<script'; ?>
 >	
 	mui(".di").on("tap",".di ul li",function(){
@@ -338,5 +304,6 @@ function content_59658ec615d5b2_10391370 (Smarty_Internal_Template $_smarty_tpl)
 	})
 <?php echo '</script'; ?>
 >
-</html><?php }
+<?php $_smarty_tpl->_subTemplateRender("file:footer.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
+}
 }

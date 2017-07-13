@@ -13,40 +13,6 @@
             opacity: 1;
             background: #fe158e;
         }
-
-        .foot .btn {
-            width: 0.94rem;
-            height: 100%;
-        }
-
-        .foot .btn {
-            width: 1rem;
-            height: 100%;
-        }
-
-        .foot .btn {
-            width: 0.94rem;
-            height: 100%;
-            /*border-radius: 0.2rem;*/
-            position: relative;
-            margin-top: 0;
-        }
-
-        .foot .btn .btu {
-            width: 60%;
-            height: 60%;
-        }
-
-        .foot .btn img {
-            width: 48%;
-            height: 48%;
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            margin: auto;
-        }
     </style>
 </head>
 <body>
@@ -419,41 +385,7 @@
     </div>
     <div class="k"></div>
 </div>
-<footer>
-    <div class="foot">
-        <div class="btn">
-            <a href="index.php?m=index&f=index&a=index1">
-                <img src="{IMG_PATH}/zx2.png" alt="">
-                <div class="choose tts"></div>
-            </a>
-        </div>
-        <div class="btn">
-            <a href="index.php?m=index&f=sousuo">
-                <img src="{IMG_PATH}/zx3.png" alt="">
-                <div class="choose"></div>
-            </a>
-        </div>
-        <div class="btn">
-            <a href="#">
-                <img src="{IMG_PATH}/zx1.png" alt="">
-                <div class="choose"></div>
-            </a>
-        </div>
-        <div class="btn">
-            <a href="#">
-                <img src="{IMG_PATH}/zx4.png" alt="">
-                <div class="choose"></div>
-            </a>
-        </div>
-        <div class="btn">
-            <a href="index.php?m=index&f=member">
-                <img src="{IMG_PATH}/zx5.png" alt="">
-                <div class="choose"></div>
-            </a>
-        </div>
-    </div>
-</footer>
-</body>
+
 <script src="{JS_PATH}/jquery-1.11.3.js"></script>
 <script src="{JS_PATH}/swiper.min.js"></script>
 <script>
@@ -476,4 +408,4 @@
         choose.filter(".tts").removeClass("tts").end().eq(index).addClass("tts");
     })
 </script>
-</html>
+{include "footer.html"}

@@ -1,26 +1,27 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-12 03:30:05
+/* Smarty version 3.1.30, created on 2017-07-12 05:53:54
   from "E:\wamp\www\shopapp2222\mvc\template\index\luntan.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_59657b9dde0889_98200024',
+  'unifunc' => 'content_59659d5279d286_86041247',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '822318a2cf5c06c7a208060afd36b03b30609449' => 
     array (
       0 => 'E:\\wamp\\www\\shopapp2222\\mvc\\template\\index\\luntan.html',
-      1 => 1499823004,
+      1 => 1499831632,
       2 => 'file',
     ),
   ),
   'includes' => 
   array (
+    'file:footer.html' => 1,
   ),
 ),false)) {
-function content_59657b9dde0889_98200024 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59659d5279d286_86041247 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html lang="en">
@@ -231,7 +232,6 @@ function content_59657b9dde0889_98200024 (Smarty_Internal_Template $_smarty_tpl)
             </div>
         </div>
     </div>
-</body>
 <?php echo '<script'; ?>
  src="<?php echo JS_PATH;?>
 /jquery-1.11.3.js"><?php echo '</script'; ?>
@@ -253,6 +253,8 @@ function content_59657b9dde0889_98200024 (Smarty_Internal_Template $_smarty_tpl)
     })
 <?php echo '</script'; ?>
 >
-</html>
+    <?php $_smarty_tpl->_subTemplateRender("file:footer.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
+?>
+
 <?php }
 }

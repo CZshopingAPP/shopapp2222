@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-11 10:49:42
+/* Smarty version 3.1.30, created on 2017-07-12 09:48:15
   from "E:\wampserve\wamp\www\shopapp2222\mvc\template\admin\editUser.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_59649126a96cd0_82230871',
+  'unifunc' => 'content_5965d43f9364d4_88736745',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '6481c47798ef6c1e25f1b7d57676d34eb25d86b2' => 
     array (
       0 => 'E:\\wampserve\\wamp\\www\\shopapp2222\\mvc\\template\\admin\\editUser.html',
-      1 => 1499762768,
+      1 => 1499845687,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_59649126a96cd0_82230871 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5965d43f9364d4_88736745 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html lang="en">
@@ -34,10 +34,12 @@ function content_59649126a96cd0_82230871 (Smarty_Internal_Template $_smarty_tpl)
 /bootstrap-3.1.1.min.css">
 </head>
 <body>
+
 <form action="index.php?m=admin&f=user&a=editCon" method="post">
+
     <div class="form-group">
         <label class="yh">用户名</label>
-        <input type="text" class="form-control" name="mid" value="<?php echo $_smarty_tpl->tpl_vars['mname']->value;?>
+        <input type="text" class="form-control" name="" value="<?php echo $_smarty_tpl->tpl_vars['mname']->value;?>
 ">
     </div>
 
@@ -62,6 +64,8 @@ function content_59649126a96cd0_82230871 (Smarty_Internal_Template $_smarty_tpl)
         </div>
     </div>
     <input type="submit" class="gai" value="修改">
+    <input type="hidden" name="mid" value="<?php echo $_smarty_tpl->tpl_vars['mid']->value;?>
+">
     <a href="index.php?m=admin&f=user&a=show">返回</a>
 </form>
 <?php echo '<script'; ?>

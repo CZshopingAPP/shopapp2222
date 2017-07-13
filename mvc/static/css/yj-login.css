@@ -1,8 +1,9 @@
 body{
-			background: #ee2856;
+			
 			width: 100%;
-			height: 12.95rem;
+			height: 100%;
 			overflow: hidden;
+			
 		}
 		.box{
 			width: 100%;
@@ -37,12 +38,12 @@ body{
 		.tiao{
 			width: 110%;
 			height: 2.9rem;
-			margin-left: -0.2rem;
+			margin-left: -0.3rem;
 			background: url('../img/yj-login-5.png');
 			background-size: 100%;
 			background-position: center center;
 			background-repeat: no-repeat;
-			margin-top: -5.6rem;
+			margin-top: -5.8rem;
 		}
 		.login{
 			width: 100%;
@@ -84,7 +85,7 @@ body{
 			background-size: 100%;
 			background-position: center center;
 			background-repeat: no-repeat;
-			margin-top: -0.9rem;
+			margin-top: -0.7rem;
 		}
 		.xuan{
 			width: 0.3rem;
@@ -275,6 +276,7 @@ body{
 			z-index: 999;
 			/*display: none;*/
 			opacity: 0;
+			position: relative;
 		}
 		.message1{
 			width: 0.39rem;
@@ -284,7 +286,7 @@ body{
 			background-position: center center;
 			background-repeat: no-repeat;
 			float: left;
-			margin-top: 0.05rem;
+			margin-top: -0.55rem;
 			border-radius: 50%;
 			margin-left: 0.1rem;
 		}
@@ -294,8 +296,8 @@ body{
 			color: #fd213a;
 			font-weight: bold;
 			float: left;
-			margin-top: 0rem;
-			margin-left: 0.1rem;
+			position: absolute;
+			left: 0.7rem;
 		}
 		.zhezhao{
 			width: 4rem;
@@ -307,4 +309,9 @@ body{
 .login .error{
 	color: red;
 	font-size: 0.24rem;
+}
+.kong{
+	width: 100%;
+	height: 0.8rem;
+	background: #f4f4f4;
 }

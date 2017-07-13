@@ -9,10 +9,12 @@
     <link rel="stylesheet" href="{CSS_PATH}/bootstrap-3.1.1.min.css">
 </head>
 <body>
+
 <form action="index.php?m=admin&f=user&a=editCon" method="post">
+
     <div class="form-group">
         <label class="yh">用户名</label>
-        <input type="text" class="form-control" name="mid" value="{$mname}">
+        <input type="text" class="form-control" name="" value="{$mname}">
     </div>
 
     <div class="form-group">
@@ -33,6 +35,7 @@
         </div>
     </div>
     <input type="submit" class="gai" value="修改">
+    <input type="hidden" name="mid" value="{$mid}">
     <a href="index.php?m=admin&f=user&a=show">返回</a>
 </form>
 <script src="{JS_PATH}/jquery.min.js"></script>

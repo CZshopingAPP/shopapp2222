@@ -48,8 +48,10 @@
         <label for="">图片</label>
 
         <div class="uploadBox">
-            <img class="simage" src="" alt="">
+            <img class="" src="" alt="">
+            <input type="hidden" name="simage" class="simage">
         </div>
+
 
     </div>
 
@@ -66,7 +68,7 @@
     obj.createView({
         parent:document.querySelector(".uploadBox")
     })
-    obj.up("index.php?m=admin&f=category&a=upload",function (data) {
+    obj.up("index.php?m=admin&f=lists&a=upload",function (data) {
         document.querySelector(".simage").value=data;
     });
 </script>

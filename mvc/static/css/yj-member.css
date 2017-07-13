@@ -141,7 +141,7 @@ body,html{
 	background-position: 100%;
 	background-size: cover;
 	border-radius: 0.4rem;
-	margin-top: 1.1rem;
+	margin-top: 1.3rem;
 	margin-left: 1.09rem;
 	font-size: 0.18rem;
 	color: #ff1c67;
@@ -151,7 +151,7 @@ body,html{
 .dengji{
 	height: 0.24rem;width: 1.5rem;
 	
-	margin-left: 1.48rem;margin-top: 0.15rem;
+	margin-left: 1.48rem;margin-top: 0.1rem;
 }
 .dengji span{
 	display: inline-block;
@@ -289,7 +289,7 @@ body,html{
 	height: 4.07rem;
 
 	margin:0 auto;
-	margin-top: 0.4rem;
+	margin-top: 0.5rem;
 
 }
 .fenlei ul{
@@ -415,7 +415,7 @@ body,html{
 	height: 1rem;
 
 	position: absolute;
-	top: 6.1rem;
+	top: 6.3rem;
 	left: 1.5rem;
 	display: flex;
 	justify-content: space-around;

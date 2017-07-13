@@ -14,7 +14,7 @@ class lists extends main{
         $scon=$_POST["scon"];
         $simage=$_POST["simage"];
         $db=new db("lists");
-        $result=$db->insert("cid='{$cid}'","stitle='{$stitle}'","keywords='{$keywords}'","scon='{$scon}'","simage='{$simage}'");
+        $result=$db->insert("cid='{$cid}',stitle='{$stitle}',keywords='{$keywords}',scon='{$scon}',simage='{$simage}'");
         if($result>0){
             $this->jump("添加成功","index.php?m=admin&f=lists&a=add0");
         }
@@ -78,5 +78,12 @@ class lists extends main{
         if($db->where("sid={$sid}")->update("status={$status}")>0){
             $this->jump("修改成功","index.php?m=admin&f=lists&a=add");
         }
+    }
+
+
+
+    function upload(){
+        $obj=new upload();
+        $obj->move();
     }
 }

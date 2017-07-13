@@ -21,8 +21,31 @@ class category extends main{
         $this->smarty->assign("result",$result);
         $this->smarty->display("showcategory.html");
     }
-    function upload(){
-        $obj=new upload();
-        $obj->move();
+    function del(){
+        $this->db=new db("category");
+        $cid=$_GET["cid"];
+        $result=$this->db->where("cid='{$cid}'")->del();
+        if($result>0){
+            $this->jump("删除成功","index.php?m=admin&f=category&a=show");
+        }
     }
+    function edit(){
+        $cid=$_GET["cid"];
+        $db=new db("category");
+        $result=$db->where("cid={$cid}")->select();
+        $this->smarty->assign("cid",$result[0]["cid"]);
+        $this->smarty->assign("cname",$result[0]["cname"]);
+        $this->smarty->display("editcategory.html");
+    }
+    function editCon(){
+        $cid=$_POST["cid"];
+        $cname=$_POST["cname"];
+        $this->db=new db("category");
+        $info=$this->db->where("cid='{$cid}'")->update("cname='{$cname}'");
+        if($info>0){
+            $this->jump("修改成功","index.php?m=admin&f=category&a=show&cid=$cid");
+        }
+
+    }
+
 }

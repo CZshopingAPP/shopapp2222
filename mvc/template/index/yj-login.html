@@ -40,7 +40,9 @@
                     <form action="Checklogin.php" class="myform">
                     <input type="text" class="input"  placeholder="您可以输入手机号" name="mname">
                     <input type="password" class="password" placeholder="您可以输入密码" name="mpass">
+						</form>
                 </div>
+
                 <div class="zc">
                     <div class="zc1">
                         <span></span>
@@ -53,7 +55,7 @@
                     </div>
                 </div>
             </div>
-		</form>
+
 
 		<div class="tiao"></div>
 		<div class="user1"></div>
@@ -63,6 +65,7 @@
 			<span><!--您填写的用户名或密码有误--></span>
 		</div>
 			<div class="zhezhao"></div>
+		<form action="Checklogin.php" class="myform">
 			<input type="submit" class="loginn" value="">
 
         </form>
@@ -115,22 +118,22 @@
 			$(".loginn").css("background-image","url('{IMG_PATH}/yj-login-login1.png')");
 				$(".zhezhao").css("display","none");
 		}
-	})
-	jQuery.validator.addMethod("isMobile", function(value, element) {
-		var length = value.length;
-		var mobile = /^(13[0-9]{9})|(18[0-9]{9})|(14[0-9]{9})|(17[0-9]{9})|(15[0-9]{9})$/;
-		return this.optional(element) || (length == 11 && mobile.test(value));
-	}, "请正确填写您的手机号码");
+	})/*jQuery.validator.addMethod("isMobile", function(value, element) {
+	 var length = value.length;
+	 var mobile = /^(13[0-9]{9})|(18[0-9]{9})|(14[0-9]{9})|(17[0-9]{9})|(15[0-9]{9})$/;
+	 return this.optional(element) || (length == 11 && mobile.test(value));
+	 }, "请正确填写您的手机号码");*/
+
 	$(".myform").validate({
 		errorLabelContainer:".message span",
 		rules: {
-			mname: {
+			/*mname: {
 				required: true,
 //				minlength: 11,
 				// 自定义方法：校验手机号在数据库中是否存在
 				// checkPhoneExist : true,
 				isMobile: true,
-			},
+			},*/
 			mpass:{
 				required:true,
 				rangelength:[6,10],
@@ -140,11 +143,11 @@
 
 		},
 		messages: {
-			mname: {
+			/*mname: {
 				required: "请输入手机号",
 				minlength: "确认手机不能小于11个字符",
 				isMobile: "请正确填写您的手机号码"
-			},
+			},*/
 		}
 	})
     $("input").blur(function(){

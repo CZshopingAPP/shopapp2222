@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-14 14:09:54
+/* Smarty version 3.1.30, created on 2017-07-14 14:23:08
   from "D:\wamp\wamp\www\shopapp2222\mvc\template\index\yj-login.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5968d0b21c1694_10452339',
+  'unifunc' => 'content_5968d3cc8d5017_48924973',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '8597e88b772f458567a8d0834d03635e8232c99c' => 
     array (
       0 => 'D:\\wamp\\wamp\\www\\shopapp2222\\mvc\\template\\index\\yj-login.html',
-      1 => 1500041392,
+      1 => 1500042187,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5968d0b21c1694_10452339 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5968d3cc8d5017_48924973 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -79,7 +79,9 @@ function content_5968d0b21c1694_10452339 (Smarty_Internal_Template $_smarty_tpl)
                     <form action="Checklogin.php" class="myform">
                     <input type="text" class="input"  placeholder="您可以输入手机号" name="mname">
                     <input type="password" class="password" placeholder="您可以输入密码" name="mpass">
+						</form>
                 </div>
+
                 <div class="zc">
                     <div class="zc1">
                         <span></span>
@@ -92,7 +94,7 @@ function content_5968d0b21c1694_10452339 (Smarty_Internal_Template $_smarty_tpl)
                     </div>
                 </div>
             </div>
-		</form>
+
 
 		<div class="tiao"></div>
 		<div class="user1"></div>
@@ -102,6 +104,7 @@ function content_5968d0b21c1694_10452339 (Smarty_Internal_Template $_smarty_tpl)
 			<span><!--您填写的用户名或密码有误--></span>
 		</div>
 			<div class="zhezhao"></div>
+		<form action="Checklogin.php" class="myform">
 			<input type="submit" class="loginn" value="">
 
         </form>
@@ -159,27 +162,27 @@ function content_5968d0b21c1694_10452339 (Smarty_Internal_Template $_smarty_tpl)
 /yj-login-login1.png')");
 				$(".zhezhao").css("display","none");
 		}
-	})
-	jQuery.validator.addMethod("isMobile", function(value, element) {
-		var length = value.length;
-		var mobile = /^(13[0-9]<?php echo 9;?>
+	})/*jQuery.validator.addMethod("isMobile", function(value, element) {
+	 var length = value.length;
+	 var mobile = /^(13[0-9]<?php echo 9;?>
 )|(18[0-9]<?php echo 9;?>
 )|(14[0-9]<?php echo 9;?>
 )|(17[0-9]<?php echo 9;?>
 )|(15[0-9]<?php echo 9;?>
 )$/;
-		return this.optional(element) || (length == 11 && mobile.test(value));
-	}, "请正确填写您的手机号码");
+	 return this.optional(element) || (length == 11 && mobile.test(value));
+	 }, "请正确填写您的手机号码");*/
+
 	$(".myform").validate({
 		errorLabelContainer:".message span",
 		rules: {
-			mname: {
+			/*mname: {
 				required: true,
 //				minlength: 11,
 				// 自定义方法：校验手机号在数据库中是否存在
 				// checkPhoneExist : true,
 				isMobile: true,
-			},
+			},*/
 			mpass:{
 				required:true,
 				rangelength:[6,10],
@@ -189,11 +192,11 @@ function content_5968d0b21c1694_10452339 (Smarty_Internal_Template $_smarty_tpl)
 
 		},
 		messages: {
-			mname: {
+			/*mname: {
 				required: "请输入手机号",
 				minlength: "确认手机不能小于11个字符",
 				isMobile: "请正确填写您的手机号码"
-			},
+			},*/
 		}
 	})
     $("input").blur(function(){

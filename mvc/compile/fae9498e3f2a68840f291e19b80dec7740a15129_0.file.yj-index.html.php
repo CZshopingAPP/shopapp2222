@@ -1,12 +1,41 @@
+<?php
+/* Smarty version 3.1.30, created on 2017-07-14 13:49:02
+  from "D:\wamp\wamp\www\shopapp2222\mvc\template\index\yj-index.html" */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.30',
+  'unifunc' => 'content_5968cbce3ceff6_61981949',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    'fae9498e3f2a68840f291e19b80dec7740a15129' => 
+    array (
+      0 => 'D:\\wamp\\wamp\\www\\shopapp2222\\mvc\\template\\index\\yj-index.html',
+      1 => 1500040138,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_5968cbce3ceff6_61981949 (Smarty_Internal_Template $_smarty_tpl) {
+?>
 <!DOCTYPE html>
 <html lang="en" >
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
-	<link rel="stylesheet" href="{CSS_PATH}/base.css">
-	<link rel="stylesheet" href="{CSS_PATH}/yj-index.css">
-	<script src="{JS_PATH}/rem.js"></script>
+	<link rel="stylesheet" href="<?php echo CSS_PATH;?>
+/base.css">
+	<link rel="stylesheet" href="<?php echo CSS_PATH;?>
+/yj-index.css">
+	<?php echo '<script'; ?>
+ src="<?php echo JS_PATH;?>
+/rem.js"><?php echo '</script'; ?>
+>
 </head>
 <body>
 	<div class="box">
@@ -54,4 +83,5 @@
 		</div>
 	</div>
 </body>
-</html>
+</html><?php }
+}

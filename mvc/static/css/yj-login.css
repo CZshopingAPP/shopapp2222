@@ -8,7 +8,7 @@ body{
 		.box{
 			width: 100%;
 			height: 100%;
-			background: url('../img/yj-login-1_03_03.png'); 
+			background: url('../img/yj-login-1_03_03.png');
 			background-size: cover;
 			background-position: center center;
 			background-repeat: no-repeat;
@@ -48,7 +48,7 @@ body{
 		.login{
 			width: 100%;
 			height: 3.87rem;
-			
+
 			margin-top: 3rem;
 			padding-top: 0.01rem;
 		}
@@ -91,7 +91,7 @@ body{
 			width: 0.3rem;
 			height: 0.08rem;
 			margin: 0 auto;
-			
+
 			margin-top: 0.22rem;
 		}
 		.xuan1{
@@ -107,7 +107,7 @@ body{
 			border-radius: 0.04rem;
 			background:#ff2c8a;
 			float: right;
-			
+
 		}
 		.usertitle{
 			width: 2.32rem;
@@ -133,7 +133,7 @@ body{
 			width: 5.75rem;
 			height: 0.27rem;
 			margin: 0 auto;
-	
+
 			margin-top: 0.5rem;
 		}
 		.zc1,.zc2{
@@ -211,7 +211,7 @@ body{
 			display: inline-block;
 			width: 1.7rem;
 			height: 0.46rem;
-		
+
 			float: left;
 			margin-top: 0.1rem;
 			margin-left:0.45rem;
@@ -232,7 +232,7 @@ body{
 		.san{
 			width: 3.1rem;
 			height: 0.77rem;
-			
+
 			margin: 0 auto;
 			margin-top: 3.7rem;
 			line-height: 0.77rem;
@@ -243,9 +243,9 @@ body{
 			/* display: inline-block; */
 			width: 0.77rem;
 			height: 100%;
-		
+
 			border-radius: 50%;
-			
+
 		}
 		.san span:nth-child(1){
 			background: url('../img/yj-login-qq.png');

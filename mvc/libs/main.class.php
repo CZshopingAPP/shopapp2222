@@ -5,6 +5,7 @@ class main{
         $smarty->setCompileDir("compile");
         $smarty->setTemplateDir("template/admin");
         $this->smarty=$smarty;
+
         $this->session=new session();
     }
 

@@ -17,8 +17,12 @@
     </div>
 
     <div class="form-group">
-        <label for="exampleInputEmail1">标题</label>
+        <label for="exampleInputEmail1">正文标题</label>
         <input type="text" class="form-control" id="exampleInputEmail1" name="stitle" value="{$stitle}">
+    </div>
+    <div class="form-group">
+        <label for="exampleInputEmail1">英语标题</label>
+        <input type="text" class="form-control" id="exampleInputEmail1" name="yutitle" value="{$yutitle}">
     </div>
     <div class="form-group">
         <label for="exampleInputEmail1">关键词</label>
@@ -37,13 +41,23 @@
         </div>
 
     </div>
+    <div class="form-group uploadbox">
+
+        <label for="">详情展示图片</label>
+
+        <div class="uploadBox1">
+
+            <input type="hidden" name="simages" src="{$simage}" class="simage1">
+        </div>
+
+    </div>
     <!--<input type="submit" value="修改内容">-->
 
 
     <input type="hidden" name="sid" value="{$sid}">
-    未审核：<input type="radio" name="status" value="0" {if $status==0}checked{/if}><br>
-    审核中：<input type="radio" name="status" value="1"  {if $status==1}checked{/if}><br>
-    通过：<input type="radio" name="status" value="2"  {if $status==2}checked{/if}><br>
+
+
+
     <input type="submit" class="gai" value="修改">
     <a href="index.php?m=admin&f=lists&a=add">返回</a>
 </form>

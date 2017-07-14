@@ -1,26 +1,27 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-12 05:03:42
+/* Smarty version 3.1.30, created on 2017-07-14 16:03:31
   from "E:\wampserve\wamp\www\shopapp2222\mvc\template\index\luntan.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5965918e035d50_73222126',
+  'unifunc' => 'content_5968cf33c39453_22030377',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'ababfb10eb7651e8a3aa882594a2fdc934de44f3' => 
     array (
       0 => 'E:\\wampserve\\wamp\\www\\shopapp2222\\mvc\\template\\index\\luntan.html',
-      1 => 1499825210,
+      1 => 1499917399,
       2 => 'file',
     ),
   ),
   'includes' => 
   array (
+    'file:footer.html' => 1,
   ),
 ),false)) {
-function content_5965918e035d50_73222126 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5968cf33c39453_22030377 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html lang="en">
@@ -231,7 +232,6 @@ function content_5965918e035d50_73222126 (Smarty_Internal_Template $_smarty_tpl)
             </div>
         </div>
     </div>
-</body>
 <?php echo '<script'; ?>
  src="<?php echo JS_PATH;?>
 /jquery-1.11.3.js"><?php echo '</script'; ?>
@@ -253,6 +253,8 @@ function content_5965918e035d50_73222126 (Smarty_Internal_Template $_smarty_tpl)
     })
 <?php echo '</script'; ?>
 >
-</html>
+    <?php $_smarty_tpl->_subTemplateRender("file:footer.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
+?>
+
 <?php }
 }

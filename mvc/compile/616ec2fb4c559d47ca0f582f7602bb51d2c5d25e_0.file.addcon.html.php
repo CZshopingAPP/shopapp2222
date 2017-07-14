@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-12 04:45:49
+/* Smarty version 3.1.30, created on 2017-07-14 18:40:26
   from "E:\wampserve\wamp\www\shopapp2222\mvc\template\admin\addcon.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_59658d5d1c1427_01520377',
+  'unifunc' => 'content_5968f3fa1e5c78_10325969',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '616ec2fb4c559d47ca0f582f7602bb51d2c5d25e' => 
     array (
       0 => 'E:\\wampserve\\wamp\\www\\shopapp2222\\mvc\\template\\admin\\addcon.html',
-      1 => 1499827546,
+      1 => 1500050372,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_59658d5d1c1427_01520377 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5968f3fa1e5c78_10325969 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html lang="en">
@@ -67,6 +67,18 @@ function content_59658d5d1c1427_01520377 (Smarty_Internal_Template $_smarty_tpl)
         <label >关键词</label>
         <input type="text"  class="form-control" name="keywords" >
     </div>
+    <div class="form-group">
+        <label >人民币</label>
+        <input type="text"  class="form-control" name="price" >
+    </div>
+    <div class="form-group">
+        <label >评分</label>
+        <input type="text"  class="form-control" name="pingfen" >
+    </div>
+    <div class="form-group">
+        <label >英语标题</label>
+        <input type="text"  class="form-control" name="yutitle" >
+    </div>
 
     <div class="form-group">
         <label style="display: block;">内容详情</label>
@@ -74,19 +86,27 @@ function content_59658d5d1c1427_01520377 (Smarty_Internal_Template $_smarty_tpl)
     </div>
     <div class="form-group uploadbox">
 
-        <label for="">图片</label>
+        <label for="">缩略图</label>
 
         <div class="uploadBox">
-            <img class="" src="" alt="">
+
             <input type="hidden" name="simage" class="simage">
         </div>
 
+    </div>
+    <div class="form-group uploadbox">
+
+        <label for="">详情展示图片</label>
+
+        <div class="uploadBox1">
+
+            <input type="hidden" name="simages" class="simage1">
+        </div>
 
     </div>
 
 
 
-    <input type="hidden" name="sid" value="">
 
     <input type="submit" class="gai" value="提交">
 </form>
@@ -101,6 +121,14 @@ function content_59658d5d1c1427_01520377 (Smarty_Internal_Template $_smarty_tpl)
     obj.up("index.php?m=admin&f=lists&a=upload",function (data) {
         document.querySelector(".simage").value=data;
     });
+    obj.createView({
+        parent:document.querySelector(".uploadBox1")
+    })
+    obj.up("index.php?m=admin&f=lists&a=upload",function (data) {
+        document.querySelector(".simage1").value=data;
+    });
+
+
 <?php echo '</script'; ?>
 >
 </html><?php }

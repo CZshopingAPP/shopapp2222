@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-11 10:07:58
+/* Smarty version 3.1.30, created on 2017-07-14 18:46:07
   from "E:\wampserve\wamp\www\shopapp2222\mvc\template\admin\editLists.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5964875e7af4d5_84047672',
+  'unifunc' => 'content_5968f54f837815_71175025',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '55d2ddd700ed86cbfdfbd6568b1e55976f1eeaa3' => 
     array (
       0 => 'E:\\wampserve\\wamp\\www\\shopapp2222\\mvc\\template\\admin\\editLists.html',
-      1 => 1499757724,
+      1 => 1500050763,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5964875e7af4d5_84047672 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5968f54f837815_71175025 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html lang="en">
@@ -43,8 +43,13 @@ function content_5964875e7af4d5_84047672 (Smarty_Internal_Template $_smarty_tpl)
     </div>
 
     <div class="form-group">
-        <label for="exampleInputEmail1">标题</label>
+        <label for="exampleInputEmail1">正文标题</label>
         <input type="text" class="form-control" id="exampleInputEmail1" name="stitle" value="<?php echo $_smarty_tpl->tpl_vars['stitle']->value;?>
+">
+    </div>
+    <div class="form-group">
+        <label for="exampleInputEmail1">英语标题</label>
+        <input type="text" class="form-control" id="exampleInputEmail1" name="yutitle" value="<?php echo $_smarty_tpl->tpl_vars['yutitle']->value;?>
 ">
     </div>
     <div class="form-group">
@@ -67,14 +72,25 @@ function content_5964875e7af4d5_84047672 (Smarty_Internal_Template $_smarty_tpl)
         </div>
 
     </div>
+    <div class="form-group uploadbox">
+
+        <label for="">详情展示图片</label>
+
+        <div class="uploadBox1">
+
+            <input type="hidden" name="simages" src="<?php echo $_smarty_tpl->tpl_vars['simage']->value;?>
+" class="simage1">
+        </div>
+
+    </div>
     <!--<input type="submit" value="修改内容">-->
 
 
     <input type="hidden" name="sid" value="<?php echo $_smarty_tpl->tpl_vars['sid']->value;?>
 ">
-    未审核：<input type="radio" name="status" value="0" <?php if ($_smarty_tpl->tpl_vars['status']->value == 0) {?>checked<?php }?>><br>
-    审核中：<input type="radio" name="status" value="1"  <?php if ($_smarty_tpl->tpl_vars['status']->value == 1) {?>checked<?php }?>><br>
-    通过：<input type="radio" name="status" value="2"  <?php if ($_smarty_tpl->tpl_vars['status']->value == 2) {?>checked<?php }?>><br>
+
+
+
     <input type="submit" class="gai" value="修改">
     <a href="index.php?m=admin&f=lists&a=add">返回</a>
 </form>

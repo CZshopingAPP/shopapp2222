@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-11 02:40:23
+/* Smarty version 3.1.30, created on 2017-07-14 16:02:18
   from "E:\wampserve\wamp\www\shopapp2222\mvc\template\index\yj-login.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_59641e77d38592_18471715',
+  'unifunc' => 'content_5968ceeab43177_63544437',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'd4067651fb3114b65d8384dbf21c0c7515e9ce71' => 
     array (
       0 => 'E:\\wampserve\\wamp\\www\\shopapp2222\\mvc\\template\\index\\yj-login.html',
-      1 => 1499678896,
+      1 => 1499855625,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_59641e77d38592_18471715 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5968ceeab43177_63544437 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -28,30 +28,23 @@ function content_59641e77d38592_18471715 (Smarty_Internal_Template $_smarty_tpl)
 	<meta charset="UTF-8">
 	<title>登录</title>
 	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
-	<link rel="stylesheet" href="<?php echo CSS_PATH;?>
-/base.css">
-	<link rel="stylesheet" href="<?php echo CSS_PATH;?>
-/yj-login.css">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/yj-login.css">
 	<?php echo '<script'; ?>
- src="<?php echo JS_PATH;?>
-/rem.js"><?php echo '</script'; ?>
+ src="js/rem.js"><?php echo '</script'; ?>
 >
 	<?php echo '<script'; ?>
- src="<?php echo JS_PATH;?>
-/jQuery.js"><?php echo '</script'; ?>
+ src="js/jQuery.js"><?php echo '</script'; ?>
 >
 	<?php echo '<script'; ?>
- src="<?php echo JS_PATH;?>
-/jquery.validate.js"><?php echo '</script'; ?>
+ src="js/jquery.validate.js"><?php echo '</script'; ?>
 >
 		<?php echo '<script'; ?>
- src="<?php echo JS_PATH;?>
-/messages_zh.js"><?php echo '</script'; ?>
+ src="js/messages_zh.js"><?php echo '</script'; ?>
 >
 	<style>
 		.loginn{
-			background-image: url("<?php echo IMG_PATH;?>
-/yj-login-login.png");
+			background-image: url("img/yj-login-login.png");
 			background-size: 100%;
 			background-position: center;
 			border: none;
@@ -59,7 +52,7 @@ function content_59641e77d38592_18471715 (Smarty_Internal_Template $_smarty_tpl)
 			margin-top: 0.8rem;
 		}
 		.pass{
-			margin-top: -0.7rem;
+			margin-top: -2.65rem;
 		}
 		
 	</style>
@@ -112,8 +105,9 @@ function content_59641e77d38592_18471715 (Smarty_Internal_Template $_smarty_tpl)
 			<span></span>
 		</div>
 		
-
+			
 	</div>
+<div class="kong"></div>
 </body>
 <?php echo '<script'; ?>
  type="text/javascript">
@@ -125,23 +119,22 @@ function content_59641e77d38592_18471715 (Smarty_Internal_Template $_smarty_tpl)
 		}
 	})
 	$(".pass").click(function(){
-		$(".usertitle").css("background-image","url('<?php echo IMG_PATH;?>
-/yj-login-userpass.png')");
+		$(".usertitle").css("background-image","url('img/yj-login-userpass.png')");
 		$(".input").hide();
 		$(".password").show();
-		$(this).css("background-image","url('<?php echo IMG_PATH;?>
-/yj-login-pass1.png')");
+		$(this).css("background-image","url('img/yj-login-pass1.png')");
 		$(".xuan1").css("width","0.08rem");
 		$(".xuan2").css("width","0.19rem");
+		$(".message").css("opacity",0)
 		$(".message span").children().empty();
 	})
 	$(".user1").click(function(){
-		$(".usertitle").css("background-image","url('<?php echo IMG_PATH;?>
-/yj-login-username.png')");
+		$(".usertitle").css("background-image","url('img/yj-login-username.png')");
 		$(".input").show();
 		$(".password").hide();
 		$(".xuan2").css("width","0.08rem");
 		$(".xuan1").css("width","0.19rem");
+		$(".message").css("opacity",0)
 		$(".message span").children().empty();
 	})
 	/*if($(".input").val()==""){
@@ -151,8 +144,7 @@ function content_59641e77d38592_18471715 (Smarty_Internal_Template $_smarty_tpl)
 	}*/
 	$(".password").blur(function () {
 		if($(".password").val()!=""){
-			$(".loginn").css("background-image","url('<?php echo IMG_PATH;?>
-/yj-login-login1.png')");
+			$(".loginn").css("background-image","url('img/yj-login-login1.png')");
 				$(".zhezhao").css("display","none");
 		}
 	})
@@ -192,13 +184,14 @@ function content_59641e77d38592_18471715 (Smarty_Internal_Template $_smarty_tpl)
 		}
 	})
     $("input").blur(function(){
-    	if($(".message").hasClass("error")){
-    		$(".message").show();
-    	}
-    })
-	setTimeout(function(){
+    	if($(".message span").children().hasClass("error")){
+    		$(".message").css("opacity",1);
+    		setTimeout(function(){
 	$(".message").css("opacity",0);
 	},3000);
+    	}
+    })
+	
   /*  errorLabelContainer:".message span",*/
 		
 <?php echo '</script'; ?>

@@ -19,22 +19,45 @@
     </header>
     <div class="con">
     	<div class="con1">
-    		<textarea name="" id="messin" cols="30" rows="10"></textarea>
-    		<input type="submit" value="提交" class="submit">
+    		<textarea name="mcon" id="messin" cols="30" rows="10"></textarea>
+    		<input type="submit" value="提交" class="submit" mid="{mid}" sid="{rid}">
     	</div>
-    	<div class="con2">
+    	<!--<div class="con2">
     		<div class="title">
 	    		<div class="head">
 	    			<img src="{IMG_PATH}/yj-reg-p1.png" alt="">
 	    		</div>
-    			<span class="name">于世芳</span>
-    			<span class="time1">12:00</span>
-    			<span class="time">2017.07.11</span>
+    			<span class="name" name="mid">{mid}</span>
+				<span  name="sid"></span>
+    			<span class="time1" name="mtime">12:00</span>
     		</div>
-    		<div class="mcon">
-    			<p>天气不错，出来溜溜，要一起吗？</p>
+    		<div class="mcon" >
+    			<p name="mcon">天气不错，出来溜溜，要一起吗？</p>
     		</div>
-    	</div>
+    	</div>-->
     </div>
 </body>
+<script>
+	$(".submit").click=function () {
+        var mid=$(this).attr("mid");
+        var sid=$(this).attr("rid");
+		var mcon=$("textarea").val();
+        $.ajax({
+            url:"index.php?m=admin&f=message&a=add",
+            type:"post",
+            data:{
+                mid:mid,sid:rid,mcon:mcon
+            },
+            success:function(e){
+                if(e=="ok"){
+                    $("textarea").val("");
+                    alert("留言成功");
+                    location.href='index.php?m=index&f=message$sid=rid';
+                }
+            }
+        })
+
+
+	}
+</script>
 </html>

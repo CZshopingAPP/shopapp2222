@@ -18,7 +18,12 @@ class index extends indexMain {
     }
 
     function index1(){
+        $db=new db("lists");
+        $result=$db->select();
+        $this->smarty->assign("result",$result);
         $this->smarty->display("index.html");
     }
+
+
 
 }

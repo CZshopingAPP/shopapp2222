@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-10 11:25:59
+/* Smarty version 3.1.30, created on 2017-07-14 17:45:18
   from "E:\wampserve\wamp\www\shopapp2222\mvc\template\index\detils.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_59634827c95b24_85098395',
+  'unifunc' => 'content_5968e70e96be95_00284613',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '0b64b805dad50847e5cbb74c8c6ae1e0a2c80682' => 
     array (
       0 => 'E:\\wampserve\\wamp\\www\\shopapp2222\\mvc\\template\\index\\detils.html',
-      1 => 1499678758,
+      1 => 1500045938,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_59634827c95b24_85098395 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5968e70e96be95_00284613 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html lang="en">
@@ -43,7 +43,7 @@ function content_59634827c95b24_85098395 (Smarty_Internal_Template $_smarty_tpl)
 </head>
 <body>
 <header>
-    <a href="index.html">
+    <a href="index.php?m=index&f=index&a=index1">
     <div class="back"></div>
     </a>
     <div class="stitle"></div>
@@ -70,7 +70,7 @@ function content_59634827c95b24_85098395 (Smarty_Internal_Template $_smarty_tpl)
             </div>
             <div class="banner">
                 <div class="bann">
-                    <span class="bzi">BCIDECONTION</span>
+                    <span class="bzi" name="yutitle">BCIDECONTION</span>
                     <span class="bzi1">纯棉个性纯色涂鸦T恤</span>
                     <span class="bzi2">双珠面料，吸汗透气</span>
                 </div>
@@ -80,7 +80,7 @@ function content_59634827c95b24_85098395 (Smarty_Internal_Template $_smarty_tpl)
                 </div>
             </div>
             <div class="jage">
-                <span class="rmb">42.00</span>
+                <span class="rmb" name="price"></span>
                 <span class="rmb1">RMB</span>
                 <span class="rmb2">
                     <span class="sc">生产周期为15天</span>
@@ -283,10 +283,10 @@ function content_59634827c95b24_85098395 (Smarty_Internal_Template $_smarty_tpl)
                     <div class="liulan">
                         浏览107人
                     </div>
-                    <div class="zan">
+                    <a href="index.php?m=index&f=message&a=liuyan"><div class="zan">
                         <img src="<?php echo IMG_PATH;?>
 /pinglun.png" alt="">&nbsp;(1257)
-                    </div>
+                    </div></a>
                     <div class="zan1">
                         <img src="<?php echo IMG_PATH;?>
 /zan.png" alt="">&nbsp;(1257)
@@ -367,7 +367,7 @@ function content_59634827c95b24_85098395 (Smarty_Internal_Template $_smarty_tpl)
             </main>
             <div class="xzzbutton">
                 <input type="button" placeholder="">
-                <a class="aaa">查看所有评论(455+)</a>
+                <a href="index.php?m=index&f=message" class="aaa">查看所有评论(455+)</a>
             </div>
         </div>
     </div>

@@ -642,6 +642,8 @@ header{
     color: #3F3F3F;
     line-height:0.4rem;
     position: absolute;
+    height: 0.4rem;
+    overflow: hidden;
 }
 .love2 .sc,.man,.zt{
     width:33.33%;
@@ -724,7 +726,9 @@ header{
 .love1 span{
     font-size: 0.25rem;
     color: #3F3F3F;
-    line-height:0.6rem;
+   line-height:0.6rem;
+    height: 0.6rem;
+    overflow: hidden;
     position: absolute;
 }
 .k{

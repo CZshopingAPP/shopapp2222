@@ -316,19 +316,20 @@
         <div class="ltitle">
             <img src="{IMG_PATH}/love.png" alt="">
         </div>
+        {foreach $result as $v}
         <div class="lo">
             <div class="lo-l">
-                <a href="index.php?m=index&f=detils">
-                    <img src="{IMG_PATH}/l.png" alt="">
+                <a href="index.php?m=index&f=detils&sid={$v['sid']}">
+                    <img src="{$v['simage']}" alt="" name="simage">
                 </a>
             </div>
             <div class="lo-r">
                 <img src="{IMG_PATH}/hot.png" alt="" class="hot">
                 <div class="love1">
-                    <span>服装设计追求的创造思想</span>
+                    <span name="stitle">{$v["stitle"]}</span>
                 </div>
                 <div class="love2">
-                    <span class="lt">CHARACTERIS OF THE TIMES</span>
+                    <span class="lt" name="yutitle">{$v["yutitle"]}</span>
                     <div class="sc">
                         <img src="{IMG_PATH}/xing1.png" alt="">
                         <span>已收藏</span>
@@ -344,44 +345,13 @@
                     <img src="{IMG_PATH}/xx.png" alt="">
                     <img src="{IMG_PATH}/xx.png" alt="">
                     <img src="{IMG_PATH}/xx.png" alt="">
-                    <span>8.5分</span>
-                    <em>49200 REM</em>
+                    <span name="pingfen">{$v["pingfen"]}分</span>
+                    <em name="price">{$v["price"]} RMB</em>
                 </div>
             </div>
         </div>
-        <div class="lo">
-            <div class="lo-l">
-                <a href="index.php?m=index&f=detils">
-                    <img src="{IMG_PATH}/l.png" alt="">
-                </a>
-            </div>
-            <div class="lo-r">
-                <img src="{IMG_PATH}/hot.png" alt="" class="hot">
-                <div class="love1">
-                    <span>服装设计追求的创造思想</span>
-                </div>
-                <div class="love2">
-                    <span class="lt">CHARACTERIS OF THE TIMES</span>
-                    <div class="sc">
-                        <img src="{IMG_PATH}/xing1.png" alt="">
-                        <span>已收藏</span>
-                    </div>
-                    <div class="man">
-                        <img src="{IMG_PATH}/ren.png" alt="">
-                        <span>12546</span>
-                    </div>
-                    <div class="zt">已购买</div>
-                </div>
-                <div class="love3">
-                    <img src="{IMG_PATH}/xx.png" alt="">
-                    <img src="{IMG_PATH}/xx.png" alt="">
-                    <img src="{IMG_PATH}/xx.png" alt="">
-                    <img src="{IMG_PATH}/xx.png" alt="">
-                    <span>8.5分</span>
-                    <em>49200 REM</em>
-                </div>
-            </div>
-        </div>
+        {/foreach}
+
     </div>
     <div class="k"></div>
 </div>

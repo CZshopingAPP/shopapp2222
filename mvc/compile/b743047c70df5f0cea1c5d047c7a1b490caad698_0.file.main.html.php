@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-11 12:16:03
+/* Smarty version 3.1.30, created on 2017-07-14 04:35:13
   from "E:\wampserve\wamp\www\shopapp2222\mvc\template\admin\main.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5964a563d42d04_12853314',
+  'unifunc' => 'content_59682de1068db4_05842425',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'b743047c70df5f0cea1c5d047c7a1b490caad698' => 
     array (
       0 => 'E:\\wampserve\\wamp\\www\\shopapp2222\\mvc\\template\\admin\\main.html',
-      1 => 1499768006,
+      1 => 1499998040,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5964a563d42d04_12853314 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59682de1068db4_05842425 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html lang="en">
@@ -266,88 +266,6 @@ function content_5964a563d42d04_12853314 (Smarty_Internal_Template $_smarty_tpl)
 </head>
 <body>
 
-<!--<div class="box">
-    <div class="left">
-
-        <ul>
-            <?php if ($_smarty_tpl->tpl_vars['rid']->value == 1) {?>
-            <li>
-                <a href="javascript:;">用户管理</a>
-                <ul>
-                    <li class="leftselect">
-                        <a href="index.php?m=admin&f=user&a=add" target="baidu">添加用户</a>
-                    </li>
-                    <li>
-                        <a href="index.php?m=admin&f=user&a=show" target="baidu">查看用户</a>
-                    </li>
-                </ul>
-            </li>
-            <?php }?>
-            <li>
-                <a href="javascript:;">会员管理</a>
-                <ul>
-                    <li>
-                        <a href="addCon.php" target="baidu">添加会员</a>
-                    </li>
-                    <li>
-                        <a href="showCon.php" target="baidu">查看会员</a>
-                    </li>
-                </ul>
-            </li>
-
-            <li>
-                <a href="javascript:;">角色管理</a>
-                <ul>
-                    <li>
-                        <a href="index.php?m=admin&f=role&a=add" target="baidu">添加角色</a>
-                    </li>
-                    <li>
-                        <a href="index.php?m=admin&f=role&a=show" target="baidu">查看角色</a>
-                    </li>
-                </ul>
-            </li>
-
-            <li>
-                <a href="javascript:;">分类管理</a>
-                <ul>
-                    <li>
-                        <a href="index.php?m=admin&f=category&a=add" target="baidu">添加分类</a>
-                    </li>
-                    <li>
-                        <a href="index.php?m=admin&f=role&a=show" target="baidu">查看分类</a>
-                    </li>
-                </ul>
-            </li>
-
-            <li>
-                <a href="javascript:;">内容管理</a>
-                <ul>
-                    <li>
-                        <a href="index.php?m=admin&f=lists&a=add" target="baidu">添加内容</a>
-                    </li>
-                    <li>
-                        <a href="index.php?m=admin&f=lists&a=add" target="baidu">查看内容</a>
-                    </li>
-                </ul>
-            </li>
-
-            <li>
-                <a href="javascript:;">推荐位管理</a>
-                <ul>
-                    <li>
-                        <a href="index.php?m=admin&f=position&a=add" target="baidu">添加位置</a>
-                    </li>
-                    <li>
-                        <a href="index.php?m=admin&f=role&a=show" target="baidu">查看位置</a>
-                    </li>
-                </ul>
-            </li>
-        </ul>
-    </div>
-    <div class="right">
-        <iframe src="index.php?m=admin&f=welcome&a=wel" frameborder="0" name="baidu"></iframe>
-    </div>
-</div>-->
 
 <div class="header">
     <div class="time"></div>
@@ -438,6 +356,20 @@ function content_5964a563d42d04_12853314 (Smarty_Internal_Template $_smarty_tpl)
                         </li>
                     </ul>
                 </li>
+                <li class="yiji">
+                    <a href="javascript:">
+                        <span class="jiazu">评论</span>管理
+                        <span class="jiazu">Message</span>&nbsp;management
+                    </a>
+                    <ul class="choose">
+                        <li>
+                            <a href="index.php?m=admin&f=message&a=show" target="baidu">查看评论 View message</a>
+                        </li>
+                    </ul>
+                </li>
+
+
+
             </ul>
         </div>
     </div>

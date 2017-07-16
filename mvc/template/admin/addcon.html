@@ -22,11 +22,18 @@
 
     <div class="form-group">
         <select name="cid"  class="form-control">
-            <option value="0">
+            <option value="0" >
                 --一级分类--
             </option>
             {$str}
         </select>
+    </div>
+    <div class="form-group">
+        <label >推荐位</label>
+        {foreach $result as $v}
+        {$v["posname"]} <input type="checkbox"  name="posid"
+        value="{$v['posid']}">
+        {/foreach}
     </div>
 
 
@@ -50,6 +57,8 @@
         <label >英语标题</label>
         <input type="text"  class="form-control" name="yutitle" >
     </div>
+
+
 
     <div class="form-group">
         <label style="display: block;">内容详情</label>
@@ -91,10 +100,11 @@
     obj.up("index.php?m=admin&f=lists&a=upload",function (data) {
         document.querySelector(".simage").value=data;
     });
-    obj.createView({
+    var obj1=new upload();
+    obj1.createView({
         parent:document.querySelector(".uploadBox1")
     })
-    obj.up("index.php?m=admin&f=lists&a=upload",function (data) {
+    obj1.up("index.php?m=admin&f=lists&a=upload",function (data) {
         document.querySelector(".simage1").value=data;
     });
 

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-14 17:45:18
+/* Smarty version 3.1.30, created on 2017-07-16 06:12:52
   from "E:\wampserve\wamp\www\shopapp2222\mvc\template\index\detils.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5968e70e96be95_00284613',
+  'unifunc' => 'content_596ae7c42231f3_27492570',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '0b64b805dad50847e5cbb74c8c6ae1e0a2c80682' => 
     array (
       0 => 'E:\\wampserve\\wamp\\www\\shopapp2222\\mvc\\template\\index\\detils.html',
-      1 => 1500045938,
+      1 => 1500178369,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5968e70e96be95_00284613 (Smarty_Internal_Template $_smarty_tpl) {
+function content_596ae7c42231f3_27492570 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html lang="en">
@@ -46,9 +46,10 @@ function content_5968e70e96be95_00284613 (Smarty_Internal_Template $_smarty_tpl)
     <a href="index.php?m=index&f=index&a=index1">
     <div class="back"></div>
     </a>
-    <div class="stitle"></div>
+    <div class="stitle0"></div>
     <div class="xian"></div>
 </header>
+
 <div class="cotent">
     <div class="content1">
         <div class="content1">
@@ -71,7 +72,19 @@ function content_5968e70e96be95_00284613 (Smarty_Internal_Template $_smarty_tpl)
             <div class="banner">
                 <div class="bann">
                     <span class="bzi" name="yutitle">BCIDECONTION</span>
-                    <span class="bzi1">纯棉个性纯色涂鸦T恤</span>
+                    <?php
+$_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['result']->value, 'v');
+if ($_from !== null) {
+foreach ($_from as $_smarty_tpl->tpl_vars['v']->value) {
+?>
+                    <span class="bzi1" ><?php echo $_smarty_tpl->tpl_vars['v']->value["stitle"];?>
+</span>
+                    <?php
+}
+}
+$_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl);
+?>
+
                     <span class="bzi2">双珠面料，吸汗透气</span>
                 </div>
                 <div class="bann1">
@@ -403,6 +416,7 @@ function content_5968e70e96be95_00284613 (Smarty_Internal_Template $_smarty_tpl)
         </div>
     </div>
 </div>
+
 </body>
 <?php echo '<script'; ?>
  src="<?php echo JS_PATH;?>

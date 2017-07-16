@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-14 18:46:07
+/* Smarty version 3.1.30, created on 2017-07-15 12:11:15
   from "E:\wampserve\wamp\www\shopapp2222\mvc\template\admin\editLists.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5968f54f837815_71175025',
+  'unifunc' => 'content_5969ea438ab437_61381408',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '55d2ddd700ed86cbfdfbd6568b1e55976f1eeaa3' => 
     array (
       0 => 'E:\\wampserve\\wamp\\www\\shopapp2222\\mvc\\template\\admin\\editLists.html',
-      1 => 1500050763,
+      1 => 1500107109,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5968f54f837815_71175025 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5969ea438ab437_61381408 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html lang="en">
@@ -35,11 +35,32 @@ function content_5968f54f837815_71175025 (Smarty_Internal_Template $_smarty_tpl)
 </head>
 <body>
 <form action="index.php?m=admin&f=lists&a=editStatus" method="post" class="">
+    <div class="form-group">
+        <select name="cid"  class="form-control">
+            <option value="0">
+                --一级分类--
+            </option>
+            <?php echo $_smarty_tpl->tpl_vars['str']->value;?>
+
+        </select>
+    </div>
 
     <div class="form-group">
-        <label for="exampleInputEmail1">所属话题</label>
-        <input type="text" name="cid" value="<?php echo $_smarty_tpl->tpl_vars['cname']->value;?>
-">
+        <label >推荐位</label>
+        <?php
+$_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['result2']->value, 'v');
+if ($_from !== null) {
+foreach ($_from as $_smarty_tpl->tpl_vars['v']->value) {
+?>
+        <?php echo $_smarty_tpl->tpl_vars['v']->value["posname"];?>
+ <input type="checkbox"  name="posid" value="<?php echo $_smarty_tpl->tpl_vars['v']->value['posid'];?>
+" >
+        <?php
+}
+}
+$_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl);
+?>
+
     </div>
 
     <div class="form-group">
@@ -68,7 +89,7 @@ function content_5968f54f837815_71175025 (Smarty_Internal_Template $_smarty_tpl)
 
         <div class="uploadBox">
             <img class="simage" src="<?php echo $_smarty_tpl->tpl_vars['simage']->value;?>
-" alt="">
+" alt="" style="width: 50px;height: 50px;">
         </div>
 
     </div>
@@ -76,10 +97,9 @@ function content_5968f54f837815_71175025 (Smarty_Internal_Template $_smarty_tpl)
 
         <label for="">详情展示图片</label>
 
-        <div class="uploadBox1">
-
-            <input type="hidden" name="simages" src="<?php echo $_smarty_tpl->tpl_vars['simage']->value;?>
-" class="simage1">
+        <div class="uploadBox">
+            <img class="simage" src="<?php echo $_smarty_tpl->tpl_vars['simages']->value;?>
+" alt="" style="width: 50px;height: 50px;">
         </div>
 
     </div>

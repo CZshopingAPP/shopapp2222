@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-12 05:02:55
+/* Smarty version 3.1.30, created on 2017-07-15 02:38:04
   from "E:\wampserve\wamp\www\shopapp2222\mvc\template\index\yj-index.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5965915f603ca8_13717715',
+  'unifunc' => 'content_596963ec513c15_53610859',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '55d056c4d9dcdf0b2e8fba2df22d8857fbb894ab' => 
     array (
       0 => 'E:\\wampserve\\wamp\\www\\shopapp2222\\mvc\\template\\index\\yj-index.html',
-      1 => 1499825438,
+      1 => 1500045223,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5965915f603ca8_13717715 (Smarty_Internal_Template $_smarty_tpl) {
+function content_596963ec513c15_53610859 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="en" >
@@ -39,7 +39,7 @@ function content_5965915f603ca8_13717715 (Smarty_Internal_Template $_smarty_tpl)
 </head>
 <body>
 	<div class="box">
-		<div class="jump"><a href="index.php?m=index&f=index&a=index1">跳过</a></div>
+		<div class="jump" style="background:rgba(255,255,255,0.6);border:1px solid #fff"><a href="index.php?m=index&f=index&a=index1">跳过</a></div>
 		<div class="shop1"></div>
 		<div class="shop"></div>
 		<div class="logo">

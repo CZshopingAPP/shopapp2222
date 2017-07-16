@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-14 18:40:26
+/* Smarty version 3.1.30, created on 2017-07-16 05:34:59
   from "E:\wampserve\wamp\www\shopapp2222\mvc\template\admin\addcon.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5968f3fa1e5c78_10325969',
+  'unifunc' => 'content_596adee3610988_86114149',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '616ec2fb4c559d47ca0f582f7602bb51d2c5d25e' => 
     array (
       0 => 'E:\\wampserve\\wamp\\www\\shopapp2222\\mvc\\template\\admin\\addcon.html',
-      1 => 1500050372,
+      1 => 1500175261,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5968f3fa1e5c78_10325969 (Smarty_Internal_Template $_smarty_tpl) {
+function content_596adee3610988_86114149 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html lang="en">
@@ -50,12 +50,30 @@ function content_5968f3fa1e5c78_10325969 (Smarty_Internal_Template $_smarty_tpl)
 
     <div class="form-group">
         <select name="cid"  class="form-control">
-            <option value="0">
+            <option value="0" >
                 --一级分类--
             </option>
             <?php echo $_smarty_tpl->tpl_vars['str']->value;?>
 
         </select>
+    </div>
+    <div class="form-group">
+        <label >推荐位</label>
+        <?php
+$_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['result']->value, 'v');
+if ($_from !== null) {
+foreach ($_from as $_smarty_tpl->tpl_vars['v']->value) {
+?>
+        <?php echo $_smarty_tpl->tpl_vars['v']->value["posname"];?>
+ <input type="checkbox"  name="posid"
+        value="<?php echo $_smarty_tpl->tpl_vars['v']->value['posid'];?>
+">
+        <?php
+}
+}
+$_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl);
+?>
+
     </div>
 
 
@@ -79,6 +97,8 @@ function content_5968f3fa1e5c78_10325969 (Smarty_Internal_Template $_smarty_tpl)
         <label >英语标题</label>
         <input type="text"  class="form-control" name="yutitle" >
     </div>
+
+
 
     <div class="form-group">
         <label style="display: block;">内容详情</label>
@@ -121,10 +141,11 @@ function content_5968f3fa1e5c78_10325969 (Smarty_Internal_Template $_smarty_tpl)
     obj.up("index.php?m=admin&f=lists&a=upload",function (data) {
         document.querySelector(".simage").value=data;
     });
-    obj.createView({
+    var obj1=new upload();
+    obj1.createView({
         parent:document.querySelector(".uploadBox1")
     })
-    obj.up("index.php?m=admin&f=lists&a=upload",function (data) {
+    obj1.up("index.php?m=admin&f=lists&a=upload",function (data) {
         document.querySelector(".simage1").value=data;
     });
 

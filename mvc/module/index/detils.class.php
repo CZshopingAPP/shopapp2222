@@ -5,7 +5,14 @@ class detils  extends indexMain{
         $this->smarty->assign("mname",$this->session->get("mname"));
         $db=new db("lists");
         $result=$db->where("sid='{sid}'")->select();
+
+      /*  $this->smarty->assign();
+        $this->smarty->assign();
+        $this->smarty->assign();
+        $this->smarty->assign();*/
+
         $this->smarty->assign("result",$result);
+ /*       $this->smarty->assign("stitle",$result["stitle"]);*/
         $this->smarty->display("detils.html");
     }
 

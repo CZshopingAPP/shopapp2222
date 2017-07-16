@@ -16,73 +16,33 @@
 <body>
 <table class="table table-striped">
     <tr>
-        <th>
-            sid
-        </th>
-        <th>
-            正文标题
-        </th>
-        <th>
-            英语标题
-        </th>
-        <th>
-            推荐位
-        </th>
-        <th>
-            关键词
-        </th>
-        <th>
-            发表时间
-        </th>
-        <th>
-            缩略图
-        </th>
-
-        <th>
-            所属分类
-        </th>
-        <th>
-            详情展示图片
-        </th>
-        <th>
-            操作
-        </th>
+        <th>sid</th>
+        <th>所属分类</th>
+        <th>推荐位</th>
+        <th>正文标题</th>
+        <th>英语标题</th>
+        <th>关键词</th>
+        <th>发表时间</th>
+        <th>缩略图</th>
+        <th>内容</th>
+        <th>详情展示图片</th>
+        <th>操作</th>
     </tr>
     {foreach $result as $v}
     <tr>
-
-        <td>
-            {$v["sid"]}
-        </td>
-        <td>
-            {$v["stitle"]}
-        </td>
-        <td>
-            {$v["yutitle"]}
-        </td>
-        <td>
-            {$v["posid"]}
-        </td>
-        <td>
-            {$v["keywords"]}
-        </td>
-        <td>
-            {$v["stime"]}
-        </td>
-        <td >
-            <img src="{$v['simage']}" alt="" style="width: 50px;height: 50px;">
-        </td>
-
-        <td>
-            {$v["cid"]}
-        </td>
-        <td>
-            {$v["simages"]}
-        </td>
+        <td>{$v["sid"]}</td>
+        <td>{$v["cid"]}</td>
+        <td>{$v["posid"]}</td>
+        <td>{$v["stitle"]}</td>
+        <td>{$v["yutitle"]}</td>
+        <td>{$v["keywords"]}</td>
+        <td>{$v["stime"]}</td>
+        <td ><img src="{$v['simage']}" alt="" style="width: 50px;height: 50px;"></td>
+        <td>{$v["scon"]}</td>
+        <td><img src="{$v['simages']}" alt="" style="width: 50px;height: 50px;"></td>
         <td>
             <a href="index.php?m=admin&f=lists&a=del&sid={$v['sid']}">删除</a>
-
-            <a href="index.php?m=admin&f=lists&a=edit&sid={$v['sid']}&cid={$v['cid']}">编辑</a>
+            <a href="index.php?m=admin&f=lists&a=edit&sid={$v['sid']}&cid={$v['cid']}&posid={$v['posid']}">编辑</a>
         </td>
     </tr>
     {/foreach}

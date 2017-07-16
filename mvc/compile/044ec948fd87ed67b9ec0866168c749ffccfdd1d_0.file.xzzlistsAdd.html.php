@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-14 18:44:19
+/* Smarty version 3.1.30, created on 2017-07-16 05:11:50
   from "E:\wampserve\wamp\www\shopapp2222\mvc\template\admin\xzzlistsAdd.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5968f4e3c257c1_03953913',
+  'unifunc' => 'content_596ad97683b434_98001661',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '044ec948fd87ed67b9ec0866168c749ffccfdd1d' => 
     array (
       0 => 'E:\\wampserve\\wamp\\www\\shopapp2222\\mvc\\template\\admin\\xzzlistsAdd.html',
-      1 => 1500050657,
+      1 => 1500174707,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5968f4e3c257c1_03953913 (Smarty_Internal_Template $_smarty_tpl) {
+function content_596ad97683b434_98001661 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html lang="en">
@@ -41,37 +41,17 @@ function content_5968f4e3c257c1_03953913 (Smarty_Internal_Template $_smarty_tpl)
 <body>
 <table class="table table-striped">
     <tr>
-        <th>
-            sid
-        </th>
-        <th>
-            正文标题
-        </th>
-        <th>
-            英语标题
-        </th>
-        <th>
-            推荐位
-        </th>
-        <th>
-            关键词
-        </th>
-        <th>
-            发表时间
-        </th>
-        <th>
-            缩略图
-        </th>
-
-        <th>
-            所属分类
-        </th>
-        <th>
-            详情展示图片
-        </th>
-        <th>
-            操作
-        </th>
+        <th>sid</th>
+        <th>所属分类</th>
+        <th>推荐位</th>
+        <th>正文标题</th>
+        <th>英语标题</th>
+        <th>关键词</th>
+        <th>发表时间</th>
+        <th>缩略图</th>
+        <th>内容</th>
+        <th>详情展示图片</th>
+        <th>操作</th>
     </tr>
     <?php
 $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['result']->value, 'v');
@@ -79,50 +59,32 @@ if ($_from !== null) {
 foreach ($_from as $_smarty_tpl->tpl_vars['v']->value) {
 ?>
     <tr>
-
-        <td>
-            <?php echo $_smarty_tpl->tpl_vars['v']->value["sid"];?>
-
-        </td>
-        <td>
-            <?php echo $_smarty_tpl->tpl_vars['v']->value["stitle"];?>
-
-        </td>
-        <td>
-            <?php echo $_smarty_tpl->tpl_vars['v']->value["yutitle"];?>
-
-        </td>
-        <td>
-            <?php echo $_smarty_tpl->tpl_vars['v']->value["posid"];?>
-
-        </td>
-        <td>
-            <?php echo $_smarty_tpl->tpl_vars['v']->value["keywords"];?>
-
-        </td>
-        <td>
-            <?php echo $_smarty_tpl->tpl_vars['v']->value["stime"];?>
-
-        </td>
-        <td >
-            <img src="<?php echo $_smarty_tpl->tpl_vars['v']->value['simage'];?>
-" alt="" style="width: 50px;height: 50px;">
-        </td>
-
-        <td>
-            <?php echo $_smarty_tpl->tpl_vars['v']->value["cid"];?>
-
-        </td>
-        <td>
-            <?php echo $_smarty_tpl->tpl_vars['v']->value["simages"];?>
-
-        </td>
+        <td><?php echo $_smarty_tpl->tpl_vars['v']->value["sid"];?>
+</td>
+        <td><?php echo $_smarty_tpl->tpl_vars['v']->value["cid"];?>
+</td>
+        <td><?php echo $_smarty_tpl->tpl_vars['v']->value["posid"];?>
+</td>
+        <td><?php echo $_smarty_tpl->tpl_vars['v']->value["stitle"];?>
+</td>
+        <td><?php echo $_smarty_tpl->tpl_vars['v']->value["yutitle"];?>
+</td>
+        <td><?php echo $_smarty_tpl->tpl_vars['v']->value["keywords"];?>
+</td>
+        <td><?php echo $_smarty_tpl->tpl_vars['v']->value["stime"];?>
+</td>
+        <td ><img src="<?php echo $_smarty_tpl->tpl_vars['v']->value['simage'];?>
+" alt="" style="width: 50px;height: 50px;"></td>
+        <td><?php echo $_smarty_tpl->tpl_vars['v']->value["scon"];?>
+</td>
+        <td><img src="<?php echo $_smarty_tpl->tpl_vars['v']->value['simages'];?>
+" alt="" style="width: 50px;height: 50px;"></td>
         <td>
             <a href="index.php?m=admin&f=lists&a=del&sid=<?php echo $_smarty_tpl->tpl_vars['v']->value['sid'];?>
 ">删除</a>
-
             <a href="index.php?m=admin&f=lists&a=edit&sid=<?php echo $_smarty_tpl->tpl_vars['v']->value['sid'];?>
 &cid=<?php echo $_smarty_tpl->tpl_vars['v']->value['cid'];?>
+&posid=<?php echo $_smarty_tpl->tpl_vars['v']->value['posid'];?>
 ">编辑</a>
         </td>
     </tr>

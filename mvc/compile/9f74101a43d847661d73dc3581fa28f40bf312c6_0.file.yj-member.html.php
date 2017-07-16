@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-13 05:43:24
+/* Smarty version 3.1.30, created on 2017-07-15 02:56:31
   from "E:\wampserve\wamp\www\shopapp2222\mvc\template\index\yj-member.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5966ec5c7acaf6_29306299',
+  'unifunc' => 'content_5969683f6a5068_79147842',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '9f74101a43d847661d73dc3581fa28f40bf312c6' => 
     array (
       0 => 'E:\\wampserve\\wamp\\www\\shopapp2222\\mvc\\template\\index\\yj-member.html',
-      1 => 1499917399,
+      1 => 1500045224,
       2 => 'file',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:footer.html' => 1,
   ),
 ),false)) {
-function content_5966ec5c7acaf6_29306299 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5969683f6a5068_79147842 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html>
@@ -344,5 +344,7 @@ mui(".conn").on("tap",".zhezhao",function(){
 <?php echo '</script'; ?>
 >
 <?php $_smarty_tpl->_subTemplateRender("file:footer.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
-}
+?>
+
+<?php }
 }

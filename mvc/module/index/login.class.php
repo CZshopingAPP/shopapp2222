@@ -3,7 +3,7 @@ class login extends indexMain{
     function init(){
         $this->smarty->display("yj-login.html");
     }
-    function reg(){
+ /*   function reg(){
         if($_POST["code"]!==$this->session->get("code")){
             echo "验证码错误";
             exit;
@@ -46,14 +46,14 @@ class login extends indexMain{
         }
 
 
-    }
+    }*/
 
     function willLogin(){
-        $code=$_POST["code"];
+       /* $code=$_POST["code"];
         if($_POST["code"]!==$this->session->get("code")){
             echo "验证码错误";
             exit;
-        }
+        }*/
         $mname=$_POST["mname"];
         if(empty($mname)){
             echo "用户不能为空";
@@ -74,8 +74,7 @@ class login extends indexMain{
                     $this->session->set("mname",$v["mname"]);
                     $this->session->set("mid",$v["mid"]);
                     $this->session->set("nicheng",$v["nicheng"]);
-                    echo "ok,即将跳转....";
-                    exit();
+                   $this->jump("登陆成功","index.php?m=index&f=index&a=index1");
                 }
             }
         }

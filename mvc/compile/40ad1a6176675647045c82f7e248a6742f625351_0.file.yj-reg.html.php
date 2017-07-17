@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-10 11:31:11
+/* Smarty version 3.1.30, created on 2017-07-16 16:20:49
   from "E:\wampserve\wamp\www\shopapp2222\mvc\template\index\yj-reg.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5963495f770fc5_27788239',
+  'unifunc' => 'content_596b76414fc9a6_94036201',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '40ad1a6176675647045c82f7e248a6742f625351' => 
     array (
       0 => 'E:\\wampserve\\wamp\\www\\shopapp2222\\mvc\\template\\index\\yj-reg.html',
-      1 => 1499679071,
+      1 => 1500214722,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5963495f770fc5_27788239 (Smarty_Internal_Template $_smarty_tpl) {
+function content_596b76414fc9a6_94036201 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -38,7 +38,7 @@ function content_5963495f770fc5_27788239 (Smarty_Internal_Template $_smarty_tpl)
 >
 	<?php echo '<script'; ?>
  src="<?php echo JS_PATH;?>
-/jQuery.js"><?php echo '</script'; ?>
+/jquery.min.js"><?php echo '</script'; ?>
 >
 	<?php echo '<script'; ?>
  src="<?php echo JS_PATH;?>
@@ -87,13 +87,13 @@ function content_5963495f770fc5_27788239 (Smarty_Internal_Template $_smarty_tpl)
 				<span></span>
 				<span></span>
 			</div>
-			<form action="" class="myform">
+			<form action="index.php?m=index&f=reg&a=reg1" class="myform" method="post">
 			<input type="text" class="user phone" placeholder="请输入手机号码" name="mname">
 			<input type="text" class="code" name="code" placeholder="请输入验证码">
 			<input type="password" class="pass" placeholder="请输入密码" name="mpass">
 			<input type="password" class="pass1" placeholder="请再次输入密码" name="mpass1">
 			<div class="huoqu">获取</div>
-		</div>
+
 		<!--<div class="message">
 			<div class="message1"></div>
 			<span></span>
@@ -101,6 +101,7 @@ function content_5963495f770fc5_27788239 (Smarty_Internal_Template $_smarty_tpl)
 		<input type="submit" class="loginn" value="">
 
 		</form>
+	</div>
 	</div>
 </body>
 <?php echo '<script'; ?>
@@ -137,13 +138,8 @@ function content_5963495f770fc5_27788239 (Smarty_Internal_Template $_smarty_tpl)
 	}, "请正确填写您的手机号码");
 
 	$(".myform").validate({
-	/*	errorLabelContainer:".message span",*/
+	//	errorLabelContainer:".message span",
 		rules: {
-			/*user: {
-				required: true,
-				email: true,
-
-			},*/
 			mname: {
 				required: true,
 				minlength: 11,

@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="{CSS_PATH}/base.css">
 	<link rel="stylesheet" href="{CSS_PATH}/yj-reg.css">
 	<script src="{JS_PATH}/rem.js"></script>
-	<script src="{JS_PATH}/jQuery.js"></script>
+	<script src="{JS_PATH}/jquery.min.js"></script>
 	<script src="{JS_PATH}/jquery.validate.js"></script>
 	<script src="{JS_PATH}/messages_zh.js"></script>
 
@@ -48,13 +48,13 @@
 				<span></span>
 				<span></span>
 			</div>
-			<form action="" class="myform">
+			<form action="index.php?m=index&f=reg&a=reg1" class="myform" method="post">
 			<input type="text" class="user phone" placeholder="请输入手机号码" name="mname">
 			<input type="text" class="code" name="code" placeholder="请输入验证码">
 			<input type="password" class="pass" placeholder="请输入密码" name="mpass">
 			<input type="password" class="pass1" placeholder="请再次输入密码" name="mpass1">
 			<div class="huoqu">获取</div>
-		</div>
+
 		<!--<div class="message">
 			<div class="message1"></div>
 			<span></span>
@@ -62,6 +62,7 @@
 		<input type="submit" class="loginn" value="">
 
 		</form>
+	</div>
 	</div>
 </body>
 <script>
@@ -90,7 +91,7 @@
 	}, "请正确填写您的手机号码");
 
 	$(".myform").validate({
-	/*	errorLabelContainer:".message span",*/
+	//	errorLabelContainer:".message span",
 		rules: {
 			mname: {
 				required: true,

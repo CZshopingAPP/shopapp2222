@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-15 02:38:04
+/* Smarty version 3.1.30, created on 2017-07-16 16:03:02
   from "E:\wampserve\wamp\www\shopapp2222\mvc\template\index\yj-index.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_596963ec513c15_53610859',
+  'unifunc' => 'content_596b7216a99a24_46367296',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '55d056c4d9dcdf0b2e8fba2df22d8857fbb894ab' => 
     array (
       0 => 'E:\\wampserve\\wamp\\www\\shopapp2222\\mvc\\template\\index\\yj-index.html',
-      1 => 1500045223,
+      1 => 1500213780,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_596963ec513c15_53610859 (Smarty_Internal_Template $_smarty_tpl) {
+function content_596b7216a99a24_46367296 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="en" >
@@ -72,7 +72,7 @@ function content_596963ec513c15_53610859 (Smarty_Internal_Template $_smarty_tpl)
 			</a>
 		</div>
 		<div class="login reg">
-			<a href="index.php?m=index&f=index&a=reg1">
+			<a href="index.php?m=index&f=reg&a=init">
 				<span></span>
 				<span>
 				<p>注册</p>

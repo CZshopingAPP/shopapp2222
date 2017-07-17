@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-15 02:38:13
+/* Smarty version 3.1.30, created on 2017-07-16 16:49:03
   from "E:\wampserve\wamp\www\shopapp2222\mvc\template\index\yj-login.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_596963f53ee048_30399244',
+  'unifunc' => 'content_596b7cdf843b44_36528467',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'd4067651fb3114b65d8384dbf21c0c7515e9ce71' => 
     array (
       0 => 'E:\\wampserve\\wamp\\www\\shopapp2222\\mvc\\template\\index\\yj-login.html',
-      1 => 1500045223,
+      1 => 1500216542,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_596963f53ee048_30399244 (Smarty_Internal_Template $_smarty_tpl) {
+function content_596b7cdf843b44_36528467 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -76,9 +76,10 @@ function content_596963f53ee048_30399244 (Smarty_Internal_Template $_smarty_tpl)
                         <div class="xuan2"></div>
                     </div>
                     <div class="usertitle"></div>
-                    <form action="Checklogin.php" class="myform">
+                    <form action="index.php?m=index&f=login&a=willLogin" class="myform" method="post">
                     <input type="text" class="input"  placeholder="您可以输入手机号" name="mname">
                     <input type="password" class="password" placeholder="您可以输入密码" name="mpass">
+						<input type="submit" class="loginn" value="">
 						</form>
                 </div>
 
@@ -89,7 +90,7 @@ function content_596963f53ee048_30399244 (Smarty_Internal_Template $_smarty_tpl)
                     </div>
                     <div class="zc2">
                         <span></span>
-                        <span>我要注册</span>
+						<span><a href="index.php?m=index&f=reg" style="color:#f72f6c" >我要注册</a></span>
 
                     </div>
                 </div>
@@ -104,10 +105,10 @@ function content_596963f53ee048_30399244 (Smarty_Internal_Template $_smarty_tpl)
 			<span><!--您填写的用户名或密码有误--></span>
 		</div>
 			<div class="zhezhao"></div>
-		<form action="Checklogin.php" class="myform">
-			<input type="submit" class="loginn" value="">
 
-        </form>
+
+
+
 		
         
 		<div class="san">

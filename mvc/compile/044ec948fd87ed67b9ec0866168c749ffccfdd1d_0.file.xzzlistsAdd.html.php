@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-16 05:11:50
+/* Smarty version 3.1.30, created on 2017-07-16 17:17:55
   from "E:\wampserve\wamp\www\shopapp2222\mvc\template\admin\xzzlistsAdd.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_596ad97683b434_98001661',
+  'unifunc' => 'content_596b83a31ac721_53095695',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '044ec948fd87ed67b9ec0866168c749ffccfdd1d' => 
     array (
       0 => 'E:\\wampserve\\wamp\\www\\shopapp2222\\mvc\\template\\admin\\xzzlistsAdd.html',
-      1 => 1500174707,
+      1 => 1500218273,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_596ad97683b434_98001661 (Smarty_Internal_Template $_smarty_tpl) {
+function content_596b83a31ac721_53095695 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html lang="en">
@@ -61,8 +61,20 @@ foreach ($_from as $_smarty_tpl->tpl_vars['v']->value) {
     <tr>
         <td><?php echo $_smarty_tpl->tpl_vars['v']->value["sid"];?>
 </td>
+        <?php
+$_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['info']->value, 'i');
+if ($_from !== null) {
+foreach ($_from as $_smarty_tpl->tpl_vars['i']->value) {
+?>
         <td><?php echo $_smarty_tpl->tpl_vars['v']->value["cid"];?>
+</td> <td><?php echo $_smarty_tpl->tpl_vars['i']->value["cname"];?>
 </td>
+        <?php
+}
+}
+$_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl);
+?>
+
         <td><?php echo $_smarty_tpl->tpl_vars['v']->value["posid"];?>
 </td>
         <td><?php echo $_smarty_tpl->tpl_vars['v']->value["stitle"];?>

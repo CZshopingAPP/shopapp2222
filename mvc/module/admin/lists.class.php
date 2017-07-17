@@ -14,7 +14,7 @@ class lists extends main{
         $this->smarty->display("addcon.html");
     }
     function add1(){
-        $sid=$_POST["sid"];
+       // $sid=$_POST["sid"];
         $cid=$_POST["cid"];
         $posid=$_POST["posid"];
         $stitle=$_POST["stitle"];
@@ -26,9 +26,9 @@ class lists extends main{
         $simage=$_POST["simage"];
         $simages=implode(",",$_POST["simages"]);
         $db=new db("lists");
-        $result=$db->insert("cid='{$cid}',stitle='{$stitle}',keywords='{$keywords}',scon='{$scon}',simage='{$simage}',sid='{$sid}',pingfen='{$pingfen}',yutitle='{$yutitle}',price='{$price}',posid='{posid}',simages='{$simages}'");
+        $result=$db->insert("cid='{$cid}',stitle='{$stitle}',keywords='{$keywords}',scon='{$scon}',simage='{$simage}',pingfen='{$pingfen}',yutitle='{$yutitle}',price='{$price}',posid='{$posid}',simages='{$simages}'");
         if($result>0){
-            $this->smarty->assign("sid",$sid);
+            //$this->smarty->assign("sid",$sid);
             $this->smarty->assign("cid",$cid);
             $this->smarty->assign("posid",$posid);
             $this->jump("添加成功","index.php?m=admin&f=lists&a=add0");
@@ -48,6 +48,11 @@ class lists extends main{
         $this->smarty->assign("keywords",$result[0]["keywords"]);
         $this->smarty->assign("scon",$result[0]["scon"]);
         $this->smarty->assign("simage",$result[0]["simage"]);
+
+      /*  $db1=new db("category");
+        $info=$db1->where("cid={cid}")->select();
+        $this->smarty->assign("info",$info);
+        $this->smarty->assign("cname",$info[0]["cname"]);*/
 
         $this->smarty->assign("result",$result);
        $this->smarty->display("xzzlistsAdd.html");
@@ -120,6 +125,7 @@ class lists extends main{
     function upload(){
         $obj=new upload();
         $obj->move();
+
         $obj1=new upload();
         $obj1->move();
     }

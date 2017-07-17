@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-16 05:34:59
+/* Smarty version 3.1.30, created on 2017-07-16 17:08:18
   from "E:\wampserve\wamp\www\shopapp2222\mvc\template\admin\addcon.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_596adee3610988_86114149',
+  'unifunc' => 'content_596b816269c1c5_51548208',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '616ec2fb4c559d47ca0f582f7602bb51d2c5d25e' => 
     array (
       0 => 'E:\\wampserve\\wamp\\www\\shopapp2222\\mvc\\template\\admin\\addcon.html',
-      1 => 1500175261,
+      1 => 1500217691,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_596adee3610988_86114149 (Smarty_Internal_Template $_smarty_tpl) {
+function content_596b816269c1c5_51548208 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html lang="en">
@@ -114,7 +114,7 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl);
         </div>
 
     </div>
-    <div class="form-group uploadbox">
+     <div class="form-group uploadbox">
 
         <label for="">详情展示图片</label>
 
@@ -141,6 +141,7 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl);
     obj.up("index.php?m=admin&f=lists&a=upload",function (data) {
         document.querySelector(".simage").value=data;
     });
+
     var obj1=new upload();
     obj1.createView({
         parent:document.querySelector(".uploadBox1")

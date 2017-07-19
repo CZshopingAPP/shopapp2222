@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-17 11:08:33
+/* Smarty version 3.1.30, created on 2017-07-19 11:21:52
   from "E:\wampserve\wamp\www\shopapp2222\mvc\template\index\yj-member.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_596c7e9110dff2_36411583',
+  'unifunc' => 'content_596f24b04bb619_22722301',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '9f74101a43d847661d73dc3581fa28f40bf312c6' => 
     array (
       0 => 'E:\\wampserve\\wamp\\www\\shopapp2222\\mvc\\template\\index\\yj-member.html',
-      1 => 1500282475,
+      1 => 1500456111,
       2 => 'file',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:footer.html' => 1,
   ),
 ),false)) {
-function content_596c7e9110dff2_36411583 (Smarty_Internal_Template $_smarty_tpl) {
+function content_596f24b04bb619_22722301 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html>
@@ -65,8 +65,8 @@ function content_596c7e9110dff2_36411583 (Smarty_Internal_Template $_smarty_tpl)
         <div class="tou">
         	<div class="tou1">
         		<div class="tou2">
-        			<img src="<?php echo IMG_PATH;?>
-/yj-reg-p1.png" alt="" class="tu" />
+        			<img src="<?php echo $_smarty_tpl->tpl_vars['photo']->value;?>
+" alt="" class="tu" />
         		</div>
         	</div>
         </div>

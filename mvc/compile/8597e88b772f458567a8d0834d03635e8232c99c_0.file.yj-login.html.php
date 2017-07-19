@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-14 14:23:08
+/* Smarty version 3.1.30, created on 2017-07-18 06:34:46
   from "D:\wamp\wamp\www\shopapp2222\mvc\template\index\yj-login.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5968d3cc8d5017_48924973',
+  'unifunc' => 'content_596dac06eb3526_44470851',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '8597e88b772f458567a8d0834d03635e8232c99c' => 
     array (
       0 => 'D:\\wamp\\wamp\\www\\shopapp2222\\mvc\\template\\index\\yj-login.html',
-      1 => 1500042187,
+      1 => 1500359685,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5968d3cc8d5017_48924973 (Smarty_Internal_Template $_smarty_tpl) {
+function content_596dac06eb3526_44470851 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -61,6 +61,12 @@ function content_5968d3cc8d5017_48924973 (Smarty_Internal_Template $_smarty_tpl)
 		.pass{
 			margin-top: -2.65rem;
 		}
+		.loginn{
+			position: absolute;
+			left:0;
+			right:0;
+			bottom:3.8rem;
+		}
 		
 	</style>
 </head>
@@ -76,9 +82,10 @@ function content_5968d3cc8d5017_48924973 (Smarty_Internal_Template $_smarty_tpl)
                         <div class="xuan2"></div>
                     </div>
                     <div class="usertitle"></div>
-                    <form action="Checklogin.php" class="myform">
+                    <form action="index.php?m=index&f=login&a=willLogin" class="myform" method="post">
                     <input type="text" class="input"  placeholder="您可以输入手机号" name="mname">
                     <input type="password" class="password" placeholder="您可以输入密码" name="mpass">
+						<input type="submit" class="loginn" value="">
 						</form>
                 </div>
 
@@ -89,7 +96,7 @@ function content_5968d3cc8d5017_48924973 (Smarty_Internal_Template $_smarty_tpl)
                     </div>
                     <div class="zc2">
                         <span></span>
-                        <span>我要注册</span>
+						<span><a href="index.php?m=index&f=reg" style="color:#f72f6c" >我要注册</a></span>
 
                     </div>
                 </div>
@@ -104,10 +111,10 @@ function content_5968d3cc8d5017_48924973 (Smarty_Internal_Template $_smarty_tpl)
 			<span><!--您填写的用户名或密码有误--></span>
 		</div>
 			<div class="zhezhao"></div>
-		<form action="Checklogin.php" class="myform">
-			<input type="submit" class="loginn" value="">
 
-        </form>
+
+
+
 		
         
 		<div class="san">
@@ -176,13 +183,13 @@ function content_5968d3cc8d5017_48924973 (Smarty_Internal_Template $_smarty_tpl)
 	$(".myform").validate({
 		errorLabelContainer:".message span",
 		rules: {
-			/*mname: {
+			mname: {
 				required: true,
-//				minlength: 11,
+				minlength: 11,
 				// 自定义方法：校验手机号在数据库中是否存在
 				// checkPhoneExist : true,
-				isMobile: true,
-			},*/
+//				isMobile: true,
+			},
 			mpass:{
 				required:true,
 				rangelength:[6,10],

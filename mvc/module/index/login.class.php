@@ -73,6 +73,7 @@ class login extends indexMain{
                     $this->session->set("indexLogin","yes");
                     $this->session->set("mname",$v["mname"]);
                     $this->session->set("mid",$v["mid"]);
+                    $this->session->set("photo",$v["photo"]);
                     $this->session->set("nicheng",$v["nicheng"]);
                    $this->jump("登陆成功","index.php?m=index&f=index&a=index1");
                 }

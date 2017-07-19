@@ -23,10 +23,10 @@ class lists extends main{
         $pingfen=$_POST["pingfen"];
         $keywords=$_POST["keywords"];
         $scon=$_POST["scon"];
-        $simage=$_POST["simage"];
-        $simages=implode(",",$_POST["simages"]);
+        $simage=implode(",",$_POST["simage"]);
+
         $db=new db("lists");
-        $result=$db->insert("cid='{$cid}',stitle='{$stitle}',keywords='{$keywords}',scon='{$scon}',simage='{$simage}',pingfen='{$pingfen}',yutitle='{$yutitle}',price='{$price}',posid='{$posid}',simages='{$simages}'");
+        $result=$db->insert("cid='{$cid}',stitle='{$stitle}',keywords='{$keywords}',scon='{$scon}',simage='{$simage}',pingfen='{$pingfen}',yutitle='{$yutitle}',price='{$price}',posid='{$posid}'");
         if($result>0){
             //$this->smarty->assign("sid",$sid);
             $this->smarty->assign("cid",$cid);
@@ -37,23 +37,18 @@ class lists extends main{
     function add(){
         //$sid=$_POST["sid"];
         //$cid=$_POST["cid"];
-        $db=new db("lists");
-        //$result=$db->where("sid={sid}")->select();
-        $result=$db->where("cid=cid")->select();
-        $this->smarty->assign("sid",$result[0]["sid"]);
+      /*  $db=new db("lists");
+        $result=$db->where("category.cid=lists.cid,postion.posid=lists.posid")->join("category,lists,position");*/
+        $db=new db("");
+        $result=$db->where("category.cid=lists.cid and position.posid=lists.posid")->join("category,lists,position");
+   /*     $this->smarty->assign("sid",$result[0]["sid"]);
         $this->smarty->assign("cid",$result[0]["cid"]);
         $this->smarty->assign("yutitle",$result[0]["yutitle"]);
         $this->smarty->assign("posid",$result[0]["posid"]);
         $this->smarty->assign("stitle",$result[0]["stitle"]);
         $this->smarty->assign("keywords",$result[0]["keywords"]);
         $this->smarty->assign("scon",$result[0]["scon"]);
-        $this->smarty->assign("simage",$result[0]["simage"]);
-
-      /*  $db1=new db("category");
-        $info=$db1->where("cid={cid}")->select();
-        $this->smarty->assign("info",$info);
-        $this->smarty->assign("cname",$info[0]["cname"]);*/
-
+        $this->smarty->assign("simage",$result[0]["simage"]);*/
         $this->smarty->assign("result",$result);
        $this->smarty->display("xzzlistsAdd.html");
     }
@@ -80,7 +75,7 @@ class lists extends main{
         $this->smarty->assign("simage",$result[0]["simage"]);
         $this->smarty->assign("posid",$posid);
         $this->smarty->assign("sid",$sid);
-        $this->smarty->assign("simages",$result[0]["simages"]);
+
 
         $db=new db("category");
         $info=$db->where("cid={$cid}")->select();
@@ -126,7 +121,5 @@ class lists extends main{
         $obj=new upload();
         $obj->move();
 
-        $obj1=new upload();
-        $obj1->move();
     }
 }

@@ -1,10 +1,11 @@
 <?php
 class detils  extends indexMain{
     function init(){
+        $sid=$_GET["sid"];
         $this->smarty->assign("login",$this->session->get("indexLogin"));
         $this->smarty->assign("mname",$this->session->get("mname"));
         $db=new db("lists");
-        $result=$db->where("sid='{sid}'")->select();
+        $result=$db->where("sid='{$sid}'")->select();
 
       /*  $this->smarty->assign();
         $this->smarty->assign();

@@ -126,7 +126,6 @@ class db{
 
    function join($tables){
      $sql="select ".$this->opts["field"]." from ".$tables." ".$this->opts["where"]." ".$this->opts["order"]." ".$this->opts["limit"];
-
      $result=$this->db->query($sql);
      $array=array();
      while ($row=$result->fetch_assoc()){

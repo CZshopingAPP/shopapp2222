@@ -6,6 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <script src="{JS_PATH}/upload.js"></script>
     <link rel="stylesheet" href="{CSS_PATH}/bootstrap-3.1.1.min.css">
     <style>
         * {
@@ -55,12 +56,31 @@
             <input type="text" class="form-control" id="inputPassword3" placeholder="昵称" name="nicheng">
         </div>
     </div>
+    <div class="form-group ">
+        <label for="" class="col-sm-2 control-label">上传头像</label>
+        <div class="col-sm-10 uploadbox">
+
+            <input type="hidden" class="photo" name="photo">
+        </div>
+    </div>
+
     <div class="form-group">
         <div class="col-sm-offset-2 col-sm-10">
             <button type="submit" class="btn btn-default">添加用户</button>
         </div>
     </div>
+
+
 </form>
 
 </body>
+<script>
+    var obj=new upload();
+    obj.createView({
+        parent:document.querySelector(".uploadbox")
+    })
+    obj.up("index.php?m=admin&f=user&a=upload",function (data) {
+        document.querySelector(".photo").value=data;
+    });
+</script>
 </html>

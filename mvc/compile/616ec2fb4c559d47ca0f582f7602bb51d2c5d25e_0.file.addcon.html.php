@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-16 17:08:18
+/* Smarty version 3.1.30, created on 2017-07-17 15:58:48
   from "E:\wampserve\wamp\www\shopapp2222\mvc\template\admin\addcon.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_596b816269c1c5_51548208',
+  'unifunc' => 'content_596cc298c250a8_06224552',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '616ec2fb4c559d47ca0f582f7602bb51d2c5d25e' => 
     array (
       0 => 'E:\\wampserve\\wamp\\www\\shopapp2222\\mvc\\template\\admin\\addcon.html',
-      1 => 1500217691,
+      1 => 1500258523,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_596b816269c1c5_51548208 (Smarty_Internal_Template $_smarty_tpl) {
+function content_596cc298c250a8_06224552 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html lang="en">
@@ -110,20 +110,11 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl);
 
         <div class="uploadBox">
 
-            <input type="hidden" name="simage" class="simage">
+            <input type="hidden" name="simage[]" class="simage">
         </div>
 
     </div>
-     <div class="form-group uploadbox">
 
-        <label for="">详情展示图片</label>
-
-        <div class="uploadBox1">
-
-            <input type="hidden" name="simages" class="simage1">
-        </div>
-
-    </div>
 
 
 
@@ -140,14 +131,6 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl);
     })
     obj.up("index.php?m=admin&f=lists&a=upload",function (data) {
         document.querySelector(".simage").value=data;
-    });
-
-    var obj1=new upload();
-    obj1.createView({
-        parent:document.querySelector(".uploadBox1")
-    })
-    obj1.up("index.php?m=admin&f=lists&a=upload",function (data) {
-        document.querySelector(".simage1").value=data;
     });
 
 

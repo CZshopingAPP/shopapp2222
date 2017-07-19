@@ -26,12 +26,13 @@ class user extends main{
         $mpass=md5($_POST["mpass"]);
         $mrole=$_POST["mrole"];
         $nicheng=$_POST["nicheng"];
+        $photo=$_POST["photo"];
         $result=$this->db->where("mname='{$mname}'")->select();
         if(count($result)>0){
             $this->jump("用户名存在","index.php?m=admin&f=user&a=add");
             exit;
         }
-        if($this->db->insert("mname='{$mname}',mpass='{$mpass}',mrole='{$mrole}',nicheng='{$nicheng}'")>0){
+        if($this->db->insert("mname='{$mname}',mpass='{$mpass}',mrole='{$mrole}',nicheng='{$nicheng}',photo='{$photo}'")>0){
             $this->jump("添加成功","index.php?m=admin&f=user&a=add");
         }
     }
@@ -39,7 +40,7 @@ class user extends main{
 
     function show(){
         $this->db=new db("member");
-        $result=$this->db->select();
+        $result=$this->db->where("member.mrole=role.rid")->join("member,role");
         $this->smarty->assign("result",$result);
         $this->smarty->display("showUser.html");
     }
@@ -58,14 +59,16 @@ class user extends main{
         $this->smarty->assign("mname",$result[0]["mname"]);
         $this->smarty->assign("nicheng",$result[0]["nicheng"]);
         $this->smarty->assign("mrole",$result[0]["mrole"]);
+        $this->smarty->assign("photo",$result[0]["photo"]);
         $this->smarty->display("editUser.html");
     }
     function editCon(){
         $mid=$_POST["mid"];
         $nicheng=$_POST["nicheng"];
         $mrole=$_POST["mrole"];
+        $photo=$_POST["photo"];
         $this->db=new db("member");
-        $info=$this->db->where("mid='{$mid}'")->update("nicheng='{$nicheng}',mrole='{$mrole}'");
+        $info=$this->db->where("mid='{$mid}'")->update("nicheng='{$nicheng}',mrole='{$mrole}',photo='{$photo}'");
         //echo $info;
         if($info>0){
             $this->jump("修改成功","index.php?m=admin&f=user&a=show&mid=$mid");
@@ -73,5 +76,22 @@ class user extends main{
        /* if($info>0){
             echo "ok";
         }*/
+    }
+    function upload(){
+        $obj=new upload();
+        $obj->move();
+
+    }
+    function deltx(){
+        $db=new db("member");
+        $info=$db->where("mid={mid}")->update("photo='{}'");
+
+       if($info>0){
+            echo "ok";
+        }
+        else{
+            echo "ok1";
+        }
+
     }
 }

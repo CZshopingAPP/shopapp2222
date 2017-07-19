@@ -5,7 +5,7 @@ class member extends indexMain{
         $this->smarty->assign("mname",$this->session->get("mname"));
         $this->smarty->assign("mid",$this->session->get("mid"));
         $this->smarty->assign("nicheng",$this->session->get("nicheng"));
-
+        $this->smarty->assign("photo",$this->session->get("photo"));
         $this->smarty->display("yj-member.html");
     }
     function edit(){

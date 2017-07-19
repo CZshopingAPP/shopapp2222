@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-15 02:56:31
+/* Smarty version 3.1.30, created on 2017-07-17 11:08:33
   from "E:\wampserve\wamp\www\shopapp2222\mvc\template\index\yj-member.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5969683f6a5068_79147842',
+  'unifunc' => 'content_596c7e9110dff2_36411583',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '9f74101a43d847661d73dc3581fa28f40bf312c6' => 
     array (
       0 => 'E:\\wampserve\\wamp\\www\\shopapp2222\\mvc\\template\\index\\yj-member.html',
-      1 => 1500045224,
+      1 => 1500282475,
       2 => 'file',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:footer.html' => 1,
   ),
 ),false)) {
-function content_5969683f6a5068_79147842 (Smarty_Internal_Template $_smarty_tpl) {
+function content_596c7e9110dff2_36411583 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html>
@@ -180,11 +180,12 @@ function content_5969683f6a5068_79147842 (Smarty_Internal_Template $_smarty_tpl)
         <div class="touxiang">
         	<div class="touxiang1">
         		<div class="touxiang2">
-        			<img src="<?php echo IMG_PATH;?>
-/yj-reg-p1.png" alt="" class="tu" />
-        			
+        			<img src="<?php echo $_smarty_tpl->tpl_vars['photo']->value;?>
+" alt="" class="tu" >
+
         		</div>
-        		<div class="tiao1">昵称</div>
+        		<div class="tiao1"><?php echo $_smarty_tpl->tpl_vars['nicheng']->value;?>
+</div>
         		<div class="tiao2"><span><img src="<?php echo IMG_PATH;?>
 /yj-member-guan.png" alt="" class="tu" /></span>
         			<span>购物达人</span>

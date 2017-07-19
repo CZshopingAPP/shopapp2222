@@ -3,7 +3,7 @@ class upload{
     //1. 做用户的接口  2.  数据的接口   3.验证
     constructor(){
         this.type="image/jpeg,image/png,image/gif";
-        this.size=1024*1024*10;
+        this.size=1024*1024*100;
         this.containerStyle={maxWidth:1200};
         this.selectBtnStyle={width:150,height:40,background:"orange",text:"选择图片",border:"1px solid #ccc",borderRadius:5};
         this.uploadBtnStyle={width:150,height:40,background:"blue",text:"上传图片",border:"1px solid #ccc",borderRadius:5};

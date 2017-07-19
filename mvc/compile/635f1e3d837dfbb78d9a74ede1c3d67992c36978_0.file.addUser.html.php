@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-12 05:48:30
+/* Smarty version 3.1.30, created on 2017-07-17 07:51:10
   from "E:\wampserve\wamp\www\shopapp2222\mvc\template\admin\addUser.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_59659c0e5e5368_12153964',
+  'unifunc' => 'content_596c504eb933b0_30780295',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '635f1e3d837dfbb78d9a74ede1c3d67992c36978' => 
     array (
       0 => 'E:\\wampserve\\wamp\\www\\shopapp2222\\mvc\\template\\admin\\addUser.html',
-      1 => 1499831305,
+      1 => 1500270118,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_59659c0e5e5368_12153964 (Smarty_Internal_Template $_smarty_tpl) {
+function content_596c504eb933b0_30780295 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html lang="en">
@@ -30,6 +30,10 @@ function content_59659c0e5e5368_12153964 (Smarty_Internal_Template $_smarty_tpl)
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <?php echo '<script'; ?>
+ src="<?php echo JS_PATH;?>
+/upload.js"><?php echo '</script'; ?>
+>
     <link rel="stylesheet" href="<?php echo CSS_PATH;?>
 /bootstrap-3.1.1.min.css">
     <style>
@@ -91,13 +95,34 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl);
             <input type="text" class="form-control" id="inputPassword3" placeholder="昵称" name="nicheng">
         </div>
     </div>
+    <div class="form-group ">
+        <label for="" class="col-sm-2 control-label">上传头像</label>
+        <div class="col-sm-10 uploadbox">
+
+            <input type="hidden" class="photo" name="photo">
+        </div>
+    </div>
+
     <div class="form-group">
         <div class="col-sm-offset-2 col-sm-10">
             <button type="submit" class="btn btn-default">添加用户</button>
         </div>
     </div>
+
+
 </form>
 
 </body>
+<?php echo '<script'; ?>
+>
+    var obj=new upload();
+    obj.createView({
+        parent:document.querySelector(".uploadbox")
+    })
+    obj.up("index.php?m=admin&f=user&a=upload",function (data) {
+        document.querySelector(".photo").value=data;
+    });
+<?php echo '</script'; ?>
+>
 </html><?php }
 }

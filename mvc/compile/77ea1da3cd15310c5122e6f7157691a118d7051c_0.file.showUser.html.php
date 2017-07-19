@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-12 09:29:32
+/* Smarty version 3.1.30, created on 2017-07-17 16:01:34
   from "E:\wampserve\wamp\www\shopapp2222\mvc\template\admin\showUser.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5965cfdcadc042_81341922',
+  'unifunc' => 'content_596cc33e193707_11558016',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '77ea1da3cd15310c5122e6f7157691a118d7051c' => 
     array (
       0 => 'E:\\wampserve\\wamp\\www\\shopapp2222\\mvc\\template\\admin\\showUser.html',
-      1 => 1499844569,
+      1 => 1500300090,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5965cfdcadc042_81341922 (Smarty_Internal_Template $_smarty_tpl) {
+function content_596cc33e193707_11558016 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html lang="en">
@@ -40,7 +40,7 @@ function content_5965cfdcadc042_81341922 (Smarty_Internal_Template $_smarty_tpl)
         <th>用户名</th>
         <th>昵称</th>
         <th>角色</th>
-        <th>相片</th>
+        <th>头像</th>
         <th>操作</th>
     </tr>
     <?php
@@ -62,12 +62,12 @@ foreach ($_from as $_smarty_tpl->tpl_vars['v']->value) {
 
         </td>
         <td>
-            <?php echo $_smarty_tpl->tpl_vars['v']->value["mrole"];?>
+            <?php echo $_smarty_tpl->tpl_vars['v']->value["rname"];?>
 
         </td>
         <td>
-            <?php echo $_smarty_tpl->tpl_vars['v']->value["photo"];?>
-
+            <img src="<?php echo $_smarty_tpl->tpl_vars['v']->value['photo'];?>
+" alt="" style="width: 50px;height: 50px;">
         </td>
         <td>
             <a href="index.php?m=admin&f=user&a=del&mid=<?php echo $_smarty_tpl->tpl_vars['v']->value['mid'];?>

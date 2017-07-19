@@ -70,20 +70,11 @@
 
         <div class="uploadBox">
 
-            <input type="hidden" name="simage" class="simage">
+            <input type="hidden" name="simage[]" class="simage">
         </div>
 
     </div>
-     <div class="form-group uploadbox">
 
-        <label for="">详情展示图片</label>
-
-        <div class="uploadBox1">
-
-            <input type="hidden" name="simages" class="simage1">
-        </div>
-
-    </div>
 
 
 
@@ -99,14 +90,6 @@
     })
     obj.up("index.php?m=admin&f=lists&a=upload",function (data) {
         document.querySelector(".simage").value=data;
-    });
-
-    var obj1=new upload();
-    obj1.createView({
-        parent:document.querySelector(".uploadBox1")
-    })
-    obj1.up("index.php?m=admin&f=lists&a=upload",function (data) {
-        document.querySelector(".simage1").value=data;
     });
 
 

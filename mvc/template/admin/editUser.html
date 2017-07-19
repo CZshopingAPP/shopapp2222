@@ -6,7 +6,21 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <script src="{JS_PATH}/upload.js"></script>
     <link rel="stylesheet" href="{CSS_PATH}/bootstrap-3.1.1.min.css">
+    <style>
+        .form-group {
+            position: relative;
+        }
+
+        .sc {
+            position: absolute;
+            top: 30px;
+            left: 70px;
+            color:red;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
 
@@ -26,38 +40,46 @@
         <input type="text" class="form-control" name="mrole" value="{$mrole}">
 
     </div>
+
+    <input type="hidden" class="photo" name="photo">
+    <div class="form-group form-group1">
+            <label >头像</label>
+            <img src="{$photo}" alt=""  style="width: 100px;height: 100px;" >
+            <div class="sc">删除</div>
+    </div>
     <div class="form-group uploadbox">
 
-        <label >相片</label>
-
-        <div class="uploadBox">
-            <!--<img src="{$photo}" alt="">-->
-        </div>
     </div>
     <input type="submit" class="gai" value="修改">
     <input type="hidden" name="mid" value="{$mid}">
     <a href="index.php?m=admin&f=user&a=show">返回</a>
 </form>
 <script src="{JS_PATH}/jquery.min.js"></script>
-<!--<script>
 
-        $(".gai").click(function () {
-        $nicheng=$("input[name=nicheng]").val();
-        $mrole=$("input[name=mrole]").val();
-        $.ajax({
-            url:"index.php?m=admin&f=user&a=editCon",
-            type:"post",
-            dataType:"json",
-            data:{
-                nicheng:$nicheng,mrole:$mrole
-            },
-            success:function (e) {
-                if(e=="ok"){
-                    alert("修改成功");location.href="index.php?m=admin&f=user&a=add";
-                }
-            }
-        })
-    })
-</script>-->
 </body>
+<script>
+    var obj=new upload();
+    obj.createView({
+        parent:document.querySelector(".uploadbox")
+    })
+    obj.up("index.php?m=admin&f=user&a=upload",function (data) {
+        document.querySelector(".photo").value=data;
+    });
+
+     var sc=document.querySelector(".sc");
+
+    sc.onclick=function () {
+        var ajax=new XMLHttpRequest();
+        var mid=document.querySelector("input[name=mid]").value;
+        ajax.open("POST","index.php?m=admin&f=user&a=deltx&mid="+mid);
+        ajax.setRequestHeader("Content-Type","applaction/X-www-form-urlencoded");
+        ajax.send("mid="+mid);
+        ajax.onload=function () {
+            if(ajax.response=="ok1"){
+                sc.parentNode.parentNode.removeChild(sc.parentNode);
+            }
+        }
+
+    }
+</script>
 </html>

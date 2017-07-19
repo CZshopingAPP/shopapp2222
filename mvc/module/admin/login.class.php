@@ -54,7 +54,7 @@ class login extends main{
     {
         $this->smarty->assign("rid",$this->session->get("rid"));
         $this->smarty->assign("name",$this->session->get("name"));
-
+        $this->smarty->assign("nichen",$this->session->get("nichen"));
         if (!($this->session->get("login"))) {
             $this->jump("未登录", "index.php?m=admin&f=login");
         }

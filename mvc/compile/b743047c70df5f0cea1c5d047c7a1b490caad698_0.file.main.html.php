@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-14 04:35:13
+/* Smarty version 3.1.30, created on 2017-07-17 16:24:18
   from "E:\wampserve\wamp\www\shopapp2222\mvc\template\admin\main.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_59682de1068db4_05842425',
+  'unifunc' => 'content_596cc892ccdee9_69909772',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'b743047c70df5f0cea1c5d047c7a1b490caad698' => 
     array (
       0 => 'E:\\wampserve\\wamp\\www\\shopapp2222\\mvc\\template\\admin\\main.html',
-      1 => 1499998040,
+      1 => 1500301457,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_59682de1068db4_05842425 (Smarty_Internal_Template $_smarty_tpl) {
+function content_596cc892ccdee9_69909772 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html lang="en">
@@ -275,7 +275,8 @@ function content_59682de1068db4_05842425 (Smarty_Internal_Template $_smarty_tpl)
     </div>
 </div>
 <div class="nav">
-    欢迎<span>ADMIN</span>光临后台管理系统
+    欢迎<span><?php echo $_smarty_tpl->tpl_vars['nichen']->value;?>
+</span>光临后台管理系统
 </div>
 <div class="content">
     <div class="left">

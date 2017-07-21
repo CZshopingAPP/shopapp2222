@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-18 06:06:07
+/* Smarty version 3.1.30, created on 2017-07-21 12:16:25
   from "D:\wamp\wamp\www\shopapp2222\mvc\template\index\shanping.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_596da54f7ee754_66707375',
+  'unifunc' => 'content_5971f099e45077_13172217',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '3948a39e3c76c0d6e65aaa77ea7846108c72843d' => 
     array (
       0 => 'D:\\wamp\\wamp\\www\\shopapp2222\\mvc\\template\\index\\shanping.html',
-      1 => 1500260244,
+      1 => 1500456714,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_596da54f7ee754_66707375 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5971f099e45077_13172217 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html lang="en">
@@ -65,6 +65,12 @@ function content_596da54f7ee754_66707375 (Smarty_Internal_Template $_smarty_tpl)
         }
         .quan{
             width: 100%;height: 100%;
+        }
+        .swiper-container-horizontal > .swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+            bottom: 75px;
+            left: 0;
+            width: 100%;
+            height: 0;
         }
     </style>
     <?php echo '<script'; ?>

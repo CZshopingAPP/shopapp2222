@@ -13,6 +13,50 @@
             opacity: 1;
             background: #fe158e;
         }
+        .di{
+            width: 100%;
+            height: 1.1rem;
+            background: #fff;
+            position: fixed;
+            bottom: 0;
+        }
+        .di ul{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: space-around;
+        }
+        .di ul  li{
+            width: 0.49rem;
+            height: 0.49rem;
+            margin-top: 0.3rem;
+            cursor: pointer;
+        }
+        .di ul a:nth-child(3) li{
+            width: 0.93rem;
+            height: 0.93rem;
+            margin-top: 0.08rem;
+        }
+        .di ul li p{
+            display: block;
+            width: 100%;
+            height: 0.1rem;
+            background: url({IMG_PATH}/zx6_03.png);
+            background-position: center;
+            background-size: 100%;
+            background-repeat: no-repeat;
+            margin-top: 0.05rem;
+            display: none;
+        }
+        .di .active{
+            display: block;
+        }
+        .tu{
+            width: 100%;
+            height:100%;
+            float: left;
+        }
+
     </style>
 </head>
 <body>
@@ -354,6 +398,35 @@
 
     </div>
     <div class="k"></div>
+    <div class="di">
+        <ul>
+            <a href="index.php?m=index&f=index&a=index1"><li>
+                <img src="{IMG_PATH}/zx2.png" alt="" class="tu"/>
+                <p  class="active"></p>
+            </li>
+            </a>
+            <a href="#"><li>
+                <img src="{IMG_PATH}/zx3.png" alt="" class="tu"/>
+                <p></p>
+            </li>
+            </a>
+            <a href="#"><li>
+                <img src="{IMG_PATH}/zx1.png" alt="" class="tu"/>
+                <p></p>
+            </li>
+            </a>
+            <a href="#"><li>
+                <img src="{IMG_PATH}/zx4.png" alt="" class="tu"/>
+                <p></p>
+            </li>
+            </a>
+            <a href="index.php?m=index&f=member"><li>
+                <img src="{IMG_PATH}/zx5.png" alt="" class="tu"/>
+                <p></p>
+            </li>
+            </a>
+        </ul>
+    </div>
 </div>
 
 <script src="{JS_PATH}/jquery-1.11.3.js"></script>
@@ -378,4 +451,4 @@
         choose.filter(".tts").removeClass("tts").end().eq(index).addClass("tts");
     })
 </script>
-{include "footer.html"}
+<!--{include "footer.html"}-->

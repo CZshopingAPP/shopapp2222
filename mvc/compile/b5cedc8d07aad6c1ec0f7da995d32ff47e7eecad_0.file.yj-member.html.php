@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-12 11:29:31
+/* Smarty version 3.1.30, created on 2025-01-21 13:44:56
   from "D:\wamp\wamp\www\shopapp2222\mvc\template\index\yj-member.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5966081b3f4447_96756274',
+  'unifunc' => 'content_678fa4d805e986_74507609',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'b5cedc8d07aad6c1ec0f7da995d32ff47e7eecad' => 
     array (
       0 => 'D:\\wamp\\wamp\\www\\shopapp2222\\mvc\\template\\index\\yj-member.html',
-      1 => 1499858967,
+      1 => 1737467094,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5966081b3f4447_96756274 (Smarty_Internal_Template $_smarty_tpl) {
+function content_678fa4d805e986_74507609 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html>
@@ -64,8 +64,8 @@ function content_5966081b3f4447_96756274 (Smarty_Internal_Template $_smarty_tpl)
         <div class="tou">
         	<div class="tou1">
         		<div class="tou2">
-        			<img src="<?php echo IMG_PATH;?>
-/yj-reg-p1.png" alt="" class="tu" />
+        			<img src="<?php echo $_smarty_tpl->tpl_vars['photo']->value;?>
+" alt="" class="tu" />
         		</div>
         	</div>
         </div>
@@ -75,7 +75,7 @@ function content_5966081b3f4447_96756274 (Smarty_Internal_Template $_smarty_tpl)
          			<p>
          				<span><img src="<?php echo IMG_PATH;?>
 /yj-member-bi.png" alt="" class="tu"/></span>
-         				<span> 设置备注与标签</span>
+         				<span> 修改昵称</span>
          				<span><img src="<?php echo IMG_PATH;?>
 /yj-member-more.png" alt="" class="tu"/></span>
          			</p>
@@ -85,22 +85,19 @@ function content_5966081b3f4447_96756274 (Smarty_Internal_Template $_smarty_tpl)
          			<p>
          				<span><img src="<?php echo IMG_PATH;?>
 /yj-member-xin.png" alt="" class="tu"/></span>
-         				<span> 设为特殊关注</span>
-         				<span>
-         					
+         				<span> <input type="file" value="">上传头像</span>
+         				<span><img src="<?php echo IMG_PATH;?>
+/yj-member-more.png" alt="" class="tu"/>
 						</span>
-						
          			</p>
          			<p></p>
-         			<div class="mui-switch mui-switch-mini mui-active" style="position: absolute;right: 1.2rem;top: 5.8rem;">
-         					  <div class="mui-switch-handle"></div>
-         					</div>
+
          		</li>
          		<li>
          			<p>
          				<span><img src="<?php echo IMG_PATH;?>
 /yj-member-peng.png" alt="" class="tu"/></span>
-         				<span>设置朋友圈权限</span>
+         				<span>修改密码</span>
          				<span><img src="<?php echo IMG_PATH;?>
 /yj-member-more.png" alt="" class="tu"/></span>
          			</p>
@@ -120,13 +117,12 @@ function content_5966081b3f4447_96756274 (Smarty_Internal_Template $_smarty_tpl)
          			<p>
          				<span><img src="<?php echo IMG_PATH;?>
 /yj-member-hei.png" alt="" class="tu"/></span>
-         				<span>加入黑名单</span>
-         				<span></span>
+         				<span>退出登录</span>
+         				<span><img src="<?php echo IMG_PATH;?>
+/yj-member-more.png" alt="" class="tu"/></span>
          			</p>
          			<p></p>
-         			<div class="mui-switch mui-switch-mini mui-active" style="position: absolute;right: 1.2rem;bottom:2rem;">
-         					  <div class="mui-switch-handle"></div>
-         			</div>
+
          		</li>
          		<li>
          			<p>
@@ -179,11 +175,12 @@ function content_5966081b3f4447_96756274 (Smarty_Internal_Template $_smarty_tpl)
         <div class="touxiang">
         	<div class="touxiang1">
         		<div class="touxiang2">
-        			<img src="<?php echo IMG_PATH;?>
-/yj-reg-p1.png" alt="" class="tu" />
-        			
+        			<img src="<?php echo $_smarty_tpl->tpl_vars['photo']->value;?>
+" alt="" class="tu" >
+
         		</div>
-        		<div class="tiao1">昵称</div>
+        		<div class="tiao1"><?php echo $_smarty_tpl->tpl_vars['nicheng']->value;?>
+</div>
         		<div class="tiao2"><span><img src="<?php echo IMG_PATH;?>
 /yj-member-guan.png" alt="" class="tu" /></span>
         			<span>购物达人</span>
@@ -270,7 +267,7 @@ function content_5966081b3f4447_96756274 (Smarty_Internal_Template $_smarty_tpl)
       		<a href="index.php?m=index&f=index&a=index1"><li>
       			<img src="<?php echo IMG_PATH;?>
 /zx2.png" alt="" class="tu"/>
-      			<p class="active"></p>
+      			<p ></p>
       		</li>
       		</a>
       		<a href="#"><li>
@@ -291,10 +288,10 @@ function content_5966081b3f4447_96756274 (Smarty_Internal_Template $_smarty_tpl)
       			<p></p>
       		</li>
       		</a>
-      		<a href="index.php?m=index&f=index&a=member"><li>
+      		<a href="index.php?m=index&f=member"><li>
       			<img src="<?php echo IMG_PATH;?>
 /zx5.png" alt="" class="tu"/>
-      			<p></p>
+      			<p class="active"></p>
       		</li>
       		</a>
       	</ul>
@@ -319,7 +316,6 @@ function content_5966081b3f4447_96756274 (Smarty_Internal_Template $_smarty_tpl)
     </div>  
   </div>
 </div>
-</body>
 <?php echo '<script'; ?>
 >	
 	mui(".di").on("tap",".di ul li",function(){
@@ -343,5 +339,6 @@ mui(".conn").on("tap",".zhezhao",function(){
 	
 <?php echo '</script'; ?>
 >
-</html><?php }
+
+<?php }
 }

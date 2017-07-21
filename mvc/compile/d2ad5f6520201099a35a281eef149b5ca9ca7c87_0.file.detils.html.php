@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-12 13:30:25
+/* Smarty version 3.1.30, created on 2017-07-21 12:17:11
   from "D:\wamp\wamp\www\shopapp2222\mvc\template\index\detils.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_59662471778259_86210645',
+  'unifunc' => 'content_5971f0c7bbf826_71860976',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'd2ad5f6520201099a35a281eef149b5ca9ca7c87' => 
     array (
       0 => 'D:\\wamp\\wamp\\www\\shopapp2222\\mvc\\template\\index\\detils.html',
-      1 => 1499832545,
+      1 => 1500456714,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_59662471778259_86210645 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5971f0c7bbf826_71860976 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html lang="en">
@@ -46,9 +46,14 @@ function content_59662471778259_86210645 (Smarty_Internal_Template $_smarty_tpl)
     <a href="index.php?m=index&f=index&a=index1">
     <div class="back"></div>
     </a>
-    <div class="stitle"></div>
+    <div class="stitle0"></div>
     <div class="xian"></div>
 </header>
+<?php
+$_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['result']->value, 'v');
+if ($_from !== null) {
+foreach ($_from as $_smarty_tpl->tpl_vars['v']->value) {
+?>
 <div class="cotent">
     <div class="content1">
         <div class="content1">
@@ -70,8 +75,11 @@ function content_59662471778259_86210645 (Smarty_Internal_Template $_smarty_tpl)
             </div>
             <div class="banner">
                 <div class="bann">
-                    <span class="bzi">BCIDECONTION</span>
-                    <span class="bzi1">纯棉个性纯色涂鸦T恤</span>
+                    <span class="bzi" name="yutitle">BCIDECONTION</span>
+
+                    <span class="bzi1" ><?php echo $_smarty_tpl->tpl_vars['v']->value["stitle"];?>
+</span>
+
                     <span class="bzi2">双珠面料，吸汗透气</span>
                 </div>
                 <div class="bann1">
@@ -80,7 +88,7 @@ function content_59662471778259_86210645 (Smarty_Internal_Template $_smarty_tpl)
                 </div>
             </div>
             <div class="jage">
-                <span class="rmb">42.00</span>
+                <span class="rmb" name="price"></span>
                 <span class="rmb1">RMB</span>
                 <span class="rmb2">
                     <span class="sc">生产周期为15天</span>
@@ -403,6 +411,12 @@ function content_59662471778259_86210645 (Smarty_Internal_Template $_smarty_tpl)
         </div>
     </div>
 </div>
+<?php
+}
+}
+$_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl);
+?>
+
 </body>
 <?php echo '<script'; ?>
  src="<?php echo JS_PATH;?>

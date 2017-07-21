@@ -14,6 +14,19 @@
       	mui.init();
       	mui('.mui-off-canvas-wrap').offCanvas('show');
     </script>
+	<style>
+		.up{
+			display: inline-block;
+			width: 100%;
+			height:100%;
+			position: absolute;
+			left:0;
+			top:0;
+			align-items: baseline;
+			color: inherit;
+			text-align: start;
+		}
+	</style>
 </head>
 <body>
 	<!-- 侧滑导航根容器 -->
@@ -35,29 +48,24 @@
          		<li>
          			<p>
          				<span><img src="{IMG_PATH}/yj-member-bi.png" alt="" class="tu"/></span>
-         				<span> 设置备注与标签</span>
+         				<span> 修改昵称</span>
          				<span><img src="{IMG_PATH}/yj-member-more.png" alt="" class="tu"/></span>
          			</p>
          			<p></p>
          		</li>
          		<li>
-         			<p>
+         			<p style="position: relative;">
          				<span><img src="{IMG_PATH}/yj-member-xin.png" alt="" class="tu"/></span>
-         				<span> 设为特殊关注</span>
-         				<span>
-         					
+         				<span>上传头像</span>
+         				<span><img src="{IMG_PATH}/yj-member-more.png" alt="" class="tu"/>
 						</span>
-						
          			</p>
          			<p></p>
-         			<div class="mui-switch mui-switch-mini mui-active" style="position: absolute;right: 1.2rem;top: 5.8rem;">
-         					  <div class="mui-switch-handle"></div>
-         					</div>
          		</li>
          		<li>
          			<p>
          				<span><img src="{IMG_PATH}/yj-member-peng.png" alt="" class="tu"/></span>
-         				<span>设置朋友圈权限</span>
+         				<span>修改密码</span>
          				<span><img src="{IMG_PATH}/yj-member-more.png" alt="" class="tu"/></span>
          			</p>
          			<p></p>
@@ -73,13 +81,11 @@
          		<li>
          			<p>
          				<span><img src="{IMG_PATH}/yj-member-hei.png" alt="" class="tu"/></span>
-         				<span>加入黑名单</span>
-         				<span></span>
+         				<span>退出登录</span>
+         				<span><img src="{IMG_PATH}/yj-member-more.png" alt="" class="tu"/></span>
          			</p>
          			<p></p>
-         			<div class="mui-switch mui-switch-mini mui-active" style="position: absolute;right: 1.2rem;bottom:2rem;">
-         					  <div class="mui-switch-handle"></div>
-         			</div>
+
          		</li>
          		<li>
          			<p>
@@ -203,7 +209,7 @@
       	<ul>
       		<a href="index.php?m=index&f=index&a=index1"><li>
       			<img src="{IMG_PATH}/zx2.png" alt="" class="tu"/>
-      			<p class="active"></p>
+      			<p ></p>
       		</li>
       		</a>
       		<a href="#"><li>
@@ -221,9 +227,9 @@
       			<p></p>
       		</li>
       		</a>
-      		<a href="index.php?m=index&f=index&a=member"><li>
+      		<a href="index.php?m=index&f=member"><li>
       			<img src="{IMG_PATH}/zx5.png" alt="" class="tu"/>
-      			<p></p>
+      			<p class="active"></p>
       		</li>
       		</a>
       	</ul>
@@ -265,4 +271,4 @@ mui(".conn").on("tap",".zhezhao",function(){
 	})
 	
 </script>
-{include "footer.html"}
+

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>上传头像</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/yj-upload.css">
+	<script src="js/upload11.js"></script>
+</head>
+<body>
+<h2>上传头像</h2>
+<div class="box">
+	<div class="uploadBox" name="upload">
+
+     </div>
+ </div>
+</body>
+<script>
+	 var obj = new upload();
+        obj.size = 1024 * 1024*10;
+        obj.selectBtnStyle.background = "red";
+       
+        obj.createView({
+            parent: document.querySelector(".uploadBox")
+        });
+        obj.up("filecon.php",function (data){
+            console.log(data);
+            document.querySelector(".img").value=data;
+        });
+</script>
+</html>

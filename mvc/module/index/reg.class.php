@@ -27,7 +27,6 @@ class reg  extends indexMain{
     }
 
     function reg2(){
-
         $mname=$_POST["mname"];
 
         if(empty($mname)){
@@ -39,10 +38,8 @@ class reg  extends indexMain{
         $this->smarty->assign("result",$result);
         if(count($result)>0){
             echo "用户名存在";
-
             exit;
         }
-
         $mpass=$_POST["mpass"];
          if(empty($mpass)){
              echo "密码不能为空";
@@ -53,12 +50,10 @@ class reg  extends indexMain{
             echo "确认密码不能为空";
             exit;
         }
-
-        if($mpass!=$mpass1){
-            echo "两次密码不一致";
+       if($mpass!=$mpass1){
+           echo "两次密码不一致";
             exit;
-        }
-
+       }
         $mpass=md5($mpass);
 
         if($db->insert("mname='{$mname}',mpass='{$mpass}'")){

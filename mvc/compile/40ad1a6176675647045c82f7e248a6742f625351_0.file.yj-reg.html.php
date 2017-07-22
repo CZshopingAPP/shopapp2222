@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-22 04:57:24
+/* Smarty version 3.1.30, created on 2017-07-22 15:34:37
   from "E:\wampserve\wamp\www\shopapp2222\mvc\template\index\yj-reg.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5972bf1423a122_20821720',
+  'unifunc' => 'content_5973546da2ca67_79757453',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '40ad1a6176675647045c82f7e248a6742f625351' => 
     array (
       0 => 'E:\\wampserve\\wamp\\www\\shopapp2222\\mvc\\template\\index\\yj-reg.html',
-      1 => 1500692240,
+      1 => 1500730476,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5972bf1423a122_20821720 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5973546da2ca67_79757453 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -92,7 +92,7 @@ function content_5972bf1423a122_20821720 (Smarty_Internal_Template $_smarty_tpl)
 				<span></span>
 				<span></span>
 			</div>
-			<form action="" class="myform" method="post">
+			<form action="index.php?m=index&f=login" class="myform" method="post">
 			<input type="text" class="user phone" placeholder="请输入手机号码" name="mname">
 			<input type="text" class="code" name="code" placeholder="请输入验证码">
 			<input type="password" class="pass" placeholder="请输入密码" name="mpass">
@@ -126,9 +126,6 @@ function content_5972bf1423a122_20821720 (Smarty_Internal_Template $_smarty_tpl)
 						$(".loginn").disable();
 						$(".loginn").css("background-image","url('<?php echo IMG_PATH;?>
 /yj-reg-reg1.png')");
-            $(".loginn").click=function () {
-                alert(1)
-            }
 
 					}
 	})
@@ -203,13 +200,12 @@ function content_5972bf1423a122_20821720 (Smarty_Internal_Template $_smarty_tpl)
             if($("#mname-error").html()=="用户已存在"||$("#mname-error").html()==""){
 
                 $.ajax({
-            url:"index.php?m=index&f=reg&a=reg2",
+            url:"index.php?m=index&f=reg&a=reg1",
             type:"post",
             data:str,
             success:function(e){
                 if(e=="ok"){
 
-                     location.href("index.php?m=index&f=login");
                 }else {
                     $("#mname-error").html(e).css("display","");
                 }
@@ -224,8 +220,41 @@ function content_5972bf1423a122_20821720 (Smarty_Internal_Template $_smarty_tpl)
 
     })
 
+    $("input[name='mpass']"&&"input[name='mpass1']").blur(function () {
+        var that=$(this);
+        if($("#mname-error").length==0){
 
+            var ts='<label id="mname-error" class="error" for="mname"></label>';
+            that.after(ts);
+
+        }
+        var str=$(".myform").serialize();
+//
+        if(!$(this).val()==""){
+            if($("#mname-error").html()=="密码不能为空"||$("#mname-error").html()==""){
+
+                $.ajax({
+                    url:"index.php?m=index&f=reg&a=reg2",
+                    type:"post",
+                    data:str,
+                    success:function(e){
+                        if(e=="ok"){
+                            location.href("yj-login.html");
+                        }else {
+                            $("#mname-error").html(e).css("display","");
+                        }
+
+                    }
+                })
+            }
+        }
+
+
+
+
+    })
 <?php echo '</script'; ?>
 >
+
 </html><?php }
 }

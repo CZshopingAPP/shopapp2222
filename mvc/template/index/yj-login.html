@@ -158,15 +158,20 @@
 		}
 	})
     $("input").blur(function(){
-    	if($(".message span").children().hasClass("error")){
-    		$(".message").css("opacity",1);
-    		setTimeout(function(){
-	$(".message").css("opacity",0);
-	},3000);
-    	}
+
+		if(!$("label").html()==""){
+            if($(".message span").children().hasClass("error")){
+                $(".message").css("opacity",1);
+                setTimeout(function(){
+                    $(".message").css("opacity",0);
+                },1000);
+            }
+		}
+
+
     })
 	
-  /*  errorLabelContainer:".message span",*/
+
 		
 </script>
 </html>

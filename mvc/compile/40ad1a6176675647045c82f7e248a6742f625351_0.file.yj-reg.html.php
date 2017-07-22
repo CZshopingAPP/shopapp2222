@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-16 16:20:49
+/* Smarty version 3.1.30, created on 2017-07-22 04:57:24
   from "E:\wampserve\wamp\www\shopapp2222\mvc\template\index\yj-reg.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_596b76414fc9a6_94036201',
+  'unifunc' => 'content_5972bf1423a122_20821720',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '40ad1a6176675647045c82f7e248a6742f625351' => 
     array (
       0 => 'E:\\wampserve\\wamp\\www\\shopapp2222\\mvc\\template\\index\\yj-reg.html',
-      1 => 1500214722,
+      1 => 1500692240,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_596b76414fc9a6_94036201 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5972bf1423a122_20821720 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -60,6 +60,8 @@ function content_596b76414fc9a6_94036201 (Smarty_Internal_Template $_smarty_tpl)
 			/*margin-top: 0.6rem;*/
 			position: fixed;
 			bottom: 1.1rem;
+			left:0;
+			right:0;
 		}
 		.message{
 			width:4.72rem;
@@ -72,6 +74,9 @@ function content_596b76414fc9a6_94036201 (Smarty_Internal_Template $_smarty_tpl)
 			position: absolute;
 			top: 3.75rem;
 			left: 1.4rem;
+		}
+		.pass{
+			margin-top: 1.3rem;
 		}
 	</style>
 </head>
@@ -87,17 +92,13 @@ function content_596b76414fc9a6_94036201 (Smarty_Internal_Template $_smarty_tpl)
 				<span></span>
 				<span></span>
 			</div>
-			<form action="index.php?m=index&f=reg&a=reg1" class="myform" method="post">
+			<form action="" class="myform" method="post">
 			<input type="text" class="user phone" placeholder="请输入手机号码" name="mname">
 			<input type="text" class="code" name="code" placeholder="请输入验证码">
 			<input type="password" class="pass" placeholder="请输入密码" name="mpass">
 			<input type="password" class="pass1" placeholder="请再次输入密码" name="mpass1">
 			<div class="huoqu">获取</div>
 
-		<!--<div class="message">
-			<div class="message1"></div>
-			<span></span>
-		</div>-->
 		<input type="submit" class="loginn" value="">
 
 		</form>
@@ -106,13 +107,17 @@ function content_596b76414fc9a6_94036201 (Smarty_Internal_Template $_smarty_tpl)
 </body>
 <?php echo '<script'; ?>
 >
+
 	$("input").blur(function () {
 		if($(".user").val()!=""){
 			if($(".code").val()!=""){
 				if($(".pass").val()!=""){
 					if($(".pass1").val()!=""){
-						$(".loginn").css("background-image","url('<?php echo IMG_PATH;?>
+
+                            $(".loginn").css("background-image","url('<?php echo IMG_PATH;?>
 /yj-reg-reg.png')")
+
+
 					}
 				}
 
@@ -120,22 +125,24 @@ function content_596b76414fc9a6_94036201 (Smarty_Internal_Template $_smarty_tpl)
 		}else{
 						$(".loginn").disable();
 						$(".loginn").css("background-image","url('<?php echo IMG_PATH;?>
-/yj-reg-reg1.png')")
+/yj-reg-reg1.png')");
+            $(".loginn").click=function () {
+                alert(1)
+            }
+
 					}
 	})
-	/*$(".loginn").click(function () {
-		alert(1)
-	})*/
-		jQuery.validator.addMethod("isMobile", function(value, element) {
-		var length = value.length;
-		var mobile = /^(13[0-9]<?php echo 9;?>
+
+//		jQuery.validator.addMethod("isMobile", function(value, element) {
+//		var length = value.length;
+//		var mobile = /^(13[0-9]<?php echo 9;?>
 )|(18[0-9]<?php echo 9;?>
 )|(14[0-9]<?php echo 9;?>
 )|(17[0-9]<?php echo 9;?>
 )|(15[0-9]<?php echo 9;?>
 )$/;
-		return this.optional(element) || (length == 11 && mobile.test(value));
-	}, "请正确填写您的手机号码");
+//		return this.optional(element) || (length == 11 && mobile.test(value));
+//	}, "请正确填写您的手机号码");
 
 	$(".myform").validate({
 	//	errorLabelContainer:".message span",
@@ -145,7 +152,7 @@ function content_596b76414fc9a6_94036201 (Smarty_Internal_Template $_smarty_tpl)
 				minlength: 11,
 				// 自定义方法：校验手机号在数据库中是否存在
 				// checkPhoneExist : true,
-				isMobile: true,
+//				isMobile: true,
 
 			},
 			code:{
@@ -169,11 +176,54 @@ function content_596b76414fc9a6_94036201 (Smarty_Internal_Template $_smarty_tpl)
 				minlength: "不能小于11个字符",
 				isMobile: "请正确填写您的手机号码"
 			},
+			mpass1:{
+                equalTo: "密码输入不一致",
+			}
 		}
 	})
-   if($(".message span").children().hasClass(".error")){
-	   $(".message").css("display","block")
-   }
+//   if($(".message span").children().hasClass(".error")){
+//	   $(".message").css("display","block")
+//   }
+
+<?php echo '</script'; ?>
+>
+<?php echo '<script'; ?>
+>
+	$("input[name='mname']").blur(function () {
+		var that=$(this);
+	    if($("#mname-error").length==0){
+
+            var ts='<label id="mname-error" class="error" for="mname"></label>';
+            that.after(ts);
+
+		}
+        var str=$(".myform").serialize();
+//
+		if(!$(this).val()==""){
+            if($("#mname-error").html()=="用户已存在"||$("#mname-error").html()==""){
+
+                $.ajax({
+            url:"index.php?m=index&f=reg&a=reg2",
+            type:"post",
+            data:str,
+            success:function(e){
+                if(e=="ok"){
+
+                     location.href("index.php?m=index&f=login");
+                }else {
+                    $("#mname-error").html(e).css("display","");
+                }
+
+            }
+        })
+            }
+		}
+
+
+
+
+    })
+
 
 <?php echo '</script'; ?>
 >

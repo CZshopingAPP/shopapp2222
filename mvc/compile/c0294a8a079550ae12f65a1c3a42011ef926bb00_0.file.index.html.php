@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-14 17:11:26
+/* Smarty version 3.1.30, created on 2017-07-22 14:53:42
   from "E:\wampserve\wamp\www\shopapp2222\mvc\template\index\index.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5968df1e0e23b0_01457061',
+  'unifunc' => 'content_59734ad68ce6e5_50856215',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'c0294a8a079550ae12f65a1c3a42011ef926bb00' => 
     array (
       0 => 'E:\\wampserve\\wamp\\www\\shopapp2222\\mvc\\template\\index\\index.html',
-      1 => 1500045084,
+      1 => 1500727967,
       2 => 'file',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:footer.html' => 1,
   ),
 ),false)) {
-function content_5968df1e0e23b0_01457061 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59734ad68ce6e5_50856215 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html lang="en">
@@ -44,6 +44,51 @@ function content_5968df1e0e23b0_01457061 (Smarty_Internal_Template $_smarty_tpl)
             opacity: 1;
             background: #fe158e;
         }
+        .di{
+            width: 100%;
+            height: 1.1rem;
+            background: #fff;
+            position: fixed;
+            bottom: 0;
+        }
+        .di ul{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: space-around;
+        }
+        .di ul  li{
+            width: 0.49rem;
+            height: 0.49rem;
+            margin-top: 0.3rem;
+            cursor: pointer;
+        }
+        .di ul a:nth-child(3) li{
+            width: 0.93rem;
+            height: 0.93rem;
+            margin-top: 0.08rem;
+        }
+        .di ul li p{
+            display: block;
+            width: 100%;
+            height: 0.1rem;
+            background: url(<?php echo IMG_PATH;?>
+/zx6_03.png);
+            background-position: center;
+            background-size: 100%;
+            background-repeat: no-repeat;
+            margin-top: 0.05rem;
+            display: none;
+        }
+        .di .active{
+            display: block;
+        }
+        .tu{
+            width: 100%;
+            height:100%;
+            float: left;
+        }
+
     </style>
 </head>
 <body>
@@ -455,6 +500,40 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl);
 
     </div>
     <div class="k"></div>
+    <div class="di">
+        <ul>
+            <a href="index.php?m=index&f=index&a=index1"><li>
+                <img src="<?php echo IMG_PATH;?>
+/zx2.png" alt="" class="tu"/>
+                <p  class="active"></p>
+            </li>
+            </a>
+            <a href="#"><li>
+                <img src="<?php echo IMG_PATH;?>
+/zx3.png" alt="" class="tu"/>
+                <p></p>
+            </li>
+            </a>
+            <a href="#"><li>
+                <img src="<?php echo IMG_PATH;?>
+/zx1.png" alt="" class="tu"/>
+                <p></p>
+            </li>
+            </a>
+            <a href="#"><li>
+                <img src="<?php echo IMG_PATH;?>
+/zx4.png" alt="" class="tu"/>
+                <p></p>
+            </li>
+            </a>
+            <a href="index.php?m=index&f=member"><li>
+                <img src="<?php echo IMG_PATH;?>
+/zx5.png" alt="" class="tu"/>
+                <p></p>
+            </li>
+            </a>
+        </ul>
+    </div>
 </div>
 
 <?php echo '<script'; ?>
@@ -489,6 +568,7 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl);
     })
 <?php echo '</script'; ?>
 >
-<?php $_smarty_tpl->_subTemplateRender("file:footer.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
-}
+<!--<?php $_smarty_tpl->_subTemplateRender("file:footer.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
+?>
+--><?php }
 }

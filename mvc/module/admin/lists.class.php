@@ -23,32 +23,23 @@ class lists extends main{
         $pingfen=$_POST["pingfen"];
         $keywords=$_POST["keywords"];
         $scon=$_POST["scon"];
+
+
         $simage=implode(",",$_POST["simage"]);
 
         $db=new db("lists");
         $result=$db->insert("cid='{$cid}',stitle='{$stitle}',keywords='{$keywords}',scon='{$scon}',simage='{$simage}',pingfen='{$pingfen}',yutitle='{$yutitle}',price='{$price}',posid='{$posid}'");
         if($result>0){
-            //$this->smarty->assign("sid",$sid);
+
             $this->smarty->assign("cid",$cid);
             $this->smarty->assign("posid",$posid);
             $this->jump("添加成功","index.php?m=admin&f=lists&a=add0");
         }
     }
     function add(){
-        //$sid=$_POST["sid"];
-        //$cid=$_POST["cid"];
-      /*  $db=new db("lists");
-        $result=$db->where("category.cid=lists.cid,postion.posid=lists.posid")->join("category,lists,position");*/
         $db=new db("");
         $result=$db->where("category.cid=lists.cid and position.posid=lists.posid")->join("category,lists,position");
-   /*     $this->smarty->assign("sid",$result[0]["sid"]);
-        $this->smarty->assign("cid",$result[0]["cid"]);
-        $this->smarty->assign("yutitle",$result[0]["yutitle"]);
-        $this->smarty->assign("posid",$result[0]["posid"]);
-        $this->smarty->assign("stitle",$result[0]["stitle"]);
-        $this->smarty->assign("keywords",$result[0]["keywords"]);
-        $this->smarty->assign("scon",$result[0]["scon"]);
-        $this->smarty->assign("simage",$result[0]["simage"]);*/
+
         $this->smarty->assign("result",$result);
        $this->smarty->display("xzzlistsAdd.html");
     }
@@ -64,7 +55,6 @@ class lists extends main{
         $sid=$_GET["sid"];
         $cid=$_GET["cid"];
         $posid=$_GET["posid"];
-       // $posid=implode(",",$_GET["posid"]);
         $db=new db("lists");
         $result=$db->where("sid={$sid}")->select();
         $this->smarty->assign("yutitle",$result[0]["yutitle"]);

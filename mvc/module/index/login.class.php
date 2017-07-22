@@ -1,60 +1,16 @@
 <?php
 class login extends indexMain{
     function init(){
+        if (($this->session->get("indexLogin"))) {
+            $this->jump("已登录", "index.php?m=index&f=index&a=index1");
+        }
         $this->smarty->display("yj-login.html");
     }
- /*   function reg(){
-        if($_POST["code"]!==$this->session->get("code")){
-            echo "验证码错误";
-            exit;
-        }
 
-        $mname=$_POST["mname"];
-
-        if(empty($mname)){
-            echo "用户不能为空";
-            exit;
-        }
-        $db=new db("member");
-        $result=$db->where("mname='{$mname}'")->select();
-        if(count($result)>0){
-            echo "用户名存在";
-            exit;
-        }
-
-        $mpass=$_POST["mpass"];
-        if(empty($mpass)){
-            echo "密码不能为空";
-            exit;
-        }
-        $mpass1=$_POST["mpass1"];
-        if(empty($mpass)){
-            echo "确认密码不能为空";
-            exit;
-        }
-
-        if($mpass!=$mpass1){
-            echo "两次密码不一致";
-            exit;
-        }
-
-        $mpass=md5($mpass);
-
-        if($db->insert("mname='{$mname}',mpass='{$mpass}'")){
-            echo "ok";
-            exit;
-        }
-
-
-    }*/
 
     function willLogin(){
-       /* $code=$_POST["code"];
-        if($_POST["code"]!==$this->session->get("code")){
-            echo "验证码错误";
-            exit;
-        }*/
-        $mname=$_POST["mname"];
+
+       $mname=$_POST["mname"];
         if(empty($mname)){
             echo "用户不能为空";
             exit;
@@ -87,7 +43,7 @@ class login extends indexMain{
 
     function logout(){
         $this->session->clear();
-        echo "ok";
+       $this->smarty->display("yj-login.html");
     }
 
 

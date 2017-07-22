@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-16 16:49:03
+/* Smarty version 3.1.30, created on 2017-07-22 04:38:20
   from "E:\wampserve\wamp\www\shopapp2222\mvc\template\index\yj-login.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_596b7cdf843b44_36528467',
+  'unifunc' => 'content_5972ba9c4369f4_03120790',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'd4067651fb3114b65d8384dbf21c0c7515e9ce71' => 
     array (
       0 => 'E:\\wampserve\\wamp\\www\\shopapp2222\\mvc\\template\\index\\yj-login.html',
-      1 => 1500216542,
+      1 => 1500691098,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_596b7cdf843b44_36528467 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5972ba9c4369f4_03120790 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -60,6 +60,12 @@ function content_596b7cdf843b44_36528467 (Smarty_Internal_Template $_smarty_tpl)
 		}
 		.pass{
 			margin-top: -2.65rem;
+		}
+		.loginn{
+			position: absolute;
+			left:0;
+			right:0;
+			bottom:3.8rem;
 		}
 		
 	</style>
@@ -177,13 +183,13 @@ function content_596b7cdf843b44_36528467 (Smarty_Internal_Template $_smarty_tpl)
 	$(".myform").validate({
 		errorLabelContainer:".message span",
 		rules: {
-			/*mname: {
+			mname: {
 				required: true,
-//				minlength: 11,
+				minlength: 11,
 				// 自定义方法：校验手机号在数据库中是否存在
 				// checkPhoneExist : true,
-				isMobile: true,
-			},*/
+//				isMobile: true,
+			},
 			mpass:{
 				required:true,
 				rangelength:[6,10],
@@ -201,15 +207,20 @@ function content_596b7cdf843b44_36528467 (Smarty_Internal_Template $_smarty_tpl)
 		}
 	})
     $("input").blur(function(){
-    	if($(".message span").children().hasClass("error")){
-    		$(".message").css("opacity",1);
-    		setTimeout(function(){
-	$(".message").css("opacity",0);
-	},3000);
-    	}
+
+		if(!$("label").html()==""){
+            if($(".message span").children().hasClass("error")){
+                $(".message").css("opacity",1);
+                setTimeout(function(){
+                    $(".message").css("opacity",0);
+                },1000);
+            }
+		}
+
+
     })
 	
-  /*  errorLabelContainer:".message span",*/
+
 		
 <?php echo '</script'; ?>
 >

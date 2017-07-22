@@ -1,27 +1,26 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-19 11:21:52
+/* Smarty version 3.1.30, created on 2017-07-22 14:53:29
   from "E:\wampserve\wamp\www\shopapp2222\mvc\template\index\yj-member.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_596f24b04bb619_22722301',
+  'unifunc' => 'content_59734ac956f672_77573544',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '9f74101a43d847661d73dc3581fa28f40bf312c6' => 
     array (
       0 => 'E:\\wampserve\\wamp\\www\\shopapp2222\\mvc\\template\\index\\yj-member.html',
-      1 => 1500456111,
+      1 => 1500727971,
       2 => 'file',
     ),
   ),
   'includes' => 
   array (
-    'file:footer.html' => 1,
   ),
 ),false)) {
-function content_596f24b04bb619_22722301 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59734ac956f672_77573544 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html>
@@ -53,6 +52,19 @@ function content_596f24b04bb619_22722301 (Smarty_Internal_Template $_smarty_tpl)
       	mui('.mui-off-canvas-wrap').offCanvas('show');
     <?php echo '</script'; ?>
 >
+	<style>
+		.up{
+			display: inline-block;
+			width: 100%;
+			height:100%;
+			position: absolute;
+			left:0;
+			top:0;
+			align-items: baseline;
+			color: inherit;
+			text-align: start;
+		}
+	</style>
 </head>
 <body>
 	<!-- 侧滑导航根容器 -->
@@ -76,32 +88,28 @@ function content_596f24b04bb619_22722301 (Smarty_Internal_Template $_smarty_tpl)
          			<p>
          				<span><img src="<?php echo IMG_PATH;?>
 /yj-member-bi.png" alt="" class="tu"/></span>
-         				<span> 设置备注与标签</span>
+         				<span> 修改昵称</span>
          				<span><img src="<?php echo IMG_PATH;?>
 /yj-member-more.png" alt="" class="tu"/></span>
          			</p>
          			<p></p>
          		</li>
          		<li>
-         			<p>
+         			<p style="position: relative;">
          				<span><img src="<?php echo IMG_PATH;?>
 /yj-member-xin.png" alt="" class="tu"/></span>
-         				<span> 设为特殊关注</span>
-         				<span>
-         					
+         				<span>上传头像</span>
+         				<span><img src="<?php echo IMG_PATH;?>
+/yj-member-more.png" alt="" class="tu"/>
 						</span>
-						
          			</p>
          			<p></p>
-         			<div class="mui-switch mui-switch-mini mui-active" style="position: absolute;right: 1.2rem;top: 5.8rem;">
-         					  <div class="mui-switch-handle"></div>
-         					</div>
          		</li>
          		<li>
          			<p>
          				<span><img src="<?php echo IMG_PATH;?>
 /yj-member-peng.png" alt="" class="tu"/></span>
-         				<span>设置朋友圈权限</span>
+         				<span>修改密码</span>
          				<span><img src="<?php echo IMG_PATH;?>
 /yj-member-more.png" alt="" class="tu"/></span>
          			</p>
@@ -121,13 +129,12 @@ function content_596f24b04bb619_22722301 (Smarty_Internal_Template $_smarty_tpl)
          			<p>
          				<span><img src="<?php echo IMG_PATH;?>
 /yj-member-hei.png" alt="" class="tu"/></span>
-         				<span>加入黑名单</span>
-         				<span></span>
+         				<span>退出登录</span>
+         				<span><img src="<?php echo IMG_PATH;?>
+/yj-member-more.png" alt="" class="tu"/></span>
          			</p>
          			<p></p>
-         			<div class="mui-switch mui-switch-mini mui-active" style="position: absolute;right: 1.2rem;bottom:2rem;">
-         					  <div class="mui-switch-handle"></div>
-         			</div>
+
          		</li>
          		<li>
          			<p>
@@ -272,7 +279,7 @@ function content_596f24b04bb619_22722301 (Smarty_Internal_Template $_smarty_tpl)
       		<a href="index.php?m=index&f=index&a=index1"><li>
       			<img src="<?php echo IMG_PATH;?>
 /zx2.png" alt="" class="tu"/>
-      			<p class="active"></p>
+      			<p ></p>
       		</li>
       		</a>
       		<a href="#"><li>
@@ -293,10 +300,10 @@ function content_596f24b04bb619_22722301 (Smarty_Internal_Template $_smarty_tpl)
       			<p></p>
       		</li>
       		</a>
-      		<a href="index.php?m=index&f=index&a=member"><li>
+      		<a href="index.php?m=index&f=member"><li>
       			<img src="<?php echo IMG_PATH;?>
 /zx5.png" alt="" class="tu"/>
-      			<p></p>
+      			<p class="active"></p>
       		</li>
       		</a>
       	</ul>
@@ -344,8 +351,6 @@ mui(".conn").on("tap",".zhezhao",function(){
 	
 <?php echo '</script'; ?>
 >
-<?php $_smarty_tpl->_subTemplateRender("file:footer.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
-?>
 
 <?php }
 }

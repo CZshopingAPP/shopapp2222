@@ -1,6 +1,9 @@
 <?php
 class reg  extends indexMain{
     function init(){
+        if (($this->session->get("indexLogin"))) {
+            $this->jump("请退出重新登陆", "index.php?m=index&f=login&a=logout");
+        }
         $this->smarty->assign("login",$this->session->get("indexLogin"));
         $this->smarty->assign("mname",$this->session->get("mname"));
         $this->smarty->display("yj-reg.html");
@@ -9,22 +12,42 @@ class reg  extends indexMain{
 
         $mname=$_POST["mname"];
 
-        if(empty($mname)){
+       /* if(empty($mname)){
             echo "用户不能为空";
             exit;
-        }
+        }*/
         $db=new db("member");
         $result=$db->where("mname='{$mname}'")->select();
+        $this->smarty->assign("result",$result);
         if(count($result)>0){
             echo "用户名存在";
             exit;
         }
 
-        $mpass=$_POST["mpass"];
-        if(empty($mpass)){
-            echo "密码不能为空";
+    }
+
+    function reg2(){
+
+        $mname=$_POST["mname"];
+
+        if(empty($mname)){
+             echo "用户不能为空";
+             exit;
+         }
+        $db=new db("member");
+        $result=$db->where("mname='{$mname}'")->select();
+        $this->smarty->assign("result",$result);
+        if(count($result)>0){
+            echo "用户名存在";
+
             exit;
         }
+
+        $mpass=$_POST["mpass"];
+         if(empty($mpass)){
+             echo "密码不能为空";
+             exit;
+         }
         $mpass1=$_POST["mpass1"];
         if(empty($mpass)){
             echo "确认密码不能为空";
@@ -45,6 +68,4 @@ class reg  extends indexMain{
 
 
     }
-
-
 }

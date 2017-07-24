@@ -7,7 +7,17 @@ class login extends indexMain{
         $this->smarty->display("yj-login.html");
     }
 
+    function willLogin0(){
 
+        $mname=$_POST["mname"];
+        if(empty($mname)){
+            echo "用户不能为空";
+            exit;
+        }
+
+        echo "用户名或密码有误";
+
+    }
     function willLogin(){
 
        $mname=$_POST["mname"];
@@ -31,13 +41,14 @@ class login extends indexMain{
                     $this->session->set("mid",$v["mid"]);
                     $this->session->set("photo",$v["photo"]);
                     $this->session->set("nicheng",$v["nicheng"]);
+                    echo "ok";
                     $this->smarty->display("index.html");
-                   //$this->jump("登陆成功","index.php?m=index&f=index&a=index1");
+
                 }
             }
         }
 
-        echo "用户名或密码有误";
+
 
     }
 

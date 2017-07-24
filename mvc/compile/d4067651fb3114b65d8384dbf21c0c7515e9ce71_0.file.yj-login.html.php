@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-22 04:38:20
+/* Smarty version 3.1.30, created on 2017-07-23 09:52:16
   from "E:\wampserve\wamp\www\shopapp2222\mvc\template\index\yj-login.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5972ba9c4369f4_03120790',
+  'unifunc' => 'content_597455b048a663_08758641',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'd4067651fb3114b65d8384dbf21c0c7515e9ce71' => 
     array (
       0 => 'E:\\wampserve\\wamp\\www\\shopapp2222\\mvc\\template\\index\\yj-login.html',
-      1 => 1500691098,
+      1 => 1500796328,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5972ba9c4369f4_03120790 (Smarty_Internal_Template $_smarty_tpl) {
+function content_597455b048a663_08758641 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -82,7 +82,7 @@ function content_5972ba9c4369f4_03120790 (Smarty_Internal_Template $_smarty_tpl)
                         <div class="xuan2"></div>
                     </div>
                     <div class="usertitle"></div>
-                    <form action="index.php?m=index&f=login&a=willLogin" class="myform" method="post">
+                    <form action="" class="myform" method="post">
                     <input type="text" class="input"  placeholder="您可以输入手机号" name="mname">
                     <input type="password" class="password" placeholder="您可以输入密码" name="mpass">
 						<input type="submit" class="loginn" value="">
@@ -217,9 +217,48 @@ function content_5972ba9c4369f4_03120790 (Smarty_Internal_Template $_smarty_tpl)
             }
 		}
 
+    })
+
+
+	$("input[name='mname']").blur(function () {
+
+        var str=$(".myform").serialize();
+        $.ajax({
+            url:"index.php?m=index&f=login&a=willLogin0",
+            type:"post",
+            data:str,
+            success:function(e){
+                if(e=="ok"){
+                    //location.href("index.html");
+                }else {
+                    $("#mname-error").html(e).css("display","");
+                }
+
+            }
+        })
 
     })
-	
+
+    $("input[name='mpass']").blur(function () {
+
+        var str=$(".myform").serialize();
+        $.ajax({
+            url:"index.php?m=index&f=login&a=willLogin",
+            type:"post",
+            data:str,
+            success:function(e){
+                if(e=="ok"){
+                    location.href("index.html");
+                }else {
+                    $("#mname-error").html(e).css("display","");
+                }
+
+            }
+        })
+
+    })
+
+
 
 		
 <?php echo '</script'; ?>

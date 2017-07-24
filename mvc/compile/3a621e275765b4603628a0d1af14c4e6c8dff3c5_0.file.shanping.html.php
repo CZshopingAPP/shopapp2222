@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-19 11:16:44
+/* Smarty version 3.1.30, created on 2017-07-23 09:29:17
   from "E:\wampserve\wamp\www\shopapp2222\mvc\template\index\shanping.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_596f237ceb2865_02776100',
+  'unifunc' => 'content_5974504dacdf86_72295444',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_596f237ceb2865_02776100 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5974504dacdf86_72295444 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html lang="en">

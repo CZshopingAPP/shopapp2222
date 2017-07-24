@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-22 14:53:29
+/* Smarty version 3.1.30, created on 2017-07-23 10:17:22
   from "E:\wampserve\wamp\www\shopapp2222\mvc\template\index\yj-member.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_59734ac956f672_77573544',
+  'unifunc' => 'content_59745b92bcec13_28822452',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '9f74101a43d847661d73dc3581fa28f40bf312c6' => 
     array (
       0 => 'E:\\wampserve\\wamp\\www\\shopapp2222\\mvc\\template\\index\\yj-member.html',
-      1 => 1500727971,
+      1 => 1500797805,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_59734ac956f672_77573544 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59745b92bcec13_28822452 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html>
@@ -88,7 +88,7 @@ function content_59734ac956f672_77573544 (Smarty_Internal_Template $_smarty_tpl)
          			<p>
          				<span><img src="<?php echo IMG_PATH;?>
 /yj-member-bi.png" alt="" class="tu"/></span>
-         				<span> 修改昵称</span>
+         				<span><a href="#">修改昵称</a></span>
          				<span><img src="<?php echo IMG_PATH;?>
 /yj-member-more.png" alt="" class="tu"/></span>
          			</p>
@@ -98,7 +98,7 @@ function content_59734ac956f672_77573544 (Smarty_Internal_Template $_smarty_tpl)
          			<p style="position: relative;">
          				<span><img src="<?php echo IMG_PATH;?>
 /yj-member-xin.png" alt="" class="tu"/></span>
-         				<span>上传头像</span>
+         				<span><a href="#">更换头像</a></span>
          				<span><img src="<?php echo IMG_PATH;?>
 /yj-member-more.png" alt="" class="tu"/>
 						</span>
@@ -109,7 +109,7 @@ function content_59734ac956f672_77573544 (Smarty_Internal_Template $_smarty_tpl)
          			<p>
          				<span><img src="<?php echo IMG_PATH;?>
 /yj-member-peng.png" alt="" class="tu"/></span>
-         				<span>修改密码</span>
+         				<span><a href="index.php?m=index&f=member&a=editmm">修改密码</a></span>
          				<span><img src="<?php echo IMG_PATH;?>
 /yj-member-more.png" alt="" class="tu"/></span>
          			</p>
@@ -119,7 +119,7 @@ function content_59734ac956f672_77573544 (Smarty_Internal_Template $_smarty_tpl)
          			<p>
          				<span><img src="<?php echo IMG_PATH;?>
 /yj-member-tui.png" alt="" class="tu"/></span>
-         				<span>推荐其他好友</span>
+         				<span><a href="#">推荐其他好友</a></span>
          				<span><img src="<?php echo IMG_PATH;?>
 /yj-member-more.png" alt="" class="tu"/></span>
          			</p>
@@ -129,7 +129,7 @@ function content_59734ac956f672_77573544 (Smarty_Internal_Template $_smarty_tpl)
          			<p>
          				<span><img src="<?php echo IMG_PATH;?>
 /yj-member-hei.png" alt="" class="tu"/></span>
-         				<span>退出登录</span>
+         				<span><a href="index.php?m=index&f=login&a=logout">退出登录</a></span>
          				<span><img src="<?php echo IMG_PATH;?>
 /yj-member-more.png" alt="" class="tu"/></span>
          			</p>
@@ -140,7 +140,7 @@ function content_59734ac956f672_77573544 (Smarty_Internal_Template $_smarty_tpl)
          			<p>
          				<span><img src="<?php echo IMG_PATH;?>
 /yj-member-tou.png" alt="" class="tu"/></span>
-         				<span>投诉</span>
+         				<span><a href="">投诉</a></span>
          				<span><img src="<?php echo IMG_PATH;?>
 /yj-member-more.png" alt="" class="tu"/></span>
          			</p>
@@ -150,7 +150,7 @@ function content_59734ac956f672_77573544 (Smarty_Internal_Template $_smarty_tpl)
          			<p>
          				<span><img src="<?php echo IMG_PATH;?>
 /yj-member-shan.png" alt="" class="tu"/></span>
-         				<span>删除</span>
+         				<span><a href="">注销</a></span>
          				<span><img src="<?php echo IMG_PATH;?>
 /yj-member-more.png" alt="" class="tu"/></span>
          			</p>

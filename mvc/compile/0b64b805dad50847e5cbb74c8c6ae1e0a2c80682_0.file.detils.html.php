@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-19 11:18:49
+/* Smarty version 3.1.30, created on 2017-07-23 10:30:05
   from "E:\wampserve\wamp\www\shopapp2222\mvc\template\index\detils.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_596f23f937f014_76016764',
+  'unifunc' => 'content_59745e8d6ae274_77852101',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '0b64b805dad50847e5cbb74c8c6ae1e0a2c80682' => 
     array (
       0 => 'E:\\wampserve\\wamp\\www\\shopapp2222\\mvc\\template\\index\\detils.html',
-      1 => 1500299368,
+      1 => 1500798604,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_596f23f937f014_76016764 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59745e8d6ae274_77852101 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html lang="en">
@@ -75,7 +75,8 @@ foreach ($_from as $_smarty_tpl->tpl_vars['v']->value) {
             </div>
             <div class="banner">
                 <div class="bann">
-                    <span class="bzi" name="yutitle">BCIDECONTION</span>
+                    <span class="bzi" name="yutitle"><?php echo $_smarty_tpl->tpl_vars['v']->value["yutitle"];?>
+</span>
 
                     <span class="bzi1" ><?php echo $_smarty_tpl->tpl_vars['v']->value["stitle"];?>
 </span>
@@ -88,7 +89,8 @@ foreach ($_from as $_smarty_tpl->tpl_vars['v']->value) {
                 </div>
             </div>
             <div class="jage">
-                <span class="rmb" name="price"></span>
+                <span class="rmb" name="price"><?php echo $_smarty_tpl->tpl_vars['v']->value["price"];?>
+</span>
                 <span class="rmb1">RMB</span>
                 <span class="rmb2">
                     <span class="sc">生产周期为15天</span>

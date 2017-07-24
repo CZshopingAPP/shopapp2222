@@ -13,7 +13,7 @@ class member extends indexMain{
         }
 
     }
-    function edit(){
+   /* function edit(){
         $mid=P("mid");
         $field=P("filed");
         $val=P("val");
@@ -24,5 +24,16 @@ class member extends indexMain{
         }else{
             echo "更新失败";
         }
+    }*/
+    function editmm(){
+        $this->smarty->assign("mid",$this->session->get("mid"));
+        $this->smarty->display("yj-edit.html");
+    }
+
+    function editnc(){
+
+    }
+    function editphoto(){
+
     }
 }

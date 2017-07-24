@@ -43,7 +43,7 @@
                         <div class="xuan2"></div>
                     </div>
                     <div class="usertitle"></div>
-                    <form action="index.php?m=index&f=login&a=willLogin" class="myform" method="post">
+                    <form action="" class="myform" method="post">
                     <input type="text" class="input"  placeholder="您可以输入手机号" name="mname">
                     <input type="password" class="password" placeholder="您可以输入密码" name="mpass">
 						<input type="submit" class="loginn" value="">
@@ -168,9 +168,48 @@
             }
 		}
 
+    })
+
+
+	$("input[name='mname']").blur(function () {
+
+        var str=$(".myform").serialize();
+        $.ajax({
+            url:"index.php?m=index&f=login&a=willLogin0",
+            type:"post",
+            data:str,
+            success:function(e){
+                if(e=="ok"){
+                    //location.href("index.html");
+                }else {
+                    $("#mname-error").html(e).css("display","");
+                }
+
+            }
+        })
 
     })
-	
+
+    $("input[name='mpass']").blur(function () {
+
+        var str=$(".myform").serialize();
+        $.ajax({
+            url:"index.php?m=index&f=login&a=willLogin",
+            type:"post",
+            data:str,
+            success:function(e){
+                if(e=="ok"){
+                    location.href("index.html");
+                }else {
+                    $("#mname-error").html(e).css("display","");
+                }
+
+            }
+        })
+
+    })
+
+
 
 		
 </script>

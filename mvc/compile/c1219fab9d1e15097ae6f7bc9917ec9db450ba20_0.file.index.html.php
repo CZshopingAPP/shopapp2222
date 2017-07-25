@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-12 05:56:04
+/* Smarty version 3.1.30, created on 2017-07-24 11:31:53
   from "E:\wamp\www\shopapp2222\mvc\template\index\index.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_59659dd46136e6_60898340',
+  'unifunc' => 'content_5975be89446956_95734697',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'c1219fab9d1e15097ae6f7bc9917ec9db450ba20' => 
     array (
       0 => 'E:\\wamp\\www\\shopapp2222\\mvc\\template\\index\\index.html',
-      1 => 1499831749,
+      1 => 1500888480,
       2 => 'file',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:footer.html' => 1,
   ),
 ),false)) {
-function content_59659dd46136e6_60898340 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5975be89446956_95734697 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html lang="en">
@@ -43,6 +43,57 @@ function content_59659dd46136e6_60898340 (Smarty_Internal_Template $_smarty_tpl)
         .swiper-pagination-bullet-active {
             opacity: 1;
             background: #fe158e;
+        }
+        .di{
+            width: 100%;
+            height: 1.1rem;
+            background: #fff;
+            position: fixed;
+            bottom: 0;
+        }
+        .di ul{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: space-around;
+        }
+        .di ul  li{
+            width: 0.49rem;
+            height: 0.49rem;
+            margin-top: 0.3rem;
+            cursor: pointer;
+        }
+        .di ul a:nth-child(3) li{
+            width: 0.93rem;
+            height: 0.93rem;
+            margin-top: 0.08rem;
+        }
+        .di ul li p{
+            display: block;
+            width: 100%;
+            height: 0.1rem;
+            background: url(<?php echo IMG_PATH;?>
+/zx6_03.png);
+            background-position: center;
+            background-size: 100%;
+            background-repeat: no-repeat;
+            margin-top: 0.05rem;
+            display: none;
+        }
+        .di .active{
+            display: block;
+        }
+        .tu{
+            width: 100%;
+            height:100%;
+            float: left;
+        }
+        .love1>span,.love2>span,.love3>span{
+            width:3rem;
+            display:block;
+            white-space:nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
         }
     </style>
 </head>
@@ -395,21 +446,29 @@ function content_59659dd46136e6_60898340 (Smarty_Internal_Template $_smarty_tpl)
             <img src="<?php echo IMG_PATH;?>
 /love.png" alt="">
         </div>
+        <?php
+$_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['result']->value, 'v');
+if ($_from !== null) {
+foreach ($_from as $_smarty_tpl->tpl_vars['v']->value) {
+?>
         <div class="lo">
             <div class="lo-l">
-                <a href="index.php?m=index&f=detils">
-                    <img src="<?php echo IMG_PATH;?>
-/l.png" alt="">
+                <a href="index.php?m=index&f=detils&sid=<?php echo $_smarty_tpl->tpl_vars['v']->value['sid'];?>
+">
+                    <img src="<?php echo $_smarty_tpl->tpl_vars['v']->value['simage'];?>
+" alt="" name="simage">
                 </a>
             </div>
             <div class="lo-r">
                 <img src="<?php echo IMG_PATH;?>
 /hot.png" alt="" class="hot">
                 <div class="love1">
-                    <span>服装设计追求的创造思想</span>
+                    <span name="stitle"><?php echo $_smarty_tpl->tpl_vars['v']->value["stitle"];?>
+</span>
                 </div>
                 <div class="love2">
-                    <span class="lt">CHARACTERIS OF THE TIMES</span>
+                    <span class="lt" name="yutitle"><?php echo $_smarty_tpl->tpl_vars['v']->value["yutitle"];?>
+</span>
                     <div class="sc">
                         <img src="<?php echo IMG_PATH;?>
 /xing1.png" alt="">
@@ -431,54 +490,56 @@ function content_59659dd46136e6_60898340 (Smarty_Internal_Template $_smarty_tpl)
 /xx.png" alt="">
                     <img src="<?php echo IMG_PATH;?>
 /xx.png" alt="">
-                    <span>8.5分</span>
-                    <em>49200 REM</em>
+                    <span name="pingfen"><?php echo $_smarty_tpl->tpl_vars['v']->value["pingfen"];?>
+分</span>
+                    <em name="price"><?php echo $_smarty_tpl->tpl_vars['v']->value["price"];?>
+ RMB</em>
                 </div>
             </div>
         </div>
-        <div class="lo">
-            <div class="lo-l">
-                <a href="index.php?m=index&f=detils">
-                    <img src="<?php echo IMG_PATH;?>
-/l.png" alt="">
-                </a>
-            </div>
-            <div class="lo-r">
-                <img src="<?php echo IMG_PATH;?>
-/hot.png" alt="" class="hot">
-                <div class="love1">
-                    <span>服装设计追求的创造思想</span>
-                </div>
-                <div class="love2">
-                    <span class="lt">CHARACTERIS OF THE TIMES</span>
-                    <div class="sc">
-                        <img src="<?php echo IMG_PATH;?>
-/xing1.png" alt="">
-                        <span>已收藏</span>
-                    </div>
-                    <div class="man">
-                        <img src="<?php echo IMG_PATH;?>
-/ren.png" alt="">
-                        <span>12546</span>
-                    </div>
-                    <div class="zt">已购买</div>
-                </div>
-                <div class="love3">
-                    <img src="<?php echo IMG_PATH;?>
-/xx.png" alt="">
-                    <img src="<?php echo IMG_PATH;?>
-/xx.png" alt="">
-                    <img src="<?php echo IMG_PATH;?>
-/xx.png" alt="">
-                    <img src="<?php echo IMG_PATH;?>
-/xx.png" alt="">
-                    <span>8.5分</span>
-                    <em>49200 REM</em>
-                </div>
-            </div>
-        </div>
+        <?php
+}
+}
+$_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl);
+?>
+
+
     </div>
     <div class="k"></div>
+    <div class="di">
+        <ul>
+            <a href="index.php?m=index&f=index&a=index1"><li>
+                <img src="<?php echo IMG_PATH;?>
+/zx2.png" alt="" class="tu"/>
+                <p  class="active"></p>
+            </li>
+            </a>
+            <a href="#"><li>
+                <img src="<?php echo IMG_PATH;?>
+/zx3.png" alt="" class="tu"/>
+                <p></p>
+            </li>
+            </a>
+            <a href="#"><li>
+                <img src="<?php echo IMG_PATH;?>
+/zx1.png" alt="" class="tu"/>
+                <p></p>
+            </li>
+            </a>
+            <a href="#"><li>
+                <img src="<?php echo IMG_PATH;?>
+/zx4.png" alt="" class="tu"/>
+                <p></p>
+            </li>
+            </a>
+            <a href="index.php?m=index&f=member"><li>
+                <img src="<?php echo IMG_PATH;?>
+/zx5.png" alt="" class="tu"/>
+                <p></p>
+            </li>
+            </a>
+        </ul>
+    </div>
 </div>
 
 <?php echo '<script'; ?>
@@ -513,6 +574,7 @@ function content_59659dd46136e6_60898340 (Smarty_Internal_Template $_smarty_tpl)
     })
 <?php echo '</script'; ?>
 >
-<?php $_smarty_tpl->_subTemplateRender("file:footer.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
-}
+<!--<?php $_smarty_tpl->_subTemplateRender("file:footer.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
+?>
+--><?php }
 }

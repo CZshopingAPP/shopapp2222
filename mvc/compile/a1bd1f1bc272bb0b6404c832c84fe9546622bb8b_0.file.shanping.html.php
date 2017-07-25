@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-12 05:46:07
+/* Smarty version 3.1.30, created on 2017-07-24 03:54:01
   from "E:\wamp\www\shopapp2222\mvc\template\index\shanping.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_59659b7fb9d1f1_37035888',
+  'unifunc' => 'content_5975533932aa84_86263970',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'a1bd1f1bc272bb0b6404c832c84fe9546622bb8b' => 
     array (
       0 => 'E:\\wamp\\www\\shopapp2222\\mvc\\template\\index\\shanping.html',
-      1 => 1499830994,
+      1 => 1500859003,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_59659b7fb9d1f1_37035888 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5975533932aa84_86263970 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html lang="en">
@@ -63,6 +63,15 @@ function content_59659b7fb9d1f1_37035888 (Smarty_Internal_Template $_smarty_tpl)
             opacity: 1;
             background: #fe158e;
         }
+        .quan{
+            width: 100%;height: 100%;
+        }
+        .swiper-container-horizontal > .swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+            bottom: 75px;
+            left: 0;
+            width: 100%;
+            height: 0;
+        }
     </style>
     <?php echo '<script'; ?>
 >
@@ -87,8 +96,10 @@ function content_59659b7fb9d1f1_37035888 (Smarty_Internal_Template $_smarty_tpl)
 /sp111 (2).png" alt="">
         </div>
         <div class="swiper-slide">
-            <a href="index.php?m=index&f=index&a=login1"><img src="<?php echo IMG_PATH;?>
-/sp111 (3).png" alt=""></a>
+            <a href="index.php?m=index&f=index&a=login1" class="quan swiper-slide">
+                <img src="<?php echo IMG_PATH;?>
+/sp111 (3).png" alt="">
+            </a>
 
         </div>
     </div>

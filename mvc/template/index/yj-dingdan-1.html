@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <script src="JS_PATH/mui.min.js"></script>
+    <link href="CSS_PATH/mui.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="CSS_PATH/base.css" />
+    <link rel="stylesheet" href="CSS_PATH/yj-dingdan.css" />
+    <script src="JS_PATH/rem.js"></script>
+    <script src="JS_PATH/jQuery.js"></script>
+    <script type="text/javascript" charset="UTF-8">
+      	mui.init();
+    </script>
+</head>
+<body>
+	<div class="header">
+	<span>( 2 )</span>
+	<div class="bianji"></div>
+	</div>
+	<div class="ding">
+		<ul>
+			<li>
+				<div class="ding1">
+					<span></span>
+					<span> 小野家店铺</span>
+					<div class="p">
+						<span>
+							<img src="IMG_PATH/yj-member-zuan.png" alt="" class="tu" />
+						</span>
+						<span>
+							<img src="IMG_PATH/yj-member-zuan.png" alt="" class="tu" />
+						</span>
+						<span>
+							<img src="IMG_PATH/yj-member-zuan.png" alt="" class="tu" />
+						</span>
+						<span>
+							<img src="IMG_PATH/you-more.png" alt="" class="tu"/>
+						</span>
+					</div>
+				</div>
+				<div class="ding2">
+					<div class="ding3">
+						<div class="tupian">
+							<img src="IMG_PATH/ding9.png" alt="" class="tu"/>
+						</div>
+						<div class="ding4">
+							<p>BSIDEConction  
+							<span>
+								<img src="IMG_PATH/wujiaoxing.png" alt=""  class="tu"/>
+							</span>
+							<span>
+								<img src="IMG_PATH/wujiaoxing.png" alt=""  class="tu"/>
+							</span>
+							<span>
+								<img src="IMG_PATH/wujiaoxing.png" alt=""  class="tu"/>
+							</span>
+							</p>
+							<p>清新少女校园T恤</p>
+							<p>
+								<span>雪纺少女</span>
+								<span>关键字2</span>
+								<i>-</i>
+								<span>1</span>
+								<i>+</i>
+							</p>
+						</div>
+						<span></span>
+						<div class="ding5"><p>42.00</p> <p>RMB</p></div>
+					</div>
+				</div>
+				<input type="checkBox" class="check">
+			</li>
+			<li>
+				<div class="ding1">
+					<span></span>
+					<span> 小野家店铺</span>
+					<div class="p">
+						<span>
+							<img src="IMG_PATH/yj-member-zuan.png" alt="" class="tu" />
+						</span>
+						<span>
+							<img src="IMG_PATH/yj-member-zuan.png" alt="" class="tu" />
+						</span>
+						<span>
+							<img src="IMG_PATH/yj-member-zuan.png" alt="" class="tu" />
+						</span>
+						<span>
+							<img src="IMG_PATH/you-more.png" alt="" class="tu"/>
+						</span>
+					</div>
+				</div>
+				<div class="ding2">
+					<div class="ding3">
+						<div class="tupian">
+							<img src="IMG_PATH/ding9.png" alt="" class="tu"/>
+						</div>
+						<div class="ding4">
+							<p>BSIDEConction  
+							<span>
+								<img src="IMG_PATH/wujiaoxing.png" alt=""  class="tu"/>
+							</span>
+							<span>
+								<img src="IMG_PATH/wujiaoxing.png" alt=""  class="tu"/>
+							</span>
+							<span>
+								<img src="IMG_PATH/wujiaoxing.png" alt=""  class="tu"/>
+							</span>
+							</p>
+							<p>清新少女校园T恤</p>
+							<p>
+								<span>雪纺少女</span>
+								<span>关键字2</span>
+								<i>-</i>
+								<span>1</span>
+								<i>+</i>
+							</p>
+						</div>
+						<span></span>
+						<div class="ding5"><p>42.00</p> <p>RMB</p></div>
+					</div>
+				</div>
+				<input type="checkBox" class="check">
+			</li>
+		</ul>
+	</div>
+	<div class="zong">
+		<li>本次消费</li>
+		<li>合计</li>
+		<li><span>260.00</span><span>RMB</span></li>
+		<li><div>结算<span>(2)</span></div></li>
+	</div>
+	 <div class="di">
+      	<ul>
+      		<a href="index.php?m=index&f=index&a=index1"><li>
+      			<img src="IMG_PATH/zx2.png" alt="" class="tu"/>
+      			<p ></p>
+      		</li>
+      		</a>
+      		<a href="#"><li>
+      			<img src="IMG_PATH/zx3.png" alt="" class="tu"/>
+      			<p></p>
+      		</li>
+      		</a>
+      		<a href="#"><li>
+      			<img src="IMG_PATH/zx1.png" alt="" class="tu"/>
+      			<p></p>
+      		</li>
+      		</a>
+      		<a href="#"><li>
+      			<img src="IMG_PATH/zx4.png" alt="" class="tu"/>
+      			<p class="active"></p>
+      		</li>
+      		</a>
+      		<a href="index.php?m=index&f=member"><li>
+      			<img src="IMG_PATH/zx5.png" alt="" class="tu"/>
+      			<p></p>
+      		</li>
+      		</a>
+      	</ul>
+      </div>
+</body>
+<script>
+	$(".bianji").click(function(){
+
+		$(".check").show();
+	
+	})
+	mui(".di").on("tap",".di ul li",function(){
+		$(".di>ul li p").removeClass("active")
+		$(this).children("p").addClass("active");
+	})
+	mui("body").on("tap","a",function(){
+		document.location.href=this.href;
+	})
+</script>
+</html>

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-23 09:29:39
+/* Smarty version 3.1.30, created on 2017-07-24 03:44:20
   from "E:\wampserve\wamp\www\shopapp2222\mvc\template\index\index.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_59745063b243c1_52994427',
+  'unifunc' => 'content_597550f4dd5c74_57063196',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'c0294a8a079550ae12f65a1c3a42011ef926bb00' => 
     array (
       0 => 'E:\\wampserve\\wamp\\www\\shopapp2222\\mvc\\template\\index\\index.html',
-      1 => 1500727967,
+      1 => 1500860660,
       2 => 'file',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:footer.html' => 1,
   ),
 ),false)) {
-function content_59745063b243c1_52994427 (Smarty_Internal_Template $_smarty_tpl) {
+function content_597550f4dd5c74_57063196 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html lang="en">
@@ -225,22 +225,28 @@ function content_59745063b243c1_52994427 (Smarty_Internal_Template $_smarty_tpl)
                 <span class="ti3">爱尚品</span>
             </div>
         </div>
+
+    <?php
+$_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['result1']->value, 'v');
+if ($_from !== null) {
+foreach ($_from as $_smarty_tpl->tpl_vars['v']->value) {
+?>
         <div class="sp">
             <div class="s1"></div>
             <div class="s2">
                 <span class="st">NEW ARRIVAL</span>
-                <span class="st1">专属</span>
-                <span class="st2">X</span>
-                <span class="st3">定制</span>
+                <span class="st1"><?php echo $_smarty_tpl->tpl_vars['v']->value["stitle"];?>
+</span>
             </div>
             <div class="s3">
                 <div class="shp">
-                    <img src="<?php echo IMG_PATH;?>
-/sp.png" alt="">
+                    <img src="<?php echo $_smarty_tpl->tpl_vars['v']->value['simage'];?>
+" alt="">
                 </div>
                 <div class="shp1">
                     <div class="shp-1">
-                        <span>拍照要选择最合适的...</span>
+                        <span><?php echo $_smarty_tpl->tpl_vars['v']->value["scon"];?>
+</span>
                     </div>
                     <div class="shp-2">
                         <div class="dj">
@@ -269,13 +275,21 @@ function content_59745063b243c1_52994427 (Smarty_Internal_Template $_smarty_tpl)
                         </div>
                     </div>
                     <div class="shp2-2">
-                        <span class="sp-2">JIM.GIMGREEN</span>
-                        <span class="sp-3">纽约</span>
-                        <span class="sp-4">设计大师</span>
+                        <span class="sp-2"><?php echo $_smarty_tpl->tpl_vars['v']->value["yutitle"];?>
+</span>
+                        <span class="sp-3"><?php echo $_smarty_tpl->tpl_vars['v']->value["sauto"];?>
+</span>
                     </div>
                 </div>
             </div>
         </div>
+    <?php
+}
+}
+$_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl);
+?>
+
+
         <div class="sp">
             <div class="s1"></div>
             <div class="s2">

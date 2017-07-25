@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-23 10:30:05
+/* Smarty version 3.1.30, created on 2017-07-24 02:58:58
   from "E:\wampserve\wamp\www\shopapp2222\mvc\template\index\detils.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_59745e8d6ae274_77852101',
+  'unifunc' => 'content_59754652c94889_55465214',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '0b64b805dad50847e5cbb74c8c6ae1e0a2c80682' => 
     array (
       0 => 'E:\\wampserve\\wamp\\www\\shopapp2222\\mvc\\template\\index\\detils.html',
-      1 => 1500798604,
+      1 => 1500801819,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_59745e8d6ae274_77852101 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59754652c94889_55465214 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html lang="en">
@@ -233,6 +233,9 @@ foreach ($_from as $_smarty_tpl->tpl_vars['v']->value) {
 
         </div>
         <div class="fill">
+
+
+
             <main>
                 <div class="hang">
                     <div class="photo">

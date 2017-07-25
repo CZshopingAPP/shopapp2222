@@ -54,7 +54,7 @@ class login extends indexMain{
 
     function logout(){
         $this->session->clear();
-       $this->smarty->display("yj-login.html");
+       $this->smarty->display("yj-index.html");
     }
 
 

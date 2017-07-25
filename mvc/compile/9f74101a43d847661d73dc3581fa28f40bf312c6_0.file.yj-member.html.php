@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-23 10:17:22
+/* Smarty version 3.1.30, created on 2017-07-24 03:03:35
   from "E:\wampserve\wamp\www\shopapp2222\mvc\template\index\yj-member.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_59745b92bcec13_28822452',
+  'unifunc' => 'content_59754767debb68_34963953',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '9f74101a43d847661d73dc3581fa28f40bf312c6' => 
     array (
       0 => 'E:\\wampserve\\wamp\\www\\shopapp2222\\mvc\\template\\index\\yj-member.html',
-      1 => 1500797805,
+      1 => 1500858156,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_59745b92bcec13_28822452 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59754767debb68_34963953 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html>
@@ -88,7 +88,7 @@ function content_59745b92bcec13_28822452 (Smarty_Internal_Template $_smarty_tpl)
          			<p>
          				<span><img src="<?php echo IMG_PATH;?>
 /yj-member-bi.png" alt="" class="tu"/></span>
-         				<span><a href="#">修改昵称</a></span>
+         				<span><a href="index.php?m=index&f=member&a=editnc">修改昵称</a></span>
          				<span><img src="<?php echo IMG_PATH;?>
 /yj-member-more.png" alt="" class="tu"/></span>
          			</p>
@@ -98,7 +98,7 @@ function content_59745b92bcec13_28822452 (Smarty_Internal_Template $_smarty_tpl)
          			<p style="position: relative;">
          				<span><img src="<?php echo IMG_PATH;?>
 /yj-member-xin.png" alt="" class="tu"/></span>
-         				<span><a href="#">更换头像</a></span>
+         				<span><a href="index.php?m=index&f=member&a=editphoto">更换头像</a></span>
          				<span><img src="<?php echo IMG_PATH;?>
 /yj-member-more.png" alt="" class="tu"/>
 						</span>

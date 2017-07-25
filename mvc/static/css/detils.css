@@ -81,6 +81,13 @@ header{
     bottom:0.05rem;
     left:0.05rem;
 }
+.bzi1{
+    width:3rem;
+    display:block;
+    white-space:nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 .bann .bzi2{
     font-size:0.2rem ;
     color: #B1B1B1;

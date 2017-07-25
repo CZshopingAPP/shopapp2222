@@ -471,6 +471,13 @@ header{
 .shp1 .shp-1 span{
     font-size: 0.28rem;
 }
+.shp-1>span{
+    width:100%;
+    display:block;
+    white-space:nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 .shp1 .shp-2{
     width:100%;
     height:50%;
@@ -743,6 +750,13 @@ header{
     right:0.3rem;
 }
 
+.love1>span,.love2>span,.love3>span{
+    width:3rem;
+    display:block;
+    white-space:nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 
 
 

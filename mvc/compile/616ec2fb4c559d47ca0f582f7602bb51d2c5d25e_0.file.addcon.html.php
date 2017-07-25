@@ -1,3 +1,27 @@
+<?php
+/* Smarty version 3.1.30, created on 2017-07-24 05:36:34
+  from "E:\wampserve\wamp\www\shopapp2222\mvc\template\admin\addcon.html" */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.30',
+  'unifunc' => 'content_59756b422c39b4_56117030',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    '616ec2fb4c559d47ca0f582f7602bb51d2c5d25e' => 
+    array (
+      0 => 'E:\\wampserve\\wamp\\www\\shopapp2222\\mvc\\template\\admin\\addcon.html',
+      1 => 1500867381,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_59756b422c39b4_56117030 (Smarty_Internal_Template $_smarty_tpl) {
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -6,8 +30,12 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="{CSS_PATH}/bootstrap-3.1.1.min.css">
-    <script src="{JS_PATH}/upload.js"></script>
+    <link rel="stylesheet" href="<?php echo CSS_PATH;?>
+/bootstrap-3.1.1.min.css">
+    <?php echo '<script'; ?>
+ src="<?php echo JS_PATH;?>
+/upload.js"><?php echo '</script'; ?>
+>
     <style>
         .form-control{
             width: 50%;
@@ -25,15 +53,27 @@
             <option value="0" >
                 --一级分类--
             </option>
-            {$str}
+            <?php echo $_smarty_tpl->tpl_vars['str']->value;?>
+
         </select>
     </div>
     <div class="form-group">
         <label >推荐位</label>
-        {foreach $result as $v}
-        {$v["posname"]} <input type="checkbox"  name="posid"
-        value="{$v['posid']}">
-        {/foreach}
+        <?php
+$_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['result']->value, 'v');
+if ($_from !== null) {
+foreach ($_from as $_smarty_tpl->tpl_vars['v']->value) {
+?>
+        <?php echo $_smarty_tpl->tpl_vars['v']->value["posname"];?>
+ <input type="checkbox"  name="posid"
+        value="<?php echo $_smarty_tpl->tpl_vars['v']->value['posid'];?>
+">
+        <?php
+}
+}
+$_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl);
+?>
+
     </div>
 
 
@@ -86,7 +126,8 @@
     <input type="submit" class="gai" value="提交">
 </form>
 </body>
-<script>
+<?php echo '<script'; ?>
+>
 
     var obj=new upload();
     obj.createView({
@@ -97,5 +138,7 @@
     });
 
 
-</script>
-</html>
+<?php echo '</script'; ?>
+>
+</html><?php }
+}

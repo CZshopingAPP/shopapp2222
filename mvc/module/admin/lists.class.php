@@ -23,12 +23,13 @@ class lists extends main{
         $pingfen=$_POST["pingfen"];
         $keywords=$_POST["keywords"];
         $scon=$_POST["scon"];
+        $sauto=$_POST["sauto"];
 
-
-        $simage=implode(",",$_POST["simage"]);
+        $simage=$_POST["simage"];
+        //$simage=implode(",",$_POST["simage"]);
 
         $db=new db("lists");
-        $result=$db->insert("cid='{$cid}',stitle='{$stitle}',keywords='{$keywords}',scon='{$scon}',simage='{$simage}',pingfen='{$pingfen}',yutitle='{$yutitle}',price='{$price}',posid='{$posid}'");
+        $result=$db->insert("cid='{$cid}',stitle='{$stitle}',keywords='{$keywords}',scon='{$scon}',simage='{$simage}',pingfen='{$pingfen}',yutitle='{$yutitle}',price='{$price}',posid='{$posid}',sauto='{$sauto}'");
         if($result>0){
 
             $this->smarty->assign("cid",$cid);
@@ -63,6 +64,7 @@ class lists extends main{
         $this->smarty->assign("keywords",$result[0]["keywords"]);
         $this->smarty->assign("scon",$result[0]["scon"]);
         $this->smarty->assign("simage",$result[0]["simage"]);
+        $this->smarty->assign("sauto",$result[0]["sauto"]);
         $this->smarty->assign("posid",$posid);
         $this->smarty->assign("sid",$sid);
 
@@ -90,10 +92,10 @@ class lists extends main{
         $keywords=$_POST["keywords"];
         $scon=$_POST["scon"];
         $posid=$_POST["posid"];
-
+        $sauto=$_POST["sauto"];
 
         $db=new db("lists");
-        if($db->where("sid={$sid}")->update("stitle='{$stitle}',yutitle='{$yutitle}',keywords='{$keywords}',scon='{$scon}',posid='{$posid}',cid='{$cid}'")>0){
+        if($db->where("sid={$sid}")->update("stitle='{$stitle}',yutitle='{$yutitle}',keywords='{$keywords}',scon='{$scon}',posid='{$posid}',cid='{$cid}',sauto='{$sauto}'")>0){
             $this->jump("修改成功","index.php?m=admin&f=lists&a=add");
         }
     }

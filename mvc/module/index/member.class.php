@@ -32,8 +32,10 @@ class member extends indexMain{
 
     function editnc(){
 
+        $this->smarty->display("yj-edit.html");
     }
     function editphoto(){
 
+        $this->smarty->display("yj-upload.html");
     }
 }

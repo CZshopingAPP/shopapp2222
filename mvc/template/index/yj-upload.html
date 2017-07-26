@@ -3,22 +3,23 @@
 <head>
 	<meta charset="UTF-8">
 	<title>上传头像</title>
-	<link rel="stylesheet" href="css/base.css">
-	<link rel="stylesheet" href="css/yj-upload.css">
-	<script src="js/upload11.js"></script>
+	<link rel="stylesheet" href="{CSS_PATH}/base.css">
+	<link rel="stylesheet" href="{CSS_PATH}/yj-upload.css">
+    <script src="{JS_PATH}/rem.js"></script>
+	<script src="{JS_PATH}/upload11.js"></script>
+
 </head>
 <body>
-<h2>上传头像</h2>
-<div class="box">
-	<div class="uploadBox" name="upload">
-
+<div class="title"></div>
+ <div class="box">
+    <div class="uploadBox" name="upload">
      </div>
  </div>
 </body>
 <script>
 	 var obj = new upload();
         obj.size = 1024 * 1024*10;
-        obj.selectBtnStyle.background = "red";
+        obj.selectBtnStyle.background = "yellow";
        
         obj.createView({
             parent: document.querySelector(".uploadBox")
